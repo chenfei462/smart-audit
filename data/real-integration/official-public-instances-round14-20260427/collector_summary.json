@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-04-27T08:15:42.855Z",
+  "captured_at": "2026-04-27T22:20:00+08:00",
+  "fetch_mode": "official_public_round14_web_research_snapshot",
+  "source_count": 25,
+  "fourteenth_round_source_count": 25,
+  "official_web_research_source_count": 25,
+  "parsed_source_count": 25,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 263,
+  "previous_source_overlap_count": 0,
+  "total_records": 186,
+  "procurement_records": 108,
+  "budget_records": 54,
+  "case_seed_records": 24,
+  "source_region_scopes": {
+    "cross_province": 8,
+    "central_unit": 4,
+    "jiangsu_local": 13
+  },
+  "central_unit_source_count": 4,
+  "cross_province_source_count": 8,
+  "jiangsu_local_source_count": 13,
+  "procurement_stages": {
+    "announcement": 20,
+    "award": 21,
+    "contract": 20,
+    "acceptance": 27,
+    "payment": 20
+  },
+  "fulfillment_acceptance_policy_records": 22,
+  "contract_term_records": 108,
+  "payment_condition_records": 108,
+  "payment_deadline_missing_count": 90,
+  "government_purchase_service_records": 34,
+  "joint_bid_allowed_records": 14,
+  "policy_sensitive_procurement_records": 50,
+  "budget_policy_records": 54,
+  "transfer_payment_monitoring_records": 6,
+  "township_budget_performance_records": 5,
+  "debt_or_current_account_records": 10,
+  "policy_supplemental_data_coverage_rate": 100,
+  "payment_voucher_linkage_field_coverage_rate": 100,
+  "audit_evidence_levels": {
+    "formal_audit_report": 4,
+    "rectification_progress": 4,
+    "special_audit_survey": 4,
+    "audit_project_plan": 4,
+    "audit_work_update": 4,
+    "work_method_reference": 4
+  },
+  "audit_low_weight_records": 16,
+  "finding_dispositions": {
+    "supplemental_data_only": 162,
+    "risk_candidate": 8,
+    "review_recommended": 4,
+    "knowledge_reference": 12
+  },
+  "discovery_queue_item_count": 56,
+  "discovery_queue_by_target_stage": {
+    "contract": 16,
+    "payment": 16,
+    "acceptance": 12,
+    "rectification": 12
+  },
+  "chain_discovery_candidate_metadata_coverage_rate": 100,
+  "discovery_crawler_processed_count": 56,
+  "discovery_crawler_matched_count": 0,
+  "discovery_crawler_statuses": {
+    "not_found": 49,
+    "manual_review": 7
+  },
+  "source_completeness_rate": 100,
+  "locator_coverage_rate": 100
+}

@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-04-27T05:14:09.121Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 21,
+  "procurement_input_records": 88,
+  "budget_input_records": 32,
+  "case_seed_input_records": 14,
+  "total_input_records": 134,
+  "procurement_accepted_records": 88,
+  "budget_accepted_records": 32,
+  "case_seed_accepted_records": 14,
+  "total_accepted_records": 134,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 3,
+  "rule_hits_by_rule": {
+    "BUDGET-POLICY-SUPPLEMENTAL-001": 1,
+    "PROC-CENTRALIZED-BATCH-001": 1,
+    "PROC-PRE-ANNOUNCEMENT-001": 1
+  },
+  "source_traceable_rows": 134,
+  "source_total_rows": 134,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 12,
+    "award": 40,
+    "contract": 12,
+    "acceptance": 12,
+    "pre_announcement": 12
+  },
+  "dataset_coverage": {
+    "fiscal_policy_reference": 32
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-PRE-ANNOUNCEMENT-001",
+      "risk_level": "Info",
+      "summary": "Procurement intention records only create downstream discovery tasks.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "announcement notice",
+        "award notice",
+        "contract notice",
+        "acceptance notice",
+        "payment disclosure"
+      ]
+    },
+    {
+      "rule_code": "PROC-CENTRALIZED-BATCH-001",
+      "risk_level": "Info",
+      "summary": "Centralized batch totals are review context; lot amounts are the comparison granularity.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "lot detail",
+        "contract notice",
+        "payment disclosure"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-POLICY-SUPPLEMENTAL-001",
+      "risk_level": "Info",
+      "summary": "Fiscal policy records generate follow-up data requirements without risk conclusions.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "budget indicator",
+        "performance target",
+        "payment detail",
+        "voucher abstract"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T05:14:09.116Z",
+    "captured_at": "2026-04-27T17:30:00+08:00",
+    "fetch_mode": "official_public_round11_registry_snapshot_with_live_sample",
+    "source_count": 21,
+    "eleventh_round_source_count": 21,
+    "parsed_source_count": 21,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 202,
+    "previous_source_overlap_count": 0,
+    "total_records": 134,
+    "procurement_records": 88,
+    "budget_records": 32,
+    "case_seed_records": 14,
+    "procurement_pre_announcement_records": 12,
+    "procurement_intention_records": 12,
+    "centralized_batch_records": 28,
+    "centralized_batch_total_records": 10,
+    "centralized_batch_lot_records": 18,
+    "budget_policy_records": 32,
+    "policy_supplemental_data_coverage_rate": 100,
+    "payment_voucher_linkage_field_coverage_rate": 100,
+    "audit_low_weight_records": 11,
+    "source_region_scopes": {
+      "central_unit": 10,
+      "jiangsu_local": 11
+    },
+    "central_unit_source_count": 10,
+    "jiangsu_local_source_count": 11,
+    "unit_normalized_records": 120,
+    "amount_semantic_types": {
+      "award_total": 48,
+      "budget_amount": 12,
+      "centralized_batch_total": 10,
+      "centralized_batch_lot_amount": 18
+    },
+    "finding_dispositions": {
+      "supplemental_data_only": 24,
+      "risk_candidate": 39,
+      "review_recommended": 33,
+      "knowledge_reference": 6
+    },
+    "audit_evidence_levels": {
+      "rectification_progress": 3,
+      "special_audit_survey": 3,
+      "audit_work_update": 3,
+      "work_method_reference": 3,
+      "audit_result_feedback": 2
+    },
+    "discovery_queue_item_count": 248,
+    "discovery_queue_by_target_stage": {
+      "contract": 76,
+      "acceptance": 76,
+      "payment": 88,
+      "rectification": 8
+    },
+    "discovery_crawler_processed_count": 248,
+    "discovery_crawler_matched_count": 0,
+    "discovery_crawler_match_rate": 0,
+    "discovery_crawler_statuses": {
+      "not_found": 216,
+      "manual_review": 32
+    },
+    "live_sample_mode": true,
+    "live_sample_size": 20,
+    "live_sampled_item_count": 20,
+    "live_stable_baseline_impact": false,
+    "live_crawler_statuses": {
+      "not_found": 19,
+      "manual_review": 1
+    },
+    "locator_coverage_rate": 100,
+    "source_completeness_rate": 100
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "pre-announcement discovery lifecycle",
+      "action": "Keep procurement intention records in pre_announcement stage and generate downstream discovery tasks for announcement, award, contract, acceptance, and payment sources.",
+      "reason": "Intentions are planning disclosures; planned budget should not become budget variance or split-procurement evidence."
+    },
+    {
+      "priority": "P0",
+      "area": "centralized batch amount controls",
+      "action": "Use batch_month, product category, manufacturer, model, and lot fields before allowing batch lot amounts into amount consistency checks.",
+      "reason": "Central batch totals aggregate many products and should not be compared as a single project award."
+    },
+    {
+      "priority": "P1",
+      "area": "live crawler sampling isolation",
+      "action": "Run live crawler on a fixed 10-20 item sample with a stable seed and persist only live_crawl_summary/live_crawler_results.",
+      "reason": "Network volatility should be visible but must not change deterministic accepted baselines."
+    },
+    {
+      "priority": "P1",
+      "area": "policy supplemental data chain",
+      "action": "Carry fiscal policy rows into required budget indicator, performance target, payment detail, and voucher abstract checklists.",
+      "reason": "Policy disclosures are context and data requirements, not direct audit findings."
+    }
+  ],
+  "batch_name": "official_public_instances_round11",
+  "round11_acceptance_baseline": 120,
+  "live_crawl_summary": {
+    "total_items": 20,
+    "processed_count": 20,
+    "matched_count": 0,
+    "not_found_count": 19,
+    "parse_failed_count": 0,
+    "manual_review_count": 1,
+    "match_rate": 0,
+    "by_status": {
+      "not_found": 19,
+      "manual_review": 1
+    },
+    "by_target_stage": {
+      "payment": 7,
+      "acceptance": 5,
+      "contract": 8
+    },
+    "crawler_provider": "registry_snapshot_live_sample_round11",
+    "sample_mode": true,
+    "sample_size": 20,
+    "sample_seed": "round11-live-sample-v1",
+    "sampled_item_count": 20,
+    "source_queue_total_items": 248,
+    "stable_baseline_impact": false,
+    "report_kind": "live_crawl_sample"
+  }
+}

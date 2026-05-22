@@ -1,0 +1,81 @@
+{
+  "run_id": "JS-INTERNAL-POC-001",
+  "generated_at": "2026-04-26T10:00:00+08:00",
+  "target": "desensitized internal sample PoC",
+  "total_rows": 3000,
+  "templates": [
+    {
+      "template_kind": "department_budget_indicator",
+      "label": "部门预算指标",
+      "filename": "department_budget_indicator.csv",
+      "rows": 600,
+      "columns": 23
+    },
+    {
+      "template_kind": "procurement_contract",
+      "label": "采购合同",
+      "filename": "procurement_contract.csv",
+      "rows": 600,
+      "columns": 22
+    },
+    {
+      "template_kind": "treasury_payment_detail",
+      "label": "国库集中支付",
+      "filename": "treasury_payment_detail.csv",
+      "rows": 600,
+      "columns": 19
+    },
+    {
+      "template_kind": "voucher_entry_detail",
+      "label": "会计凭证",
+      "filename": "voucher_entry_detail.csv",
+      "rows": 600,
+      "columns": 22
+    },
+    {
+      "template_kind": "rectification_ledger",
+      "label": "问题整改台账",
+      "filename": "rectification_ledger.csv",
+      "rows": 600,
+      "columns": 21
+    }
+  ],
+  "field_mapping": {
+    "schema_version": "internal-sample-v1",
+    "field_mapping_version": "field-map-v1",
+    "estimated_recognition_accuracy": 0.94,
+    "acceptance_threshold": 0.9,
+    "amount_format_errors": 0,
+    "date_format_errors": 0,
+    "utf8_round_trip": true
+  },
+  "linkage": {
+    "budget_to_procurement": {
+      "candidate_matches": 600,
+      "confidence": 0.86
+    },
+    "contract_to_payment": {
+      "candidate_matches": 600,
+      "confidence": 0.9
+    },
+    "payment_to_voucher": {
+      "candidate_matches": 600,
+      "confidence": 0.91
+    },
+    "issue_to_rectification": {
+      "candidate_matches": 600,
+      "confidence": 0.82
+    },
+    "conclusion_policy": "candidate matches only; missing contracts, payments, vouchers, or rectification artifacts are data-completion risks, not direct violation conclusions"
+  },
+  "public_baselines": {
+    "nantong_public_samples": {
+      "expected_rows": 92,
+      "must_import": true
+    },
+    "jiangsu_multi_county_public_samples": {
+      "expected_rows": 164,
+      "must_import": true
+    }
+  }
+}

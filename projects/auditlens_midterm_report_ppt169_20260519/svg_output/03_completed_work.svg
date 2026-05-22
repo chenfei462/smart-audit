@@ -1,0 +1,74 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53"/>
+      <stop offset="100%" stop-color="#1F7A6D"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)"/>
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">项目已完成可演示的财政监督闭环</text>
+    <text x="56" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">重点不是单点算法，而是覆盖角色、数据、规则、报告、整改和运维配置的工作台主流程</text>
+  </g>
+  <g id="capability-access">
+    <rect x="56" y="146" width="360" height="142" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="78" y="168" width="42" height="42" rx="8" fill="#EAF2F0"/>
+    <use data-icon="tabler-outline/users" x="87" y="177" width="24" height="24" fill="#1F7A6D" stroke-width="2"/>
+    <text x="142" y="193" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">角色与权限</text>
+    <text x="142" y="222" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">admin / auditor / viewer</text>
+    <text x="78" y="257" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">多角色登录、租户隔离和权限差异已经能支撑现场演示。</text>
+  </g>
+  <g id="capability-data">
+    <rect x="460" y="146" width="360" height="142" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="482" y="168" width="42" height="42" rx="8" fill="#EAF2F0"/>
+    <use data-icon="tabler-outline/database-import" x="491" y="177" width="24" height="24" fill="#1F7A6D" stroke-width="2"/>
+    <text x="546" y="193" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">多源数据导入</text>
+    <text x="546" y="222" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">预算 / 采购 / 支付 / 凭证</text>
+    <text x="482" y="257" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">样板任务可导入多类财政数据，并进入统一任务视图。</text>
+  </g>
+  <g id="capability-rule">
+    <rect x="864" y="146" width="360" height="142" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="886" y="168" width="42" height="42" rx="8" fill="#EAF2F0"/>
+    <use data-icon="tabler-outline/shield-check" x="895" y="177" width="24" height="24" fill="#1F7A6D" stroke-width="2"/>
+    <text x="950" y="193" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">规则识别</text>
+    <text x="950" y="222" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">财政风险与证据关联</text>
+    <text x="886" y="257" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">规则命中、证据摘要和 AI 辅助解释开关已经打通。</text>
+  </g>
+  <g id="capability-report">
+    <rect x="56" y="328" width="360" height="142" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="78" y="350" width="42" height="42" rx="8" fill="#EAF2F0"/>
+    <use data-icon="tabler-outline/file-report" x="87" y="359" width="24" height="24" fill="#F59E0B" stroke-width="2"/>
+    <text x="142" y="375" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">报告与密封导出</text>
+    <text x="142" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">PDF / ZIP / manifest 校验</text>
+    <text x="78" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">标准报告和密封包均可生成，并支持校验交付完整性。</text>
+  </g>
+  <g id="capability-rectification">
+    <rect x="460" y="328" width="360" height="142" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="482" y="350" width="42" height="42" rx="8" fill="#EAF2F0"/>
+    <use data-icon="tabler-outline/checklist" x="491" y="359" width="24" height="24" fill="#F59E0B" stroke-width="2"/>
+    <text x="546" y="375" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">整改闭环</text>
+    <text x="546" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">异常池 / 案件 / 状态更新</text>
+    <text x="482" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">风险发现后可以进入整改流转，保留状态和处理痕迹。</text>
+  </g>
+  <g id="capability-ops">
+    <rect x="864" y="328" width="360" height="142" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="886" y="350" width="42" height="42" rx="8" fill="#EAF2F0"/>
+    <use data-icon="tabler-outline/settings-cog" x="895" y="359" width="24" height="24" fill="#0B3A53" stroke-width="2"/>
+    <text x="950" y="375" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">部署与运维基线</text>
+    <text x="950" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">Public / PoC profile</text>
+    <text x="886" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">配置切换、健康检查、备份恢复和归档脚本已有基础。</text>
+  </g>
+  <g id="conclusion-band">
+    <rect x="56" y="526" width="1168" height="96" rx="8" fill="#0B3A53"/>
+    <use data-icon="tabler-outline/circle-check" x="82" y="552" width="36" height="36" fill="#FFFFFF" stroke-width="2"/>
+    <text x="136" y="578" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">阶段性结论</text>
+    <text x="136" y="612" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#FFFFFF">当前系统已经可以围绕一个财政监督样板任务完成“进入、识别、复核、导出、整改、留痕”的主线演示。</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: README.md, docs/STATUS.md, docs/GOVERNMENT_POC_PACKAGE.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">03 / 08</text>
+  </g>
+</svg>

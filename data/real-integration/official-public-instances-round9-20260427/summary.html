@@ -1,0 +1,35 @@
+<!doctype html><meta charset="utf-8"><title>Round 9 Official Public Instance Test</title><pre># Round 9 Official Public Instance Test
+
+- Batch: official_public_instances_round9
+- Official sources: 16
+- Total input records: 108
+- Total accepted records: 108
+- Import success rate: 100%
+- Source scopes: central_unit 5, cross_province 4, jiangsu_local 7
+- Electronic marketplace records: 22
+- Department final-account records: 15
+- Crawler processed items: 128
+
+## Official Sources
+- [中国政府采购网] 中央国家机关2025年便携式计算机批量集中采购项目-2月及3月中标公告: https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm
+- [中国政府采购网] 中央国家机关2025年台式计算机批量集中采购项目-5月中标公告: https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm
+- [中国政府采购网] 国家税务总局河南省税务局2025年电子税务局特色功能系统云化改造项目服务器采购包招标公告: https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm
+- [中国政府采购网] 中直机关2025年第二期批量集中采购项目中标公告: https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm
+- [中国政府采购网] 2025年度信息化运维项目中标公告（采购包1、2、3）: https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm
+- [中国政府采购网] 2025年度中国教育和科研计算机网接入服务项目的中标（成交）结果公告: https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm
+- [中国政府采购网] 国家税务总局2025年全国统一规范电子税务局升级完善及运行维护项目招标公告: https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm
+- [中国政府采购网] 湖北省政府研究室2025年省政府智力成果采购竞争性磋商公告: https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm
+- [江苏省财政厅] 江苏省2024年预算执行情况与2025年预算草案: https://czt.jiangsu.gov.cn/art/2025/4/29/art_77316_11555966.html
+- [江苏省审计厅] 2024年度江苏省审计厅部门决算公开: https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&amp;filename=78eb8e64ba5d4ab785c31c6fdd14e5aa.pdf
+- [江苏省审计厅] 江苏省2021年度省级预算执行和其他财政收支审计查出问题整改情况: https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&amp;filename=b8bfa3d6f230454688a3b7df3cb1e5db.pdf
+- [江苏省财政厅] 海安财政：扎实开展2024年度部门决算编审工作: https://czt.jiangsu.gov.cn/art/2025/1/26/art_77300_11487290.html
+- [江苏省财政厅] 关于公布2024年江苏省政府性基金项目目录的通知: https://czt.jiangsu.gov.cn/art/2025/4/4/art_77309_11572380.html
+- [江苏省财政厅] 江苏省十四届人大二次会议预算执行公开 PDF: https://czt.jiangsu.gov.cn/attach/-1/2504291824050610353.pdf
+- [江苏省审计厅] 江苏开展省以下财政转移支付专题审计: https://jssjt.jiangsu.gov.cn/art/2025/4/2/art_995_11531695.html
+- [中国政府采购网] 中国政府采购网中央单位采购公告索引: https://www.ccgp.gov.cn/
+
+## Optimization Plan
+- P0 real crawler scheduling and review workflow: Persist crawler statuses and add scheduled retry batches for matched, not_found, parse_failed and manual_review queue states. Reason: Round 9 can run deterministic registry-backed discovery; production needs scheduling, retry windows and reviewer ownership.
+- P0 cross-region source governance: Promote source_region_scope and purchaser_region_code into import preview, detail and report views. Reason: Central and cross-province sources must not inherit Jiangsu-only region assumptions.
+- P1 electronic marketplace order normalization: Require order_total_amount before comparing marketplace purchases to budget totals; unit prices remain review-only. Reason: Electronic marketplace records often expose unit price and quantity separately from the order total.
+</pre>

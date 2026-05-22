@@ -1,0 +1,26 @@
+# Round 13 Official Public Instance Test
+
+Generated at: 2026-04-27T07:02:08.224Z
+
+## Test Result
+- Input records: 160
+- Accepted records: 160
+- Import success rate: 100%
+- Source count: 20
+- Previous source URL overlap: 0
+
+## Contract Terms And Government Purchase Service
+- Contract term records: 96
+- Government purchase service records: 12
+- Joint-bid records: 11
+- Policy-sensitive procurement records: 45
+
+## Chain Discovery
+- Discovery queue items: 267
+- Chain metadata coverage: 100%
+- Crawler statuses: not_found 256, manual_review 11
+
+## Further Optimization Plan
+- P0 contract policy terms and chain discovery: Persist contract performance period, government purchase service, joint-bid, SME, credit-financing and procurement policy notes as first-class procurement fields. Reason: These terms explain the public procurement context and should drive supplemental review rather than high-risk conclusions.
+- P0 stage-progressive crawler: Promote chain discovery metadata into the crawler UI and continue from announcement to award, contract, acceptance, payment and rectification candidates. Reason: Round 13 shows queue metadata can make public chain gaps explainable and reproducible.
+- P1 policy evidence checklist: Keep fiscal policy records as next-data checklists for budget indicators, performance targets, payments and vouchers. Reason: Policy text is useful for collection scope, but not a standalone violation basis.

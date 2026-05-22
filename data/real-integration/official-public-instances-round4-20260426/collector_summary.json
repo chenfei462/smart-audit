@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-04-26T13:18:35.684Z",
+  "captured_at": "2026-04-26T21:30:00+08:00",
+  "fetch_mode": "web_researched_snapshot",
+  "source_count": 20,
+  "fourth_round_source_count": 20,
+  "parsed_source_count": 20,
+  "failed_source_count": 0,
+  "previous_source_overlap_count": 0,
+  "url_duplicate_source_count": 0,
+  "content_duplicate_source_count": 0,
+  "title_duplicate_source_count": 0,
+  "review_statuses": {
+    "reviewed": 20
+  },
+  "total_records": 64,
+  "unit_normalized_records": 64,
+  "locator_coverage_rate": 100,
+  "parser_types": {
+    "ccgp_procurement_html": 3,
+    "government_procurement_html": 1,
+    "government_metric_html": 8,
+    "fiscal_report_pdf": 1,
+    "audit_report_html": 6,
+    "audit_report_pdf": 1
+  },
+  "source_types": {
+    "中标公告": 2,
+    "公开招标公告": 1,
+    "竞争性磋商公告": 1,
+    "财政预算执行情况": 5,
+    "国民经济和社会发展计划执行情况": 1,
+    "国民经济和社会发展计划报告": 1,
+    "财政预算执行审议动态": 1,
+    "财政预算执行报告PDF": 1,
+    "专项审计调查": 4,
+    "审计项目计划": 1,
+    "审计工作动态": 1,
+    "部门绩效自评PDF": 1
+  },
+  "amount_semantic_types": {
+    "award_total": 3,
+    "budget_amount": 4
+  },
+  "framework_agreement_count": 0,
+  "special_fund_structured_records": 12,
+  "special_fund_structured_coverage_rate": 24,
+  "audit_evidence_levels": {
+    "special_audit_survey": 4,
+    "audit_work_update": 2,
+    "work_method_reference": 1
+  },
+  "audit_evidence_weights": {
+    "special_audit_survey": 60,
+    "audit_work_update": 35,
+    "work_method_reference": 20
+  },
+  "requires_manual_verification_count": 7
+}

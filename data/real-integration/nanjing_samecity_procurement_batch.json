@@ -1,0 +1,28 @@
+{
+  "title": "南京市采购公告样本（真实公开数据）",
+  "records": [
+    {
+      "project_name": "2025—2026年度南京市冻猪肉政府性储备项目",
+      "purchaser_name": "南京市商务局",
+      "announcement_type": "公开招标公告",
+      "project_code": "JSZC-320100-JSZB-G2025-0002",
+      "procurement_method": "公开招标",
+      "published_at": "2025-03-24",
+      "region": "江苏省南京市",
+      "budget_amount": "8700000",
+      "award_amount": null,
+      "supplier_name": null,
+      "budget_project_id": null,
+      "contract_no": null,
+      "contract_published_at": null,
+      "acceptance_summary": "公告阶段，尚未形成合同公告与履约验收记录。",
+      "acceptance_status": "公告阶段",
+      "notice_url": "https://njgc.jfh.com/purchase/detail?id=48705&type=1",
+      "indicator_document_no": null,
+      "project_catalog_id": null,
+      "function_classification_code": null,
+      "economic_classification_code": null,
+      "source_row": 1
+    }
+  ]
+}

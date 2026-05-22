@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-04-27T13:49:32.312Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 20,
+  "procurement_input_records": 210,
+  "budget_input_records": 55,
+  "case_seed_input_records": 35,
+  "total_input_records": 300,
+  "procurement_accepted_records": 210,
+  "budget_accepted_records": 55,
+  "case_seed_accepted_records": 35,
+  "total_accepted_records": 300,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-POLICY-CHECKLIST-001": 1,
+    "PROC-COMPLAINT-EXCEPTION-001": 1
+  },
+  "source_traceable_rows": 300,
+  "source_total_rows": 300,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "award": 210
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 55
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-COMPLAINT-EXCEPTION-001",
+      "risk_level": "Review",
+      "summary": "Complaint adjudication notices are allegations and handling outcomes until remedy, contract, acceptance, payment and voucher evidence is complete.",
+      "severity_reason": null,
+      "missing_evidence": [
+        "correction notice",
+        "rebid notice",
+        "new award",
+        "contract",
+        "acceptance",
+        "payment",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "correction_notice",
+        "rebid_notice",
+        "new_award",
+        "contract",
+        "acceptance",
+        "payment"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-POLICY-CHECKLIST-001",
+      "risk_level": "Info",
+      "summary": "Complaint adjudication policy rows generate follow-up evidence checklists only.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "budget indicator",
+        "performance target",
+        "payment detail",
+        "voucher attachment"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T13:49:32.308Z",
+    "captured_at": "2026-04-27T22:20:00+08:00",
+    "fetch_mode": "official_public_round22_web_research_snapshot",
+    "source_count": 20,
+    "twenty_second_round_source_count": 20,
+    "parsed_source_count": 20,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 443,
+    "previous_source_overlap_count": 0,
+    "total_records": 300,
+    "procurement_records": 210,
+    "budget_records": 55,
+    "case_seed_records": 35,
+    "procurement_exception_records": 210,
+    "procurement_complaint_adjudication_records": 210,
+    "false_material_allegation_records": 42,
+    "sme_policy_allegation_records": 42,
+    "bid_document_defect_records": 42,
+    "complaint_established_records": 53,
+    "complaint_partly_established_records": 53,
+    "complaint_rejected_records": 104,
+    "allegation_outcome_coverage_rate": 100,
+    "complaint_review_only_rate": 100,
+    "source_region_scopes": {
+      "central_unit": 20
+    },
+    "central_unit_source_count": 20,
+    "finding_dispositions": {
+      "review_recommended": 219,
+      "supplemental_data_only": 55,
+      "knowledge_reference": 26
+    },
+    "fiscal_policy_supplemental_coverage_rate": 100,
+    "audit_evidence_levels": {
+      "rectification_progress": 9,
+      "audit_work_update": 26
+    },
+    "discovery_queue_item_count": 1187,
+    "exception_chain_queue_item_count": 1178,
+    "discovery_queue_by_target_stage": {
+      "correction_notice": 210,
+      "award_invalidated": 126,
+      "rebid_notice": 106,
+      "new_award": 106,
+      "contract": 210,
+      "acceptance": 210,
+      "payment": 210,
+      "rectification": 9
+    },
+    "discovery_crawler_processed_count": 1187,
+    "discovery_crawler_matched_count": 0,
+    "discovery_crawler_match_rate": 0,
+    "discovery_crawler_statuses": {
+      "manual_review": 398,
+      "not_found": 789
+    },
+    "crawler_not_found_explained_count": 1187,
+    "source_completeness_rate": 100,
+    "locator_coverage_rate": 100,
+    "report_topics": [
+      "procurement_complaint_adjudication_outcomes"
+    ]
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "complaint allegation outcome model",
+      "action": "Add structured allegation_type, allegation_outcome, confirmed_fact_flag and remedy_action fields so allegations are not treated as confirmed violations.",
+      "reason": "Round 22 sources mix false-material allegations, SME-policy allegations, bid-document defects and rejected complaints in the same document family."
+    },
+    {
+      "priority": "P0",
+      "area": "complaint-to-remedy chain discovery",
+      "action": "Generate correction, award invalidation, rebid, new award, contract, acceptance and payment discovery tasks based on complaint outcome and affected package.",
+      "reason": "Complaint decisions need downstream remedy evidence before any strong risk candidate."
+    },
+    {
+      "priority": "P1",
+      "area": "reporting topic",
+      "action": "Add a complaint adjudication outcome block separating established, partly established, rejected and evidence-insufficient decisions.",
+      "reason": "PoC delivery needs to explain why complaint documents are review-only rather than audit conclusions."
+    }
+  ],
+  "batch_name": "official_public_instances_round22",
+  "round22_acceptance_baseline": 140,
+  "report_topics": [
+    "procurement_complaint_adjudication_outcomes"
+  ]
+}

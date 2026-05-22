@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-04-27T05:14:09.116Z",
+  "captured_at": "2026-04-27T17:30:00+08:00",
+  "fetch_mode": "official_public_round11_registry_snapshot_with_live_sample",
+  "source_count": 21,
+  "eleventh_round_source_count": 21,
+  "parsed_source_count": 21,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 202,
+  "previous_source_overlap_count": 0,
+  "total_records": 134,
+  "procurement_records": 88,
+  "budget_records": 32,
+  "case_seed_records": 14,
+  "procurement_pre_announcement_records": 12,
+  "procurement_intention_records": 12,
+  "centralized_batch_records": 28,
+  "centralized_batch_total_records": 10,
+  "centralized_batch_lot_records": 18,
+  "budget_policy_records": 32,
+  "policy_supplemental_data_coverage_rate": 100,
+  "payment_voucher_linkage_field_coverage_rate": 100,
+  "audit_low_weight_records": 11,
+  "source_region_scopes": {
+    "central_unit": 10,
+    "jiangsu_local": 11
+  },
+  "central_unit_source_count": 10,
+  "jiangsu_local_source_count": 11,
+  "unit_normalized_records": 120,
+  "amount_semantic_types": {
+    "award_total": 48,
+    "budget_amount": 12,
+    "centralized_batch_total": 10,
+    "centralized_batch_lot_amount": 18
+  },
+  "finding_dispositions": {
+    "supplemental_data_only": 24,
+    "risk_candidate": 39,
+    "review_recommended": 33,
+    "knowledge_reference": 6
+  },
+  "audit_evidence_levels": {
+    "rectification_progress": 3,
+    "special_audit_survey": 3,
+    "audit_work_update": 3,
+    "work_method_reference": 3,
+    "audit_result_feedback": 2
+  },
+  "discovery_queue_item_count": 248,
+  "discovery_queue_by_target_stage": {
+    "contract": 76,
+    "acceptance": 76,
+    "payment": 88,
+    "rectification": 8
+  },
+  "discovery_crawler_processed_count": 248,
+  "discovery_crawler_matched_count": 0,
+  "discovery_crawler_match_rate": 0,
+  "discovery_crawler_statuses": {
+    "not_found": 216,
+    "manual_review": 32
+  },
+  "live_sample_mode": true,
+  "live_sample_size": 20,
+  "live_sampled_item_count": 20,
+  "live_stable_baseline_impact": false,
+  "live_crawler_statuses": {
+    "not_found": 19,
+    "manual_review": 1
+  },
+  "locator_coverage_rate": 100,
+  "source_completeness_rate": 100
+}

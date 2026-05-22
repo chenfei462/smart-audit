@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-04-27T13:49:32.308Z",
+  "captured_at": "2026-04-27T22:20:00+08:00",
+  "fetch_mode": "official_public_round22_web_research_snapshot",
+  "source_count": 20,
+  "twenty_second_round_source_count": 20,
+  "parsed_source_count": 20,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 443,
+  "previous_source_overlap_count": 0,
+  "total_records": 300,
+  "procurement_records": 210,
+  "budget_records": 55,
+  "case_seed_records": 35,
+  "procurement_exception_records": 210,
+  "procurement_complaint_adjudication_records": 210,
+  "false_material_allegation_records": 42,
+  "sme_policy_allegation_records": 42,
+  "bid_document_defect_records": 42,
+  "complaint_established_records": 53,
+  "complaint_partly_established_records": 53,
+  "complaint_rejected_records": 104,
+  "allegation_outcome_coverage_rate": 100,
+  "complaint_review_only_rate": 100,
+  "source_region_scopes": {
+    "central_unit": 20
+  },
+  "central_unit_source_count": 20,
+  "finding_dispositions": {
+    "review_recommended": 219,
+    "supplemental_data_only": 55,
+    "knowledge_reference": 26
+  },
+  "fiscal_policy_supplemental_coverage_rate": 100,
+  "audit_evidence_levels": {
+    "rectification_progress": 9,
+    "audit_work_update": 26
+  },
+  "discovery_queue_item_count": 1187,
+  "exception_chain_queue_item_count": 1178,
+  "discovery_queue_by_target_stage": {
+    "correction_notice": 210,
+    "award_invalidated": 126,
+    "rebid_notice": 106,
+    "new_award": 106,
+    "contract": 210,
+    "acceptance": 210,
+    "payment": 210,
+    "rectification": 9
+  },
+  "discovery_crawler_processed_count": 1187,
+  "discovery_crawler_matched_count": 0,
+  "discovery_crawler_match_rate": 0,
+  "discovery_crawler_statuses": {
+    "manual_review": 398,
+    "not_found": 789
+  },
+  "crawler_not_found_explained_count": 1187,
+  "source_completeness_rate": 100,
+  "locator_coverage_rate": 100,
+  "report_topics": [
+    "procurement_complaint_adjudication_outcomes"
+  ]
+}

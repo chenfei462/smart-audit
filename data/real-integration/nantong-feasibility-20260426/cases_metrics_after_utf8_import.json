@@ -1,0 +1,20 @@
+﻿{
+    "total_cases":  92,
+    "open_cases":  91,
+    "closed_cases":  1,
+    "overdue_open_cases":  48,
+    "on_time_closed_cases":  1,
+    "reminder_count":  6,
+    "escalation_count":  48,
+    "average_disposal_days":  0,
+    "average_review_reject_count":  0,
+    "closure_rate":  "1.1%",
+    "on_time_closure_rate":  "100.0%",
+    "automation_runs":  1,
+    "automation_failure_count":  0,
+    "automation_success_rate":  "100.0%",
+    "auto_created_cases":  0,
+    "auto_assignment_hits":  0,
+    "auto_reminders":  4,
+    "auto_escalations":  4
+}

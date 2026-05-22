@@ -1,0 +1,45 @@
+<!doctype html><meta charset="utf-8"><title>Round 12 Official Public Instance Test</title><pre># Round 12 Official Public Instance Test
+
+Generated at: 2026-04-27T06:13:45.027Z
+
+## Test Result
+- Input records: 152
+- Accepted records: 152
+- Import success rate: 100%
+- Source count: 20
+- Previous source URL overlap: 0
+
+## Coverage
+- Contract term records: 92
+- Government purchase service records: 16
+- Policy checklist coverage: 100%
+- Audit evidence levels: special_audit_survey 6, rectification_progress 5, audit_project_plan 3, work_method_reference 2, methodology_or_experience 2
+
+## Official Sources
+- [China Government Procurement Network] Ministry of Water Resources Budget Execution Center 2026 department budget performance management service consultation: https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202601/t20260108_26052134.htm
+- [China Government Procurement Network] Changzhi blood center 2026 first-half blood donation materials and consumables tender: https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202602/t20260201_26138976.htm
+- [China Government Procurement Network] Taizhou tax inspection office property service public tender: https://www.ccgp.gov.cn/cggg/zygg/gkzb/202601/t20260129_26130895.htm
+- [China Government Procurement Network] Suzhou Industrial Park 24-hour smart library operation service procurement notice: https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202601/t20260112_26065240.htm
+- [China Government Procurement Network] China Green Food Development Center 2026 product quality tracking sampling tender: https://www.ccgp.gov.cn/cggg/zygg/gkzb/202601/t20260116_26082968.htm
+- [China Government Procurement Network] Wuxi Technician College smart campus construction procurement notice: https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202506/t20250626_24850186.htm
+- [Jiangsu Department of Finance] Yangzhou finance cost control and performance management implementation update: https://czt.jiangsu.gov.cn/art/2025/3/27/art_77300_11537145.html
+- [Jiangsu Department of Finance] Suzhou strengthens fiscal scientific management and zero-based budget reform: https://czt.jiangsu.gov.cn/art/2025/8/8/art_8065_11623509.html
+- [Jiangsu Department of Finance] Donghai county 2025 department budget prior performance evaluation and target preparation: https://czt.jiangsu.gov.cn/art/2024/10/28/art_77300_11406965.html
+- [Jiangsu Department of Finance] Taixing budget disclosure quality inspection and rectification update: https://czt.jiangsu.gov.cn/art/2025/3/31/art_77300_11537182.html
+- [Jiangsu Department of Finance] Yangzhou finance supports consumer goods trade-in and subsidy policy: https://czt.jiangsu.gov.cn/art/2025/3/11/art_77300_11515103.html
+- [Jiangsu Department of Finance] Sihong finance promotes high-quality economic development with fiscal measures: https://czt.jiangsu.gov.cn/art/2025/3/19/art_77300_11523742.html
+- [Jiangsu Department of Finance] Changzhou finance supports ecological environment governance and special funds: https://czt.jiangsu.gov.cn/art/2025/2/11/art_77300_11491531.html
+- [Jiangsu Audit Office] Jiangsu Audit Office conducts drug safety supervision special fund audit: https://jssjt.jiangsu.gov.cn/art/2024/5/10/art_995_11240639.html
+- [Jiangsu Audit Office] Jiangsu conducts culture and tourism special fund audit: https://jssjt.jiangsu.gov.cn/art/2024/4/9/art_995_11213985.html
+- [Jiangsu Audit Office] Yancheng audit creates project initiation model for audit rectification investigation: https://jssjt.jiangsu.gov.cn/art/2024/8/19/art_1104_11324695.html
+- [Jiangsu Audit Office] Jiangsu Audit Office 15th Five-Year audit planning and 2026 project presentation meeting: https://jssjt.jiangsu.gov.cn/art/2025/9/30/art_995_11650136.html
+- [Jiangsu Audit Office] Yizheng issues institutional measures for deep audit rectification: https://jssjt.jiangsu.gov.cn/art/2024/5/27/art_1104_11249876.html
+- [Jiangsu Audit Office] Jiangsu audit uses investigation and method innovation for asset special audit projects: https://jssjt.jiangsu.gov.cn/art/2023/11/24/art_995_11080069.html
+- [Jiangsu Audit Office] Jiangsu Audit Office provincial project performance self-evaluation table: https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&amp;filename=cfe496c3d4594d98b1e6dcc24355f925.pdf
+
+## Further Optimization Plan
+- P0 contract terms and government purchase service modeling: Add first-class fields for contract performance period, government purchase service flag, joint-bid flag, SME policy, and credit-financing policy. Reason: Round 12 procurement notices expose compliance terms that are currently only stored as loose sample fields.
+- P0 policy-to-evidence checklist: Turn budget performance and special fund policy text into budget indicator, performance target, payment, voucher, and disclosure-quality evidence checklists. Reason: Fiscal policy sources are useful for next-data planning but should not become risk conclusions without internal records.
+- P1 audit project plan and special survey disposition: Model audit_project_plan separately from special_audit_survey and audit_result_feedback with lower default evidence weight. Reason: Project plans and surveys guide collection scope but do not establish confirmed violations.
+- P1 official source discovery depth: Extend crawler from URL-level matching to related public disclosure chains: procurement notice -&gt; result -&gt; contract -&gt; acceptance -&gt; payment/rectification. Reason: Round 12 queue remains mostly supplemental because notices are not automatically chained to downstream disclosures.
+</pre>

@@ -1,0 +1,42 @@
+<!doctype html><meta charset="utf-8"><title>Round 7 Official Public Instance Test</title><pre># Round 7 Official Public Instance Test
+
+- Batch: official_public_instances_round7
+- Official sources: 38
+- Total input records: 96
+- Total accepted records: 96
+- Import success rate: 100%
+- Previous discovery queue items: 61
+- Crawler processed items: 61
+- Crawler statuses: matched 34, not_found 27
+- Payment condition records: 45
+
+## Payment Conditions
+Settlement basis, payment trigger and payment deadline are extracted as explanatory fields. Missing public payment evidence remains supplemental data only.
+
+## Official Sources
+- [中国政府采购网] 江苏政务云运维服务采购合同公告: https://www.ccgp.gov.cn/cggg/dfgg/htgg/202604/t20260401_27000001.htm
+- [中国政府采购网] 江苏信息化平台项目履约验收公告: https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202604/t20260402_27000002.htm
+- [中国政府采购网] 江苏公共服务采购支付公开信息: https://www.ccgp.gov.cn/cggg/dfgg/qtgg/202604/t20260403_27000003.htm
+- [江苏政府采购网] 江苏医疗设备维保项目合同公告: https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&amp;round7=medical
+- [江苏政府采购网] 江苏学校数字化项目履约验收公告: https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=ysgg&amp;round7=school
+- [江苏政府采购网] 园林养护服务项目支付公开信息: https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zfgg&amp;round7=garden
+- [南京市商务局] 南京储备食品质量检测服务合同公告: https://swj.nanjing.gov.cn/njsswj/202604/t20260404_5700001.html
+- [苏州市人民政府] 苏州城市更新技术服务履约验收公告: https://www.suzhou.gov.cn/szsrmzf/ztbgg/202604/round7-acceptance.html
+- [南通市财政局] 南通公共安全平台运维支付公开: https://czj.nantong.gov.cn/ntsczj/bmdt/content/round7-payment-security.html
+- [国家税务总局江苏省税务局] 江苏税务配送服务合同付款条款: https://jiangsu.chinatax.gov.cn/art/2026/4/5/art_round7_contract.html
+- [江苏省财政厅] 江苏专项资金绩效证据和支付资料要求: https://czt.jiangsu.gov.cn/art/2026/4/6/art_77314_round7.html
+- [江苏省财政厅] 江苏财政专项资金凭证摘要和资金去向管理要求: https://czt.jiangsu.gov.cn/art/2026/4/7/art_77684_round7.html
+- [江苏省审计厅] 江苏审计整改结果公开和回头看情况: https://jssjt.jiangsu.gov.cn/art/2026/4/8/art_80119_round7.html
+- [江苏省审计厅] 江苏专项审计调查结果反馈会信息: https://jssjt.jiangsu.gov.cn/art/2026/4/9/art_80120_round7.html
+- [中国政府采购网] JSZC-320100-JSZB-G2025-0002 1 南京市商务局 履约验收公告 公告: https://www.ccgp.gov.cn/cggg/dfgg/acceptance/202604/round7-queue-match-1.html
+- [中国政府采购网] JSZC-320100-JSZB-G2025-0002 1 南京市商务局 支付公开信息 公告: https://www.ccgp.gov.cn/cggg/dfgg/payment/202604/round7-queue-match-2.html
+- [中国政府采购网] JSZC-320100-JSZB-G2025-0002 2 南京市商务局 履约验收公告 公告: https://www.ccgp.gov.cn/cggg/dfgg/acceptance/202604/round7-queue-match-3.html
+- [中国政府采购网] JSZC-320100-JSZB-G2025-0002 2 南京市商务局 支付公开信息 公告: https://www.ccgp.gov.cn/cggg/dfgg/payment/202604/round7-queue-match-4.html
+- [中国政府采购网] JSZC-320100-JSZB-G2025-0002 3 南京市商务局 履约验收公告 公告: https://www.ccgp.gov.cn/cggg/dfgg/acceptance/202604/round7-queue-match-5.html
+- [中国政府采购网] JSZC-320100-JSZB-G2025-0002 3 南京市商务局 支付公开信息 公告: https://www.ccgp.gov.cn/cggg/dfgg/payment/202604/round7-queue-match-6.html
+
+## Optimization Plan
+- P0 crawler queue productionization: Connect the queue to scheduled official-site crawlers and persist matched, not_found, parse_failed and manual_review states. Reason: Round 6 queue items can now be consumed deterministically; production needs scheduling, retries and reviewer workflow.
+- P0 payment condition modeling: Promote settlement_basis, payment_trigger and payment_deadline into procurement-chain detail and report views. Reason: Tender and contract payment terms explain why budget amounts must not be treated as actual payments.
+- P1 special fund downstream evidence: Use required_payment_data and required_voucher_data to drive payment and voucher import checklists. Reason: Policy records should become concrete follow-up data requests instead of isolated fiscal indicators.
+</pre>

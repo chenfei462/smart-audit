@@ -1,0 +1,54 @@
+{
+  "title": "Haian Development and Reform Commission Budget Sample (official public data)",
+  "dataset_kind": "public_fiscal_summary",
+  "records": [
+    {
+      "period": "2025-01",
+      "region": "Haian, Nantong, Jiangsu",
+      "budget_scope": "general_public_budget",
+      "direction": "expense",
+      "summary_item": "General public services expenditure",
+      "budget_amount": "1968.16",
+      "actual_amount": "1968.16",
+      "previous_period_amount": null,
+      "yoy_rate": null,
+      "source_row": 1
+    },
+    {
+      "period": "2025-01",
+      "region": "Haian, Nantong, Jiangsu",
+      "budget_scope": "general_public_budget",
+      "direction": "expense",
+      "summary_item": "Social security and employment expenditure",
+      "budget_amount": "79.79",
+      "actual_amount": "79.79",
+      "previous_period_amount": null,
+      "yoy_rate": null,
+      "source_row": 2
+    },
+    {
+      "period": "2025-01",
+      "region": "Haian, Nantong, Jiangsu",
+      "budget_scope": "general_public_budget",
+      "direction": "expense",
+      "summary_item": "Housing security expenditure",
+      "budget_amount": "40.47",
+      "actual_amount": "40.47",
+      "previous_period_amount": null,
+      "yoy_rate": null,
+      "source_row": 3
+    },
+    {
+      "period": "2025-01",
+      "region": "Haian, Nantong, Jiangsu",
+      "budget_scope": "general_public_budget",
+      "direction": "expense",
+      "summary_item": "Grain and material reserve expenditure",
+      "budget_amount": "60.00",
+      "actual_amount": "60.00",
+      "previous_period_amount": null,
+      "yoy_rate": null,
+      "source_row": 4
+    }
+  ]
+}

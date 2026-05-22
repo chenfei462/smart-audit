@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-04-27T02:39:01.081Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 14,
+  "procurement_input_records": 50,
+  "budget_input_records": 26,
+  "case_seed_input_records": 12,
+  "total_input_records": 88,
+  "procurement_accepted_records": 50,
+  "budget_accepted_records": 26,
+  "case_seed_accepted_records": 12,
+  "total_accepted_records": 88,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-PUBLIC-TREND-001": 1,
+    "PROC-AMOUNT-CONSISTENCY-001": 1
+  },
+  "source_traceable_rows": 88,
+  "source_total_rows": 88,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 10,
+    "award": 10,
+    "contract": 10,
+    "acceptance": 10,
+    "payment": 10
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 16,
+    "department_final_account_summary": 10
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-AMOUNT-CONSISTENCY-001",
+      "risk_level": "Info",
+      "summary": "Multi-package and electronic marketplace amounts are treated as review hints, not strong violation conclusions.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "合同公告",
+        "验收公告",
+        "支付公开"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-PUBLIC-TREND-001",
+      "risk_level": "Medium",
+      "summary": "Special-fund and final-account rows require downstream payment, voucher and performance evidence.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "国库集中支付明细",
+        "会计凭证",
+        "绩效报告"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T02:39:01.075Z",
+    "captured_at": "2026-04-27T10:10:00+08:00",
+    "fetch_mode": "official_web_research_round8_snapshot",
+    "source_count": 14,
+    "eighth_round_source_count": 14,
+    "official_web_research_source_count": 14,
+    "parsed_source_count": 14,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 115,
+    "previous_source_overlap_count": 0,
+    "total_records": 88,
+    "procurement_records": 50,
+    "budget_records": 26,
+    "case_seed_records": 12,
+    "cross_region_procurement_records": 41,
+    "hubei_procurement_records": 16,
+    "pdf_performance_records": 10,
+    "locator_coverage_rate": 100,
+    "missing_source_locator_count": 0,
+    "unit_normalized_records": 76,
+    "amount_semantic_types": {
+      "discount_rate": 4,
+      "award_total": 37,
+      "framework_limit": 5,
+      "unit_price": 4
+    },
+    "framework_agreement_count": 13,
+    "framework_limit_review_count": 5,
+    "unit_price_or_rate_review_count": 8,
+    "procurement_chain_group_count": 40,
+    "procurement_chain_closed_group_count": 0,
+    "procurement_chain_missing_contract_count": 30,
+    "procurement_chain_missing_acceptance_count": 30,
+    "procurement_chain_missing_payment_count": 30,
+    "discovery_queue_item_count": 102,
+    "discovery_queue_by_target_stage": {
+      "contract": 30,
+      "acceptance": 30,
+      "payment": 30,
+      "rectification": 12
+    },
+    "special_fund_structured_records": 26,
+    "special_fund_structured_coverage_rate": 100,
+    "audit_evidence_levels": {
+      "rectification_progress": 2,
+      "special_audit_survey": 2,
+      "work_method_reference": 2,
+      "formal_audit_report": 2,
+      "audit_work_update": 2,
+      "audit_result_feedback": 2
+    },
+    "audit_evidence_weights": {
+      "20": 2,
+      "35": 2,
+      "55": 2,
+      "60": 2,
+      "70": 2,
+      "90": 2
+    },
+    "requires_manual_verification_count": 12,
+    "finding_dispositions": {
+      "review_recommended": 6,
+      "knowledge_reference": 4,
+      "risk_candidate": 2
+    },
+    "source_completeness_rate": 100
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "cross-region official source normalization",
+      "action": "Add province-level source profiles for non-Jiangsu official procurement and audit pages, including administrative code mapping, publisher aliases and amount-unit defaults.",
+      "reason": "Round 8 introduced 湖北省 and central-unit procurement examples; the Jiangsu-only normalization layer should not misclassify cross-region official records."
+    },
+    {
+      "priority": "P0",
+      "area": "e-commerce procurement amount semantics",
+      "action": "Model electronic marketplace records separately for unit price, quantity, delivery item and aggregate order value before budget comparison.",
+      "reason": "Electronic marketplace成交公告 often mixes small order amounts, item quantities and device unit prices."
+    },
+    {
+      "priority": "P1",
+      "area": "department final-account PDF extraction",
+      "action": "Extend PDF table extraction from budget PDFs to final-account PDFs, preserving page number, table title, subject row and performance target rows.",
+      "reason": "Round 8 added江苏财政厅部门决算 PDF sources; these are useful for comparing budget, final account and performance evidence."
+    },
+    {
+      "priority": "P1",
+      "area": "audit evidence disposition hardening",
+      "action": "Keep专项审计调查 and工作动态 as review_recommended or knowledge_reference unless a formal result公告 or整改结果 document is linked.",
+      "reason": "Audit work updates provide useful leads but remain lower evidence strength than formal result公告."
+    }
+  ],
+  "batch_name": "official_public_instances_round8",
+  "round8_acceptance_baseline": 80
+}

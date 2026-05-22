@@ -1,0 +1,28 @@
+{
+  "title": "中山市12345项目预算联动样本（来自官方预算公开与采购公告叉校）",
+  "dataset_kind": "department_execution_detail",
+  "records": [
+    {
+      "period": "2025-01",
+      "region": "广东省中山市",
+      "budget_scope": "一般公共预算",
+      "direction": "支出",
+      "budget_unit_name": "中山市12345投诉举报平台管理中心",
+      "budget_unit_code": null,
+      "budget_project_name": "12345政务服务便民热线服务项目（2025年-2028年）",
+      "project_catalog_id": null,
+      "indicator_document_no": null,
+      "funding_source_name": "一般公共预算财政拨款",
+      "function_classification_code": null,
+      "function_classification_name": null,
+      "economic_classification_code": null,
+      "economic_classification_name": null,
+      "summary_item": null,
+      "budget_amount": "21369654",
+      "actual_amount": "0",
+      "previous_period_amount": null,
+      "yoy_rate": null,
+      "source_row": 1
+    }
+  ]
+}

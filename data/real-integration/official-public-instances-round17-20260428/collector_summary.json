@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-04-27T09:36:06.585Z",
+  "captured_at": "2026-04-28T09:20:00+08:00",
+  "fetch_mode": "official_public_round17_web_research_snapshot",
+  "source_count": 27,
+  "seventeenth_round_source_count": 27,
+  "parsed_source_count": 27,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 336,
+  "previous_source_overlap_count": 0,
+  "total_records": 204,
+  "procurement_records": 130,
+  "budget_records": 50,
+  "case_seed_records": 24,
+  "source_region_scopes": {
+    "jiangsu_local": 17,
+    "central_unit": 6,
+    "cross_province": 4
+  },
+  "service_period_records": 130,
+  "procurement_service_period_records": 130,
+  "maintenance_or_warranty_records": 130,
+  "acceptance_standard_records": 130,
+  "acceptance_result_locator_records": 44,
+  "payment_condition_records": 63,
+  "fiscal_performance_policy_records": 50,
+  "fiscal_policy_supplemental_coverage_rate": 100,
+  "fiscal_performance_checklist_coverage_rate": 100,
+  "fiscal_performance_metric_records": 50,
+  "audit_evidence_levels": {
+    "audit_work_update": 12,
+    "work_method_reference": 6,
+    "rectification_progress": 6
+  },
+  "audit_followup_or_review_records": 18,
+  "audit_low_weight_records": 18,
+  "finding_dispositions": {
+    "supplemental_data_only": 180,
+    "review_recommended": 12,
+    "knowledge_reference": 6,
+    "risk_candidate": 6
+  },
+  "discovery_queue_item_count": 318,
+  "discovery_queue_by_target_stage": {
+    "contract": 104,
+    "acceptance": 104,
+    "payment": 104,
+    "rectification": 6
+  },
+  "discovery_crawler_processed_count": 318,
+  "discovery_crawler_matched_count": 92,
+  "discovery_crawler_match_rate": 28.93,
+  "discovery_crawler_statuses": {
+    "manual_review": 160,
+    "matched": 92,
+    "not_found": 66
+  },
+  "crawler_chain_scored_count": 318,
+  "crawler_not_found_explained_count": 226,
+  "source_completeness_rate": 100,
+  "locator_coverage_rate": 100,
+  "report_topics": [
+    "service_period_maintenance_acceptance_evidence"
+  ]
+}

@@ -1,0 +1,78 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53"/>
+      <stop offset="100%" stop-color="#1F7A6D"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)"/>
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">演示主线覆盖从数据进入到报告整改的完整链路</text>
+    <text x="56" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">按财政监督任务流演示，避免只展示孤立页面或单个接口</text>
+  </g>
+  <g id="demo-step-1">
+    <circle cx="100" cy="190" r="20" fill="#1F7A6D"/>
+    <text x="100" y="197" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="136" y="183" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E293B">登录并选择角色</text>
+    <text x="136" y="210" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">admin / auditor / viewer 权限差异</text>
+    <line x1="100" y1="215" x2="100" y2="235" stroke="#CBD5E1" stroke-width="2"/>
+  </g>
+  <g id="demo-step-2">
+    <circle cx="100" cy="260" r="20" fill="#1F7A6D"/>
+    <text x="100" y="267" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="136" y="253" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E293B">创建财政监督任务</text>
+    <text x="136" y="280" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">选择样板任务或导入真实小样本</text>
+    <line x1="100" y1="285" x2="100" y2="305" stroke="#CBD5E1" stroke-width="2"/>
+  </g>
+  <g id="demo-step-3">
+    <circle cx="100" cy="330" r="20" fill="#1F7A6D"/>
+    <text x="100" y="337" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="136" y="323" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E293B">导入多类财政数据</text>
+    <text x="136" y="350" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">预算、采购、国库支付、会计凭证</text>
+    <line x1="100" y1="355" x2="100" y2="375" stroke="#CBD5E1" stroke-width="2"/>
+  </g>
+  <g id="demo-step-4">
+    <circle cx="100" cy="400" r="20" fill="#F59E0B"/>
+    <text x="100" y="407" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="136" y="393" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E293B">查看风险与证据</text>
+    <text x="136" y="420" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">规则命中、关联摘要、异常池</text>
+    <line x1="100" y1="425" x2="100" y2="445" stroke="#CBD5E1" stroke-width="2"/>
+  </g>
+  <g id="demo-step-5">
+    <circle cx="100" cy="470" r="20" fill="#F59E0B"/>
+    <text x="100" y="477" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="136" y="463" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E293B">导出报告与密封包</text>
+    <text x="136" y="490" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">PDF 标准报告、ZIP manifest 校验</text>
+    <line x1="100" y1="495" x2="100" y2="515" stroke="#CBD5E1" stroke-width="2"/>
+  </g>
+  <g id="demo-step-6">
+    <circle cx="100" cy="540" r="20" fill="#0B3A53"/>
+    <text x="100" y="547" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">6</text>
+    <text x="136" y="533" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E293B">更新整改并留痕</text>
+    <text x="136" y="560" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">问题状态、责任分派、操作审计</text>
+  </g>
+  <g id="screenshot-placeholder">
+    <rect x="610" y="154" width="614" height="390" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="642" y="188" width="550" height="304" rx="8" fill="none" stroke="#1F7A6D" stroke-width="2" stroke-dasharray="8,4"/>
+    <use data-icon="tabler-outline/photo" x="881" y="276" width="64" height="64" fill="#1F7A6D" stroke-width="2"/>
+    <text x="917" y="372" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#64748B">演示截图占位</text>
+    <text x="917" y="404" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">建议替换为任务详情页或风险识别页截图</text>
+    <circle cx="682" cy="224" r="16" fill="#1F7A6D"/>
+    <text x="682" y="230" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+    <circle cx="1152" cy="224" r="16" fill="#F59E0B"/>
+    <text x="1152" y="230" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+    <circle cx="682" cy="464" r="16" fill="#0B3A53"/>
+    <text x="682" y="470" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+  </g>
+  <g id="demo-summary">
+    <rect x="610" y="572" width="614" height="52" rx="8" fill="#0B3A53"/>
+    <text x="917" y="604" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">现场演示控制在约 2 分钟，围绕一条任务链路讲清楚“能跑通”</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: README.md, docs/STATUS.md, docs/GOVERNMENT_POC_PACKAGE.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">05 / 08</text>
+  </g>
+</svg>

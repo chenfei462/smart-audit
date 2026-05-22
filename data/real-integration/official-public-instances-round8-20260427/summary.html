@@ -1,0 +1,39 @@
+<!doctype html><meta charset="utf-8"><title>Round 8 Official Public Instance Test</title><pre># Round 8 Official Public Instance Test
+
+- Batch: official_public_instances_round8
+- Official sources: 14
+- Total input records: 88
+- Total accepted records: 88
+- Import success rate: 100%
+- Previous source overlap: 0
+- Cross-region procurement records: 41
+- PDF performance records: 10
+- Discovery queue items: 102
+
+## Official Sources
+- [江苏政府采购网] 江苏财会职业学院无人机采购项目中标公告: https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&amp;ggid=ab25bcd530df4b74a4c604d87d22b62f
+- [中国政府采购网] 长江南京航道局船舶维修服务采购项目中标公告: https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm
+- [中国政府采购网] 国家税务总局湖北省税务局交换机电子卖场采购项目成交公告: https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm
+- [中国政府采购网] 中南民族大学MiniLED显示屏电子卖场采购项目成交公告: https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm
+- [中国政府采购网] 泰兴市人民医院CT采购项目采购公告: https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm
+- [中国政府采购网] 南京市中医院主动脉内球囊反搏泵采购项目采购公告: https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm
+- [泰兴市人民政府] 关于转发《关于印发2025年省级现代农业发展补助专项实施意见的通知》的通知: https://ftp.taixing.gov.cn/zwgk/xxgk/zdly/xczx/art/2025/art_a426a32337654b718ba7e221af65966c.html
+- [江苏省财政厅] （苏财农〔2025〕8号）关于下达2023-2024年度江苏省农业科技自主创新已立项项目2025年资金的通知: https://czt.jiangsu.gov.cn/art/2025/3/11/art_77314_11513493.html
+- [江苏省财政厅] 2024年度江苏省文化和旅游厅部门决算公开: https://czt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&amp;filename=45e7fa0eb05c4e8f84e543083ae2ee5e.pdf
+- [江苏省财政厅] 2024年度江苏省科学技术厅部门决算公开: https://czt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&amp;filename=11efedb72545441b8f807e6b8d4ce2dd.pdf
+- [江苏省审计厅] 中共江苏省审计厅党组关于巡视整改进展情况的通报: https://jssjt.jiangsu.gov.cn/art/2025/5/20/art_999_11567881.html
+- [江苏省审计厅] 江苏开展农业产业融合发展相关政策落实和资金审计: https://jssjt.jiangsu.gov.cn/art/2025/3/19/art_995_11520670.html
+- [江苏省审计厅] 江苏省审计厅出台审计机关审计项目全流程审计质量控制办法: https://jssjt.jiangsu.gov.cn/art/2025/2/7/art_995_11487627.html
+- [江苏省人民政府] 健全相关体系为高水平农业强省建设提供坚实要素保障: https://www.jiangsu.gov.cn/art/2025/3/17/art_60095_11517707.html
+
+## Risk Control Notes
+- Electronic marketplace, unit price, discount rate and framework limit records do not write normalized_award_amount_yuan.
+- Audit work updates and专项审计调查 remain review suggestions unless formal audit result or rectification-result evidence is linked.
+- Public-data gaps produce supplemental-data requests, not formal violation conclusions.
+
+## Optimization Plan
+- P0 cross-region official source normalization: Add province-level source profiles for non-Jiangsu official procurement and audit pages, including administrative code mapping, publisher aliases and amount-unit defaults. Reason: Round 8 introduced 湖北省 and central-unit procurement examples; the Jiangsu-only normalization layer should not misclassify cross-region official records.
+- P0 e-commerce procurement amount semantics: Model electronic marketplace records separately for unit price, quantity, delivery item and aggregate order value before budget comparison. Reason: Electronic marketplace成交公告 often mixes small order amounts, item quantities and device unit prices.
+- P1 department final-account PDF extraction: Extend PDF table extraction from budget PDFs to final-account PDFs, preserving page number, table title, subject row and performance target rows. Reason: Round 8 added江苏财政厅部门决算 PDF sources; these are useful for comparing budget, final account and performance evidence.
+- P1 audit evidence disposition hardening: Keep专项审计调查 and工作动态 as review_recommended or knowledge_reference unless a formal result公告 or整改结果 document is linked. Reason: Audit work updates provide useful leads but remain lower evidence strength than formal result公告.
+</pre>

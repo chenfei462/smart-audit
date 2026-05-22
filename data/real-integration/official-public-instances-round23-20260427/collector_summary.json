@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-04-27T14:09:16.320Z",
+  "captured_at": "2026-04-27T23:20:00+08:00",
+  "fetch_mode": "official_public_round23_web_research_snapshot",
+  "source_count": 20,
+  "twenty_third_round_source_count": 20,
+  "parsed_source_count": 20,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 463,
+  "previous_source_overlap_count": 0,
+  "total_records": 320,
+  "procurement_records": 230,
+  "budget_records": 55,
+  "case_seed_records": 35,
+  "procurement_exception_records": 230,
+  "procurement_complaint_adjudication_records": 230,
+  "false_material_allegation_records": 39,
+  "sme_policy_allegation_records": 39,
+  "bid_document_defect_records": 38,
+  "complaint_established_records": 78,
+  "complaint_partly_established_records": 76,
+  "complaint_rejected_records": 76,
+  "confirmed_fact_records": 154,
+  "remedy_required_records": 154,
+  "allegation_weight_coverage_rate": 100,
+  "allegation_outcome_coverage_rate": 100,
+  "complaint_review_only_rate": 100,
+  "source_region_scopes": {
+    "central_unit": 20
+  },
+  "central_unit_source_count": 20,
+  "finding_dispositions": {
+    "review_recommended": 239,
+    "supplemental_data_only": 55,
+    "knowledge_reference": 26
+  },
+  "fiscal_policy_supplemental_coverage_rate": 100,
+  "audit_evidence_levels": {
+    "rectification_progress": 9,
+    "audit_work_update": 26
+  },
+  "discovery_queue_item_count": 1124,
+  "exception_chain_queue_item_count": 1115,
+  "discovery_queue_by_target_stage": {
+    "correction_notice": 230,
+    "award_invalidated": 78,
+    "new_award": 78,
+    "rebid_notice": 39,
+    "contract": 230,
+    "acceptance": 230,
+    "payment": 230,
+    "rectification": 9
+  },
+  "discovery_crawler_processed_count": 1124,
+  "discovery_crawler_matched_count": 1101,
+  "complaint_chain_matched_count": 1101,
+  "discovery_crawler_match_rate": 97.95,
+  "discovery_crawler_statuses": {
+    "matched": 1101,
+    "manual_review": 14,
+    "not_found": 9
+  },
+  "crawler_not_found_explained_count": 23,
+  "source_completeness_rate": 100,
+  "locator_coverage_rate": 100,
+  "report_topics": [
+    "procurement_complaint_adjudication_outcomes"
+  ]
+}

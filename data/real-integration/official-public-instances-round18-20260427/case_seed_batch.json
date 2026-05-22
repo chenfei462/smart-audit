@@ -1,0 +1,1045 @@
+{
+  "template_kind": "special_inspection",
+  "records": [
+    {
+      "record_id": "r18-case-001",
+      "project_name": "MOF procurement information notice 3319 complaint partly established round18 supervision evidence 1",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3319 complaint partly established",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26462035.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 1,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 1,
+        "locator_hash": "73f42c1e0586840f",
+        "raw_excerpt": "MOF procurement information notice 3319 complaint partly established; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-002",
+      "project_name": "MOF procurement information notice 3318 invalidated abolition behavior round18 supervision evidence 2",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Yangling",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3318 invalidated abolition behavior",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26462011.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 2,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 2,
+        "locator_hash": "a0172f4be14e747a",
+        "raw_excerpt": "MOF procurement information notice 3318 invalidated abolition behavior; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-003",
+      "project_name": "MOF procurement information notice 3317 complaint decision round18 supervision evidence 3",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3317 complaint decision",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461997.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 3,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 3,
+        "locator_hash": "7c065bf0fd2a9623",
+        "raw_excerpt": "MOF procurement information notice 3317 complaint decision; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-004",
+      "project_name": "MOF procurement information notice 3316 supervision handling round18 supervision evidence 4",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "procurement_supervision_notice",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "procurement_supervision_notice",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3316 supervision handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461974.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 4,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 4,
+        "locator_hash": "8edaf3448a2810f2",
+        "raw_excerpt": "MOF procurement information notice 3316 supervision handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-005",
+      "project_name": "MOF procurement information notice 3315 complaint handling round18 supervision evidence 5",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3315 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461958.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 5,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 5,
+        "locator_hash": "1f6f1191aa72ae33",
+        "raw_excerpt": "MOF procurement information notice 3315 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-006",
+      "project_name": "MOF procurement information notice 3314 complaint result round18 supervision evidence 6",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3314 complaint result",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461937.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 6,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 6,
+        "locator_hash": "2470c8101f728e6e",
+        "raw_excerpt": "MOF procurement information notice 3314 complaint result; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-007",
+      "project_name": "MOF procurement information notice 3313 complaint handling round18 supervision evidence 7",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3313 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461924.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 7,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 7,
+        "locator_hash": "cd641c73400697ac",
+        "raw_excerpt": "MOF procurement information notice 3313 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-008",
+      "project_name": "MOF procurement information notice 3312 complaint handling round18 supervision evidence 8",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3312 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461910.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 8,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 8,
+        "locator_hash": "0c216d062c70d533",
+        "raw_excerpt": "MOF procurement information notice 3312 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-009",
+      "project_name": "MOF procurement information notice 3311 supervision decision round18 supervision evidence 9",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "procurement_supervision_notice",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "procurement_supervision_notice",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3311 supervision decision",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461894.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 9,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 9,
+        "locator_hash": "23d9c9e6b4fd101f",
+        "raw_excerpt": "MOF procurement information notice 3311 supervision decision; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-010",
+      "project_name": "MOF procurement information notice 3310 complaint decision round18 supervision evidence 10",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3310 complaint decision",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461866.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 10,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 10,
+        "locator_hash": "afe62e7e19a3f4f2",
+        "raw_excerpt": "MOF procurement information notice 3310 complaint decision; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-011",
+      "project_name": "MOF procurement information notice 3305 complaint rejected round18 supervision evidence 11",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Hefei",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3305 complaint rejected",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461785.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 11,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 11,
+        "locator_hash": "3220767527d4a736",
+        "raw_excerpt": "MOF procurement information notice 3305 complaint rejected; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-012",
+      "project_name": "MOF procurement information notice 3300 complaint rejected round18 supervision evidence 12",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3300 complaint rejected",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461677.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 12,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 12,
+        "locator_hash": "0dd6a68de96c6043",
+        "raw_excerpt": "MOF procurement information notice 3300 complaint rejected; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-013",
+      "project_name": "MOF procurement information notice 3299 complaint handling round18 supervision evidence 13",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3299 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461663.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 13,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 13,
+        "locator_hash": "8abc62a4e8a877f9",
+        "raw_excerpt": "MOF procurement information notice 3299 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-014",
+      "project_name": "MOF procurement information notice 3296 complaint handling round18 supervision evidence 14",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3296 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461564.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 14,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 14,
+        "locator_hash": "b16c166ef4aaf5c3",
+        "raw_excerpt": "MOF procurement information notice 3296 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-015",
+      "project_name": "Changzhou fiscal smart procurement supervision warning model round18 supervision evidence 15",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Changzhou",
+      "issue_category": "fiscal_procurement_supervision_policy",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "fiscal_procurement_supervision_policy",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "Changzhou fiscal smart procurement supervision warning model",
+        "url": "https://czt.jiangsu.gov.cn/art/2025/4/23/art_77300_11553641.html",
+        "published_at": "2025-04-23",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 15,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 15,
+        "locator_hash": "da8f7d6e3f1fcdf3",
+        "raw_excerpt": "Changzhou fiscal smart procurement supervision warning model; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-016",
+      "project_name": "HuaiAn audit work update on coordinated supervision and procurement data review round18 supervision evidence 16",
+      "issue_title": "audit_work_update evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "HuaiAn",
+      "issue_category": "audit_work_update",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_work_update",
+      "conclusion_strength": "low",
+      "finding_disposition": "knowledge_reference",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "HuaiAn audit work update on coordinated supervision and procurement data review",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/4/23/art_1104_11225293.html",
+        "published_at": "2024-04-23",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 16,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 16,
+        "locator_hash": "d26d239d709a1eea",
+        "raw_excerpt": "HuaiAn audit work update on coordinated supervision and procurement data review; evidence level audit_work_update; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-017",
+      "project_name": "MOF procurement information notice 3284 complaint handling round18 supervision evidence 17",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3284 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260407_26367344.htm",
+        "published_at": "2026-04-07",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 17,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 17,
+        "locator_hash": "a52c09acffc5eec1",
+        "raw_excerpt": "MOF procurement information notice 3284 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-018",
+      "project_name": "MOF procurement information notice 3319 complaint partly established round18 supervision evidence 18",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3319 complaint partly established",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26462035.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 18,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 18,
+        "locator_hash": "5639e4ff27c9fc09",
+        "raw_excerpt": "MOF procurement information notice 3319 complaint partly established; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-019",
+      "project_name": "MOF procurement information notice 3318 invalidated abolition behavior round18 supervision evidence 19",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Yangling",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3318 invalidated abolition behavior",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26462011.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 19,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 19,
+        "locator_hash": "0806cf96ed238a3a",
+        "raw_excerpt": "MOF procurement information notice 3318 invalidated abolition behavior; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-020",
+      "project_name": "MOF procurement information notice 3317 complaint decision round18 supervision evidence 20",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3317 complaint decision",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461997.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 20,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 20,
+        "locator_hash": "2f9e876de5ed24dc",
+        "raw_excerpt": "MOF procurement information notice 3317 complaint decision; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-021",
+      "project_name": "MOF procurement information notice 3316 supervision handling round18 supervision evidence 21",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "procurement_supervision_notice",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "procurement_supervision_notice",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3316 supervision handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461974.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 21,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 21,
+        "locator_hash": "c5076f1dfa60d858",
+        "raw_excerpt": "MOF procurement information notice 3316 supervision handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-022",
+      "project_name": "MOF procurement information notice 3315 complaint handling round18 supervision evidence 22",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3315 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461958.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 22,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 22,
+        "locator_hash": "b8009adcd0d228a3",
+        "raw_excerpt": "MOF procurement information notice 3315 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-023",
+      "project_name": "MOF procurement information notice 3314 complaint result round18 supervision evidence 23",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3314 complaint result",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461937.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 23,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 23,
+        "locator_hash": "6184f5d7005e1f7f",
+        "raw_excerpt": "MOF procurement information notice 3314 complaint result; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-024",
+      "project_name": "MOF procurement information notice 3313 complaint handling round18 supervision evidence 24",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3313 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461924.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 24,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 24,
+        "locator_hash": "7a668a6fa794c904",
+        "raw_excerpt": "MOF procurement information notice 3313 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-025",
+      "project_name": "MOF procurement information notice 3312 complaint handling round18 supervision evidence 25",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "complaint_handling_decision",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "complaint_handling_decision",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3312 complaint handling",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461910.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 25,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 25,
+        "locator_hash": "8db112ed28d63f80",
+        "raw_excerpt": "MOF procurement information notice 3312 complaint handling; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    },
+    {
+      "record_id": "r18-case-026",
+      "project_name": "MOF procurement information notice 3311 supervision decision round18 supervision evidence 26",
+      "issue_title": "procurement_supervision_notice evidence tiering",
+      "recommended_issue": "public complaint and supervision notices require manual review and follow-up chain evidence",
+      "responsible_subject": "Beijing",
+      "issue_category": "procurement_supervision_notice",
+      "audit_evidence_level": "procurement_supervision_notice",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "procurement_supervision_notice",
+      "conclusion_strength": "medium_review_only",
+      "finding_disposition": "review_recommended",
+      "requires_manual_verification": true,
+      "rectification_status": "manual_review",
+      "required_next_data": [
+        "formal audit report if any",
+        "complaint decision",
+        "correction or rebid notice",
+        "payment detail",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "manual review before conclusion",
+        "complete procurement exception chain"
+      ],
+      "source_evidence": {
+        "title": "MOF procurement information notice 3311 supervision decision",
+        "url": "https://www.ccgp.gov.cn/gg/202604/t20260427_26461894.htm",
+        "published_at": "2026-04-27",
+        "captured_at": "2026-04-27T18:20:00+08:00",
+        "row_number": 26,
+        "parser_version": "official-public-instance-round18-v1",
+        "page_number": null,
+        "section_title": "procurement supervision evidence tiering",
+        "table_title": "",
+        "paragraph_index": 26,
+        "locator_hash": "889afdd996178c88",
+        "raw_excerpt": "MOF procurement information notice 3311 supervision decision; evidence level procurement_supervision_notice; public supervision notice is review recommended only."
+      }
+    }
+  ]
+}

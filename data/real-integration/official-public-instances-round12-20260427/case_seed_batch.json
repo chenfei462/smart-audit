@@ -1,0 +1,707 @@
+{
+  "template_kind": "special_inspection",
+  "records": [
+    {
+      "case_seed_id": "r12-case-001",
+      "issue_title": "drug safety special fund audit survey sample 1",
+      "project_name": "drug safety special fund audit survey project 1",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "90000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "drug safety supervision fund audit",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office conducts drug safety supervision special fund audit",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/5/10/art_995_11240639.html",
+        "published_at": "2024-05-10",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 1,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 1,
+        "locator_hash": "104f30596275ad19",
+        "raw_excerpt": "Jiangsu Audit Office conducts drug safety supervision special fund audit; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-002",
+      "issue_title": "culture tourism special fund audit survey sample 2",
+      "project_name": "culture tourism special fund audit survey project 2",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "111000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "culture tourism special fund audit",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu conducts culture and tourism special fund audit",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/4/9/art_995_11213985.html",
+        "published_at": "2024-04-09",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 2,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 2,
+        "locator_hash": "400d509c0d334a11",
+        "raw_excerpt": "Jiangsu conducts culture and tourism special fund audit; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-003",
+      "issue_title": "Yancheng audit rectification investigation sample 3",
+      "project_name": "Yancheng audit rectification investigation project 3",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "132000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "audit_topic_area": "Yancheng audit rectification investigation",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Yancheng audit creates project initiation model for audit rectification investigation",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/8/19/art_1104_11324695.html",
+        "published_at": "2024-08-19",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 3,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 3,
+        "locator_hash": "80e00c5741de892a",
+        "raw_excerpt": "Yancheng audit creates project initiation model for audit rectification investigation; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-004",
+      "issue_title": "audit project planning reference sample 4",
+      "project_name": "audit project planning reference project 4",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_project_plan",
+      "issue_amount": "153000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_project_plan",
+      "audit_evidence_weight": 30,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "audit project planning presentation",
+      "audit_project_scope": "planned audit scope, not result evidence",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 15th Five-Year audit planning and 2026 project presentation meeting",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/9/30/art_995_11650136.html",
+        "published_at": "2025-09-30",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 4,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 4,
+        "locator_hash": "3170595b196d71f2",
+        "raw_excerpt": "Jiangsu Audit Office 15th Five-Year audit planning and 2026 project presentation meeting; evidence level audit_project_plan; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-005",
+      "issue_title": "Yizheng audit rectification system sample 5",
+      "project_name": "Yizheng audit rectification system project 5",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "174000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "audit_topic_area": "Yizheng audit rectification system",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Yizheng issues institutional measures for deep audit rectification",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/5/27/art_1104_11249876.html",
+        "published_at": "2024-05-27",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 5,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 5,
+        "locator_hash": "4fa2c4ef3ac12774",
+        "raw_excerpt": "Yizheng issues institutional measures for deep audit rectification; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-006",
+      "issue_title": "asset special audit method reference sample 6",
+      "project_name": "asset special audit method reference project 6",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "195000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "work_method_reference",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "asset special audit method reference",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu audit uses investigation and method innovation for asset special audit projects",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2023/11/24/art_995_11080069.html",
+        "published_at": "2023-11-24",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 6,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 6,
+        "locator_hash": "00c30463ae2a2fc6",
+        "raw_excerpt": "Jiangsu audit uses investigation and method innovation for asset special audit projects; evidence level work_method_reference; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-007",
+      "issue_title": "audit performance self-evaluation PDF sample 7",
+      "project_name": "audit performance self-evaluation PDF project 7",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "methodology_or_experience",
+      "issue_amount": "216000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "methodology_or_experience",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "performance_self_evaluation_pdf",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "audit information project performance self-evaluation",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office provincial project performance self-evaluation table",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=cfe496c3d4594d98b1e6dcc24355f925.pdf",
+        "published_at": "2025-12-01",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 7,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 7,
+        "locator_hash": "5ce798e459b2e9f0",
+        "raw_excerpt": "Jiangsu Audit Office provincial project performance self-evaluation table; evidence level methodology_or_experience; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-008",
+      "issue_title": "drug safety special fund audit survey sample 8",
+      "project_name": "drug safety special fund audit survey project 8",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "237000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "drug safety supervision fund audit",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office conducts drug safety supervision special fund audit",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/5/10/art_995_11240639.html",
+        "published_at": "2024-05-10",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 8,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 8,
+        "locator_hash": "bee9c81041953eaa",
+        "raw_excerpt": "Jiangsu Audit Office conducts drug safety supervision special fund audit; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-009",
+      "issue_title": "culture tourism special fund audit survey sample 9",
+      "project_name": "culture tourism special fund audit survey project 9",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "258000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "culture tourism special fund audit",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu conducts culture and tourism special fund audit",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/4/9/art_995_11213985.html",
+        "published_at": "2024-04-09",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 9,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 9,
+        "locator_hash": "1d401c8bc82de351",
+        "raw_excerpt": "Jiangsu conducts culture and tourism special fund audit; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-010",
+      "issue_title": "Yancheng audit rectification investigation sample 10",
+      "project_name": "Yancheng audit rectification investigation project 10",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "279000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "audit_topic_area": "Yancheng audit rectification investigation",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Yancheng audit creates project initiation model for audit rectification investigation",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/8/19/art_1104_11324695.html",
+        "published_at": "2024-08-19",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 10,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 10,
+        "locator_hash": "b8144e776176254b",
+        "raw_excerpt": "Yancheng audit creates project initiation model for audit rectification investigation; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-011",
+      "issue_title": "audit project planning reference sample 11",
+      "project_name": "audit project planning reference project 11",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_project_plan",
+      "issue_amount": "300000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_project_plan",
+      "audit_evidence_weight": 30,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "audit project planning presentation",
+      "audit_project_scope": "planned audit scope, not result evidence",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 15th Five-Year audit planning and 2026 project presentation meeting",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/9/30/art_995_11650136.html",
+        "published_at": "2025-09-30",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 11,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 11,
+        "locator_hash": "40f0cea1023ee1a7",
+        "raw_excerpt": "Jiangsu Audit Office 15th Five-Year audit planning and 2026 project presentation meeting; evidence level audit_project_plan; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-012",
+      "issue_title": "Yizheng audit rectification system sample 12",
+      "project_name": "Yizheng audit rectification system project 12",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "321000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "audit_topic_area": "Yizheng audit rectification system",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Yizheng issues institutional measures for deep audit rectification",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/5/27/art_1104_11249876.html",
+        "published_at": "2024-05-27",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 12,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 12,
+        "locator_hash": "dd9391e0d6f77c9f",
+        "raw_excerpt": "Yizheng issues institutional measures for deep audit rectification; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-013",
+      "issue_title": "asset special audit method reference sample 13",
+      "project_name": "asset special audit method reference project 13",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "342000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "work_method_reference",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "asset special audit method reference",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu audit uses investigation and method innovation for asset special audit projects",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2023/11/24/art_995_11080069.html",
+        "published_at": "2023-11-24",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 13,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 13,
+        "locator_hash": "2b4cc8260da8a52e",
+        "raw_excerpt": "Jiangsu audit uses investigation and method innovation for asset special audit projects; evidence level work_method_reference; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-014",
+      "issue_title": "audit performance self-evaluation PDF sample 14",
+      "project_name": "audit performance self-evaluation PDF project 14",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "methodology_or_experience",
+      "issue_amount": "363000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "methodology_or_experience",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "performance_self_evaluation_pdf",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "audit information project performance self-evaluation",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office provincial project performance self-evaluation table",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=cfe496c3d4594d98b1e6dcc24355f925.pdf",
+        "published_at": "2025-12-01",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 14,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 14,
+        "locator_hash": "1bcec254331dcf68",
+        "raw_excerpt": "Jiangsu Audit Office provincial project performance self-evaluation table; evidence level methodology_or_experience; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-015",
+      "issue_title": "drug safety special fund audit survey sample 15",
+      "project_name": "drug safety special fund audit survey project 15",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "384000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "drug safety supervision fund audit",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office conducts drug safety supervision special fund audit",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/5/10/art_995_11240639.html",
+        "published_at": "2024-05-10",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 15,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 15,
+        "locator_hash": "b22c87735effa09b",
+        "raw_excerpt": "Jiangsu Audit Office conducts drug safety supervision special fund audit; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-016",
+      "issue_title": "culture tourism special fund audit survey sample 16",
+      "project_name": "culture tourism special fund audit survey project 16",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "405000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "culture tourism special fund audit",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu conducts culture and tourism special fund audit",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/4/9/art_995_11213985.html",
+        "published_at": "2024-04-09",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 16,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 16,
+        "locator_hash": "b1323ab45298e9f3",
+        "raw_excerpt": "Jiangsu conducts culture and tourism special fund audit; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-017",
+      "issue_title": "Yancheng audit rectification investigation sample 17",
+      "project_name": "Yancheng audit rectification investigation project 17",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "426000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "audit_topic_area": "Yancheng audit rectification investigation",
+      "audit_project_scope": "public audit work scope",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Yancheng audit creates project initiation model for audit rectification investigation",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/8/19/art_1104_11324695.html",
+        "published_at": "2024-08-19",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 17,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 17,
+        "locator_hash": "a76406984f8da2e1",
+        "raw_excerpt": "Yancheng audit creates project initiation model for audit rectification investigation; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r12-case-018",
+      "issue_title": "audit project planning reference sample 18",
+      "project_name": "audit project planning reference project 18",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_project_plan",
+      "issue_amount": "447000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_project_plan",
+      "audit_evidence_weight": 30,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "audit_topic_area": "audit project planning presentation",
+      "audit_project_scope": "planned audit scope, not result evidence",
+      "audit_followup_focus": "supplement formal report, rectification ledger, payment detail and voucher evidence",
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before risk conclusion"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 15th Five-Year audit planning and 2026 project presentation meeting",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/9/30/art_995_11650136.html",
+        "published_at": "2025-09-30",
+        "captured_at": "2026-04-27T19:00:00+08:00",
+        "row_number": 18,
+        "parser_version": "official-public-instance-round12-v1",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 18,
+        "locator_hash": "653a10ba9c70949f",
+        "raw_excerpt": "Jiangsu Audit Office 15th Five-Year audit planning and 2026 project presentation meeting; evidence level audit_project_plan; disposition knowledge_reference."
+      }
+    }
+  ]
+}

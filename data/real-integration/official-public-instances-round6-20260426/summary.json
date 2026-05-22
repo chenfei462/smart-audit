@@ -1,0 +1,641 @@
+{
+  "generated_at": "2026-04-26T15:08:54.747Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 14,
+  "procurement_input_records": 50,
+  "budget_input_records": 24,
+  "case_seed_input_records": 12,
+  "total_input_records": 86,
+  "procurement_accepted_records": 50,
+  "budget_accepted_records": 24,
+  "case_seed_accepted_records": 12,
+  "total_accepted_records": 86,
+  "import_success_rate": 100,
+  "quality_check_count": 26,
+  "quality_warning_count": 21,
+  "quality_error_count": 0,
+  "finding_count": 78,
+  "rule_hits_by_rule": {
+    "BUDGET-EXEC-001": 20,
+    "PROC-AMOUNT-CONSISTENCY-001": 6,
+    "PROC-CHAIN-001": 47,
+    "PROC-SPLIT-001": 5
+  },
+  "source_traceable_rows": 86,
+  "source_total_rows": 86,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 15,
+    "award": 21,
+    "contract": 11,
+    "payment": 3
+  },
+  "dataset_coverage": {
+    "unknown": 24
+  },
+  "risk_levels": {
+    "procurement": "High",
+    "budget": [
+      "Medium",
+      "Medium"
+    ]
+  },
+  "top_quality_checks": [
+    {
+      "code": "unit_price_or_rate_review",
+      "severity": "warning",
+      "message": "成交金额可能是单价、费率或极小金额，需人工确认后再参与预算差异判断",
+      "field": "award_amount",
+      "row_number": 22
+    },
+    {
+      "code": "unit_price_or_rate_review",
+      "severity": "warning",
+      "message": "成交金额可能是单价、费率或极小金额，需人工确认后再参与预算差异判断",
+      "field": "award_amount",
+      "row_number": 23
+    },
+    {
+      "code": "framework_limit_review",
+      "severity": "info",
+      "message": "Framework agreement limit is not treated as total award amount",
+      "field": "award_amount",
+      "row_number": 46
+    },
+    {
+      "code": "framework_limit_review",
+      "severity": "info",
+      "message": "Framework agreement limit is not treated as total award amount",
+      "field": "award_amount",
+      "row_number": 47
+    },
+    {
+      "code": "framework_limit_review",
+      "severity": "info",
+      "message": "Framework agreement limit is not treated as total award amount",
+      "field": "award_amount",
+      "row_number": 48
+    },
+    {
+      "code": "framework_limit_review",
+      "severity": "info",
+      "message": "Framework agreement limit is not treated as total award amount",
+      "field": "award_amount",
+      "row_number": 49
+    },
+    {
+      "code": "framework_limit_review",
+      "severity": "info",
+      "message": "Framework agreement limit is not treated as total award amount",
+      "field": "award_amount",
+      "row_number": 50
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JSZC-JINTAN-DATA-2026 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 24
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JS-PROPERTY-FRAMEWORK-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 46
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 SZ-LAND-RESERVE-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 28
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 NJ-MEAT-INSPECTION-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 26
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JSZC-320100-JSZB-G2025-0002 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 1
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JS2025-DLGK-C0087-B02 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 10
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JS-ENV-TECH-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 18
+    },
+    {
+      "code": "duplicate_budget_row",
+      "severity": "warning",
+      "message": "duplicate budget row key 2025-12|江苏省|department budget pdf|expenditure|住房保障支出",
+      "field": null,
+      "row_number": 4
+    },
+    {
+      "code": "duplicate_budget_row",
+      "severity": "warning",
+      "message": "duplicate budget row key 2025-12|江苏省|department budget pdf|revenue|财政拨款收支平衡",
+      "field": null,
+      "row_number": 8
+    },
+    {
+      "code": "duplicate_budget_row",
+      "severity": "warning",
+      "message": "duplicate budget row key 2025-12|江苏省|department budget pdf|expenditure|政府采购预算",
+      "field": null,
+      "row_number": 5
+    },
+    {
+      "code": "duplicate_budget_row",
+      "severity": "warning",
+      "message": "duplicate budget row key 2025-12|江苏省|department budget pdf|completion_rate|资金使用合规性",
+      "field": null,
+      "row_number": 7
+    },
+    {
+      "code": "duplicate_budget_row",
+      "severity": "warning",
+      "message": "duplicate budget row key 2025-12|江苏省|department budget pdf|completion_rate|预算执行率目标",
+      "field": null,
+      "row_number": 6
+    },
+    {
+      "code": "duplicate_budget_row",
+      "severity": "warning",
+      "message": "duplicate budget row key 2025-12|江苏省|department budget pdf|expenditure|一般公共服务支出",
+      "field": null,
+      "row_number": 2
+    }
+  ],
+  "top_findings": [
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 南京冻猪肉政府性储备采购包1采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 南京冻猪肉政府性储备采购包1成交/中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 南京冻猪肉政府性储备采购包1合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 南京冻猪肉政府性储备采购包2采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 南京冻猪肉政府性储备采购包2成交/中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 南京冻猪肉政府性储备采购包2合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 南京冻猪肉政府性储备采购包3采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 南京冻猪肉政府性储备采购包3成交/中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 南京冻猪肉政府性储备采购包3合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 江苏税务食堂配送采购包1采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏税务食堂配送采购包1成交/中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 江苏税务食堂配送采购包1合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 江苏税务食堂配送采购包2采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏税务食堂配送采购包2成交/中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 江苏税务食堂配送采购包2合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 建设用地土壤污染状况初步调查报告技术评估采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 建设用地土壤污染状况初步调查报告技术评估成交/中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 排污许可技术支撑采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 排污许可技术支撑成交/中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 污染排放管理辅助审核采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-26T15:08:53.565Z",
+    "captured_at": "2026-04-26T23:55:00+08:00",
+    "fetch_mode": "official_web_research_round6_snapshot",
+    "source_count": 14,
+    "sixth_round_source_count": 14,
+    "parsed_source_count": 14,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 101,
+    "previous_source_overlap_count": 0,
+    "url_duplicate_source_count": 0,
+    "content_duplicate_source_count": 0,
+    "title_duplicate_source_count": 0,
+    "review_statuses": {
+      "reviewed": 14
+    },
+    "total_records": 86,
+    "procurement_chain_stage_records": 50,
+    "procurement_chain_group_count": 21,
+    "procurement_chain_closed_group_count": 0,
+    "procurement_chain_missing_contract_count": 10,
+    "procurement_chain_missing_acceptance_count": 21,
+    "procurement_chain_missing_payment_count": 18,
+    "package_amount_check_records": 50,
+    "framework_limit_records": 5,
+    "unit_price_or_rate_review_count": 6,
+    "contract_payment_condition_records": 8,
+    "discovery_queue_item_count": 61,
+    "discovery_queue_by_target_stage": {
+      "acceptance": 21,
+      "payment": 18,
+      "contract": 10,
+      "rectification": 12
+    },
+    "discovery_queue_by_priority": {
+      "P0": 31,
+      "P1": 22,
+      "P2": 8
+    },
+    "special_fund_structured_records": 8,
+    "special_fund_structured_coverage_rate": 33.33,
+    "pdf_locator_records": 24,
+    "locator_coverage_rate": 100,
+    "audit_evidence_levels": {
+      "rectification_progress": 8,
+      "formal_audit_report": 4
+    },
+    "finding_dispositions": {
+      "supplemental_data_only": 49,
+      "review_recommended": 20,
+      "risk_candidate": 4
+    },
+    "official_research_sources": [
+      {
+        "title": "江苏省物业管理服务封闭式框架协议采购项目入围公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202501/t20250114_24066186.htm",
+        "publisher": "中国政府采购网"
+      },
+      {
+        "title": "苏州市土地储备中心地块土壤污染状况调查报告技术评估采购公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250528_24687933.htm",
+        "publisher": "中国政府采购网"
+      },
+      {
+        "title": "2026年金坛区数据局信息系统软硬件运维项目采购公告（二）",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202601/t20260119_26089827.htm",
+        "publisher": "中国政府采购网"
+      },
+      {
+        "title": "2025年至2026年6月环评与污染排放管理技术支撑服务竞争性磋商公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202412/t20241225_23956712.htm",
+        "publisher": "中国政府采购网"
+      },
+      {
+        "title": "2025—2026年度南京市冻猪肉政府性储备项目采购公告",
+        "url": "https://njgc.jfh.com/purchase/detail?id=48705&type=1",
+        "publisher": "南京公共采购信息网"
+      },
+      {
+        "title": "2025—2026年度政府性储备肉菜质量公检购买服务项目公开询价结果公示",
+        "url": "https://swj.nanjing.gov.cn/njsswj/202508/t20250822_5633874.html",
+        "publisher": "南京市商务局"
+      },
+      {
+        "title": "国家税务总局江苏省税务局食堂配送服务政府采购招标文件",
+        "url": "https://jiangsu.chinatax.gov.cn/module/download/downfile.jsp?classid=0&filename=f0c990dc5a0241c688fbd564f28ae3e1.pdf",
+        "publisher": "国家税务总局江苏省税务局"
+      },
+      {
+        "title": "（苏财农〔2024〕108号）江苏省财政厅 江苏省水利厅关于提前下达2025年中央水利发展资金预算的通知",
+        "url": "https://czt.jiangsu.gov.cn/art/2024/12/18/art_77314_11449431.html",
+        "publisher": "江苏省财政厅"
+      },
+      {
+        "title": "关于印发《江苏省省级财政专项资金信用管理办法》的通知（苏财规〔2024〕8号）",
+        "url": "https://czt.jiangsu.gov.cn/art/2025/1/2/art_77684_11461939.html",
+        "publisher": "江苏省财政厅"
+      },
+      {
+        "title": "2025年度江苏省财政厅（机关）单位预算公开",
+        "url": "https://czt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=e3ba4b0b5d4d4da5a649f699e0184d53.pdf",
+        "publisher": "江苏省财政厅"
+      },
+      {
+        "title": "2025年度江苏省财政厅财政信息管理中心单位预算公开",
+        "url": "https://czt.jiangsu.gov.cn/attach/0/fff602ac98b2465f93774977780ea0ac.pdf",
+        "publisher": "江苏省财政厅财政信息管理中心"
+      },
+      {
+        "title": "省交通综合执法局开展2024年度财务收支和预算执行审计问题整改“回头看”",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/5/23/art_995_11572326.html",
+        "publisher": "江苏省审计厅"
+      },
+      {
+        "title": "江苏省2023年度省级预算执行和其他财政收支审计查出问题整改情况",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/4/8/art_80119_11536685.html",
+        "publisher": "江苏省审计厅"
+      },
+      {
+        "title": "以高质量审计服务保障全省改革发展大局",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/9/5/art_80120_11635893.html",
+        "publisher": "江苏省审计厅"
+      }
+    ]
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "contract payment evidence",
+      "action": "把招标文件、合同公告里的付款条件、结算口径、履约期限抽成 contract_payment_condition、settlement_basis、payment_trigger 三个字段。",
+      "reason": "8 条记录已经出现“预算为测算金额、按实际发生结算”等付款/结算条款。"
+    },
+    {
+      "priority": "P0",
+      "area": "framework quote semantics",
+      "action": "继续把优惠率、详见征集文件、服务范围限额、单价报价从成交总金额中拆出，框架协议默认进入补数或复核建议。",
+      "reason": "5 条框架/报价语义记录不适合直接参与预算差异高风险比较。"
+    },
+    {
+      "priority": "P1",
+      "area": "discovery queue automation",
+      "action": "为合同、验收、支付、整改公告建立可配置关键词模板，按项目编号、包号、采购单位和供应商自动生成检索任务。",
+      "reason": "第六批生成 61 个待发现项，覆盖 acceptance、payment、contract、rectification。"
+    },
+    {
+      "priority": "P1",
+      "area": "special fund policy to payment chain",
+      "action": "专项资金政策字段继续补预算科目、资金去向、禁止用途、绩效期限，并预留支付/凭证核验字段。",
+      "reason": "8 条专项资金记录已经结构化，适合下一步接支付和凭证链路。"
+    },
+    {
+      "priority": "P2",
+      "area": "audit interpretation downgrade",
+      "action": "审计报告解读、专项调查、工作方法类来源要保留 evidence weight，低权重内容只生成复核建议或知识参考。",
+      "reason": "本批审计来源层级分布为 {\"rectification_progress\":8,\"formal_audit_report\":4}。"
+    }
+  ],
+  "batch_name": "official_public_instances_round6",
+  "round6_acceptance_baseline": 84
+}

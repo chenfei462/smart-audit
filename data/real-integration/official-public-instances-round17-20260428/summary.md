@@ -1,0 +1,39 @@
+# Round 17 Official Public Instance Test
+
+Generated at: 2026-04-27T09:36:06.591Z
+
+## Test Result
+- Input records: 204
+- Accepted records: 204
+- Import success rate: 100%
+- Source count: 27
+- Previous source URL overlap: 0
+
+## Service Period Maintenance Acceptance Evidence
+- Procurement records: 130
+- Service period records: 130
+- Maintenance or warranty records: 130
+- Acceptance standard records: 130
+- Acceptance result locator records: 44
+- Payment condition records: 63
+
+## Fiscal Performance Supplemental Checklist
+- Fiscal policy records: 50
+- Checklist coverage: 100%
+- Fiscal performance metric records: 50
+
+## Audit Evidence Tiering
+- Evidence levels: audit_work_update=12, work_method_reference=6, rectification_progress=6
+- Follow-up or review records: 18
+- Low evidence records: 18
+
+## Discovery Crawler Chain Scoring
+- Discovery queue items: 318
+- Crawler statuses: manual_review=160, matched=92, not_found=66
+- Chain-scored items: 318
+- Not-found or review explanations: 226
+
+## Optimization Plan
+- P0 service period maintenance and acceptance evidence: Keep service_period, maintenance_period, warranty_period, acceptance_standard and acceptance_result_locator separate from payment terms in import, chain closure and reports. Reason: Round 17 official procurement sources expose service and warranty clauses that are downstream evidence requirements rather than payment conditions.
+- P0 fiscal performance checklist granularity: Report budget indicator, project performance target, quarterly monitoring, payment progress and voucher attachment coverage separately. Reason: Fiscal performance policies describe follow-up evidence needed for internal sample trials, not standalone violations.
+- P1 crawler chain scoring: Use project code, package number, supplier, service period and acceptance clauses to score contract, acceptance and payment candidates. Reason: URL and title matching alone leaves too many not_found or manual_review queue items.

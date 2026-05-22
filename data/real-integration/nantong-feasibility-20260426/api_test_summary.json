@@ -1,0 +1,32 @@
+﻿{
+    "login_success":  true,
+    "budget_task_id":  "0f8d6b2a-253e-4875-ae2b-ed83aca9152f",
+    "budget_total_transactions":  null,
+    "budget_risk_level":  "Medium",
+    "budget_findings":  2,
+    "procurement_task_id":  "77269910-b342-4856-98bc-54872ce03f06",
+    "procurement_total_transactions":  null,
+    "procurement_risk_level":  "High",
+    "procurement_findings":  16,
+    "case_seed_imported":  12,
+    "case_metrics":  {
+                         "total_cases":  80,
+                         "open_cases":  79,
+                         "closed_cases":  1,
+                         "overdue_open_cases":  36,
+                         "on_time_closed_cases":  1,
+                         "reminder_count":  6,
+                         "escalation_count":  36,
+                         "average_disposal_days":  0,
+                         "average_review_reject_count":  0,
+                         "closure_rate":  "1.2%",
+                         "on_time_closure_rate":  "100.0%",
+                         "automation_runs":  1,
+                         "automation_failure_count":  0,
+                         "automation_success_rate":  "100.0%",
+                         "auto_created_cases":  0,
+                         "auto_assignment_hits":  0,
+                         "auto_reminders":  4,
+                         "auto_escalations":  4
+                     }
+}

@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-04-27T12:20:51.981Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 20,
+  "procurement_input_records": 170,
+  "budget_input_records": 45,
+  "case_seed_input_records": 25,
+  "total_input_records": 240,
+  "procurement_accepted_records": 170,
+  "budget_accepted_records": 45,
+  "case_seed_accepted_records": 25,
+  "total_accepted_records": 240,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-POLICY-CHECKLIST-001": 1,
+    "PROC-COMPLAINT-EXCEPTION-001": 1
+  },
+  "source_traceable_rows": 240,
+  "source_total_rows": 240,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "award": 170
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 45
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-COMPLAINT-EXCEPTION-001",
+      "risk_level": "Review",
+      "summary": "Penalty, complaint and supervision notices are review-only until downstream contract, acceptance, payment and internal voucher evidence is complete.",
+      "severity_reason": null,
+      "missing_evidence": [
+        "correction or rebid notice",
+        "contract",
+        "acceptance",
+        "payment",
+        "voucher attachment",
+        "rectification result"
+      ],
+      "recommended_next_data": [
+        "penalty follow-up",
+        "correction notice",
+        "new award",
+        "contract",
+        "acceptance result",
+        "payment detail"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-POLICY-CHECKLIST-001",
+      "risk_level": "Info",
+      "summary": "Fiscal supervision policy rows generate follow-up evidence checklists only.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "budget indicator",
+        "performance target",
+        "payment detail",
+        "voucher attachment"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T12:20:51.978Z",
+    "captured_at": "2026-04-27T20:20:00+08:00",
+    "fetch_mode": "official_public_round20_web_research_snapshot",
+    "source_count": 20,
+    "twentieth_round_source_count": 20,
+    "parsed_source_count": 20,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 403,
+    "previous_source_overlap_count": 0,
+    "total_records": 240,
+    "procurement_records": 170,
+    "budget_records": 45,
+    "case_seed_records": 25,
+    "official_web_research_source_count": 20,
+    "procurement_exception_records": 170,
+    "complaint_decision_records": 170,
+    "complaint_or_supervision_records": 170,
+    "supervision_penalty_records": 43,
+    "correction_notice_records": 51,
+    "false_material_records": 65,
+    "malicious_collusion_records": 16,
+    "award_invalidated_records": 128,
+    "rebid_required_records": 149,
+    "agency_penalty_records": 43,
+    "procurement_exception_review_only_rate": 100,
+    "source_region_scopes": {
+      "central_unit": 20
+    },
+    "central_unit_source_count": 20,
+    "cross_province_source_count": 0,
+    "jiangsu_local_source_count": 0,
+    "finding_dispositions": {
+      "review_recommended": 179,
+      "supplemental_data_only": 45,
+      "knowledge_reference": 16
+    },
+    "fiscal_policy_supplemental_coverage_rate": 100,
+    "audit_evidence_levels": {
+      "rectification_progress": 9,
+      "audit_work_update": 16
+    },
+    "audit_low_weight_records": 16,
+    "discovery_queue_item_count": 1102,
+    "exception_chain_queue_item_count": 1093,
+    "discovery_queue_by_target_stage": {
+      "correction_notice": 149,
+      "award_invalidated": 107,
+      "rebid_notice": 135,
+      "new_award": 149,
+      "contract": 170,
+      "acceptance": 170,
+      "payment": 170,
+      "rectification": 52
+    },
+    "discovery_crawler_processed_count": 1102,
+    "discovery_crawler_matched_count": 0,
+    "discovery_crawler_match_rate": 0,
+    "discovery_crawler_statuses": {
+      "not_found": 948,
+      "manual_review": 154
+    },
+    "crawler_chain_scored_count": 1102,
+    "crawler_not_found_explained_count": 1102,
+    "source_completeness_rate": 100,
+    "locator_coverage_rate": 100,
+    "report_topics": [
+      "procurement_penalty_supervision_handling"
+    ]
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "procurement penalty field model",
+      "action": "Add structured penalty status, penalty basis, penalty duration, supplier disqualification scope and malicious collusion flags instead of storing all supervision results as generic text.",
+      "reason": "Round 20 sources show supervision penalties and complaint decisions have different downstream review needs."
+    },
+    {
+      "priority": "P0",
+      "area": "exception chain evidence closure",
+      "action": "Let crawler search penalty follow-up, correction, rebid, new award, contract, acceptance, payment and rectification by decision number plus penalty subject.",
+      "reason": "Penalty announcements alone are review evidence; downstream chain closure is needed before risk candidates."
+    },
+    {
+      "priority": "P1",
+      "area": "reporting topic",
+      "action": "Add a dedicated penalty and supervision handling block showing rejected, established, false material, collusion, penalty subject and manual review status.",
+      "reason": "PoC users need to distinguish administrative penalty clues from audit conclusions."
+    }
+  ],
+  "batch_name": "official_public_instances_round20",
+  "round20_acceptance_baseline": 130,
+  "report_topics": [
+    "procurement_penalty_supervision_handling"
+  ]
+}

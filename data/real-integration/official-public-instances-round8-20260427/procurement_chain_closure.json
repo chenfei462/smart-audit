@@ -1,0 +1,3302 @@
+{
+  "summary": {
+    "group_count": 40,
+    "closed_group_count": 0,
+    "missing_contract_count": 30,
+    "missing_acceptance_count": 30,
+    "missing_payment_count": 30,
+    "amount_review_count": 6
+  },
+  "groups": [
+    {
+      "chain_id": "pc-0d0d224a",
+      "project_code": "R8-PROC-001",
+      "project_name": "第1包",
+      "purchaser_name": "江苏财会职业学院",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 0",
+      "declared_total_award_amount": "80万元",
+      "declared_budget_amount": "80万元",
+      "ceiling_amount": "85万元",
+      "package_sum_amount": "80万元",
+      "amount_consistency_status": "needs_review",
+      "amount_difference_yuan": "20000",
+      "amount_check_reason": "分包金额与公告总额存在口径差异，保留复核提示",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "fab1a33098ad611c",
+          "amount": "优惠率9%"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm",
+          "published_at": "2025-10-31",
+          "locator_hash": "d9f7c1069cd0d666",
+          "amount": "80万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-0c0d20b7",
+      "project_code": "R8-PROC-001",
+      "project_name": "第2包",
+      "purchaser_name": "长江南京航道局",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 1",
+      "declared_total_award_amount": "74万元",
+      "declared_budget_amount": "83万元",
+      "ceiling_amount": "88万元",
+      "package_sum_amount": "76万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "1ccae855f4dee039",
+          "amount": "74万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-0b0d1f24",
+      "project_code": "R8-PROC-001",
+      "project_name": "第3包",
+      "purchaser_name": "国家税务总局湖北省税务局",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 2",
+      "declared_total_award_amount": "76万元",
+      "declared_budget_amount": "86万元",
+      "ceiling_amount": "91万元",
+      "package_sum_amount": "80万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "29dfa96e8919c736",
+          "amount": "76万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-0a0d1d91",
+      "project_code": "R8-PROC-001",
+      "project_name": "第4包",
+      "purchaser_name": "中南民族大学",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 3",
+      "declared_total_award_amount": "78万元",
+      "declared_budget_amount": "89万元",
+      "ceiling_amount": "94万元",
+      "package_sum_amount": "84万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "996acfc563f976cb",
+          "amount": "78万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-08bd9e68",
+      "project_code": "R8-PROC-002",
+      "project_name": "第2包",
+      "purchaser_name": "南京市中医院",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 5",
+      "declared_total_award_amount": "87万元",
+      "declared_budget_amount": "95万元",
+      "ceiling_amount": "100万元",
+      "package_sum_amount": "89万元",
+      "amount_consistency_status": "needs_review",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm",
+          "published_at": "2025-10-14",
+          "locator_hash": "127109b438fe4521",
+          "amount": "87万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "57e527230cb00c50",
+          "amount": "50万元以下，详见项目需求"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-09bd9ffb",
+      "project_code": "R8-PROC-002",
+      "project_name": "第3包",
+      "purchaser_name": "江苏财会职业学院",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 6",
+      "declared_total_award_amount": "89万元",
+      "declared_budget_amount": "98万元",
+      "ceiling_amount": "103万元",
+      "package_sum_amount": "93万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "6a896ad7401a8f32",
+          "amount": "89万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-0ebda7da",
+      "project_code": "R8-PROC-002",
+      "project_name": "第4包",
+      "purchaser_name": "长江南京航道局",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 7",
+      "declared_total_award_amount": "91万元",
+      "declared_budget_amount": "101万元",
+      "ceiling_amount": "106万元",
+      "package_sum_amount": "97万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "1315fc11cdbd24b0",
+          "amount": "91万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-0bbda321",
+      "project_code": "R8-PROC-002",
+      "project_name": "第1包",
+      "purchaser_name": "国家税务总局湖北省税务局",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 8",
+      "declared_total_award_amount": "93万元",
+      "declared_budget_amount": "104万元",
+      "ceiling_amount": "109万元",
+      "package_sum_amount": "93万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "5ea4c63acc5180d3",
+          "amount": "93万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-9e6ddc9a",
+      "project_code": "R8-PROC-003",
+      "project_name": "第3包",
+      "purchaser_name": "泰兴市人民医院",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 10",
+      "declared_total_award_amount": "102万元",
+      "declared_budget_amount": "110万元",
+      "ceiling_amount": "115万元",
+      "package_sum_amount": "106万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm",
+          "published_at": "2025-10-31",
+          "locator_hash": "d411001328720b41",
+          "amount": "102万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "3e3140fddc0a4e84",
+          "amount": "优惠率9%"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-996dd4bb",
+      "project_code": "R8-PROC-003",
+      "project_name": "第4包",
+      "purchaser_name": "南京市中医院",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 0",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "113万元",
+      "ceiling_amount": "118万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm",
+          "published_at": "2025-10-14",
+          "locator_hash": "03001fabd4cc1a5e",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-9c6dd974",
+      "project_code": "R8-PROC-003",
+      "project_name": "第1包",
+      "purchaser_name": "江苏财会职业学院",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 1",
+      "declared_total_award_amount": "106万元",
+      "declared_budget_amount": "116万元",
+      "ceiling_amount": "121万元",
+      "package_sum_amount": "106万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "2b56ed8c48302290",
+          "amount": "106万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-9f6dde2d",
+      "project_code": "R8-PROC-003",
+      "project_name": "第2包",
+      "purchaser_name": "长江南京航道局",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 2",
+      "declared_total_award_amount": "108万元",
+      "declared_budget_amount": "119万元",
+      "ceiling_amount": "124万元",
+      "package_sum_amount": "110万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "37d3cbf13b16ba8f",
+          "amount": "108万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-f7ff58c4",
+      "project_code": "R8-PROC-004",
+      "project_name": "第4包",
+      "purchaser_name": "中南民族大学",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 4",
+      "declared_total_award_amount": "117万元",
+      "declared_budget_amount": "125万元",
+      "ceiling_amount": "130万元",
+      "package_sum_amount": "123万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "3ad2e374dc2744e5",
+          "amount": "117万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "81594bdedbe7285b",
+          "amount": "125万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-f4ff540b",
+      "project_code": "R8-PROC-004",
+      "project_name": "第1包",
+      "purchaser_name": "泰兴市人民医院",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 5",
+      "declared_total_award_amount": "119万元",
+      "declared_budget_amount": "128万元",
+      "ceiling_amount": "133万元",
+      "package_sum_amount": "119万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm",
+          "published_at": "2025-10-31",
+          "locator_hash": "a68f8bb619ad07e7",
+          "amount": "119万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-f5ff559e",
+      "project_code": "R8-PROC-004",
+      "project_name": "第2包",
+      "purchaser_name": "南京市中医院",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 6",
+      "declared_total_award_amount": "121万元",
+      "declared_budget_amount": "131万元",
+      "ceiling_amount": "136万元",
+      "package_sum_amount": "123万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm",
+          "published_at": "2025-10-14",
+          "locator_hash": "4b59f997a94d44cd",
+          "amount": "121万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-f6ff5731",
+      "project_code": "R8-PROC-004",
+      "project_name": "第3包",
+      "purchaser_name": "江苏财会职业学院",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 7",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "134万元",
+      "ceiling_amount": "139万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "needs_review",
+      "amount_difference_yuan": "20000",
+      "amount_check_reason": "分包金额与公告总额存在口径差异，保留复核提示",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "ad06354b519423c1",
+          "amount": "50万元以下，详见项目需求"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-3f2cd006",
+      "project_code": "R8-PROC-005",
+      "project_name": "第1包",
+      "purchaser_name": "国家税务总局湖北省税务局",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 9",
+      "declared_total_award_amount": "132万元",
+      "declared_budget_amount": "140万元",
+      "ceiling_amount": "145万元",
+      "package_sum_amount": "132万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "9044d296475781c0",
+          "amount": "132万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "4345d8cc279c9ef2",
+          "amount": "140万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-3e2cce73",
+      "project_code": "R8-PROC-005",
+      "project_name": "第2包",
+      "purchaser_name": "中南民族大学",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 10",
+      "declared_total_award_amount": "134万元",
+      "declared_budget_amount": "143万元",
+      "ceiling_amount": "148万元",
+      "package_sum_amount": "136万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "40132e98cecca1d0",
+          "amount": "134万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-3d2ccce0",
+      "project_code": "R8-PROC-005",
+      "project_name": "第3包",
+      "purchaser_name": "泰兴市人民医院",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 0",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "146万元",
+      "ceiling_amount": "151万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm",
+          "published_at": "2025-10-31",
+          "locator_hash": "143ec4e3bebf4191",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-442cd7e5",
+      "project_code": "R8-PROC-005",
+      "project_name": "第4包",
+      "purchaser_name": "南京市中医院",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 1",
+      "declared_total_award_amount": "138万元",
+      "declared_budget_amount": "149万元",
+      "ceiling_amount": "154万元",
+      "package_sum_amount": "144万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm",
+          "published_at": "2025-10-14",
+          "locator_hash": "f80554e52aee172e",
+          "amount": "138万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-91090204",
+      "project_code": "R8-PROC-006",
+      "project_name": "第2包",
+      "purchaser_name": "长江南京航道局",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 3",
+      "declared_total_award_amount": "147万元",
+      "declared_budget_amount": "155万元",
+      "ceiling_amount": "160万元",
+      "package_sum_amount": "149万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "ef56b22c35acd57d",
+          "amount": "147万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm",
+          "published_at": "2025-10-14",
+          "locator_hash": "2878066e6bb12767",
+          "amount": "155万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-92090397",
+      "project_code": "R8-PROC-006",
+      "project_name": "第3包",
+      "purchaser_name": "国家税务总局湖北省税务局",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 4",
+      "declared_total_award_amount": "149万元",
+      "declared_budget_amount": "158万元",
+      "ceiling_amount": "163万元",
+      "package_sum_amount": "153万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "fd9695b92e454771",
+          "amount": "149万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-8f08fede",
+      "project_code": "R8-PROC-006",
+      "project_name": "第4包",
+      "purchaser_name": "中南民族大学",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 5",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "161万元",
+      "ceiling_amount": "166万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "needs_review",
+      "amount_difference_yuan": "20000",
+      "amount_check_reason": "分包金额与公告总额存在口径差异，保留复核提示",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "f488178406720d8f",
+          "amount": "50万元以下，详见项目需求"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-940906bd",
+      "project_code": "R8-PROC-006",
+      "project_name": "第1包",
+      "purchaser_name": "泰兴市人民医院",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 6",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "164万元",
+      "ceiling_amount": "169万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm",
+          "published_at": "2025-10-31",
+          "locator_hash": "a48e14326d0fba45",
+          "amount": "优惠率9%"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-64e4a3d6",
+      "project_code": "R8-PROC-007",
+      "project_name": "第3包",
+      "purchaser_name": "江苏财会职业学院",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 8",
+      "declared_total_award_amount": "162万元",
+      "declared_budget_amount": "170万元",
+      "ceiling_amount": "175万元",
+      "package_sum_amount": "166万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "3762cd63bcf244aa",
+          "amount": "162万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm",
+          "published_at": "2025-10-31",
+          "locator_hash": "4c2389ddc3a839bb",
+          "amount": "170万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-67e4a88f",
+      "project_code": "R8-PROC-007",
+      "project_name": "第4包",
+      "purchaser_name": "长江南京航道局",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 9",
+      "declared_total_award_amount": "164万元",
+      "declared_budget_amount": "173万元",
+      "ceiling_amount": "178万元",
+      "package_sum_amount": "170万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "1837834138bd021e",
+          "amount": "164万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-62e4a0b0",
+      "project_code": "R8-PROC-007",
+      "project_name": "第1包",
+      "purchaser_name": "国家税务总局湖北省税务局",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 10",
+      "declared_total_award_amount": "166万元",
+      "declared_budget_amount": "176万元",
+      "ceiling_amount": "181万元",
+      "package_sum_amount": "166万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "06315ff8bf19d1d0",
+          "amount": "166万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-65e4a569",
+      "project_code": "R8-PROC-007",
+      "project_name": "第2包",
+      "purchaser_name": "中南民族大学",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 0",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "179万元",
+      "ceiling_amount": "184万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "d360c1c5484e3991",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-305b2848",
+      "project_code": "R8-PROC-008",
+      "project_name": "第4包",
+      "purchaser_name": "南京市中医院",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 2",
+      "declared_total_award_amount": "177万元",
+      "declared_budget_amount": "185万元",
+      "ceiling_amount": "190万元",
+      "package_sum_amount": "183万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm",
+          "published_at": "2025-10-14",
+          "locator_hash": "b805a33625f1ea40",
+          "amount": "177万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "4eaa7a3444303170",
+          "amount": "185万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-355b3027",
+      "project_code": "R8-PROC-008",
+      "project_name": "第1包",
+      "purchaser_name": "江苏财会职业学院",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 3",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "188万元",
+      "ceiling_amount": "193万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "needs_review",
+      "amount_difference_yuan": "20000",
+      "amount_check_reason": "分包金额与公告总额存在口径差异，保留复核提示",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "019c8933a6899311",
+          "amount": "50万元以下，详见项目需求"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-365b31ba",
+      "project_code": "R8-PROC-008",
+      "project_name": "第2包",
+      "purchaser_name": "长江南京航道局",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 4",
+      "declared_total_award_amount": "181万元",
+      "declared_budget_amount": "191万元",
+      "ceiling_amount": "196万元",
+      "package_sum_amount": "183万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "ea629ca25a6c893a",
+          "amount": "181万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-375b334d",
+      "project_code": "R8-PROC-008",
+      "project_name": "第3包",
+      "purchaser_name": "国家税务总局湖北省税务局",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 5",
+      "declared_total_award_amount": "183万元",
+      "declared_budget_amount": "194万元",
+      "ceiling_amount": "199万元",
+      "package_sum_amount": "187万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "ef815bc68829508e",
+          "amount": "183万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-e32daf22",
+      "project_code": "R8-PROC-009",
+      "project_name": "第1包",
+      "purchaser_name": "泰兴市人民医院",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 7",
+      "declared_total_award_amount": "192万元",
+      "declared_budget_amount": "200万元",
+      "ceiling_amount": "205万元",
+      "package_sum_amount": "192万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm",
+          "published_at": "2025-10-31",
+          "locator_hash": "798b91c26d524eef",
+          "amount": "192万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25495565.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "aad4d5c1857917de",
+          "amount": "0.68万元/台"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-e22dad8f",
+      "project_code": "R8-PROC-009",
+      "project_name": "第2包",
+      "purchaser_name": "南京市中医院",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 8",
+      "declared_total_award_amount": "194万元",
+      "declared_budget_amount": "203万元",
+      "ceiling_amount": "208万元",
+      "package_sum_amount": "196万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm",
+          "published_at": "2025-10-14",
+          "locator_hash": "285fa248ab82e44b",
+          "amount": "194万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-e12dabfc",
+      "project_code": "R8-PROC-009",
+      "project_name": "第3包",
+      "purchaser_name": "江苏财会职业学院",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 9",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "206万元",
+      "ceiling_amount": "211万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "2f951a5bc42f5949",
+          "amount": "优惠率9%"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-e02daa69",
+      "project_code": "R8-PROC-009",
+      "project_name": "第4包",
+      "purchaser_name": "长江南京航道局",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 10",
+      "declared_total_award_amount": "198万元",
+      "declared_budget_amount": "209万元",
+      "ceiling_amount": "214万元",
+      "package_sum_amount": "204万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "f440075337ebfbb3",
+          "amount": "198万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-319993f9",
+      "project_code": "R8-PROC-010",
+      "project_name": "第2包",
+      "purchaser_name": "中南民族大学",
+      "package_no": "包2",
+      "package_name": "第2包",
+      "supplier_name": "Round8 Official Supplier 1",
+      "declared_total_award_amount": "215万元",
+      "declared_budget_amount": "215万元",
+      "ceiling_amount": "220万元",
+      "package_sum_amount": "217万元",
+      "amount_consistency_status": "needs_review",
+      "amount_difference_yuan": "20000",
+      "amount_check_reason": "分包金额与公告总额存在口径差异，保留复核提示",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251009_25496097.htm",
+          "published_at": "2025-10-09",
+          "locator_hash": "4008bba7f10b3ef2",
+          "amount": "50万元以下，详见项目需求"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202510/t20251028_25573075.htm",
+          "published_at": "2025-10-28",
+          "locator_hash": "b2c6f81ff998c996",
+          "amount": "215万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-30999266",
+      "project_code": "R8-PROC-010",
+      "project_name": "第3包",
+      "purchaser_name": "泰兴市人民医院",
+      "package_no": "包3",
+      "package_name": "第3包",
+      "supplier_name": "Round8 Official Supplier 2",
+      "declared_total_award_amount": "209万元",
+      "declared_budget_amount": "218万元",
+      "ceiling_amount": "223万元",
+      "package_sum_amount": "213万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251031_25591986.htm",
+          "published_at": "2025-10-31",
+          "locator_hash": "3eeed1a2bb5b561d",
+          "amount": "209万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-3399971f",
+      "project_code": "R8-PROC-010",
+      "project_name": "第4包",
+      "purchaser_name": "南京市中医院",
+      "package_no": "包4",
+      "package_name": "第4包",
+      "supplier_name": "Round8 Official Supplier 3",
+      "declared_total_award_amount": "211万元",
+      "declared_budget_amount": "221万元",
+      "ceiling_amount": "226万元",
+      "package_sum_amount": "217万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202510/t20251014_25513317.htm",
+          "published_at": "2025-10-14",
+          "locator_hash": "52690989d56baa71",
+          "amount": "211万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-2e998f40",
+      "project_code": "R8-PROC-010",
+      "project_name": "第1包",
+      "purchaser_name": "江苏财会职业学院",
+      "package_no": "包1",
+      "package_name": "第1包",
+      "supplier_name": "Round8 Official Supplier 4",
+      "declared_total_award_amount": "213万元",
+      "declared_budget_amount": "224万元",
+      "ceiling_amount": "229万元",
+      "package_sum_amount": "213万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "分包合计与公告口径一致",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zbgg&ggid=ab25bcd530df4b74a4c604d87d22b62f",
+          "published_at": "2025-10-01",
+          "locator_hash": "4d8bd10f3eed6fd6",
+          "amount": "213万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    }
+  ]
+}

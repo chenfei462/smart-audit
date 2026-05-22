@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-04-27T06:13:45.024Z",
+  "captured_at": "2026-04-27T19:00:00+08:00",
+  "fetch_mode": "official_public_round12_web_research_snapshot",
+  "source_count": 20,
+  "official_web_research_source_count": 20,
+  "twelfth_round_source_count": 20,
+  "parsed_source_count": 20,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 223,
+  "previous_source_overlap_count": 0,
+  "total_records": 152,
+  "procurement_records": 92,
+  "budget_records": 42,
+  "case_seed_records": 18,
+  "source_region_scopes": {
+    "central_unit": 3,
+    "cross_province": 1,
+    "jiangsu_local": 16
+  },
+  "central_unit_source_count": 3,
+  "cross_province_source_count": 1,
+  "jiangsu_local_source_count": 16,
+  "wrong_jiangsu_attribution_review_count": 0,
+  "procurement_stages": {
+    "announcement": 23,
+    "award": 23,
+    "contract": 23,
+    "acceptance": 23
+  },
+  "contract_term_records": 92,
+  "government_purchase_service_records": 16,
+  "joint_bid_allowed_records": 16,
+  "policy_sensitive_procurement_records": 31,
+  "policy_chain_checklist_coverage_rate": 100,
+  "policy_supplemental_data_coverage_rate": 100,
+  "payment_voucher_linkage_field_coverage_rate": 100,
+  "budget_policy_records": 30,
+  "special_fund_policy_records": 12,
+  "audit_evidence_levels": {
+    "special_audit_survey": 6,
+    "rectification_progress": 5,
+    "audit_project_plan": 3,
+    "work_method_reference": 2,
+    "methodology_or_experience": 2
+  },
+  "audit_low_weight_records": 13,
+  "finding_dispositions": {
+    "supplemental_data_only": 92,
+    "review_recommended": 6,
+    "risk_candidate": 5,
+    "knowledge_reference": 7
+  },
+  "amount_semantic_types": {
+    "budget_amount": 23,
+    "award_total": 69
+  },
+  "unit_normalized_records": 134,
+  "discovery_queue_item_count": 241,
+  "discovery_queue_by_target_stage": {
+    "contract": 69,
+    "acceptance": 69,
+    "payment": 92,
+    "rectification": 11
+  },
+  "discovery_crawler_processed_count": 241,
+  "discovery_crawler_matched_count": 0,
+  "discovery_crawler_match_rate": 0,
+  "discovery_crawler_statuses": {
+    "not_found": 230,
+    "manual_review": 11
+  },
+  "locator_coverage_rate": 100,
+  "source_completeness_rate": 100
+}

@@ -1,0 +1,29 @@
+# Round 5 Official Public Instance Test
+
+- Batch: official_public_instances_round5
+- Official sources: 12
+- Total input records: 88
+- Total accepted records: 88
+- Import success rate: 100%
+- Source completeness rate: 100%
+- Registry overlap with previous batches: 0
+- Procurement chain groups: 9
+- Closed public chains: 8
+- Discovery queue items: 11
+
+## Discovery Queue
+- Target stages: contract 1, acceptance 1, payment 1, rectification 8
+- Priorities: P0 2, P1 3, P2 6
+- Disposition: queue items are supplement/review recommendations, not substantive violation conclusions.
+
+## Rule Hits
+- BUDGET-PUBLIC-TREND-001: 3
+- PROC-AMOUNT-CONSISTENCY-001: 6
+- PROC-CHAIN-001: 26
+- PROC-SPLIT-001: 1
+
+## Optimization Plan
+- P0 township fiscal modeling: Keep township fiscal execution as a separate dataset and expose section coverage, caliber notes and fiscal level in the report/dashboard.
+- P0 procurement chain closure: Add a chain view that groups announcement, award, contract, acceptance and payment public records by project code and package number.
+- P1 PDF gazette locator extraction: Strengthen JSRD PDF extraction for page, paragraph, table title, row index, column name and locator hash.
+- P1 audit evidence disposition: Keep audit project plans and work updates out of substantive violation findings; route them to supplement or review queues.

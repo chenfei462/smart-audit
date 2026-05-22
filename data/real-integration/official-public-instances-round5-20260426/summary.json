@@ -1,0 +1,470 @@
+{
+  "generated_at": "2026-04-26T14:43:57.794Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 12,
+  "procurement_input_records": 42,
+  "budget_input_records": 34,
+  "case_seed_input_records": 12,
+  "total_input_records": 88,
+  "procurement_accepted_records": 42,
+  "budget_accepted_records": 34,
+  "case_seed_accepted_records": 12,
+  "total_accepted_records": 88,
+  "import_success_rate": 100,
+  "quality_check_count": 6,
+  "quality_warning_count": 6,
+  "quality_error_count": 0,
+  "finding_count": 36,
+  "rule_hits_by_rule": {
+    "BUDGET-PUBLIC-TREND-001": 3,
+    "PROC-AMOUNT-CONSISTENCY-001": 6,
+    "PROC-CHAIN-001": 26,
+    "PROC-SPLIT-001": 1
+  },
+  "source_traceable_rows": 88,
+  "source_total_rows": 88,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 9,
+    "award": 9,
+    "contract": 8,
+    "acceptance": 8,
+    "payment": 8
+  },
+  "dataset_coverage": {
+    "unknown": 34
+  },
+  "risk_levels": {
+    "procurement": "High",
+    "budget": [
+      "High",
+      "Low"
+    ]
+  },
+  "top_quality_checks": [
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JS-ACCEPT-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 36
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 ZY-SMART-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 26
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 ZY-DATA-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 31
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JS-DISCOVERY-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 41
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JS-REPAIR-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 16
+    },
+    {
+      "code": "duplicate_project_code",
+      "severity": "warning",
+      "message": "项目编号 JS-CARBON-2025 在导入数据中重复出现",
+      "field": "project_code",
+      "row_number": 1
+    }
+  ],
+  "top_findings": [
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 碳监测服务一包采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 碳监测服务一包中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 碳监测服务一包合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 碳监测服务二包采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 碳监测服务二包中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 碳监测服务二包合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 碳监测服务三包采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 碳监测服务三包中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 碳监测服务三包合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 船舶维修一包采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 船舶维修一包中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 船舶维修一包合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 船舶维修二包采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 船舶维修二包中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 船舶维修二包合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 数字监管服务采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 数字监管服务中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 数字监管服务合同公告 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "summary": "项目 数据平台运维采购公告 在 招标/采购公告 阶段缺少后续证据",
+      "severity_reason": "announcement-stage-supplemental-evidence-needed",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 数据平台运维中标公告 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-26T14:43:55.941Z",
+    "captured_at": "2026-04-26T23:20:00+08:00",
+    "fetch_mode": "official_snapshot_round5",
+    "source_count": 12,
+    "fifth_round_source_count": 12,
+    "parsed_source_count": 12,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 89,
+    "previous_source_overlap_count": 0,
+    "url_duplicate_source_count": 0,
+    "content_duplicate_source_count": 0,
+    "title_duplicate_source_count": 0,
+    "review_statuses": {
+      "reviewed": 12
+    },
+    "total_records": 88,
+    "township_fiscal_records": 24,
+    "township_fiscal_structured_coverage_rate": 100,
+    "procurement_chain_stage_records": 42,
+    "procurement_chain_group_count": 9,
+    "procurement_chain_closed_group_count": 8,
+    "procurement_chain_missing_contract_count": 1,
+    "procurement_chain_missing_acceptance_count": 1,
+    "procurement_chain_missing_payment_count": 1,
+    "package_amount_check_records": 42,
+    "amount_consistency_statuses": {
+      "review_needed": 15,
+      "consistent": 27
+    },
+    "discovery_queue_item_count": 11,
+    "discovery_queue_by_target_stage": {
+      "contract": 1,
+      "acceptance": 1,
+      "payment": 1,
+      "rectification": 8
+    },
+    "discovery_queue_by_priority": {
+      "P0": 2,
+      "P1": 3,
+      "P2": 6
+    },
+    "pdf_locator_records": 10,
+    "locator_coverage_rate": 100,
+    "audit_evidence_levels": {
+      "rectification_progress": 2,
+      "formal_audit_report": 2,
+      "special_audit_survey": 2,
+      "audit_result_feedback": 2,
+      "audit_work_update": 2,
+      "work_method_reference": 2
+    },
+    "finding_dispositions": {
+      "supplemental_data_only": 9,
+      "review_recommended": 6,
+      "risk_candidate": 2
+    }
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "township fiscal modeling",
+      "action": "Keep township fiscal execution as a separate dataset and expose section coverage, caliber notes and fiscal level in the report/dashboard.",
+      "reason": "24 township/street rows were structured in this round."
+    },
+    {
+      "priority": "P0",
+      "area": "procurement chain closure",
+      "action": "Add a chain view that groups announcement, award, contract, acceptance and payment public records by project code and package number.",
+      "reason": "9 chain groups and 11 discovery queue items were generated."
+    },
+    {
+      "priority": "P1",
+      "area": "PDF gazette locator extraction",
+      "action": "Strengthen JSRD PDF extraction for page, paragraph, table title, row index, column name and locator hash.",
+      "reason": "10 records include PDF/web locator evidence."
+    },
+    {
+      "priority": "P1",
+      "area": "audit evidence disposition",
+      "action": "Keep audit project plans and work updates out of substantive violation findings; route them to supplement or review queues.",
+      "reason": "Evidence levels in this run: {\"rectification_progress\":2,\"formal_audit_report\":2,\"special_audit_survey\":2,\"audit_result_feedback\":2,\"audit_work_update\":2,\"work_method_reference\":2}."
+    }
+  ],
+  "batch_name": "official_public_instances_round5",
+  "round5_acceptance_baseline": 80
+}

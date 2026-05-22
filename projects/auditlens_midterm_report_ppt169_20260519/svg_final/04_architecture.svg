@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53" />
+      <stop offset="100%" stop-color="#1F7A6D" />
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)" />
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">架构围绕工作台、服务层、规则与数据层展开</text>
+    <text x="56" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">目标是让财政监督任务从演示环境平滑走向单租户 PoC 交付</text>
+  </g>
+  <g id="architecture-layers">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M64,148 H768 A8,8 0 0 1 776,156 V236 A8,8 0 0 1 768,244 H64 A8,8 0 0 1 56,236 V156 A8,8 0 0 1 64,148 Z" />
+    <path fill="#1F7A6D" d="M61,148 H61 A5,5 0 0 1 66,153 V239 A5,5 0 0 1 61,244 H61 A5,5 0 0 1 56,239 V153 A5,5 0 0 1 61,148 Z" />
+    
+  <g transform="translate(88.0, 174.0) scale(1.25)" fill="none" stroke="#1F7A6D" stroke-width="2">
+    <path d="M3 4l18 0" />
+    <path d="M4 4v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-10" />
+    <path d="M12 16l0 4" />
+    <path d="M9 20l6 0" />
+    <path d="M8 12l3 -3l2 2l3 -3" />
+  </g>
+    <text x="136" y="184" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">前端工作台</text>
+    <text x="136" y="216" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">任务列表、审计详情、案件整改、异常池、管理后台、公开线索入口</text>
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M64,266 H768 A8,8 0 0 1 776,274 V354 A8,8 0 0 1 768,362 H64 A8,8 0 0 1 56,354 V274 A8,8 0 0 1 64,266 Z" />
+    <path fill="#0B3A53" d="M61,266 H61 A5,5 0 0 1 66,271 V357 A5,5 0 0 1 61,362 H61 A5,5 0 0 1 56,357 V271 A5,5 0 0 1 61,266 Z" />
+    
+  <g transform="translate(88.0, 292.0) scale(1.25)" fill="none" stroke="#0B3A53" stroke-width="2">
+    <path d="M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2" />
+    <path d="M12 20h-6a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h10.5" />
+    <path d="M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M18 14.5v1.5" />
+    <path d="M18 20v1.5" />
+    <path d="M21.032 16.25l-1.299 .75" />
+    <path d="M16.27 19l-1.3 .75" />
+    <path d="M14.97 16.25l1.3 .75" />
+    <path d="M19.733 19l1.3 .75" />
+    <path d="M7 8v.01" />
+    <path d="M7 16v.01" />
+  </g>
+    <text x="136" y="302" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">服务与 API 层</text>
+    <text x="136" y="334" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">认证权限、任务创建、AI 策略、报告导出、密封包生成与验证</text>
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M64,384 H768 A8,8 0 0 1 776,392 V472 A8,8 0 0 1 768,480 H64 A8,8 0 0 1 56,472 V392 A8,8 0 0 1 64,384 Z" />
+    <path fill="#F59E0B" d="M61,384 H61 A5,5 0 0 1 66,389 V475 A5,5 0 0 1 61,480 H61 A5,5 0 0 1 56,475 V389 A5,5 0 0 1 61,384 Z" />
+    
+  <g transform="translate(88.0, 410.0) scale(1.25)" fill="none" stroke="#F59E0B" stroke-width="2">
+    <path d="M4 6c0 1.657 3.582 3 8 3s8 -1.343 8 -3s-3.582 -3 -8 -3s-8 1.343 -8 3" />
+    <path d="M4 6v6c0 1.657 3.582 3 8 3c.856 0 1.68 -.05 2.454 -.144m5.546 -2.856v-6" />
+    <path d="M4 12v6c0 1.657 3.582 3 8 3c.171 0 .341 -.002 .51 -.006" />
+    <path d="M19 22v-6" />
+    <path d="M22 19l-3 -3l-3 3" />
+  </g>
+    <text x="136" y="420" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">规则与数据层</text>
+    <text x="136" y="452" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">CSV / Excel 解析、SQLite 状态库、财政规则、预算采购证据联动</text>
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M64,502 H768 A8,8 0 0 1 776,510 V590 A8,8 0 0 1 768,598 H64 A8,8 0 0 1 56,590 V510 A8,8 0 0 1 64,502 Z" />
+    <path fill="#C2410C" d="M61,502 H61 A5,5 0 0 1 66,507 V593 A5,5 0 0 1 61,598 H61 A5,5 0 0 1 56,593 V507 A5,5 0 0 1 61,502 Z" />
+    
+  <g transform="translate(88.0, 528.0) scale(1.25)" fill="none" stroke="#C2410C" stroke-width="2">
+    <path d="M11.5 21h-4.5a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v.5" />
+    <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+    <path d="M8 11v-4a4 4 0 1 1 8 0v4" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="136" y="538" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">运维配置层</text>
+    <text x="136" y="570" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">runtime profile、健康检查、备份恢复、审计归档与 PoC 安全基线</text>
+  </g>
+  <g id="deployment-panel">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M836,148 H1216 A8,8 0 0 1 1224,156 V360 A8,8 0 0 1 1216,368 H836 A8,8 0 0 1 828,360 V156 A8,8 0 0 1 836,148 Z" />
+    <text x="860" y="185" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">部署策略</text>
+    <path fill="#EAF2F0" stroke="#1F7A6D" d="M868,216 H996 A8,8 0 0 1 1004,224 V256 A8,8 0 0 1 996,264 H868 A8,8 0 0 1 860,256 V224 A8,8 0 0 1 868,216 Z" />
+    <text x="932" y="247" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#1F7A6D">公网样板</text>
+    <path fill="#EAF2F0" stroke="#0B3A53" d="M1056,216 H1184 A8,8 0 0 1 1192,224 V256 A8,8 0 0 1 1184,264 H1056 A8,8 0 0 1 1048,256 V224 A8,8 0 0 1 1056,216 Z" />
+    <text x="1120" y="247" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#0B3A53">政府 PoC</text>
+    <text font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#64748B" x="860" y="302">先用公开样板证明主流程，再用 PoC profile</text><text font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#64748B" x="860" y="327">收敛权限、数据源、日志和导出边界。</text></g>
+  <g id="architecture-placeholder">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M836,398 H1216 A8,8 0 0 1 1224,406 V590 A8,8 0 0 1 1216,598 H836 A8,8 0 0 1 828,590 V406 A8,8 0 0 1 836,398 Z" />
+    <path fill="none" stroke="#1F7A6D" stroke-width="2" stroke-dasharray="8,4" d="M868,430 H1184 A8,8 0 0 1 1192,438 V548 A8,8 0 0 1 1184,556 H868 A8,8 0 0 1 860,548 V438 A8,8 0 0 1 868,430 Z" />
+    
+  <g transform="translate(1008.0, 466.0) scale(2.0)" fill="none" stroke="#1F7A6D" stroke-width="2">
+    <path d="M15 8h.01" />
+    <path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12" />
+    <path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5" />
+    <path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3" />
+  </g>
+    <text x="1026" y="538" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#64748B">架构图 / 部署截图占位</text>
+    <text x="1026" y="578" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">后续可替换为实际部署拓扑截图</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: docs/architecture.md, docs/DEPLOYMENT.md, docs/API.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">04 / 08</text>
+  </g>
+</svg>

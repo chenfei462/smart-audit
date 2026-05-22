@@ -1,0 +1,227 @@
+{
+  "summary": {
+    "total_items": 11,
+    "by_target_stage": {
+      "contract": 1,
+      "acceptance": 1,
+      "payment": 1,
+      "rectification": 8
+    },
+    "by_priority": {
+      "P0": 2,
+      "P1": 3,
+      "P2": 6
+    },
+    "review_statuses": {
+      "new": 11
+    }
+  },
+  "items": [
+    {
+      "queue_id": "pc-9e2b691f",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "JS-DISCOVERY-2025",
+      "package_no": "1",
+      "package_name": "培训服务一包",
+      "purchaser_name": "江苏省培训服务单位",
+      "search_keyword": "江苏省培训服务单位 JS-DISCOVERY-2025 培训服务一包 合同公告",
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况"
+    },
+    {
+      "queue_id": "pc-d332beee",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "JS-DISCOVERY-2025",
+      "package_no": "1",
+      "package_name": "培训服务一包",
+      "purchaser_name": "江苏省培训服务单位",
+      "search_keyword": "江苏省培训服务单位 JS-DISCOVERY-2025 培训服务一包 履约验收公告",
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况"
+    },
+    {
+      "queue_id": "pc-09ccf315",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "JS-DISCOVERY-2025",
+      "package_no": "1",
+      "package_name": "培训服务一包",
+      "purchaser_name": "江苏省培训服务单位",
+      "search_keyword": "江苏省培训服务单位 JS-DISCOVERY-2025 培训服务一包 支付公开信息",
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况"
+    },
+    {
+      "queue_id": "pc-9dd7723e",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "relevant department",
+      "search_keyword": "relevant department round5 audit evidence sample 1 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论"
+    },
+    {
+      "queue_id": "pc-9cd770ab",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "relevant department",
+      "search_keyword": "relevant department round5 audit evidence sample 2 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论"
+    },
+    {
+      "queue_id": "pc-9bd76f18",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "relevant department",
+      "search_keyword": "relevant department round5 audit evidence sample 3 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论"
+    },
+    {
+      "queue_id": "pc-a2d77a1d",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "relevant department",
+      "search_keyword": "relevant department round5 audit evidence sample 4 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论"
+    },
+    {
+      "queue_id": "pc-9fd77564",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "relevant department",
+      "search_keyword": "relevant department round5 audit evidence sample 7 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论"
+    },
+    {
+      "queue_id": "pc-96d76739",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "relevant department",
+      "search_keyword": "relevant department round5 audit evidence sample 8 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论"
+    },
+    {
+      "queue_id": "pc-95d765a6",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "relevant department",
+      "search_keyword": "relevant department round5 audit evidence sample 9 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论"
+    },
+    {
+      "queue_id": "pc-88288c0a",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "relevant department",
+      "search_keyword": "relevant department round5 audit evidence sample 10 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论"
+    }
+  ]
+}

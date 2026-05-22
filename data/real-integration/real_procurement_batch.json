@@ -1,0 +1,51 @@
+{
+  "title": "中国政府公开采购公告联调样本（真实公开数据）",
+  "records": [
+    {
+      "project_name": "12345政务服务便民热线服务项目（2025年-2028年）",
+      "purchaser_name": "中山市12345投诉举报平台管理中心",
+      "announcement_type": "公开招标公告",
+      "project_code": "CGZX-CG202501001",
+      "procurement_method": "公开招标",
+      "published_at": "2025-03-12",
+      "region": "广东省中山市",
+      "budget_amount": "56294025.00",
+      "award_amount": null,
+      "supplier_name": null,
+      "budget_project_id": null,
+      "contract_no": null,
+      "contract_published_at": null,
+      "acceptance_summary": "本项目委托服务期限为36个月。以采购人确认通过内部验收后确定的日期起算。",
+      "acceptance_status": "待履约",
+      "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202503/t20250312_24290740.htm",
+      "indicator_document_no": null,
+      "project_catalog_id": "442000-2025-00539",
+      "function_classification_code": null,
+      "economic_classification_code": null,
+      "source_row": 1
+    },
+    {
+      "project_name": "自然资源部2025年度预算绩效部门评价项目",
+      "purchaser_name": "自然资源部",
+      "announcement_type": "竞争性磋商公告",
+      "project_code": "TC260P03F",
+      "procurement_method": "竞争性磋商",
+      "published_at": "2026-01-29",
+      "region": "北京市",
+      "budget_amount": "1300000.00",
+      "award_amount": null,
+      "supplier_name": null,
+      "budget_project_id": null,
+      "contract_no": null,
+      "contract_published_at": null,
+      "acceptance_summary": "公告阶段，尚未形成合同公告与履约验收记录。",
+      "acceptance_status": "公告阶段",
+      "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202601/t20260129_26130403.htm",
+      "indicator_document_no": null,
+      "project_catalog_id": null,
+      "function_classification_code": null,
+      "economic_classification_code": null,
+      "source_row": 2
+    }
+  ]
+}

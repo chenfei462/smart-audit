@@ -1,0 +1,2719 @@
+{
+  "summary": {
+    "group_count": 33,
+    "closed_group_count": 0,
+    "missing_contract_count": 22,
+    "missing_acceptance_count": 22,
+    "missing_payment_count": 23,
+    "amount_review_count": 0
+  },
+  "groups": [
+    {
+      "chain_id": "pc-f0edcba3",
+      "project_code": "R7-PROC-001",
+      "project_name": "服务包1",
+      "purchaser_name": "南京市商务局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 0",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "120万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202604/t20260401_27000001.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "82be093755b0e690",
+          "amount": "优惠率8%"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&round7=medical",
+          "published_at": "2026-04-26",
+          "locator_hash": "9fa2f4eda7e18b42",
+          "amount": "101万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-f1edcd36",
+      "project_code": "R7-PROC-001",
+      "project_name": "服务包2",
+      "purchaser_name": "南通市财政局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 1",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "121万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202604/t20260402_27000002.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "c23576bf4f5c2978",
+          "amount": "99万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=ysgg&round7=school",
+          "published_at": "2026-04-26",
+          "locator_hash": "42c6dc25d6a921c7",
+          "amount": "102万元"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-f2edcec9",
+      "project_code": "R7-PROC-001",
+      "project_name": "服务包3",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 2",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "122万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/202604/t20260403_27000003.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "c17b447919f9f980",
+          "amount": "100万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-83c402ce",
+      "project_code": "R7-PROC-002",
+      "project_name": "服务包3",
+      "purchaser_name": "南通市财政局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 5",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "125万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zfgg&round7=garden",
+          "published_at": "2026-04-26",
+          "locator_hash": "2e719c56abde5daa",
+          "amount": "103万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/round7-payment-security.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "ed994ca3f5394e2a",
+          "amount": "106万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-81c3ffa8",
+      "project_code": "R7-PROC-002",
+      "project_name": "服务包1",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 6",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "126万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://swj.nanjing.gov.cn/njsswj/202604/t20260404_5700001.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "c4e877d417087683",
+          "amount": "104万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://jiangsu.chinatax.gov.cn/art/2026/4/5/art_round7_contract.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "ed86c281d6ad672d",
+          "amount": "107万元"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-84c40461",
+      "project_code": "R7-PROC-002",
+      "project_name": "服务包2",
+      "purchaser_name": "苏州市城市管理局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 7",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "127万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.suzhou.gov.cn/szsrmzf/ztbgg/202604/round7-acceptance.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "515d4867cf12515e",
+          "amount": "105万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-73aac49c",
+      "project_code": "R7-PROC-003",
+      "project_name": "服务包2",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 1",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "130万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202604/t20260401_27000001.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "fe2b9351470d88b2",
+          "amount": "108万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&round7=medical",
+          "published_at": "2026-04-26",
+          "locator_hash": "55917a6aa996e4a2",
+          "amount": "0.018万元/项"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-74aac62f",
+      "project_code": "R7-PROC-003",
+      "project_name": "服务包3",
+      "purchaser_name": "苏州市城市管理局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 2",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "131万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202604/t20260402_27000002.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "c042921e5175a3d5",
+          "amount": "50万元以下"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=ysgg&round7=school",
+          "published_at": "2026-04-26",
+          "locator_hash": "1c966ccf1d9b0ca5",
+          "amount": "112万元"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-76aac955",
+      "project_code": "R7-PROC-003",
+      "project_name": "服务包1",
+      "purchaser_name": "南京市商务局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 3",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "132万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/202604/t20260403_27000003.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "9d6b70153c205f4d",
+          "amount": "110万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-be59d6e2",
+      "project_code": "R7-PROC-004",
+      "project_name": "服务包1",
+      "purchaser_name": "苏州市城市管理局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 6",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "135万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zfgg&round7=garden",
+          "published_at": "2026-04-26",
+          "locator_hash": "149548a845e1cf70",
+          "amount": "113万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/round7-payment-security.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "732d23f7719463f2",
+          "amount": "116万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-bd59d54f",
+      "project_code": "R7-PROC-004",
+      "project_name": "服务包2",
+      "purchaser_name": "南京市商务局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 7",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "136万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://swj.nanjing.gov.cn/njsswj/202604/t20260404_5700001.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "3a64b3b31a53ec84",
+          "amount": "114万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://jiangsu.chinatax.gov.cn/art/2026/4/5/art_round7_contract.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "8b6a191fd0198145",
+          "amount": "117万元"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-bc59d3bc",
+      "project_code": "R7-PROC-004",
+      "project_name": "服务包3",
+      "purchaser_name": "南通市财政局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 8",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "137万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.suzhou.gov.cn/szsrmzf/ztbgg/202604/round7-acceptance.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "4fa0681ca54e7ff8",
+          "amount": "优惠率8%"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-5d291e0d",
+      "project_code": "R7-PROC-005",
+      "project_name": "服务包3",
+      "purchaser_name": "南京市商务局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 2",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "140万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202604/t20260401_27000001.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "e34976cf839b7159",
+          "amount": "118万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&round7=medical",
+          "published_at": "2026-04-26",
+          "locator_hash": "98019bb0dda21963",
+          "amount": "121万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-5b291ae7",
+      "project_code": "R7-PROC-005",
+      "project_name": "服务包1",
+      "purchaser_name": "南通市财政局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 3",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "141万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202604/t20260402_27000002.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "b8c2d6eb3da49bf5",
+          "amount": "119万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=ysgg&round7=school",
+          "published_at": "2026-04-26",
+          "locator_hash": "c9deaccb9f779174",
+          "amount": "122万元"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-5c291c7a",
+      "project_code": "R7-PROC-005",
+      "project_name": "服务包2",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 4",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "142万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/202604/t20260403_27000003.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "3895a182a7e57938",
+          "amount": "50万元以下"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-41829a45",
+      "project_code": "R7-PROC-006",
+      "project_name": "服务包2",
+      "purchaser_name": "南通市财政局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 7",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "145万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zfgg&round7=garden",
+          "published_at": "2026-04-26",
+          "locator_hash": "72a3dadcefe6379d",
+          "amount": "123万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/round7-payment-security.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "faebea36916874e3",
+          "amount": "126万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-408298b2",
+      "project_code": "R7-PROC-006",
+      "project_name": "服务包3",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 8",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "146万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://swj.nanjing.gov.cn/njsswj/202604/t20260404_5700001.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "01c09f5914b3efa6",
+          "amount": "0.018万元/项"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://jiangsu.chinatax.gov.cn/art/2026/4/5/art_round7_contract.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "e1a8b3b755133e6e",
+          "amount": "127万元"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-3e82958c",
+      "project_code": "R7-PROC-006",
+      "project_name": "服务包1",
+      "purchaser_name": "苏州市城市管理局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 0",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "147万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.suzhou.gov.cn/szsrmzf/ztbgg/202604/round7-acceptance.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "4e7e06327e251513",
+          "amount": "125万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-87ab5139",
+      "project_code": "R7-PROC-007",
+      "project_name": "服务包1",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 3",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "150万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202604/t20260401_27000001.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "b05ed5f1f9b05bec",
+          "amount": "128万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&round7=medical",
+          "published_at": "2026-04-26",
+          "locator_hash": "ae988b942ab150e1",
+          "amount": "50万元以下"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-84ab4c80",
+      "project_code": "R7-PROC-007",
+      "project_name": "服务包2",
+      "purchaser_name": "苏州市城市管理局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 4",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "151万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202604/t20260402_27000002.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "ebeab55f86c79829",
+          "amount": "129万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=ysgg&round7=school",
+          "published_at": "2026-04-26",
+          "locator_hash": "97dae47b6a9eb041",
+          "amount": "优惠率8%"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-85ab4e13",
+      "project_code": "R7-PROC-007",
+      "project_name": "服务包3",
+      "purchaser_name": "南京市商务局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 5",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "152万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/202604/t20260403_27000003.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "5d25a51318a4e499",
+          "amount": "130万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-dd63b7a0",
+      "project_code": "R7-PROC-008",
+      "project_name": "服务包3",
+      "purchaser_name": "苏州市城市管理局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 8",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "155万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zfgg&round7=garden",
+          "published_at": "2026-04-26",
+          "locator_hash": "28baccf787e0f6d1",
+          "amount": "133万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/round7-payment-security.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "71dc093ac025f3fc",
+          "amount": "136万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-df63bac6",
+      "project_code": "R7-PROC-008",
+      "project_name": "服务包1",
+      "purchaser_name": "南京市商务局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 0",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "156万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://swj.nanjing.gov.cn/njsswj/202604/t20260404_5700001.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "cc3984beda25f689",
+          "amount": "134万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://jiangsu.chinatax.gov.cn/art/2026/4/5/art_round7_contract.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "5ee593bc7eacdf44",
+          "amount": "0.018万元/项"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-de63b933",
+      "project_code": "R7-PROC-008",
+      "project_name": "服务包2",
+      "purchaser_name": "南通市财政局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 1",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "157万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.suzhou.gov.cn/szsrmzf/ztbgg/202604/round7-acceptance.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "dd2910c30135b789",
+          "amount": "135万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-1bcd405e",
+      "project_code": "R7-PROC-009",
+      "project_name": "服务包2",
+      "purchaser_name": "南京市商务局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 4",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "160万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202604/t20260401_27000001.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "ec71d48e3ee9cb36",
+          "amount": "138万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&round7=medical",
+          "published_at": "2026-04-26",
+          "locator_hash": "03a83371b98a8913",
+          "amount": "141万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-1ccd41f1",
+      "project_code": "R7-PROC-009",
+      "project_name": "服务包3",
+      "purchaser_name": "南通市财政局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 5",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "161万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202604/t20260402_27000002.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "6ffb3da9fe1de7f7",
+          "amount": "139万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=ysgg&round7=school",
+          "published_at": "2026-04-26",
+          "locator_hash": "24517153e1ee1601",
+          "amount": "50万元以下"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-1acd3ecb",
+      "project_code": "R7-PROC-009",
+      "project_name": "服务包1",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 6",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "162万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/202604/t20260403_27000003.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "fcde79d5903d933f",
+          "amount": "140万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-6b56bdc5",
+      "project_code": "R7-PROC-010",
+      "project_name": "服务包1",
+      "purchaser_name": "南通市财政局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 0",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "165万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=zfgg&round7=garden",
+          "published_at": "2026-04-26",
+          "locator_hash": "134f1dcc607836a5",
+          "amount": "143万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/round7-payment-security.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "1492630ab5fcd4f3",
+          "amount": "146万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-6856b90c",
+      "project_code": "R7-PROC-010",
+      "project_name": "服务包2",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 1",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "166万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://swj.nanjing.gov.cn/njsswj/202604/t20260404_5700001.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "20f8091c8dc6146b",
+          "amount": "144万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://jiangsu.chinatax.gov.cn/art/2026/4/5/art_round7_contract.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "6fd8af2600964c5d",
+          "amount": "147万元"
+        }
+      ],
+      "present_stages": [
+        "award",
+        "payment"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-6956ba9f",
+      "project_code": "R7-PROC-010",
+      "project_name": "服务包3",
+      "purchaser_name": "苏州市城市管理局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 2",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "167万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.suzhou.gov.cn/szsrmzf/ztbgg/202604/round7-acceptance.html",
+          "published_at": "2026-04-26",
+          "locator_hash": "88b0d6e4606abc49",
+          "amount": "145万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-242e053e",
+      "project_code": "R7-PROC-011",
+      "project_name": "服务包3",
+      "purchaser_name": "江苏省税务局",
+      "package_no": "包3",
+      "package_name": "服务包3",
+      "supplier_name": "Round7 Supplier 5",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "170万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202604/t20260401_27000001.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "2258103eba520069",
+          "amount": "148万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&round7=medical",
+          "published_at": "2026-04-26",
+          "locator_hash": "12cd5588e3b737e8",
+          "amount": "151万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "acceptance"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-222e0218",
+      "project_code": "R7-PROC-011",
+      "project_name": "服务包1",
+      "purchaser_name": "苏州市城市管理局",
+      "package_no": "包1",
+      "package_name": "服务包1",
+      "supplier_name": "Round7 Supplier 6",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "171万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202604/t20260402_27000002.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "2fbab64f1bcf15d6",
+          "amount": "优惠率8%"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-252e06d1",
+      "project_code": "R7-PROC-011",
+      "project_name": "服务包2",
+      "purchaser_name": "南京市商务局",
+      "package_no": "包2",
+      "package_name": "服务包2",
+      "supplier_name": "Round7 Supplier 7",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "172万元",
+      "ceiling_amount": "",
+      "package_sum_amount": "",
+      "amount_consistency_status": "not_checked",
+      "amount_difference_yuan": "",
+      "amount_check_reason": "",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/202604/t20260403_27000003.htm",
+          "published_at": "2026-04-26",
+          "locator_hash": "626669f89ca8a6e4",
+          "amount": "0.018万元/项"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    }
+  ]
+}

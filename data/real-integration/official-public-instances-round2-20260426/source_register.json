@@ -1,0 +1,195 @@
+{
+  "captured_at": "2026-04-26T18:30:00+08:00",
+  "parser_version": "official-public-instance-round2-v1",
+  "sources": [
+    {
+      "id": "ccgp-nanjing-pipeline-announcement",
+      "title": "2025年南京市江南四区地下空间管线信息动态维护（测绘）服务项目采购公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202503/t20250325_24349518.htm",
+      "published_at": "2025-03-25",
+      "publisher": "中国政府采购网",
+      "source_type": "公开招标公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "ccgp-nanjing-hospital-award",
+      "title": "南京市中心医院智慧医院建设（二期）中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202507/t20250701_24884524.htm",
+      "published_at": "2025-07-01",
+      "publisher": "中国政府采购网",
+      "source_type": "中标公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "ccgp-js-education-cyber-award",
+      "title": "2025年江苏省教育系统网络安全监测服务中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202507/t20250704_24905384.htm",
+      "published_at": "2025-07-04",
+      "publisher": "中国政府采购网",
+      "source_type": "中标公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "ccgp-suzhou-customs-award",
+      "title": "苏州海关综合技术中心高效液相质谱联用仪和液相色谱-质谱联用仪项目中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202502/t20250219_24189686.htm",
+      "published_at": "2025-02-19",
+      "publisher": "中国政府采购网",
+      "source_type": "中标公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "ccgp-jaas-regional-station-award",
+      "title": "江苏省农业科学院国家农作物区域性品种测试评价站建设项目-仪器设备采购项目中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202503/t20250305_24252062.htm",
+      "published_at": "2025-03-05",
+      "publisher": "中国政府采购网",
+      "source_type": "中标公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "ccgp-suzhou-xiangcheng-service-announcement",
+      "title": "苏州市相城区数据局关于区政务服务中心服务外包项目的采购公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202502/t20250211_24152417.htm",
+      "published_at": "2025-02-11",
+      "publisher": "中国政府采购网",
+      "source_type": "竞争性磋商公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "ccgp-js-vehicle-framework-award",
+      "title": "江苏省各级党政机关、事业单位及团体组织公务用车框架协议采购（2025年度）入围公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202501/t20250123_24106443.htm",
+      "published_at": "2025-01-23",
+      "publisher": "中国政府采购网",
+      "source_type": "框架协议入围公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "ccgp-js-security-audit-framework-award",
+      "title": "2025年度江苏省党政机关、事业单位及团体组织信息安全设备-安全审计设备框架协议采购入围公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202501/t20250124_24118287.htm",
+      "published_at": "2025-01-24",
+      "publisher": "中国政府采购网",
+      "source_type": "框架协议入围公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "ccgp-js-printing-framework-award",
+      "title": "2025-2026年度江苏省省级、南京市市级、区级、江北新区印刷服务框架协议采购入围公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202506/t20250627_24857257.htm",
+      "published_at": "2025-06-27",
+      "publisher": "中国政府采购网",
+      "source_type": "框架协议入围公告",
+      "parser_type": "ccgp_procurement_html"
+    },
+    {
+      "id": "nanjing-finance-2025-budget-pdf",
+      "title": "南京市财政局2025年度部门预算公开",
+      "url": "https://czj.nanjing.gov.cn/njsczj/202502/P020250221571230225350.pdf",
+      "published_at": "2025-02-21",
+      "publisher": "南京市财政局",
+      "source_type": "部门预算公开PDF",
+      "parser_type": "fiscal_report_pdf"
+    },
+    {
+      "id": "nantong-finance-2025-budget-pdf",
+      "title": "南通市财政局2025年度部门预算公开",
+      "url": "https://czj.nantong.gov.cn/truecms/attachmentController/download.do?id=79ee05b1-1fbe-4149-ab00-29adce115de9",
+      "published_at": "2025-03-25",
+      "publisher": "南通市财政局",
+      "source_type": "部门预算公开PDF",
+      "parser_type": "fiscal_report_pdf"
+    },
+    {
+      "id": "nanjing-yuhuatai-education-spending",
+      "title": "雨花台区财政局确保“两个只增不减”助力教育高质量发展",
+      "url": "https://czj.nanjing.gov.cn/cjdt/202404/t20240403_4201464.html",
+      "published_at": "2024-04-03",
+      "publisher": "南京市财政局",
+      "source_type": "财政动态网页",
+      "parser_type": "government_metric_html"
+    },
+    {
+      "id": "nantong-finance-2024-summary",
+      "title": "2024年工作总结和2025年工作思路",
+      "url": "https://czj.nantong.gov.cn/ntsczj/jihzj/content/50817b07-5c0f-4eab-9319-83bdcb8f4c40.htm",
+      "published_at": "2025-04-28",
+      "publisher": "南通市财政局",
+      "source_type": "财政工作总结网页",
+      "parser_type": "government_metric_html"
+    },
+    {
+      "id": "nantong-sports-spending",
+      "title": "南通市财政局加大投入力度助推体育强市建设",
+      "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/07e27181-2ccf-48ce-b3a0-05b7b5f5d1c3.html",
+      "published_at": "2025-05-15",
+      "publisher": "南通市财政局",
+      "source_type": "财政动态网页",
+      "parser_type": "government_metric_html"
+    },
+    {
+      "id": "nantong-spending-standards",
+      "title": "市财政局以支出标准体系建设筑牢零基预算改革“基石”",
+      "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/87ddcb8e-e444-4d64-87af-4ea5463998ec.htm",
+      "published_at": "2025-08-28",
+      "publisher": "南通市财政局",
+      "source_type": "财政动态网页",
+      "parser_type": "government_metric_html"
+    },
+    {
+      "id": "nantong-zero-budget-reform",
+      "title": "南通财政坚持多维发力纵深推进零基预算改革",
+      "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/3c2dac76-468d-4114-9b38-8a86f1baaab4.html",
+      "published_at": "2025-02-17",
+      "publisher": "南通市财政局",
+      "source_type": "财政动态网页",
+      "parser_type": "government_metric_html"
+    },
+    {
+      "id": "js-audit-2023-rectification",
+      "title": "江苏：立行立改问题整改率达100% 健全完善制度129项",
+      "url": "https://jssjt.jiangsu.gov.cn/art/2025/2/10/art_995_11489401.html",
+      "published_at": "2025-02-10",
+      "publisher": "江苏省审计厅",
+      "source_type": "审计整改公开信息",
+      "parser_type": "audit_report_html"
+    },
+    {
+      "id": "changzhou-budget-audit-report",
+      "title": "常州市审计局向市人大常委会作2023年度市本级预算执行审计工作报告",
+      "url": "https://jssjt.jiangsu.gov.cn/art/2024/7/11/art_1104_11286630.html",
+      "published_at": "2024-07-11",
+      "publisher": "江苏省审计厅",
+      "source_type": "地方预算执行审计动态",
+      "parser_type": "audit_report_html"
+    },
+    {
+      "id": "yancheng-budget-audit-report",
+      "title": "盐城2023年度市级预算执行审计工作报告获市人大常委会充分肯定",
+      "url": "https://jssjt.jiangsu.gov.cn/art/2024/7/4/art_1104_11282908.html",
+      "published_at": "2024-07-04",
+      "publisher": "江苏省审计厅",
+      "source_type": "地方预算执行审计动态",
+      "parser_type": "audit_report_html"
+    },
+    {
+      "id": "yizheng-dev-zone-budget-audit",
+      "title": "仪征审计：“三个关注”助力提升开发区预算管理水平",
+      "url": "https://jssjt.jiangsu.gov.cn/art/2024/7/15/art_1104_11292830.html",
+      "published_at": "2024-07-15",
+      "publisher": "江苏省审计厅",
+      "source_type": "预算执行审计动态",
+      "parser_type": "audit_report_html"
+    },
+    {
+      "id": "xuzhou-department-budget-audit",
+      "title": "徐州：念好五字诀 推动部门预算审计审深审透审准",
+      "url": "https://jssjt.jiangsu.gov.cn/art/2024/8/19/art_1104_11322169.html",
+      "published_at": "2024-08-19",
+      "publisher": "江苏省审计厅",
+      "source_type": "部门预算审计动态",
+      "parser_type": "audit_report_html"
+    }
+  ]
+}

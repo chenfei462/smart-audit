@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-04-26T13:18:37.017Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 20,
+  "procurement_input_records": 7,
+  "budget_input_records": 50,
+  "case_seed_input_records": 7,
+  "total_input_records": 64,
+  "procurement_accepted_records": 7,
+  "budget_accepted_records": 50,
+  "case_seed_accepted_records": 7,
+  "total_accepted_records": 64,
+  "import_success_rate": 100,
+  "quality_check_count": 3,
+  "quality_warning_count": 3,
+  "quality_error_count": 0,
+  "finding_count": 7,
+  "rule_hits_by_rule": {
+    "BUDGET-PUBLIC-TREND-001": 1,
+    "PROC-BUDGET-001": 3,
+    "PROC-CHAIN-001": 3
+  },
+  "source_traceable_rows": 64,
+  "source_total_rows": 64,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "award": 3,
+    "announcement": 4
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 31,
+    "public_statistical_indicator": 19
+  },
+  "risk_levels": {
+    "procurement": "High",
+    "budget": [
+      "Medium",
+      "Low"
+    ]
+  },
+  "top_quality_checks": [
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 1
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 2
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 3
+    }
+  ],
+  "top_findings": [
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省消防救援总队2025-2026年度信息化运维服务 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省消防救援总队2025-2026年度信息化运维服务 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省消防救援总队2025-2026年度卫星通信网运维服务 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省消防救援总队2025-2026年度卫星通信网运维服务 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 盐城市消防救援支队2024年度目录外器材装备采购项目（第一批）（分包二） 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 盐城市消防救援支队2024年度目录外器材装备采购项目（第一批）（分包二） 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-PUBLIC-TREND-001",
+      "risk_level": "Medium",
+      "summary": "预算收入 同比变动 -20.1%",
+      "severity_reason": "public-data-lightweight-rule",
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "部门预算指标",
+        "决算公开明细",
+        "采购合同",
+        "支付凭证"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-26T13:18:35.684Z",
+    "captured_at": "2026-04-26T21:30:00+08:00",
+    "fetch_mode": "web_researched_snapshot",
+    "source_count": 20,
+    "fourth_round_source_count": 20,
+    "parsed_source_count": 20,
+    "failed_source_count": 0,
+    "previous_source_overlap_count": 0,
+    "url_duplicate_source_count": 0,
+    "content_duplicate_source_count": 0,
+    "title_duplicate_source_count": 0,
+    "review_statuses": {
+      "reviewed": 20
+    },
+    "total_records": 64,
+    "unit_normalized_records": 64,
+    "locator_coverage_rate": 100,
+    "parser_types": {
+      "ccgp_procurement_html": 3,
+      "government_procurement_html": 1,
+      "government_metric_html": 8,
+      "fiscal_report_pdf": 1,
+      "audit_report_html": 6,
+      "audit_report_pdf": 1
+    },
+    "source_types": {
+      "中标公告": 2,
+      "公开招标公告": 1,
+      "竞争性磋商公告": 1,
+      "财政预算执行情况": 5,
+      "国民经济和社会发展计划执行情况": 1,
+      "国民经济和社会发展计划报告": 1,
+      "财政预算执行审议动态": 1,
+      "财政预算执行报告PDF": 1,
+      "专项审计调查": 4,
+      "审计项目计划": 1,
+      "审计工作动态": 1,
+      "部门绩效自评PDF": 1
+    },
+    "amount_semantic_types": {
+      "award_total": 3,
+      "budget_amount": 4
+    },
+    "framework_agreement_count": 0,
+    "special_fund_structured_records": 12,
+    "special_fund_structured_coverage_rate": 24,
+    "audit_evidence_levels": {
+      "special_audit_survey": 4,
+      "audit_work_update": 2,
+      "work_method_reference": 1
+    },
+    "audit_evidence_weights": {
+      "special_audit_survey": 60,
+      "audit_work_update": 35,
+      "work_method_reference": 20
+    },
+    "requires_manual_verification_count": 7
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "第四批来源入库与回归基线",
+      "action": "把第四批20个新来源迁入统一 source registry，并增加跨批次正文哈希和标题相似度去重的验收输出。",
+      "reason": "本批20个来源与前三批URL重合0个，可作为新增回归基线。"
+    },
+    {
+      "priority": "P0",
+      "area": "乡镇财政预算执行结构化",
+      "action": "把乡镇级预算执行报告拆成收入、支出、完成率、民生专项支出、财政专户资金等结构字段，并保留报告口径。",
+      "reason": "江阴月城、如皋长江镇、丁堰镇、江安镇等来源显示乡镇报告粒度更细，适合验证县区财政内网样本字段映射。"
+    },
+    {
+      "priority": "P1",
+      "area": "审计调查证据权重细分",
+      "action": "将专项审计调查与审计项目计划、工作动态、绩效自评继续分层，专项调查只生成复核建议，计划和动态不进入实质违规线索。",
+      "reason": "第四批审计来源多为调查启动和项目计划，证据强度低于正式审计结果公告。"
+    },
+    {
+      "priority": "P1",
+      "area": "采购多包件金额处理",
+      "action": "采购项目需识别同一项目多分包金额、总中标金额和最高限价，报告中展示分包合计与公告总额差异。",
+      "reason": "江苏消防信息化项目存在两个分包金额，长江南京航道局项目同时给出预算金额、最高限价和分标段金额。"
+    },
+    {
+      "priority": "P2",
+      "area": "PDF公报抽取",
+      "action": "江苏人大常委会公报 PDF 应接入页码、段落、表格标题抽取；无法抽表时至少保留页码快照和原文定位。",
+      "reason": "省级上半年预算执行报告以公报 PDF 形式发布，适合作为正式交付报告证据定位样本。"
+    }
+  ],
+  "batch_name": "official_public_instances_round4"
+}

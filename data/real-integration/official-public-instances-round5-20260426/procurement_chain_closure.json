@@ -1,0 +1,719 @@
+{
+  "summary": {
+    "group_count": 9,
+    "closed_group_count": 8,
+    "missing_contract_count": 1,
+    "missing_acceptance_count": 1,
+    "missing_payment_count": 1,
+    "amount_review_count": 3
+  },
+  "groups": [
+    {
+      "chain_id": "pc-cab33d1b",
+      "project_code": "JS-CARBON-2025",
+      "project_name": "碳监测服务一包",
+      "purchaser_name": "江苏省生态环境厅",
+      "package_no": "1",
+      "package_name": "碳监测服务一包",
+      "supplier_name": "供应商1",
+      "declared_total_award_amount": "2550000",
+      "declared_budget_amount": "2600000",
+      "ceiling_amount": "2600000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_needed",
+      "amount_difference_yuan": "50000",
+      "amount_check_reason": "multi package public amount consistency review",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "4919513b85b9ff49e91e2de06c2ec42985241093aad73859250c93c459909f70",
+          "amount": "2600000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "7bb34ba8e5b96dec439e2d79c3db5b8791953eb87d4e886b42620c6c4ed81a28",
+          "amount": "620000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "db794e869a60f945447fa225c92cdd61384a02f4f6d0aa6e33bcf0bbaf8fed3b",
+          "amount": "620000"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "01505b560fe510f31381c1b8f59e36716371a5435c8303d1694685f05109c7bc",
+          "amount": "620000"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "0c7f404d39f92ec4910bb7957bd269cefa3a935d14ec7f5c751b5858f625b264",
+          "amount": "620000"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "missing_stages": [],
+      "recommended_next_data": [],
+      "closure_status": "closed_public_chain"
+    },
+    {
+      "chain_id": "pc-cbb33eae",
+      "project_code": "JS-CARBON-2025",
+      "project_name": "碳监测服务二包",
+      "purchaser_name": "江苏省生态环境厅",
+      "package_no": "2",
+      "package_name": "碳监测服务二包",
+      "supplier_name": "供应商2",
+      "declared_total_award_amount": "2550000",
+      "declared_budget_amount": "2600000",
+      "ceiling_amount": "2600000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_needed",
+      "amount_difference_yuan": "50000",
+      "amount_check_reason": "multi package public amount consistency review",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "8bba50470c10678ffdfce5a371cdb6f5eb90d5f9737c8e152b019ab5cf9f5205",
+          "amount": "2600000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "e004ce33b9a6e9b0bf26a55d1507fe47bb4a11e7f91ee48fa9a5259ca741838e",
+          "amount": "1570000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "2237eb45d1db4b11df7fff5123e4b636b1801054fc38b6fd24edc7420915e283",
+          "amount": "1570000"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "0ddc12634170aa1606fe611ba324145f93dbb9960180d868aae70106f3967c87",
+          "amount": "1570000"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "44b4e7da3a3ea17e230405782d2a3fdb4547f7a4ba856863f4ddaf0493dce65a",
+          "amount": "1570000"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "missing_stages": [],
+      "recommended_next_data": [],
+      "closure_status": "closed_public_chain"
+    },
+    {
+      "chain_id": "pc-ccb34041",
+      "project_code": "JS-CARBON-2025",
+      "project_name": "碳监测服务三包",
+      "purchaser_name": "江苏省生态环境厅",
+      "package_no": "3",
+      "package_name": "碳监测服务三包",
+      "supplier_name": "供应商3",
+      "declared_total_award_amount": "2550000",
+      "declared_budget_amount": "2600000",
+      "ceiling_amount": "2600000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_needed",
+      "amount_difference_yuan": "50000",
+      "amount_check_reason": "multi package public amount consistency review",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "6b3c9452f5135079fc59fe41e476d03d5b051b34e77e76268e4754ad0bb90050",
+          "amount": "2600000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "488b2f6249e877432211b38f25498d160f7898403e947f9afbfa6d624189d66e",
+          "amount": "410000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "77e156b4a3982332803423c1e898f78c9a575c4f82a9504ff66d3f82bcda7c73",
+          "amount": "410000"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "b2209c065451ec381d58de8c14cac8fdd6b770453ab36203f06770ecaf4b8899",
+          "amount": "410000"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251017_25532124.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "e6d73dfa3b4f8c8198ea6bcab1848982947cbf8101bf46be113856af2bbe4672",
+          "amount": "410000"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "missing_stages": [],
+      "recommended_next_data": [],
+      "closure_status": "closed_public_chain"
+    },
+    {
+      "chain_id": "pc-1723f80b",
+      "project_code": "JS-REPAIR-2025",
+      "project_name": "船舶维修一包",
+      "purchaser_name": "江苏省交通运输厅",
+      "package_no": "1",
+      "package_name": "船舶维修一包",
+      "supplier_name": "供应商1",
+      "declared_total_award_amount": "1810000",
+      "declared_budget_amount": "1900000",
+      "ceiling_amount": "1850000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "multi package public amount consistency review",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "64b348c7564c311eca2d636cd5ce6e5e3e49b3475545ecbb3333095ec88c181d",
+          "amount": "1900000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "61d5fc92a3c8930b7b6ccb54977ff1287748a59d1b61bb3830e6bd726d67ac04",
+          "amount": "880000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "3e3276f872ae7e6bfcbf24334ed059435654ac7e30ec58a7430f9fc47a0bc52f",
+          "amount": "880000"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "e5376984c3c1f0ff3c2c9c970ae9b9e9f29a45299f53e096ecde49461900d3b8",
+          "amount": "880000"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "821fb970882c4dcf1f48b3b89b587e66ef5732ac4c151862e1a747e4de9299d0",
+          "amount": "880000"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "missing_stages": [],
+      "recommended_next_data": [],
+      "closure_status": "closed_public_chain"
+    },
+    {
+      "chain_id": "pc-1823f99e",
+      "project_code": "JS-REPAIR-2025",
+      "project_name": "船舶维修二包",
+      "purchaser_name": "江苏省交通运输厅",
+      "package_no": "2",
+      "package_name": "船舶维修二包",
+      "supplier_name": "供应商2",
+      "declared_total_award_amount": "1810000",
+      "declared_budget_amount": "1900000",
+      "ceiling_amount": "1850000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "multi package public amount consistency review",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "84e08378afd62712a6b576f911fa6c5d60a7994558a91f17729406a54fc9c8fc",
+          "amount": "1900000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "dedc7f30261dca2ce02b6df57d2019e3602b6c86c89b317e3a68893f7c779033",
+          "amount": "930000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "dfe1959cdd975c6f8944b5e8eb4bbe47542feb11fa9a219ebe0323cd3c42319e",
+          "amount": "930000"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "d054ee9005ac6d6153e93a5bd6a6ce2889de22f66235a6983f0b41c50ecff41a",
+          "amount": "930000"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202510/t20251009_25487539.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "28cfdcd3b80b21a5431f151f0290e316787f3841f224e1ded8d658e42aa1cd1f",
+          "amount": "930000"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "missing_stages": [],
+      "recommended_next_data": [],
+      "closure_status": "closed_public_chain"
+    },
+    {
+      "chain_id": "pc-d88fa0e3",
+      "project_code": "ZY-SMART-2025",
+      "project_name": "数字监管服务",
+      "purchaser_name": "中央国家机关采购单位",
+      "package_no": "1",
+      "package_name": "数字监管服务",
+      "supplier_name": "供应商1",
+      "declared_total_award_amount": "760000",
+      "declared_budget_amount": "800000",
+      "ceiling_amount": "800000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "multi package public amount consistency review",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250427_24492482.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "45b60bd2cf9d527845f9af272f0978e82b9842022a2f4f5a67c6a3e0c54c52b4",
+          "amount": "800000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250427_24492482.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "a1da9b9342d0e919880113cffbe209f21af7c99f553a8c0e9f53df716c810787",
+          "amount": "760000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250427_24492482.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "f32e5c22608fa069567419dd7344382f1aa30a2792e6eb14fdd35c0a688231e4",
+          "amount": "760000"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250427_24492482.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "6f246fb29c515847560460fbcdc99d711aece6b8d0e0fc629005cb76efdbc41e",
+          "amount": "760000"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250427_24492482.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "8b5966e90ede55be0cf0c3b973b09f85ccc89b2bad2747445a4c3f8982f449dd",
+          "amount": "760000"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "missing_stages": [],
+      "recommended_next_data": [],
+      "closure_status": "closed_public_chain"
+    },
+    {
+      "chain_id": "pc-66a83a3a",
+      "project_code": "ZY-DATA-2025",
+      "project_name": "数据平台运维",
+      "purchaser_name": "中央国家机关采购单位",
+      "package_no": "1",
+      "package_name": "数据平台运维",
+      "supplier_name": "供应商1",
+      "declared_total_award_amount": "540000",
+      "declared_budget_amount": "600000",
+      "ceiling_amount": "600000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "multi package public amount consistency review",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250417_24446871.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "fffe48e9726108b398f4bc24c1333698f36d1a9c6072762c0307dd9d7bba6152",
+          "amount": "600000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250417_24446871.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "6f7f3e65f5699e166e50bfb366f98f5208a812a991a5af065cee2ad6a006c264",
+          "amount": "540000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250417_24446871.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "1ceb48989015e84aa06d71868f4d00588402923cea3587bfba9c430f1a2e2a92",
+          "amount": "540000"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250417_24446871.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "a368adc14d588fe7750df9f9fa335bf4ebe39b43f302002a967eecc3fed1b503",
+          "amount": "540000"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/htgg/202504/t20250417_24446871.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "f46fdbb346576ded896bca1f4d743c3b954b3c9ddff6f0e16aae16780b114e32",
+          "amount": "540000"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "missing_stages": [],
+      "recommended_next_data": [],
+      "closure_status": "closed_public_chain"
+    },
+    {
+      "chain_id": "pc-1efe9b94",
+      "project_code": "JS-ACCEPT-2025",
+      "project_name": "信息系统验收包",
+      "purchaser_name": "江苏省政务服务单位",
+      "package_no": "1",
+      "package_name": "信息系统验收包",
+      "supplier_name": "供应商1",
+      "declared_total_award_amount": "430000",
+      "declared_budget_amount": "450000",
+      "ceiling_amount": "450000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "multi package public amount consistency review",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202503/t20250311_24280484.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "c0acc6e3e564e3d036d32a3685c641cf6ebe95c7412dfed43f3b0c31ce500ce2",
+          "amount": "450000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202503/t20250311_24280484.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "ccda46699542dfa6898d0ec0fec66cd7fb8aacba8c1203fdb1da2bdeab72e30f",
+          "amount": "430000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202503/t20250311_24280484.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "325d22c325ef6667c56bcb31fcc194e19b9b5cd27ed27eba43c71bdfe93bb5c4",
+          "amount": "430000"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202503/t20250311_24280484.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "0c763e1ccb39eceb5db43d33252f942cf2284cb873641aef45099c521ebe979c",
+          "amount": "430000"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202503/t20250311_24280484.htm",
+          "published_at": "2025-10-17",
+          "locator_hash": "8b47b030a538cecd68177d65e063777a62b6eb180e02db5a504d6ac3628c0f2d",
+          "amount": "430000"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "missing_stages": [],
+      "recommended_next_data": [],
+      "closure_status": "closed_public_chain"
+    },
+    {
+      "chain_id": "pc-dea97400",
+      "project_code": "JS-DISCOVERY-2025",
+      "project_name": "培训服务一包",
+      "purchaser_name": "江苏省培训服务单位",
+      "package_no": "1",
+      "package_name": "培训服务一包",
+      "supplier_name": "供应商补数样本",
+      "declared_total_award_amount": "552000",
+      "declared_budget_amount": "580000",
+      "ceiling_amount": "580000",
+      "package_sum_amount": "",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "discovery queue seed for missing contract acceptance payment",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202503/t20250311_24280489.htm",
+          "published_at": "2025-10-21",
+          "locator_hash": "8aefcb8139ef53afb58299e23a3e47f85b94fac9c0f1c71115c1c4b5200a66f2",
+          "amount": "580000"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/ysgg/202503/t20250311_24280489.htm",
+          "published_at": "2025-10-21",
+          "locator_hash": "7e8593f9ab51c0b46d59cbf50e68e98b4869b6dba1fd9c2d259c62671bad5b85",
+          "amount": "552000"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "award"
+      ],
+      "missing_stages": [
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    }
+  ]
+}

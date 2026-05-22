@@ -1,0 +1,2207 @@
+{
+  "id": "934ac976-c5c9-4c5c-be1c-36307ab2d39f",
+  "tenant_id": "812f0ebf-166c-46b3-97b8-166808499f4c",
+  "organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+  "task_kind": "procurement_project",
+  "title": "Jiangsu multi-county public procurement feasibility sample",
+  "source_kind": "batch",
+  "status": "completed",
+  "risk_level": "High",
+  "primary_subject": "启东市教育体育局",
+  "findings": [
+    {
+      "id": "PROC-CHAIN-001-90842eef-bc06-4822-8517-6d481c4224b3",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年启东市校园安全提升项目 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-320681-JZCG-G2025-0025，合同 None，验收 Some(\"Notice stage; total budget 4.30 million yuan; package budgets 2.0803 and 2.2197 million yuan.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-27216b7f-1aed-4904-8265-83b593e00fba",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年启东市校园安全提升项目采购包1 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-320681-JZCG-G2025-0025-01，合同 None，验收 Some(\"Notice stage; package 1 budget 2.0803 million yuan.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-49f2163c-f1cf-4c20-8313-78b07193d4e7",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年启东市校园安全提升项目采购包2 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-320681-JZCG-G2025-0025-02，合同 None，验收 Some(\"Notice stage; package 2 budget 2.2197 million yuan.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-f6accc29-602e-4605-bccb-f07f1db30284",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 启东市2025年县道养护工程（通海大道大修） 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 2025QDXDDX，合同 None，验收 Some(\"Construction notice; estimated construction and installation cost about 28 million yuan; fiscal appropriation funding 100%.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-34eafc9c-ed3a-455b-817c-5c2d488006b9",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 启东市启隆镇2025年农村公路新建及养护工程 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 启交[2025]19号，合同 None，验收 Some(\"Construction notice; estimated construction and installation cost about 15 million yuan; fiscal appropriation funding 100%.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-c81cd5b4-dbdd-4a42-a2c8-6aa01ccbc119",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 海安市城建开发投资集团有限公司融资报表审计服务采购项目（第二次） 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 NTGC2025063002(CS078)，合同 None，验收 Some(\"Notice stage; budget 3 million yuan; maximum bid rate 98%.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-d1a353f7-4972-48b3-ae0a-e5b3ce7253c9",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 南通大剧院歌剧厅舞台机械设备年度维保项目 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 NT-GJTWJ-20250314，合同 None，验收 Some(\"Notice stage; budget and maximum limit 0.52 million yuan per year.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-a017caa1-6010-465e-a65b-77643db0d0ba",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 南通大剧院舞台灯光二标段设备年度维保项目 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 NT-DJYDG-20250109，合同 None，验收 Some(\"Notice stage; project budget and maximum limit 0.24 million yuan.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-37da85e7-900f-4844-9f66-6c997bbb28e5",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年崇川区城东街道老旧小区综合改造工程 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 A3206010318001105，合同 None，验收 Some(\"Construction notice; total investment about 57.8 million yuan; district fiscal funding 100%.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-e92d30b6-4f56-459d-abe7-cd02c9075bda",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年崇川区城东街道老旧小区综合改造工程施工一标段 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 A3206010318001105001001，合同 None，验收 Some(\"Notice stage; contract estimate about 17.8 million yuan for Ping'an Road 1 and Xinhaitong Garden.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-e6cad591-6e5e-43dc-9528-ca453a6b81e3",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年崇川区城东街道老旧小区综合改造工程施工二标段 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 A3206010318001105001002，合同 None，验收 Some(\"Notice stage; contract estimate about 20.5 million yuan for Yinhua Garden.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-d70bf716-ebce-44e6-bec1-b558fe229edd",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年崇川区城东街道老旧小区综合改造工程施工三标段 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 A3206010318001105001003，合同 None，验收 Some(\"Notice stage; contract estimate about 10.6 million yuan for Beiguo Xincun.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-ce816ccf-10a0-4694-9799-68305dd0a4dc",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年崇川区城东街道老旧小区综合改造工程施工四标段 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 A3206010318001105001004，合同 None，验收 Some(\"Notice stage; contract estimate about 8.9 million yuan; published control price 8,802,382.36 yuan.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-5ea8e852-dfc1-4514-97e0-8d42d1e98b68",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年崇川区和平桥街道老旧小区综合改造工程 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 CC-HPQ-20250219，合同 None，验收 Some(\"Procurement plan; contract estimate about 18 million yuan; fiscal funding.\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-5764283a-8c39-447a-9be3-e4db759817a0",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年太仓市财政国资监管审计服务 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-320585-RHZH-C2025-0092，合同 None，验收 Some(\"预算金额93万元，分4个采购包。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-86d7b762-f625-46f8-be42-193c0b750f9a",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 国家税务总局昆山市税务局2025-2027年涉税存量房交易价格评估采集项目 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-320583-JZCG-G2025-0039，合同 None，验收 Some(\"预算金额230万元，4个采购包。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-c744797e-f72b-413f-8ab2-9bc298fa9028",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 江阴市办案场所智能化改造升级建设 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-320281-JZCG-X2025-0088，合同 None，验收 Some(\"预算金额63.2万元。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-dfaeeccc-200b-40d9-ad08-c2ea6b0cff1f",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年东台市政务服务中心工作服采购项目 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-320981-XHZB-G2025-0037，合同 None，验收 Some(\"预算金额124万元。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-fc5014aa-e7ab-4cc1-8978-8c35a2cf5e6e",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025年东台市政府购买居家养老及分散供养特困人员照料护理服务 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-320981-DTJM-G2025-0002，合同 None，验收 Some(\"公告披露2025年预算金额约2000万元，2026年预算金额约2888万元。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-f6fef4f3-9527-4fdb-87b9-fa80b6f7ede2",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省政府采购“苏采云”平台运维服务项目（东台） 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 DTCG-SCY-2024，合同 None，验收 Some(\"采购项目预算29.5万元/年。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-52a3819d-33a5-498a-b870-f7ab2e70b693",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 江苏东台经济开发区2024-2025年市政、绿化、土建等建设工程标底编制项目 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 DTCG-2023-QT101，合同 None，验收 Some(\"预算金额约100万元。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-8524247c-2ad3-4af3-850a-98df501f04d8",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 2025-2026年造价咨询（概预算审核、日常养护和大中修工程跟踪审计）项目 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JSZC-321200-HQGC-C2025-0001，合同 None，验收 Some(\"预算金额360万元，分6个采购包。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-CHAIN-001-d40b7674-ca96-4d55-9ff3-037f011aa358",
+      "rule_code": "PROC-CHAIN-001",
+      "rule_name": "公告到合同到验收链条不闭合",
+      "rule_category": "采购规则",
+      "risk_level": "Medium",
+      "summary": "项目 国家税务总局江阴市税务局2025年度食堂食材采购项目 缺少合同或验收闭环信息",
+      "audit_rationale": "采购项目应形成公告、合同、履约与验收闭环信息。",
+      "recommended_action": "补充合同公告、合同编号、履约验收状态或在任务中标记信息不足。",
+      "evidence_summary": "项目编号 JY-TAX-FOOD-2025，合同 None，验收 Some(\"项目预算金额260万元。\")",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-SPLIT-001-bff96595-9de3-4fe4-9ed5-95a721198cc8",
+      "rule_code": "PROC-SPLIT-001",
+      "rule_name": "拆包嫌疑",
+      "rule_category": "采购规则",
+      "risk_level": "High",
+      "summary": "南通市崇川区城东街道办事处、南通市城镇房地产开发有限公司 在短期内存在 5 个相似采购项目，疑似拆包",
+      "audit_rationale": "同一采购单位在短时间内发起金额接近、主题相近的多笔采购，需要排查拆包规避方式。",
+      "recommended_action": "核对需求归并、采购计划、分包依据和预算拆分说明。",
+      "evidence_summary": "采购单位 南通市崇川区城东街道办事处、南通市城镇房地产开发有限公司，地区 Some(\"Chongchuan District, Nantong, Jiangsu\")，合计预算 115600000，涉及项目 A3206010318001105, A3206010318001105001001, A3206010318001105001002, A3206010318001105001003, A3206010318001105001004",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    },
+    {
+      "id": "PROC-SPLIT-001-1124cb2a-f04b-4c01-815e-a07fb94fc30b",
+      "rule_code": "PROC-SPLIT-001",
+      "rule_name": "拆包嫌疑",
+      "rule_category": "采购规则",
+      "risk_level": "High",
+      "summary": "启东市教育体育局 在短期内存在 3 个相似采购项目，疑似拆包",
+      "audit_rationale": "同一采购单位在短时间内发起金额接近、主题相近的多笔采购，需要排查拆包规避方式。",
+      "recommended_action": "核对需求归并、采购计划、分包依据和预算拆分说明。",
+      "evidence_summary": "采购单位 启东市教育体育局，地区 Some(\"Qidong City, Nantong, Jiangsu\")，合计预算 8600000，涉及项目 JSZC-320681-JZCG-G2025-0025, JSZC-320681-JZCG-G2025-0025-01, JSZC-320681-JZCG-G2025-0025-02",
+      "finding_status": "open",
+      "assignee": null,
+      "disposition_note": null,
+      "disposition_priority": null,
+      "disposition_outcome": null,
+      "remediation_due_at": null,
+      "reminder_flag": false,
+      "disposed_at": null
+    }
+  ],
+  "detail": {
+    "kind": "procurement_project",
+    "payload": {
+      "projects": [
+        {
+          "id": "f3d01579-b2ef-4083-bb5a-520dc86df1b8",
+          "project_name": "2025年启东市校园安全提升项目",
+          "purchaser_name": "启东市教育体育局",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-320681-JZCG-G2025-0025",
+          "procurement_method": "公开招标",
+          "published_at": "2025-04-30",
+          "region": "Qidong City, Nantong, Jiangsu",
+          "budget_amount": "4300000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+          "budget_project_id": "af475af0-e52f-4d3a-9f88-a7ae37ae68cf",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2b852d60-f947-48b2-9916-f314a9f5567f",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+          "source_row": 1,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "af475af0-e52f-4d3a-9f88-a7ae37ae68cf"
+            ]
+          }
+        },
+        {
+          "id": "6818fad7-9941-4197-bb22-2bc26f462c75",
+          "project_name": "2025年启东市校园安全提升项目采购包1",
+          "purchaser_name": "启东市教育体育局",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-320681-JZCG-G2025-0025-01",
+          "procurement_method": "公开招标",
+          "published_at": "2025-04-30",
+          "region": "Qidong City, Nantong, Jiangsu",
+          "budget_amount": "2080300",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+          "budget_project_id": "601f4776-17d6-491f-97b5-4a9e24cf0a93",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2d427be5-bf93-42df-983f-a87c48e862e5",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+          "source_row": 2,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "601f4776-17d6-491f-97b5-4a9e24cf0a93"
+            ]
+          }
+        },
+        {
+          "id": "c89492ba-6eb1-46c8-a105-97b378584f85",
+          "project_name": "2025年启东市校园安全提升项目采购包2",
+          "purchaser_name": "启东市教育体育局",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-320681-JZCG-G2025-0025-02",
+          "procurement_method": "公开招标",
+          "published_at": "2025-04-30",
+          "region": "Qidong City, Nantong, Jiangsu",
+          "budget_amount": "2219700",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+          "budget_project_id": "ce705f62-d943-4b23-a640-e5dddef7940c",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "08150814-45d7-43f6-9b59-cabb755669a7",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+          "source_row": 3,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "ce705f62-d943-4b23-a640-e5dddef7940c"
+            ]
+          }
+        },
+        {
+          "id": "9e916e10-94b6-4e87-ae1e-003c729a304c",
+          "project_name": "启东市2025年县道养护工程（通海大道大修）",
+          "purchaser_name": "启东市交通事业发展中心",
+          "announcement_type": "招标公告",
+          "project_code": "2025QDXDDX",
+          "procurement_method": "公开招标",
+          "published_at": "2025-06-23",
+          "region": "Qidong City, Nantong, Jiangsu",
+          "budget_amount": "28000000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "79b00339-1b1c-47e0-a7e1-e4b5c4a33a51",
+          "budget_project_id": "b91e67e3-d15c-438a-8b4c-4a01c73b0bc5",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2773e428-af1d-43c5-922d-fa1a7aa3063a",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003005/003005001/20250623/7cff5368-3cca-4521-a21c-78e7c4e418f0.html",
+          "source_row": 4,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "b91e67e3-d15c-438a-8b4c-4a01c73b0bc5"
+            ]
+          }
+        },
+        {
+          "id": "b6f1ef5a-764c-4736-b78d-34d0e384f415",
+          "project_name": "启东市启隆镇2025年农村公路新建及养护工程",
+          "purchaser_name": "启东市启隆镇人民政府",
+          "announcement_type": "招标公告",
+          "project_code": "启交[2025]19号",
+          "procurement_method": "公开招标",
+          "published_at": "2025-07-14",
+          "region": "Qidong City, Nantong, Jiangsu",
+          "budget_amount": "15000000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "b6741ab3-69ed-4012-a8d7-157b01281f78",
+          "budget_project_id": "fea86c15-91ae-48b9-a0a6-2f79082e024e",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2a0076a1-fe14-407e-9311-8ffb76d7b4ad",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003005/003005001/20250714/793a3af1-9c2f-45ea-8b1a-ea4fc7af277b.html",
+          "source_row": 5,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "fea86c15-91ae-48b9-a0a6-2f79082e024e"
+            ]
+          }
+        },
+        {
+          "id": "bd66a6f9-8191-4852-bd1f-bbc537d56d48",
+          "project_name": "海安市城建开发投资集团有限公司融资报表审计服务采购项目（第二次）",
+          "purchaser_name": "海安市城建开发投资集团有限公司",
+          "announcement_type": "竞争性磋商公告",
+          "project_code": "NTGC2025063002(CS078)",
+          "procurement_method": "竞争性磋商",
+          "published_at": "2025-07-14",
+          "region": "Haian City, Nantong, Jiangsu",
+          "budget_amount": "3000000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "d5d9054e-9b9c-4ce4-86b7-3c8a9447cab3",
+          "budget_project_id": "6a486f70-af09-46e3-a2a3-1c165192ef78",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "e3c5870a-c88f-4ab6-bea3-c1fe4edf6729",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003009/003009001/20250714/31ad4f91-528e-4ad2-80fe-c7a9c2777d9f.html",
+          "source_row": 6,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "6a486f70-af09-46e3-a2a3-1c165192ef78"
+            ]
+          }
+        },
+        {
+          "id": "d667bcde-6680-4d22-8f1e-f91527ddf19c",
+          "project_name": "南通大剧院歌剧厅舞台机械设备年度维保项目",
+          "purchaser_name": "南通文化艺术中心管理有限公司",
+          "announcement_type": "竞争性磋商公告",
+          "project_code": "NT-GJTWJ-20250314",
+          "procurement_method": "竞争性磋商",
+          "published_at": "2025-03-14",
+          "region": "Nantong City, Jiangsu",
+          "budget_amount": "520000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+          "budget_project_id": "efe84436-6f9c-40c1-9667-03f3ac6f6bad",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "075fc0c8-cca1-4962-9317-0b3b93460891",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003015/003015005/20250314/f78c79e3-9b6c-44d0-b5e9-b39f9221c0e5.html",
+          "source_row": 7,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "efe84436-6f9c-40c1-9667-03f3ac6f6bad"
+            ]
+          }
+        },
+        {
+          "id": "4dadd714-1979-42ac-bb1a-b809dac45cc8",
+          "project_name": "南通大剧院舞台灯光二标段设备年度维保项目",
+          "purchaser_name": "南通文化艺术中心管理有限公司",
+          "announcement_type": "竞争性磋商公告",
+          "project_code": "NT-DJYDG-20250109",
+          "procurement_method": "竞争性磋商",
+          "published_at": "2025-01-09",
+          "region": "Nantong City, Jiangsu",
+          "budget_amount": "240000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+          "budget_project_id": "e936c61b-273d-48d7-9e28-8bb22b19074c",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "08f05241-3169-4bab-a001-aea0ce1c9caf",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003015/003015005/20250109/8645e6fe-d602-43d2-811b-0bfd78473279.html",
+          "source_row": 8,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "e936c61b-273d-48d7-9e28-8bb22b19074c"
+            ]
+          }
+        },
+        {
+          "id": "b5d0ced6-2c6c-466d-8098-cba2f10f5a05",
+          "project_name": "2025年崇川区城东街道老旧小区综合改造工程",
+          "purchaser_name": "南通市崇川区城东街道办事处、南通市城镇房地产开发有限公司",
+          "announcement_type": "招标公告",
+          "project_code": "A3206010318001105",
+          "procurement_method": "公开招标",
+          "published_at": "2025-05-19",
+          "region": "Chongchuan District, Nantong, Jiangsu",
+          "budget_amount": "57800000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "budget_project_id": "29db500e-088f-4455-8e7d-b52be9ab0c6b",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "957b3b3f-fa99-4765-b89b-45d9e2035868",
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+          "source_row": 9,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "29db500e-088f-4455-8e7d-b52be9ab0c6b"
+            ]
+          }
+        },
+        {
+          "id": "638bac6d-7c87-42a8-8e69-c9cf5232fbad",
+          "project_name": "2025年崇川区城东街道老旧小区综合改造工程施工一标段",
+          "purchaser_name": "南通市崇川区城东街道办事处、南通市城镇房地产开发有限公司",
+          "announcement_type": "招标公告",
+          "project_code": "A3206010318001105001001",
+          "procurement_method": "公开招标",
+          "published_at": "2025-05-19",
+          "region": "Chongchuan District, Nantong, Jiangsu",
+          "budget_amount": "17800000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "budget_project_id": "a9d648d2-7b85-4297-9364-2f3f02f2e9af",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "3e547182-fa5d-44fe-8dd8-d32303beb364",
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+          "source_row": 10,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "a9d648d2-7b85-4297-9364-2f3f02f2e9af"
+            ]
+          }
+        },
+        {
+          "id": "d5ed5f86-7d07-4914-9af9-086e3e7e2da1",
+          "project_name": "2025年崇川区城东街道老旧小区综合改造工程施工二标段",
+          "purchaser_name": "南通市崇川区城东街道办事处、南通市城镇房地产开发有限公司",
+          "announcement_type": "招标公告",
+          "project_code": "A3206010318001105001002",
+          "procurement_method": "公开招标",
+          "published_at": "2025-05-19",
+          "region": "Chongchuan District, Nantong, Jiangsu",
+          "budget_amount": "20500000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "budget_project_id": "02e78152-3526-4d9a-b074-3730a929e62d",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2892a8e7-34dc-4b32-8dca-74c72aa505a6",
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+          "source_row": 11,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "02e78152-3526-4d9a-b074-3730a929e62d"
+            ]
+          }
+        },
+        {
+          "id": "d3aaac8d-78db-41dc-b158-74c21062f584",
+          "project_name": "2025年崇川区城东街道老旧小区综合改造工程施工三标段",
+          "purchaser_name": "南通市崇川区城东街道办事处、南通市城镇房地产开发有限公司",
+          "announcement_type": "招标公告",
+          "project_code": "A3206010318001105001003",
+          "procurement_method": "公开招标",
+          "published_at": "2025-05-19",
+          "region": "Chongchuan District, Nantong, Jiangsu",
+          "budget_amount": "10600000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "budget_project_id": "250163db-74ad-40c7-8072-e73ff67a49a0",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "ee440730-4510-43a9-be02-1793ec5e3b39",
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+          "source_row": 12,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "250163db-74ad-40c7-8072-e73ff67a49a0"
+            ]
+          }
+        },
+        {
+          "id": "ebae30e3-18cc-4f2e-a0de-666155791f15",
+          "project_name": "2025年崇川区城东街道老旧小区综合改造工程施工四标段",
+          "purchaser_name": "南通市崇川区城东街道办事处、南通市城镇房地产开发有限公司",
+          "announcement_type": "招标公告",
+          "project_code": "A3206010318001105001004",
+          "procurement_method": "公开招标",
+          "published_at": "2025-05-19",
+          "region": "Chongchuan District, Nantong, Jiangsu",
+          "budget_amount": "8900000",
+          "award_amount": "8802382.36",
+          "supplier_name": null,
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "budget_project_id": "846dc199-7a71-40f7-a22e-a94707d3ac99",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "c29bfe65-4ff9-4bc5-a677-0f34b2d4c018",
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001003/20250519/0fe316ef-e310-461b-85bb-6928cfc50ccc.html",
+          "source_row": 13,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "846dc199-7a71-40f7-a22e-a94707d3ac99"
+            ]
+          }
+        },
+        {
+          "id": "f9d52856-4d3c-4fd5-ad31-344a56f3970f",
+          "project_name": "2025年崇川区和平桥街道老旧小区综合改造工程",
+          "purchaser_name": "南通市崇川区和平桥街道办事处",
+          "announcement_type": "招标计划公告",
+          "project_code": "CC-HPQ-20250219",
+          "procurement_method": "招标计划",
+          "published_at": "2025-02-19",
+          "region": "Chongchuan District, Nantong, Jiangsu",
+          "budget_amount": "18000000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "453eb7f9-49f3-4aac-b26b-411ae7309fa3",
+          "budget_project_id": "b6b4ff9c-d258-4b84-b260-fa9caa960662",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "013582d0-1151-41ad-ab36-e7345a6cdac7",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001009/20250219/a514ab8a-0aa9-4896-b19a-b4eb8880e7af.html",
+          "source_row": 14,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "b6b4ff9c-d258-4b84-b260-fa9caa960662"
+            ]
+          }
+        },
+        {
+          "id": "d4128119-1f4f-44be-90c7-2b1f9cd2d13a",
+          "project_name": "2025年太仓市财政国资监管审计服务",
+          "purchaser_name": "太仓市财政局",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-320585-RHZH-C2025-0092",
+          "procurement_method": "竞争性磋商",
+          "published_at": "2025-12-15",
+          "region": "Taicang City, Suzhou, Jiangsu",
+          "budget_amount": "930000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "d21148a9-b1a5-4e0a-8e26-ec88b60a2a48",
+          "budget_project_id": "a5d341a9-f6b2-4229-b959-661de510063c",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "cb7559e1-a92c-4662-9254-8974d8a513d4",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://tcs.chinamae.com/news/1ca4f571e8fb5da9808c102ee0d005f4.html",
+          "source_row": 101,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "a5d341a9-f6b2-4229-b959-661de510063c"
+            ]
+          }
+        },
+        {
+          "id": "80b87dc2-64f4-453a-8bcc-ba32adae909c",
+          "project_name": "国家税务总局昆山市税务局2025-2027年涉税存量房交易价格评估采集项目",
+          "purchaser_name": "国家税务总局昆山市税务局",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-320583-JZCG-G2025-0039",
+          "procurement_method": "公开招标",
+          "published_at": "2025-04-22",
+          "region": "Kunshan City, Suzhou, Jiangsu",
+          "budget_amount": "2300000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "a79b9998-570a-43d5-b836-db94451ee1d1",
+          "budget_project_id": "95c6d6a9-99b8-4e27-8bf8-3cfb6d4d602d",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "c5e869ec-f635-4aad-930f-40c08923efbb",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://jiangsu.chinatax.gov.cn/art/2025/4/22/art_15969_499817.html",
+          "source_row": 102,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "95c6d6a9-99b8-4e27-8bf8-3cfb6d4d602d"
+            ]
+          }
+        },
+        {
+          "id": "d4acb726-e4e9-460f-987e-4e429c071128",
+          "project_name": "江阴市办案场所智能化改造升级建设",
+          "purchaser_name": "江阴市相关政法单位",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-320281-JZCG-X2025-0088",
+          "procurement_method": "询价",
+          "published_at": "2025-11-24",
+          "region": "Jiangyin City, Wuxi, Jiangsu",
+          "budget_amount": "632000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "8dfd84a3-056c-442c-827d-b23f88888dd9",
+          "budget_project_id": "a0648613-d482-44a7-8cc5-22fce4d9f628",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "f26498fd-f735-4a32-a1be-86a4c131d64d",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://ggzyjy.wuxi.gov.cn/doc/2025/11/24/4687260.shtml",
+          "source_row": 103,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "a0648613-d482-44a7-8cc5-22fce4d9f628"
+            ]
+          }
+        },
+        {
+          "id": "36c1089c-80eb-4ded-802c-7d3921415a98",
+          "project_name": "2025年东台市政务服务中心工作服采购项目",
+          "purchaser_name": "东台市政务服务中心",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-320981-XHZB-G2025-0037",
+          "procurement_method": "公开招标",
+          "published_at": "2025-05-07",
+          "region": "Dongtai City, Yancheng, Jiangsu",
+          "budget_amount": "1240000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "401089ce-4165-44c4-85f5-f257b8b05427",
+          "budget_project_id": "23b87b19-5ea4-45e3-bc73-edeabc184e9a",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "edc220b9-53b8-41ab-b74f-6a707e5409dc",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://czj.yancheng.gov.cn/art/2025/5/7/art_20174_22664.html",
+          "source_row": 104,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "23b87b19-5ea4-45e3-bc73-edeabc184e9a"
+            ]
+          }
+        },
+        {
+          "id": "630aa9fa-6710-4fdf-b470-0fa150ea544d",
+          "project_name": "2025年东台市政府购买居家养老及分散供养特困人员照料护理服务",
+          "purchaser_name": "东台市民政相关单位",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-320981-DTJM-G2025-0002",
+          "procurement_method": "公开招标",
+          "published_at": "2025-08-06",
+          "region": "Dongtai City, Yancheng, Jiangsu",
+          "budget_amount": "20000000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "4d7312e6-bb9c-45fb-a9f9-601697da1729",
+          "budget_project_id": "637dd50c-9adc-4902-bd09-99fa8be4c59a",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "36c2c2cf-f423-4395-955d-18dda67a7a46",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://czj.yancheng.gov.cn/art/2025/8/6/art_20174_23129.html",
+          "source_row": 105,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "637dd50c-9adc-4902-bd09-99fa8be4c59a"
+            ]
+          }
+        },
+        {
+          "id": "89a77c94-31a8-4b2f-8e5d-b6077b4fc925",
+          "project_name": "江苏省政府采购“苏采云”平台运维服务项目（东台）",
+          "purchaser_name": "东台市财政局",
+          "announcement_type": "单一来源采购公示",
+          "project_code": "DTCG-SCY-2024",
+          "procurement_method": "单一来源",
+          "published_at": "2024-03-27",
+          "region": "Dongtai City, Yancheng, Jiangsu",
+          "budget_amount": "295000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "475c0515-0be9-4c4c-8a2a-8cf48e5085f8",
+          "budget_project_id": "22ac58c2-a79c-45af-a05d-ef1ad86cbbd2",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "c18c0c8f-3e8a-4788-a6f5-963bb74e7155",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://www.dongtai.gov.cn/art/2024/3/27/art_7905_4170685.html",
+          "source_row": 106,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "22ac58c2-a79c-45af-a05d-ef1ad86cbbd2"
+            ]
+          }
+        },
+        {
+          "id": "aeff6a79-e8ff-41e7-96b1-c693241479db",
+          "project_name": "江苏东台经济开发区2024-2025年市政、绿化、土建等建设工程标底编制项目",
+          "purchaser_name": "江苏东台经济开发区",
+          "announcement_type": "招标公告",
+          "project_code": "DTCG-2023-QT101",
+          "procurement_method": "公开招标",
+          "published_at": "2023-12-27",
+          "region": "Dongtai City, Yancheng, Jiangsu",
+          "budget_amount": "1000000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "0c4cfd50-0d11-4012-91c7-6f9911b4b8e7",
+          "budget_project_id": "4d4db4b7-2596-4e67-b6fe-5ef2d291633c",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "c665af3e-6549-4ef8-8124-06caab072f3e",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://www.dongtai.gov.cn/art/2023/12/27/art_21645_4127331.html",
+          "source_row": 107,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "4d4db4b7-2596-4e67-b6fe-5ef2d291633c"
+            ]
+          }
+        },
+        {
+          "id": "b4d5484a-f8b1-4a92-9780-1951cde85853",
+          "project_name": "2025-2026年造价咨询（概预算审核、日常养护和大中修工程跟踪审计）项目",
+          "purchaser_name": "泰州市相关市级单位",
+          "announcement_type": "采购公告",
+          "project_code": "JSZC-321200-HQGC-C2025-0001",
+          "procurement_method": "竞争性磋商",
+          "published_at": "2025-01-21",
+          "region": "Taizhou City, Jiangsu",
+          "budget_amount": "3600000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "db014454-6667-47f6-af4e-97b8d4f42c52",
+          "budget_project_id": "5ab0307e-71bc-45d1-8b5a-b4156a3f2128",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "0871d751-6077-4d9d-a025-57921e08767a",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://czj.taizhou.gov.cn/tzzfcgw/cgxx/sjcgxx/fzbcg/jzxcsgg/art/2025/art_363e37c0ba3c4c50b6df3a5c5ec5d612.html",
+          "source_row": 108,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "5ab0307e-71bc-45d1-8b5a-b4156a3f2128"
+            ]
+          }
+        },
+        {
+          "id": "d3a700ce-a4a9-485f-b91b-0630ca4f4be3",
+          "project_name": "国家税务总局江阴市税务局2025年度食堂食材采购项目",
+          "purchaser_name": "国家税务总局江阴市税务局",
+          "announcement_type": "采购需求征求意见",
+          "project_code": "JY-TAX-FOOD-2025",
+          "procurement_method": "公开征求意见",
+          "published_at": "2025-02-24",
+          "region": "Jiangyin City, Wuxi, Jiangsu",
+          "budget_amount": "2600000",
+          "award_amount": null,
+          "supplier_name": null,
+          "budget_unit_id": "aabfb86b-7e1a-4db0-af57-db428786c587",
+          "budget_project_id": "1b18a465-5206-4f7c-873e-dfbc671feb59",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "b0cca32d-2216-4663-b4e9-7efd852a07a2",
+          "indicator_document_no": null,
+          "project_catalog_id": null,
+          "notice_url": "https://jiangsu.chinatax.gov.cn/art/2025/2/24/art_15966_500856.html",
+          "source_row": 109,
+          "linkage_evidence": {
+            "match_mode": "exact",
+            "match_score": 100,
+            "match_reasons": [
+              "linked during procurement import"
+            ],
+            "candidate_budget_project_ids": [
+              "1b18a465-5206-4f7c-873e-dfbc671feb59"
+            ]
+          }
+        }
+      ],
+      "contracts": [
+        {
+          "id": "4b90939f-3f16-4a36-b9ce-e00f64a8b89f",
+          "procurement_project_id": "f3d01579-b2ef-4083-bb5a-520dc86df1b8",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; total budget 4.30 million yuan; package budgets 2.0803 and 2.2197 million yuan.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2b852d60-f947-48b2-9916-f314a9f5567f",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "ec58d85e-bc97-4667-9c55-da1497ba14f2",
+          "procurement_project_id": "6818fad7-9941-4197-bb22-2bc26f462c75",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; package 1 budget 2.0803 million yuan.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2d427be5-bf93-42df-983f-a87c48e862e5",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "1db45834-7ef2-46d5-9e77-b7bc854fe696",
+          "procurement_project_id": "c89492ba-6eb1-46c8-a105-97b378584f85",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; package 2 budget 2.2197 million yuan.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "08150814-45d7-43f6-9b59-cabb755669a7",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "3443a225-93e8-4fd5-87e9-42a9af4424b2",
+          "procurement_project_id": "9e916e10-94b6-4e87-ae1e-003c729a304c",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Construction notice; estimated construction and installation cost about 28 million yuan; fiscal appropriation funding 100%.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2773e428-af1d-43c5-922d-fa1a7aa3063a",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "c057db4d-c14d-45c1-a86d-63b439bd54ae",
+          "procurement_project_id": "b6f1ef5a-764c-4736-b78d-34d0e384f415",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Construction notice; estimated construction and installation cost about 15 million yuan; fiscal appropriation funding 100%.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2a0076a1-fe14-407e-9311-8ffb76d7b4ad",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "80c8d672-d088-43f3-9e56-341eb17b31ab",
+          "procurement_project_id": "bd66a6f9-8191-4852-bd1f-bbc537d56d48",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; budget 3 million yuan; maximum bid rate 98%.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "e3c5870a-c88f-4ab6-bea3-c1fe4edf6729",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "2957c682-7099-4723-880c-f324c88afd14",
+          "procurement_project_id": "d667bcde-6680-4d22-8f1e-f91527ddf19c",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; budget and maximum limit 0.52 million yuan per year.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "075fc0c8-cca1-4962-9317-0b3b93460891",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "2d3f8e26-80ac-4039-aa42-132b61e1abc5",
+          "procurement_project_id": "4dadd714-1979-42ac-bb1a-b809dac45cc8",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; project budget and maximum limit 0.24 million yuan.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "08f05241-3169-4bab-a001-aea0ce1c9caf",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "40e6250a-d954-40c3-aacd-301b120af24a",
+          "procurement_project_id": "b5d0ced6-2c6c-466d-8098-cba2f10f5a05",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Construction notice; total investment about 57.8 million yuan; district fiscal funding 100%.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "957b3b3f-fa99-4765-b89b-45d9e2035868",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "e2c2b16f-9d23-4b8d-94b9-2ce5b5f7ffc6",
+          "procurement_project_id": "638bac6d-7c87-42a8-8e69-c9cf5232fbad",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; contract estimate about 17.8 million yuan for Ping'an Road 1 and Xinhaitong Garden.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "3e547182-fa5d-44fe-8dd8-d32303beb364",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "fe4f9016-2290-47f4-8f37-c5798e6a4880",
+          "procurement_project_id": "d5ed5f86-7d07-4914-9af9-086e3e7e2da1",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; contract estimate about 20.5 million yuan for Yinhua Garden.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "2892a8e7-34dc-4b32-8dca-74c72aa505a6",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "9231ba92-06f2-4c36-9e9f-99efbd57d06f",
+          "procurement_project_id": "d3aaac8d-78db-41dc-b158-74c21062f584",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; contract estimate about 10.6 million yuan for Beiguo Xincun.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "ee440730-4510-43a9-be02-1793ec5e3b39",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "f8f08da8-dd3d-4839-ada3-3627bccb42b8",
+          "procurement_project_id": "ebae30e3-18cc-4f2e-a0de-666155791f15",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Notice stage; contract estimate about 8.9 million yuan; published control price 8,802,382.36 yuan.",
+          "acceptance_status": "notice_stage",
+          "contract_amount": "8802382.36",
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "c29bfe65-4ff9-4bc5-a677-0f34b2d4c018",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "7fe7c503-06fa-4a14-a638-ae7448f22603",
+          "procurement_project_id": "f9d52856-4d3c-4fd5-ad31-344a56f3970f",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "Procurement plan; contract estimate about 18 million yuan; fiscal funding.",
+          "acceptance_status": "plan_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "013582d0-1151-41ad-ab36-e7345a6cdac7",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "b3021d52-68dd-4f72-bbce-d1fdb777c146",
+          "procurement_project_id": "d4128119-1f4f-44be-90c7-2b1f9cd2d13a",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "预算金额93万元，分4个采购包。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "cb7559e1-a92c-4662-9254-8974d8a513d4",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "04e8f193-cef2-4fb3-bb74-3157adfdafbb",
+          "procurement_project_id": "80b87dc2-64f4-453a-8bcc-ba32adae909c",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "预算金额230万元，4个采购包。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "c5e869ec-f635-4aad-930f-40c08923efbb",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "602e2f6d-3df7-4070-bdc7-2b744824bd1f",
+          "procurement_project_id": "d4acb726-e4e9-460f-987e-4e429c071128",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "预算金额63.2万元。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "f26498fd-f735-4a32-a1be-86a4c131d64d",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "8d116f7d-e4d3-4d44-8be2-c3a8f7fbe3e2",
+          "procurement_project_id": "36c1089c-80eb-4ded-802c-7d3921415a98",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "预算金额124万元。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "edc220b9-53b8-41ab-b74f-6a707e5409dc",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "ef4e9602-c2ba-42cf-9df0-7153e7fca793",
+          "procurement_project_id": "630aa9fa-6710-4fdf-b470-0fa150ea544d",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "公告披露2025年预算金额约2000万元，2026年预算金额约2888万元。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "36c2c2cf-f423-4395-955d-18dda67a7a46",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "ef2e7c00-a2e9-4548-b95f-66823e65f955",
+          "procurement_project_id": "89a77c94-31a8-4b2f-8e5d-b6077b4fc925",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "采购项目预算29.5万元/年。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "c18c0c8f-3e8a-4788-a6f5-963bb74e7155",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "07a6b05b-8776-4418-b63f-9ae409f2a470",
+          "procurement_project_id": "aeff6a79-e8ff-41e7-96b1-c693241479db",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "预算金额约100万元。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "c665af3e-6549-4ef8-8124-06caab072f3e",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "2055d7a4-f29f-4308-ab66-bcb9a30d84e4",
+          "procurement_project_id": "b4d5484a-f8b1-4a92-9780-1951cde85853",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "预算金额360万元，分6个采购包。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "0871d751-6077-4d9d-a025-57921e08767a",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        },
+        {
+          "id": "6499fd84-4be1-44b0-9678-c674ceaaee53",
+          "procurement_project_id": "d3a700ce-a4a9-485f-b91b-0630ca4f4be3",
+          "contract_no": null,
+          "contract_published_at": null,
+          "acceptance_summary": "项目预算金额260万元。",
+          "acceptance_status": "notice_stage",
+          "contract_amount": null,
+          "supplier_id": null,
+          "funding_source_id": null,
+          "account_classification_id": "b0cca32d-2216-4663-b4e9-7efd852a07a2",
+          "source_document_id": null,
+          "writeback_status": null,
+          "writeback_ref": null,
+          "reconciliation_status": null
+        }
+      ],
+      "budget_units": [
+        {
+          "id": "453eb7f9-49f3-4aac-b26b-411ae7309fa3",
+          "code": null,
+          "name": "南通市崇川区和平桥街道办事处",
+          "region": "Chongchuan District, Nantong, Jiangsu"
+        },
+        {
+          "id": "d21148a9-b1a5-4e0a-8e26-ec88b60a2a48",
+          "code": null,
+          "name": "太仓市财政局",
+          "region": "Taicang City, Suzhou, Jiangsu"
+        },
+        {
+          "id": "8dfd84a3-056c-442c-827d-b23f88888dd9",
+          "code": null,
+          "name": "江阴市相关政法单位",
+          "region": "Jiangyin City, Wuxi, Jiangsu"
+        },
+        {
+          "id": "401089ce-4165-44c4-85f5-f257b8b05427",
+          "code": null,
+          "name": "东台市政务服务中心",
+          "region": "Dongtai City, Yancheng, Jiangsu"
+        },
+        {
+          "id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "code": null,
+          "name": "南通市崇川区城东街道办事处、南通市城镇房地产开发有限公司",
+          "region": "Chongchuan District, Nantong, Jiangsu"
+        },
+        {
+          "id": "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+          "code": null,
+          "name": "启东市教育体育局",
+          "region": "Qidong City, Nantong, Jiangsu"
+        },
+        {
+          "id": "b6741ab3-69ed-4012-a8d7-157b01281f78",
+          "code": null,
+          "name": "启东市启隆镇人民政府",
+          "region": "Qidong City, Nantong, Jiangsu"
+        },
+        {
+          "id": "db014454-6667-47f6-af4e-97b8d4f42c52",
+          "code": null,
+          "name": "泰州市相关市级单位",
+          "region": "Taizhou City, Jiangsu"
+        },
+        {
+          "id": "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+          "code": null,
+          "name": "南通文化艺术中心管理有限公司",
+          "region": "Nantong City, Jiangsu"
+        },
+        {
+          "id": "4d7312e6-bb9c-45fb-a9f9-601697da1729",
+          "code": null,
+          "name": "东台市民政相关单位",
+          "region": "Dongtai City, Yancheng, Jiangsu"
+        },
+        {
+          "id": "aabfb86b-7e1a-4db0-af57-db428786c587",
+          "code": null,
+          "name": "国家税务总局江阴市税务局",
+          "region": "Jiangyin City, Wuxi, Jiangsu"
+        },
+        {
+          "id": "d5d9054e-9b9c-4ce4-86b7-3c8a9447cab3",
+          "code": null,
+          "name": "海安市城建开发投资集团有限公司",
+          "region": "Haian City, Nantong, Jiangsu"
+        },
+        {
+          "id": "a79b9998-570a-43d5-b836-db94451ee1d1",
+          "code": null,
+          "name": "国家税务总局昆山市税务局",
+          "region": "Kunshan City, Suzhou, Jiangsu"
+        },
+        {
+          "id": "475c0515-0be9-4c4c-8a2a-8cf48e5085f8",
+          "code": null,
+          "name": "东台市财政局",
+          "region": "Dongtai City, Yancheng, Jiangsu"
+        },
+        {
+          "id": "0c4cfd50-0d11-4012-91c7-6f9911b4b8e7",
+          "code": null,
+          "name": "江苏东台经济开发区",
+          "region": "Dongtai City, Yancheng, Jiangsu"
+        },
+        {
+          "id": "79b00339-1b1c-47e0-a7e1-e4b5c4a33a51",
+          "code": null,
+          "name": "启东市交通事业发展中心",
+          "region": "Qidong City, Nantong, Jiangsu"
+        }
+      ],
+      "budget_projects": [
+        {
+          "id": "af475af0-e52f-4d3a-9f88-a7ae37ae68cf",
+          "budget_unit_id": "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+          "name": "2025年启东市校园安全提升项目",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "601f4776-17d6-491f-97b5-4a9e24cf0a93",
+          "budget_unit_id": "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+          "name": "2025年启东市校园安全提升项目采购包1",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "ce705f62-d943-4b23-a640-e5dddef7940c",
+          "budget_unit_id": "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+          "name": "2025年启东市校园安全提升项目采购包2",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "b91e67e3-d15c-438a-8b4c-4a01c73b0bc5",
+          "budget_unit_id": "79b00339-1b1c-47e0-a7e1-e4b5c4a33a51",
+          "name": "启东市2025年县道养护工程（通海大道大修）",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "fea86c15-91ae-48b9-a0a6-2f79082e024e",
+          "budget_unit_id": "b6741ab3-69ed-4012-a8d7-157b01281f78",
+          "name": "启东市启隆镇2025年农村公路新建及养护工程",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "6a486f70-af09-46e3-a2a3-1c165192ef78",
+          "budget_unit_id": "d5d9054e-9b9c-4ce4-86b7-3c8a9447cab3",
+          "name": "海安市城建开发投资集团有限公司融资报表审计服务采购项目（第二次）",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "efe84436-6f9c-40c1-9667-03f3ac6f6bad",
+          "budget_unit_id": "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+          "name": "南通大剧院歌剧厅舞台机械设备年度维保项目",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "e936c61b-273d-48d7-9e28-8bb22b19074c",
+          "budget_unit_id": "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+          "name": "南通大剧院舞台灯光二标段设备年度维保项目",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "29db500e-088f-4455-8e7d-b52be9ab0c6b",
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "name": "2025年崇川区城东街道老旧小区综合改造工程",
+          "project_catalog_id": null,
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "funding_source_id": null
+        },
+        {
+          "id": "a9d648d2-7b85-4297-9364-2f3f02f2e9af",
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "name": "2025年崇川区城东街道老旧小区综合改造工程施工一标段",
+          "project_catalog_id": null,
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "funding_source_id": null
+        },
+        {
+          "id": "02e78152-3526-4d9a-b074-3730a929e62d",
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "name": "2025年崇川区城东街道老旧小区综合改造工程施工二标段",
+          "project_catalog_id": null,
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "funding_source_id": null
+        },
+        {
+          "id": "250163db-74ad-40c7-8072-e73ff67a49a0",
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "name": "2025年崇川区城东街道老旧小区综合改造工程施工三标段",
+          "project_catalog_id": null,
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "funding_source_id": null
+        },
+        {
+          "id": "846dc199-7a71-40f7-a22e-a94707d3ac99",
+          "budget_unit_id": "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+          "name": "2025年崇川区城东街道老旧小区综合改造工程施工四标段",
+          "project_catalog_id": null,
+          "indicator_document_no": "崇数据批〔2025〕20号",
+          "funding_source_id": null
+        },
+        {
+          "id": "b6b4ff9c-d258-4b84-b260-fa9caa960662",
+          "budget_unit_id": "453eb7f9-49f3-4aac-b26b-411ae7309fa3",
+          "name": "2025年崇川区和平桥街道老旧小区综合改造工程",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "a5d341a9-f6b2-4229-b959-661de510063c",
+          "budget_unit_id": "d21148a9-b1a5-4e0a-8e26-ec88b60a2a48",
+          "name": "2025年太仓市财政国资监管审计服务",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "95c6d6a9-99b8-4e27-8bf8-3cfb6d4d602d",
+          "budget_unit_id": "a79b9998-570a-43d5-b836-db94451ee1d1",
+          "name": "国家税务总局昆山市税务局2025-2027年涉税存量房交易价格评估采集项目",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "a0648613-d482-44a7-8cc5-22fce4d9f628",
+          "budget_unit_id": "8dfd84a3-056c-442c-827d-b23f88888dd9",
+          "name": "江阴市办案场所智能化改造升级建设",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "23b87b19-5ea4-45e3-bc73-edeabc184e9a",
+          "budget_unit_id": "401089ce-4165-44c4-85f5-f257b8b05427",
+          "name": "2025年东台市政务服务中心工作服采购项目",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "637dd50c-9adc-4902-bd09-99fa8be4c59a",
+          "budget_unit_id": "4d7312e6-bb9c-45fb-a9f9-601697da1729",
+          "name": "2025年东台市政府购买居家养老及分散供养特困人员照料护理服务",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "22ac58c2-a79c-45af-a05d-ef1ad86cbbd2",
+          "budget_unit_id": "475c0515-0be9-4c4c-8a2a-8cf48e5085f8",
+          "name": "江苏省政府采购“苏采云”平台运维服务项目（东台）",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "4d4db4b7-2596-4e67-b6fe-5ef2d291633c",
+          "budget_unit_id": "0c4cfd50-0d11-4012-91c7-6f9911b4b8e7",
+          "name": "江苏东台经济开发区2024-2025年市政、绿化、土建等建设工程标底编制项目",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "5ab0307e-71bc-45d1-8b5a-b4156a3f2128",
+          "budget_unit_id": "db014454-6667-47f6-af4e-97b8d4f42c52",
+          "name": "2025-2026年造价咨询（概预算审核、日常养护和大中修工程跟踪审计）项目",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        },
+        {
+          "id": "1b18a465-5206-4f7c-873e-dfbc671feb59",
+          "budget_unit_id": "aabfb86b-7e1a-4db0-af57-db428786c587",
+          "name": "国家税务总局江阴市税务局2025年度食堂食材采购项目",
+          "project_catalog_id": null,
+          "indicator_document_no": null,
+          "funding_source_id": null
+        }
+      ],
+      "suppliers": [],
+      "funding_sources": [],
+      "account_classifications": [
+        {
+          "id": "2b852d60-f947-48b2-9916-f314a9f5567f",
+          "function_classification_code": "205",
+          "economic_classification_code": null
+        },
+        {
+          "id": "2d427be5-bf93-42df-983f-a87c48e862e5",
+          "function_classification_code": "205",
+          "economic_classification_code": null
+        },
+        {
+          "id": "08150814-45d7-43f6-9b59-cabb755669a7",
+          "function_classification_code": "205",
+          "economic_classification_code": null
+        },
+        {
+          "id": "2773e428-af1d-43c5-922d-fa1a7aa3063a",
+          "function_classification_code": "214",
+          "economic_classification_code": null
+        },
+        {
+          "id": "2a0076a1-fe14-407e-9311-8ffb76d7b4ad",
+          "function_classification_code": "214",
+          "economic_classification_code": null
+        },
+        {
+          "id": "e3c5870a-c88f-4ab6-bea3-c1fe4edf6729",
+          "function_classification_code": "201",
+          "economic_classification_code": null
+        },
+        {
+          "id": "075fc0c8-cca1-4962-9317-0b3b93460891",
+          "function_classification_code": "207",
+          "economic_classification_code": null
+        },
+        {
+          "id": "08f05241-3169-4bab-a001-aea0ce1c9caf",
+          "function_classification_code": "207",
+          "economic_classification_code": null
+        },
+        {
+          "id": "957b3b3f-fa99-4765-b89b-45d9e2035868",
+          "function_classification_code": "212",
+          "economic_classification_code": null
+        },
+        {
+          "id": "3e547182-fa5d-44fe-8dd8-d32303beb364",
+          "function_classification_code": "212",
+          "economic_classification_code": null
+        },
+        {
+          "id": "2892a8e7-34dc-4b32-8dca-74c72aa505a6",
+          "function_classification_code": "212",
+          "economic_classification_code": null
+        },
+        {
+          "id": "ee440730-4510-43a9-be02-1793ec5e3b39",
+          "function_classification_code": "212",
+          "economic_classification_code": null
+        },
+        {
+          "id": "c29bfe65-4ff9-4bc5-a677-0f34b2d4c018",
+          "function_classification_code": "212",
+          "economic_classification_code": null
+        },
+        {
+          "id": "013582d0-1151-41ad-ab36-e7345a6cdac7",
+          "function_classification_code": "212",
+          "economic_classification_code": null
+        },
+        {
+          "id": "cb7559e1-a92c-4662-9254-8974d8a513d4",
+          "function_classification_code": "201",
+          "economic_classification_code": null
+        },
+        {
+          "id": "c5e869ec-f635-4aad-930f-40c08923efbb",
+          "function_classification_code": "201",
+          "economic_classification_code": null
+        },
+        {
+          "id": "f26498fd-f735-4a32-a1be-86a4c131d64d",
+          "function_classification_code": "204",
+          "economic_classification_code": null
+        },
+        {
+          "id": "edc220b9-53b8-41ab-b74f-6a707e5409dc",
+          "function_classification_code": "201",
+          "economic_classification_code": null
+        },
+        {
+          "id": "36c2c2cf-f423-4395-955d-18dda67a7a46",
+          "function_classification_code": "208",
+          "economic_classification_code": null
+        },
+        {
+          "id": "c18c0c8f-3e8a-4788-a6f5-963bb74e7155",
+          "function_classification_code": "201",
+          "economic_classification_code": null
+        },
+        {
+          "id": "c665af3e-6549-4ef8-8124-06caab072f3e",
+          "function_classification_code": "212",
+          "economic_classification_code": null
+        },
+        {
+          "id": "0871d751-6077-4d9d-a025-57921e08767a",
+          "function_classification_code": "214",
+          "economic_classification_code": null
+        },
+        {
+          "id": "b0cca32d-2216-4663-b4e9-7efd852a07a2",
+          "function_classification_code": "201",
+          "economic_classification_code": null
+        }
+      ],
+      "source_documents": [
+        {
+          "id": "15c376f0-3249-467a-b730-ca83c327553f",
+          "document_type": "procurement_notice",
+          "title": "2025年启东市校园安全提升项目",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+          "captured_at": "2025-04-30"
+        },
+        {
+          "id": "94345402-8fe8-45dc-8ae9-70a79fa726d1",
+          "document_type": "procurement_notice",
+          "title": "2025年启东市校园安全提升项目采购包1",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+          "captured_at": "2025-04-30"
+        },
+        {
+          "id": "b18723e0-ab8a-4b0e-92b5-37fd26d59577",
+          "document_type": "procurement_notice",
+          "title": "2025年启东市校园安全提升项目采购包2",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+          "captured_at": "2025-04-30"
+        },
+        {
+          "id": "3fac0fa1-4a38-47f9-bb73-ba0af53c6b38",
+          "document_type": "procurement_notice",
+          "title": "启东市2025年县道养护工程（通海大道大修）",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003005/003005001/20250623/7cff5368-3cca-4521-a21c-78e7c4e418f0.html",
+          "captured_at": "2025-06-23"
+        },
+        {
+          "id": "a3229f0d-21f8-4f32-b195-826336e32f36",
+          "document_type": "procurement_notice",
+          "title": "启东市启隆镇2025年农村公路新建及养护工程",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003005/003005001/20250714/793a3af1-9c2f-45ea-8b1a-ea4fc7af277b.html",
+          "captured_at": "2025-07-14"
+        },
+        {
+          "id": "65f88c82-b547-4d6a-8764-cfdba7c16aeb",
+          "document_type": "procurement_notice",
+          "title": "海安市城建开发投资集团有限公司融资报表审计服务采购项目（第二次）",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003009/003009001/20250714/31ad4f91-528e-4ad2-80fe-c7a9c2777d9f.html",
+          "captured_at": "2025-07-14"
+        },
+        {
+          "id": "47714759-4714-4197-9635-d279642aedc7",
+          "document_type": "procurement_notice",
+          "title": "南通大剧院歌剧厅舞台机械设备年度维保项目",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003015/003015005/20250314/f78c79e3-9b6c-44d0-b5e9-b39f9221c0e5.html",
+          "captured_at": "2025-03-14"
+        },
+        {
+          "id": "dfe35410-d3db-4b6e-83dd-570bb8e46353",
+          "document_type": "procurement_notice",
+          "title": "南通大剧院舞台灯光二标段设备年度维保项目",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003015/003015005/20250109/8645e6fe-d602-43d2-811b-0bfd78473279.html",
+          "captured_at": "2025-01-09"
+        },
+        {
+          "id": "ac278c45-268d-4e4f-9478-c04d62f939e9",
+          "document_type": "procurement_notice",
+          "title": "2025年崇川区城东街道老旧小区综合改造工程",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+          "captured_at": "2025-05-19"
+        },
+        {
+          "id": "20bee08d-e246-4700-9d28-c2bbc3fdabb1",
+          "document_type": "procurement_notice",
+          "title": "2025年崇川区城东街道老旧小区综合改造工程施工一标段",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+          "captured_at": "2025-05-19"
+        },
+        {
+          "id": "919771a3-6994-4f1e-9137-140557d47d81",
+          "document_type": "procurement_notice",
+          "title": "2025年崇川区城东街道老旧小区综合改造工程施工二标段",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+          "captured_at": "2025-05-19"
+        },
+        {
+          "id": "6e5e8206-7d5c-4a04-af6e-90917965783b",
+          "document_type": "procurement_notice",
+          "title": "2025年崇川区城东街道老旧小区综合改造工程施工三标段",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+          "captured_at": "2025-05-19"
+        },
+        {
+          "id": "ac4d8381-881d-4b67-8a6f-e50f0239f13d",
+          "document_type": "procurement_notice",
+          "title": "2025年崇川区城东街道老旧小区综合改造工程施工四标段",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001003/20250519/0fe316ef-e310-461b-85bb-6928cfc50ccc.html",
+          "captured_at": "2025-05-19"
+        },
+        {
+          "id": "abb4698e-ab92-4051-8e15-42c4e90560fb",
+          "document_type": "procurement_notice",
+          "title": "2025年崇川区和平桥街道老旧小区综合改造工程",
+          "url": "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001009/20250219/a514ab8a-0aa9-4896-b19a-b4eb8880e7af.html",
+          "captured_at": "2025-02-19"
+        },
+        {
+          "id": "9da102cd-ec1a-4e69-9dbf-0f14bb27f48b",
+          "document_type": "procurement_notice",
+          "title": "2025年太仓市财政国资监管审计服务",
+          "url": "https://tcs.chinamae.com/news/1ca4f571e8fb5da9808c102ee0d005f4.html",
+          "captured_at": "2025-12-15"
+        },
+        {
+          "id": "c15285d0-5d88-4626-8e71-790240d55cc4",
+          "document_type": "procurement_notice",
+          "title": "国家税务总局昆山市税务局2025-2027年涉税存量房交易价格评估采集项目",
+          "url": "https://jiangsu.chinatax.gov.cn/art/2025/4/22/art_15969_499817.html",
+          "captured_at": "2025-04-22"
+        },
+        {
+          "id": "aa7af6ba-1760-4899-8998-8ab89419c2ce",
+          "document_type": "procurement_notice",
+          "title": "江阴市办案场所智能化改造升级建设",
+          "url": "https://ggzyjy.wuxi.gov.cn/doc/2025/11/24/4687260.shtml",
+          "captured_at": "2025-11-24"
+        },
+        {
+          "id": "3152a664-30fd-4ec3-a3d1-7cafb1f2360d",
+          "document_type": "procurement_notice",
+          "title": "2025年东台市政务服务中心工作服采购项目",
+          "url": "https://czj.yancheng.gov.cn/art/2025/5/7/art_20174_22664.html",
+          "captured_at": "2025-05-07"
+        },
+        {
+          "id": "c3fbb4b8-921b-4d7f-89a2-365dd4de562a",
+          "document_type": "procurement_notice",
+          "title": "2025年东台市政府购买居家养老及分散供养特困人员照料护理服务",
+          "url": "https://czj.yancheng.gov.cn/art/2025/8/6/art_20174_23129.html",
+          "captured_at": "2025-08-06"
+        },
+        {
+          "id": "180b4bff-c38c-406e-b370-f8a888fb8103",
+          "document_type": "procurement_notice",
+          "title": "江苏省政府采购“苏采云”平台运维服务项目（东台）",
+          "url": "https://www.dongtai.gov.cn/art/2024/3/27/art_7905_4170685.html",
+          "captured_at": "2024-03-27"
+        },
+        {
+          "id": "9d914395-dc6a-4ed8-a2e0-d45a629cf2c4",
+          "document_type": "procurement_notice",
+          "title": "江苏东台经济开发区2024-2025年市政、绿化、土建等建设工程标底编制项目",
+          "url": "https://www.dongtai.gov.cn/art/2023/12/27/art_21645_4127331.html",
+          "captured_at": "2023-12-27"
+        },
+        {
+          "id": "ab627a73-32b9-41f9-a163-02af82b070c5",
+          "document_type": "procurement_notice",
+          "title": "2025-2026年造价咨询（概预算审核、日常养护和大中修工程跟踪审计）项目",
+          "url": "https://czj.taizhou.gov.cn/tzzfcgw/cgxx/sjcgxx/fzbcg/jzxcsgg/art/2025/art_363e37c0ba3c4c50b6df3a5c5ec5d612.html",
+          "captured_at": "2025-01-21"
+        },
+        {
+          "id": "80f2d4a1-fb10-45ff-ab76-4578be95614a",
+          "document_type": "procurement_notice",
+          "title": "国家税务总局江阴市税务局2025年度食堂食材采购项目",
+          "url": "https://jiangsu.chinatax.gov.cn/art/2025/2/24/art_15966_500856.html",
+          "captured_at": "2025-02-24"
+        }
+      ],
+      "quality_report": {
+        "total_rows": 23,
+        "accepted_rows": 23,
+        "rejected_rows": 0,
+        "checks": []
+      },
+      "applicable_rule_sets": [
+        "procurement_rules"
+      ]
+    }
+  },
+  "budget_linkage_summary": {
+    "exact_linked_procurement_projects": 0,
+    "evidence_auto_linked_procurement_projects": 0,
+    "candidate_procurement_projects": 0,
+    "unlinked_procurement_projects": 0,
+    "ambiguous_matches": 0
+  },
+  "contract_linkage_summary": {
+    "linked_contracts": 0,
+    "missing_contracts": 0,
+    "closed_contract_chains": 0,
+    "open_contract_chains": 0,
+    "writeback_pending": 0
+  },
+  "payment_linkage_summary": {
+    "linked_payments": 0,
+    "unmatched_payments": 0,
+    "paid_without_ledger": 0,
+    "ledger_without_payment": 0,
+    "amount_gap": ""
+  },
+  "ledger_linkage_summary": {
+    "linked_entries": 0,
+    "unbalanced_entries": 0,
+    "duplicate_entries": 0,
+    "timing_exceptions": 0,
+    "manual_review_required": 0
+  },
+  "created_by": "c1f19662-b4fe-44ca-8785-172e4ac4395b",
+  "created_at": "2026-04-26 15:06:44",
+  "updated_at": "2026-04-26 15:06:44"
+}

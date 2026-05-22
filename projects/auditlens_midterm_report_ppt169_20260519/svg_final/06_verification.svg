@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53" />
+      <stop offset="100%" stop-color="#1F7A6D" />
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)" />
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">回归验证显示核心流程已具备演示稳定性</text>
+    <text x="56" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">中期阶段重点验证“能跑通、能导出、能恢复、能复测”</text>
+  </g>
+  <g id="kpi-rust">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M64,150 H408 A8,8 0 0 1 416,158 V324 A8,8 0 0 1 408,332 H64 A8,8 0 0 1 56,324 V158 A8,8 0 0 1 64,150 Z" />
+    
+  <g transform="translate(78.0, 178.0) scale(1.3333333333333333)" fill="none" stroke="#15803D" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="126" y="200" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">Rust 测试</text>
+    <text x="78" y="270" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#0B3A53">95+</text>
+    <text x="168" y="270" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">unit + integration</text>
+    <text x="78" y="310" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1E293B">核心规则、导出和平台逻辑通过</text>
+  </g>
+  <g id="kpi-node">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M468,150 H812 A8,8 0 0 1 820,158 V324 A8,8 0 0 1 812,332 H468 A8,8 0 0 1 460,324 V158 A8,8 0 0 1 468,150 Z" />
+    
+  <g transform="translate(482.0, 178.0) scale(1.3333333333333333)" fill="none" stroke="#15803D" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="530" y="200" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">Node 自动化</text>
+    <text x="482" y="270" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#0B3A53">120/120</text>
+    <text x="482" y="310" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1E293B">前端 payload、任务列表和公开样例测试通过</text>
+  </g>
+  <g id="kpi-fullstack">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M872,150 H1216 A8,8 0 0 1 1224,158 V324 A8,8 0 0 1 1216,332 H872 A8,8 0 0 1 864,324 V158 A8,8 0 0 1 872,150 Z" />
+    
+  <g transform="translate(886.0, 178.0) scale(1.3333333333333333)" fill="none" stroke="#15803D" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="934" y="200" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">全栈烟测</text>
+    <text x="886" y="270" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700" fill="#0B3A53">44/44</text>
+    <text x="886" y="310" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#1E293B">登录、导入、导出、整改等主流程通过</text>
+  </g>
+  <g id="evidence-list">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M64,372 H782 A8,8 0 0 1 790,380 V594 A8,8 0 0 1 782,602 H64 A8,8 0 0 1 56,594 V380 A8,8 0 0 1 64,372 Z" />
+    <text x="86" y="418" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#1E293B">附加验证证据</text>
+    <circle cx="98" cy="462" r="5" fill="#1F7A6D" />
+    <text x="124" y="468" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1E293B">Follow-up smoke：7/7 通过，补充覆盖后续修复点</text>
+    <circle cx="98" cy="506" r="5" fill="#1F7A6D" />
+    <text x="124" y="512" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1E293B">密封导出包含 manifest 与 encrypted_payload，可用 seal-verify 校验</text>
+    <circle cx="98" cy="550" r="5" fill="#1F7A6D" />
+    <text x="124" y="556" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#1E293B">备份恢复、审计日志归档、Public / PoC profile 切换已完成演练</text>
+  </g>
+  <g id="verification-conclusion">
+    <path fill="#0B3A53" d="M838,372 H1216 A8,8 0 0 1 1224,380 V594 A8,8 0 0 1 1216,602 H838 A8,8 0 0 1 830,594 V380 A8,8 0 0 1 838,372 Z" />
+    <text x="858" y="418" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">答辩可用结论</text>
+    <text font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" x="858" y="462">当前版本适合作为中期答辩和</text><text font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" x="858" y="493">PoC 沟通的演示基线。</text><path fill="#FFFFFF" d="M883,526 H1069 A25,25 0 0 1 1094,551 V551 A25,25 0 0 1 1069,576 H883 A25,25 0 0 1 858,551 V551 A25,25 0 0 1 883,526 Z" />
+    <text x="976" y="557" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#0B3A53">后续转入交付加固</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: docs/STATUS.md, docs/FULLSTACK_TEST_REPORT_2026-05-06.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">06 / 08</text>
+  </g>
+</svg>

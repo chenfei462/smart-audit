@@ -1,0 +1,56 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53"/>
+      <stop offset="100%" stop-color="#1F7A6D"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)"/>
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">后期以“真实 PoC 可交付”为主线推进</text>
+    <text x="56" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">三阶段路线：先控风险，再提效率，最后补齐产品化维护能力</text>
+  </g>
+  <g id="roadmap-line">
+    <line x1="190" y1="168" x2="190" y2="548" stroke="#CBD5E1" stroke-width="4"/>
+    <circle cx="190" cy="194" r="16" fill="#1F7A6D"/>
+    <circle cx="190" cy="338" r="16" fill="#F59E0B"/>
+    <circle cx="190" cy="482" r="16" fill="#0B3A53"/>
+  </g>
+  <g id="phase-near">
+    <text x="132" y="202" text-anchor="end" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1F7A6D">近期</text>
+    <rect x="236" y="154" width="846" height="86" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="266" y="194" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">PoC 安全与数据可信加固</text>
+    <text x="266" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">密钥管理、审计日志、数据来源追溯、规则解释字段、固定样本回归</text>
+    <rect x="1102" y="174" width="98" height="40" rx="20" fill="#EAF2F0" stroke="#1F7A6D"/>
+    <text x="1151" y="199" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F7A6D">答辩后优先</text>
+  </g>
+  <g id="phase-mid">
+    <text x="132" y="346" text-anchor="end" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F59E0B">中期</text>
+    <rect x="236" y="298" width="846" height="86" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="266" y="338" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">提升交付效率与页面可用性</text>
+    <text x="266" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">报告模板、整改台账、连接器预检、前端导出入口、错误反馈与权限状态</text>
+    <rect x="1102" y="318" width="98" height="40" rx="20" fill="#F8FAFC" stroke="#F59E0B"/>
+    <text x="1151" y="343" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#F59E0B">演示后迭代</text>
+  </g>
+  <g id="phase-long">
+    <text x="132" y="490" text-anchor="end" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#0B3A53">长期</text>
+    <rect x="236" y="442" width="846" height="86" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="266" y="482" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">产品化维护和工程结构演进</text>
+    <text x="266" y="514" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">后端模块拆分、数据库迁移、CI / E2E、可观测性、多环境配置基线</text>
+    <rect x="1102" y="462" width="98" height="40" rx="20" fill="#EAF2F0" stroke="#0B3A53"/>
+    <text x="1151" y="487" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#0B3A53">产品化方向</text>
+  </g>
+  <g id="closing-output">
+    <rect x="56" y="596" width="1168" height="66" rx="8" fill="#0B3A53"/>
+    <use data-icon="tabler-outline/rocket" x="86" y="612" width="32" height="32" fill="#FFFFFF" stroke-width="2"/>
+    <text x="136" y="636" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">答辩后输出：</text>
+    <text x="256" y="636" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#FFFFFF">可运行环境、演示脚本、PoC 验收清单、风险加固任务列表和下一轮迭代计划</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: docs/FUTURE_IMPROVEMENTS.md, docs/POC_ACCEPTANCE_CHECKLIST.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">08 / 08</text>
+  </g>
+</svg>

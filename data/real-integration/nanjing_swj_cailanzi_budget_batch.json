@@ -1,0 +1,50 @@
+{
+  "title": "南京市商务局菜篮子专项预算样本（真实公开数据）",
+  "dataset_kind": "department_execution_detail",
+  "records": [
+    {
+      "period": "2025-01",
+      "region": "江苏省南京市",
+      "budget_scope": "一般公共预算",
+      "direction": "支出",
+      "budget_unit_name": "南京市商务局",
+      "budget_unit_code": "712001",
+      "budget_project_name": "2025年菜篮子发展专项-肉菜储备",
+      "project_catalog_id": null,
+      "indicator_document_no": "宁府办文〔2014〕1697号",
+      "funding_source_name": "一般公共预算财政拨款",
+      "function_classification_code": null,
+      "function_classification_name": null,
+      "economic_classification_code": null,
+      "economic_classification_name": null,
+      "summary_item": "冻猪肉储备量3000吨",
+      "budget_amount": "1315",
+      "actual_amount": "0",
+      "previous_period_amount": null,
+      "yoy_rate": null,
+      "source_row": 1
+    },
+    {
+      "period": "2025-01",
+      "region": "江苏省南京市",
+      "budget_scope": "一般公共预算",
+      "direction": "支出",
+      "budget_unit_name": "南京市商务局",
+      "budget_unit_code": "712001",
+      "budget_project_name": "2025年菜篮子发展专项-肉菜追溯体系运维",
+      "project_catalog_id": null,
+      "indicator_document_no": "宁财规〔2022〕3号",
+      "funding_source_name": "一般公共预算财政拨款",
+      "function_classification_code": null,
+      "function_classification_name": null,
+      "economic_classification_code": null,
+      "economic_classification_name": null,
+      "summary_item": "肉菜追溯体系运维",
+      "budget_amount": "145",
+      "actual_amount": "0",
+      "previous_period_amount": null,
+      "yoy_rate": null,
+      "source_row": 2
+    }
+  ]
+}

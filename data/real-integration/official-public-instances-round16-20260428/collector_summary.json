@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-04-27T09:05:39.123Z",
+  "captured_at": "2026-04-28T00:20:00+08:00",
+  "fetch_mode": "official_public_round16_web_research_snapshot",
+  "source_count": 24,
+  "sixteenth_round_source_count": 24,
+  "official_web_research_source_count": 24,
+  "parsed_source_count": 24,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 312,
+  "previous_source_overlap_count": 0,
+  "total_records": 184,
+  "procurement_records": 110,
+  "budget_records": 50,
+  "case_seed_records": 24,
+  "source_region_scopes": {
+    "jiangsu_local": 20,
+    "central_unit": 1,
+    "cross_province": 3
+  },
+  "central_unit_source_count": 1,
+  "cross_province_source_count": 3,
+  "jiangsu_local_source_count": 20,
+  "procurement_service_period_records": 110,
+  "maintenance_or_warranty_records": 28,
+  "acceptance_trigger_records": 55,
+  "payment_condition_records": 110,
+  "payment_deadline_missing_count": 94,
+  "government_purchase_service_records": 19,
+  "policy_sensitive_procurement_records": 44,
+  "budget_policy_records": 50,
+  "fiscal_policy_supplemental_coverage_rate": 100,
+  "fiscal_performance_metric_records": 50,
+  "audit_evidence_levels": {
+    "work_method_reference": 3,
+    "audit_work_update": 5,
+    "rectification_progress": 10,
+    "formal_audit_report": 4,
+    "department_final_account_pdf": 2
+  },
+  "audit_followup_or_review_records": 21,
+  "audit_low_weight_records": 10,
+  "audit_pdf_locator_complete_count": 24,
+  "finding_dispositions": {
+    "supplemental_data_only": 160,
+    "knowledge_reference": 3,
+    "review_recommended": 7,
+    "risk_candidate": 14
+  },
+  "discovery_queue_item_count": 146,
+  "discovery_queue_by_target_stage": {
+    "contract": 44,
+    "acceptance": 44,
+    "payment": 44,
+    "rectification": 14
+  },
+  "discovery_crawler_processed_count": 146,
+  "discovery_crawler_matched_count": 0,
+  "discovery_crawler_match_rate": 0,
+  "discovery_crawler_statuses": {
+    "not_found": 132,
+    "manual_review": 14
+  },
+  "crawler_not_found_explained_count": 132,
+  "source_completeness_rate": 100,
+  "locator_coverage_rate": 100
+}

@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-04-27T03:06:25.991Z",
+  "captured_at": "2026-04-27T11:30:00+08:00",
+  "fetch_mode": "official_public_round9_with_registry_crawler",
+  "source_count": 16,
+  "ninth_round_source_count": 16,
+  "parsed_source_count": 16,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 167,
+  "previous_source_overlap_count": 0,
+  "total_records": 108,
+  "procurement_records": 64,
+  "budget_records": 30,
+  "case_seed_records": 14,
+  "central_unit_source_count": 5,
+  "cross_province_source_count": 4,
+  "jiangsu_local_source_count": 7,
+  "source_region_scopes": {
+    "central_unit": 5,
+    "cross_province": 4,
+    "jiangsu_local": 7
+  },
+  "wrong_jiangsu_attribution_review_count": 0,
+  "electronic_marketplace_records": 22,
+  "electronic_marketplace_unit_price_records": 11,
+  "electronic_marketplace_order_total_records": 11,
+  "department_final_account_records": 15,
+  "pdf_performance_records": 5,
+  "locator_coverage_rate": 100,
+  "unit_normalized_records": 94,
+  "amount_semantic_types": {
+    "electronic_marketplace_order_total": 11,
+    "award_total": 36,
+    "electronic_marketplace_unit_price": 11,
+    "framework_limit": 6
+  },
+  "discovery_queue_item_count": 128,
+  "discovery_queue_by_target_stage": {
+    "contract": 39,
+    "acceptance": 39,
+    "payment": 40,
+    "rectification": 10
+  },
+  "discovery_crawler_processed_count": 128,
+  "discovery_crawler_matched_count": 0,
+  "discovery_crawler_match_rate": 0,
+  "discovery_crawler_statuses": {
+    "not_found": 128
+  },
+  "audit_evidence_levels": {
+    "formal_audit_report": 3,
+    "rectification_progress": 3,
+    "special_audit_survey": 2,
+    "audit_result_feedback": 2,
+    "audit_work_update": 2,
+    "work_method_reference": 2
+  },
+  "finding_dispositions": {
+    "risk_candidate": 6,
+    "review_recommended": 4,
+    "knowledge_reference": 4
+  },
+  "source_completeness_rate": 100
+}

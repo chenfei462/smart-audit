@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-04-26T12:04:48.973Z",
+  "captured_at": "2026-04-26T20:10:00+08:00",
+  "fetch_mode": "web_researched_snapshot",
+  "source_count": 36,
+  "parsed_source_count": 36,
+  "duplicate_source_count": 0,
+  "previous_source_overlap_count": 0,
+  "unique_source_count": 36,
+  "total_records": 122,
+  "source_success_rate": 100,
+  "locator_coverage_rate": 100,
+  "unit_normalized_records": 110,
+  "amount_semantic_types": {
+    "award_total": 3,
+    "budget_amount": 8,
+    "unit_price": 2,
+    "framework_limit": 2,
+    "discount_rate": 15
+  },
+  "framework_agreement_count": 17,
+  "framework_limit_review_count": 2,
+  "unit_price_or_rate_review_count": 2,
+  "audit_evidence_levels": {
+    "formal_audit_report": 2,
+    "rectification_progress": 3,
+    "special_audit_survey": 1,
+    "audit_work_update": 4,
+    "work_method_reference": 1,
+    "audit_result_feedback": 1
+  },
+  "audit_evidence_weights": {
+    "formal_audit_report": 90,
+    "rectification_progress": 70,
+    "special_audit_survey": 60,
+    "audit_work_update": 35,
+    "work_method_reference": 20,
+    "audit_result_feedback": 55
+  },
+  "requires_manual_verification_count": 12,
+  "third_round_source_count": 36,
+  "url_duplicate_source_count": 0,
+  "content_duplicate_source_count": 0,
+  "title_duplicate_source_count": 0,
+  "manual_review_statuses": {
+    "reviewed": 36
+  },
+  "special_fund_structured_records": 4,
+  "special_fund_structured_coverage_rate": 44.44,
+  "parser_types": {
+    "ccgp_procurement_html": 15,
+    "government_metric_html": 11,
+    "audit_report_html": 10
+  },
+  "source_types": {
+    "成交公告": 1,
+    "竞争性磋商公告": 2,
+    "中标公告": 3,
+    "框架协议入围公告": 2,
+    "公开招标公告": 5,
+    "框架协议征集公告": 1,
+    "单一来源采购公示": 1,
+    "财政预算公开制度文件": 1,
+    "专项资金下达通知": 4,
+    "政府信息公开年报": 1,
+    "市县财政动态": 1,
+    "预算执行和预算草案报告": 1,
+    "财政工作总结": 1,
+    "财政工作计划": 1,
+    "财政预算执行报告": 1,
+    "审计工作报告动态": 1,
+    "审计整改公开信息": 1,
+    "审计整改专项调查": 1,
+    "审计工作动态": 2,
+    "部门预算执行审计动态": 1,
+    "地方预算执行审计动态": 1,
+    "经济责任审计结果反馈": 1,
+    "财政预算执行审计动态": 1,
+    "审计整改工作动态": 1
+  }
+}

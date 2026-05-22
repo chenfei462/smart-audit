@@ -1,0 +1,4290 @@
+{
+  "summary": {
+    "group_count": 52,
+    "closed_group_count": 0,
+    "missing_contract_count": 39,
+    "missing_acceptance_count": 39,
+    "missing_payment_count": 40,
+    "amount_review_count": 26
+  },
+  "groups": [
+    {
+      "chain_id": "pc-16056f72",
+      "project_code": "R9-PROC-001",
+      "project_name": "package 1",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 0",
+      "declared_total_award_amount": "68万元",
+      "declared_budget_amount": "70万元",
+      "ceiling_amount": "75万元",
+      "package_sum_amount": "68万元",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm",
+          "published_at": "2025-03-17",
+          "locator_hash": "26ba8b6d4bcb9ca8",
+          "amount": "2.00万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm",
+          "published_at": "2025-04-22",
+          "locator_hash": "608f0e8faf26b9c5",
+          "amount": "68万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-15056ddf",
+      "project_code": "R9-PROC-001",
+      "project_name": "package 2",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 1",
+      "declared_total_award_amount": "62万元",
+      "declared_budget_amount": "72万元",
+      "ceiling_amount": "77万元",
+      "package_sum_amount": "62万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm",
+          "published_at": "2025-05-20",
+          "locator_hash": "fde032fdd188653a",
+          "amount": "62万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-14056c4c",
+      "project_code": "R9-PROC-001",
+      "project_name": "package 3",
+      "purchaser_name": "Henan purchaser",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 2",
+      "declared_total_award_amount": "64万元",
+      "declared_budget_amount": "74万元",
+      "ceiling_amount": "79万元",
+      "package_sum_amount": "64万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm",
+          "published_at": "2025-06-24",
+          "locator_hash": "dff7a8d22a02143b",
+          "amount": "64万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-13056ab9",
+      "project_code": "R9-PROC-001",
+      "project_name": "package 4",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 3",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "76万元",
+      "ceiling_amount": "81万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm",
+          "published_at": "2025-03-28",
+          "locator_hash": "d05aa2e83c8ad2ef",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-d09ace84",
+      "project_code": "R9-PROC-002",
+      "project_name": "package 2",
+      "purchaser_name": "Shanghai purchaser",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 5",
+      "declared_total_award_amount": "70万元",
+      "declared_budget_amount": "80万元",
+      "ceiling_amount": "85万元",
+      "package_sum_amount": "70万元",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm",
+          "published_at": "2025-04-18",
+          "locator_hash": "71b76163345ccffa",
+          "amount": "70万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm",
+          "published_at": "2025-05-20",
+          "locator_hash": "9d5eea0d69af7502",
+          "amount": "0.68万元/台"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-d19ad017",
+      "project_code": "R9-PROC-002",
+      "project_name": "package 3",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 6",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "82万元",
+      "ceiling_amount": "87万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm",
+          "published_at": "2025-09-15",
+          "locator_hash": "62d5fdd36ef88f34",
+          "amount": "9.80万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-ce9acb5e",
+      "project_code": "R9-PROC-002",
+      "project_name": "package 4",
+      "purchaser_name": "Hubei purchaser",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 7",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "84万元",
+      "ceiling_amount": "89万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm",
+          "published_at": "2025-04-25",
+          "locator_hash": "3d0306ca6829a0c7",
+          "amount": "50万元以下"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-d39ad33d",
+      "project_code": "R9-PROC-002",
+      "project_name": "package 1",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 8",
+      "declared_total_award_amount": "76万元",
+      "declared_budget_amount": "86万元",
+      "ceiling_amount": "91万元",
+      "package_sum_amount": "76万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm",
+          "published_at": "2025-03-17",
+          "locator_hash": "59f493ad85b899e3",
+          "amount": "76万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-047c3b36",
+      "project_code": "R9-PROC-003",
+      "project_name": "package 3",
+      "purchaser_name": "Henan purchaser",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 10",
+      "declared_total_award_amount": "80万元",
+      "declared_budget_amount": "90万元",
+      "ceiling_amount": "95万元",
+      "package_sum_amount": "80万元",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm",
+          "published_at": "2025-06-24",
+          "locator_hash": "afd83c8136018245",
+          "amount": "80万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm",
+          "published_at": "2025-09-15",
+          "locator_hash": "d7215454be3c90bd",
+          "amount": "50万元以下"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-077c3fef",
+      "project_code": "R9-PROC-003",
+      "project_name": "package 4",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 11",
+      "declared_total_award_amount": "82万元",
+      "declared_budget_amount": "92万元",
+      "ceiling_amount": "97万元",
+      "package_sum_amount": "82万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm",
+          "published_at": "2025-03-28",
+          "locator_hash": "a43eddcae7b1481c",
+          "amount": "82万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-027c3810",
+      "project_code": "R9-PROC-003",
+      "project_name": "package 1",
+      "purchaser_name": "Hainan purchaser",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 12",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "94万元",
+      "ceiling_amount": "99万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm",
+          "published_at": "2025-04-22",
+          "locator_hash": "783954c04d30dc23",
+          "amount": "5.90万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-057c3cc9",
+      "project_code": "R9-PROC-003",
+      "project_name": "package 2",
+      "purchaser_name": "Shanghai purchaser",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 0",
+      "declared_total_award_amount": "86万元",
+      "declared_budget_amount": "96万元",
+      "ceiling_amount": "101万元",
+      "package_sum_amount": "86万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm",
+          "published_at": "2025-04-18",
+          "locator_hash": "9ccb5389eda565ed",
+          "amount": "86万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-0706977c",
+      "project_code": "R9-PROC-004",
+      "project_name": "package 4",
+      "purchaser_name": "Hubei purchaser",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 2",
+      "declared_total_award_amount": "98万元",
+      "declared_budget_amount": "100万元",
+      "ceiling_amount": "105万元",
+      "package_sum_amount": "98万元",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm",
+          "published_at": "2025-04-25",
+          "locator_hash": "5b793f24b2783926",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm",
+          "published_at": "2025-03-28",
+          "locator_hash": "1ffd50aa8df18adf",
+          "amount": "98万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-040692c3",
+      "project_code": "R9-PROC-004",
+      "project_name": "package 1",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 3",
+      "declared_total_award_amount": "92万元",
+      "declared_budget_amount": "102万元",
+      "ceiling_amount": "107万元",
+      "package_sum_amount": "92万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm",
+          "published_at": "2025-03-17",
+          "locator_hash": "4eda939e70bfe6eb",
+          "amount": "92万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-05069456",
+      "project_code": "R9-PROC-004",
+      "project_name": "package 2",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 4",
+      "declared_total_award_amount": "94万元",
+      "declared_budget_amount": "104万元",
+      "ceiling_amount": "109万元",
+      "package_sum_amount": "94万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm",
+          "published_at": "2025-05-20",
+          "locator_hash": "c4c08829ea4391b4",
+          "amount": "94万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-060695e9",
+      "project_code": "R9-PROC-004",
+      "project_name": "package 3",
+      "purchaser_name": "Henan purchaser",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 5",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "106万元",
+      "ceiling_amount": "111万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm",
+          "published_at": "2025-06-24",
+          "locator_hash": "7faced1982dfb080",
+          "amount": "2.00万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-06a69576",
+      "project_code": "R9-PROC-005",
+      "project_name": "package 1",
+      "purchaser_name": "Hainan purchaser",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 7",
+      "declared_total_award_amount": "100万元",
+      "declared_budget_amount": "110万元",
+      "ceiling_amount": "115万元",
+      "package_sum_amount": "100万元",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm",
+          "published_at": "2025-04-22",
+          "locator_hash": "ae58e174cd3e1733",
+          "amount": "100万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm",
+          "published_at": "2025-03-17",
+          "locator_hash": "4c44a74107857250",
+          "amount": "9.80万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-05a693e3",
+      "project_code": "R9-PROC-005",
+      "project_name": "package 2",
+      "purchaser_name": "Shanghai purchaser",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 8",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "112万元",
+      "ceiling_amount": "117万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm",
+          "published_at": "2025-04-18",
+          "locator_hash": "5ff7f0977c9b32b4",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-04a69250",
+      "project_code": "R9-PROC-005",
+      "project_name": "package 3",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 9",
+      "declared_total_award_amount": "104万元",
+      "declared_budget_amount": "114万元",
+      "ceiling_amount": "119万元",
+      "package_sum_amount": "104万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm",
+          "published_at": "2025-09-15",
+          "locator_hash": "48cc21731e006fd0",
+          "amount": "104万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-0ba69d55",
+      "project_code": "R9-PROC-005",
+      "project_name": "package 4",
+      "purchaser_name": "Hubei purchaser",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 10",
+      "declared_total_award_amount": "106万元",
+      "declared_budget_amount": "116万元",
+      "ceiling_amount": "121万元",
+      "package_sum_amount": "106万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm",
+          "published_at": "2025-04-25",
+          "locator_hash": "44696e225f1230b5",
+          "amount": "106万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-dcb454b8",
+      "project_code": "R9-PROC-006",
+      "project_name": "package 2",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 12",
+      "declared_total_award_amount": "110万元",
+      "declared_budget_amount": "120万元",
+      "ceiling_amount": "125万元",
+      "package_sum_amount": "110万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm",
+          "published_at": "2025-05-20",
+          "locator_hash": "c5eac8e8f1bb943d",
+          "amount": "110万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm",
+          "published_at": "2025-04-18",
+          "locator_hash": "b427a47e69615446",
+          "amount": "118万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-ddb4564b",
+      "project_code": "R9-PROC-006",
+      "project_name": "package 3",
+      "purchaser_name": "Henan purchaser",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 0",
+      "declared_total_award_amount": "112万元",
+      "declared_budget_amount": "122万元",
+      "ceiling_amount": "127万元",
+      "package_sum_amount": "112万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm",
+          "published_at": "2025-06-24",
+          "locator_hash": "02292a0ec4ba012a",
+          "amount": "112万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-e2b45e2a",
+      "project_code": "R9-PROC-006",
+      "project_name": "package 4",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 1",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "124万元",
+      "ceiling_amount": "129万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm",
+          "published_at": "2025-03-28",
+          "locator_hash": "80da8216c5eb5dcb",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-dfb45971",
+      "project_code": "R9-PROC-006",
+      "project_name": "package 1",
+      "purchaser_name": "Hainan purchaser",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 2",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "126万元",
+      "ceiling_amount": "131万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm",
+          "published_at": "2025-04-22",
+          "locator_hash": "72d2885fbbd29d5b",
+          "amount": "50万元以下"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-b41f436a",
+      "project_code": "R9-PROC-007",
+      "project_name": "package 3",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 4",
+      "declared_total_award_amount": "128万元",
+      "declared_budget_amount": "130万元",
+      "ceiling_amount": "135万元",
+      "package_sum_amount": "128万元",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm",
+          "published_at": "2025-09-15",
+          "locator_hash": "ae5e9913f6f65b24",
+          "amount": "5.90万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm",
+          "published_at": "2025-06-24",
+          "locator_hash": "b794c0457f069792",
+          "amount": "128万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-af1f3b8b",
+      "project_code": "R9-PROC-007",
+      "project_name": "package 4",
+      "purchaser_name": "Hubei purchaser",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 5",
+      "declared_total_award_amount": "122万元",
+      "declared_budget_amount": "132万元",
+      "ceiling_amount": "137万元",
+      "package_sum_amount": "122万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm",
+          "published_at": "2025-04-25",
+          "locator_hash": "aefdb3923c921431",
+          "amount": "122万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-b21f4044",
+      "project_code": "R9-PROC-007",
+      "project_name": "package 1",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 6",
+      "declared_total_award_amount": "124万元",
+      "declared_budget_amount": "134万元",
+      "ceiling_amount": "139万元",
+      "package_sum_amount": "124万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm",
+          "published_at": "2025-03-17",
+          "locator_hash": "54ed8ccc825dc040",
+          "amount": "124万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-b51f44fd",
+      "project_code": "R9-PROC-007",
+      "project_name": "package 2",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 7",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "136万元",
+      "ceiling_amount": "141万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm",
+          "published_at": "2025-05-20",
+          "locator_hash": "2576968bb3e3159e",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-349dd6e8",
+      "project_code": "R9-PROC-008",
+      "project_name": "package 4",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 9",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "140万元",
+      "ceiling_amount": "145万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm",
+          "published_at": "2025-03-28",
+          "locator_hash": "5f116277195ae51e",
+          "amount": "50万元以下"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm",
+          "published_at": "2025-04-25",
+          "locator_hash": "1edfb04fbb3831bd",
+          "amount": "0.68万元/台"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-399ddec7",
+      "project_code": "R9-PROC-008",
+      "project_name": "package 1",
+      "purchaser_name": "Hainan purchaser",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 10",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "142万元",
+      "ceiling_amount": "147万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm",
+          "published_at": "2025-04-22",
+          "locator_hash": "e89f471e0accc79d",
+          "amount": "2.00万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-3a9de05a",
+      "project_code": "R9-PROC-008",
+      "project_name": "package 2",
+      "purchaser_name": "Shanghai purchaser",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 11",
+      "declared_total_award_amount": "134万元",
+      "declared_budget_amount": "144万元",
+      "ceiling_amount": "149万元",
+      "package_sum_amount": "134万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm",
+          "published_at": "2025-04-18",
+          "locator_hash": "8e82b7af9144e637",
+          "amount": "134万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-3b9de1ed",
+      "project_code": "R9-PROC-008",
+      "project_name": "package 3",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 12",
+      "declared_total_award_amount": "136万元",
+      "declared_budget_amount": "146万元",
+      "ceiling_amount": "151万元",
+      "package_sum_amount": "136万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm",
+          "published_at": "2025-09-15",
+          "locator_hash": "366e373e5b03fbc4",
+          "amount": "136万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-a7ac6cca",
+      "project_code": "R9-PROC-009",
+      "project_name": "package 1",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 1",
+      "declared_total_award_amount": "140万元",
+      "declared_budget_amount": "150万元",
+      "ceiling_amount": "155万元",
+      "package_sum_amount": "140万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm",
+          "published_at": "2025-03-17",
+          "locator_hash": "9a64e95c807b33c4",
+          "amount": "140万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm",
+          "published_at": "2025-04-22",
+          "locator_hash": "75040ac22fb4065f",
+          "amount": "148万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-a6ac6b37",
+      "project_code": "R9-PROC-009",
+      "project_name": "package 2",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 2",
+      "declared_total_award_amount": "142万元",
+      "declared_budget_amount": "152万元",
+      "ceiling_amount": "157万元",
+      "package_sum_amount": "142万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm",
+          "published_at": "2025-05-20",
+          "locator_hash": "f9ef550c77b2608c",
+          "amount": "142万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-a5ac69a4",
+      "project_code": "R9-PROC-009",
+      "project_name": "package 3",
+      "purchaser_name": "Henan purchaser",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 3",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "154万元",
+      "ceiling_amount": "159万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm",
+          "published_at": "2025-06-24",
+          "locator_hash": "263eb7f61bbb3f49",
+          "amount": "9.80万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-a4ac6811",
+      "project_code": "R9-PROC-009",
+      "project_name": "package 4",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 4",
+      "declared_total_award_amount": "146万元",
+      "declared_budget_amount": "156万元",
+      "ceiling_amount": "161万元",
+      "package_sum_amount": "146万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm",
+          "published_at": "2025-03-28",
+          "locator_hash": "4bdb4e4c1ebb4690",
+          "amount": "146万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-9cb3340d",
+      "project_code": "R9-PROC-010",
+      "project_name": "package 2",
+      "purchaser_name": "Shanghai purchaser",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 6",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "160万元",
+      "ceiling_amount": "165万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm",
+          "published_at": "2025-04-18",
+          "locator_hash": "9dcd67d9b3348cbb",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm",
+          "published_at": "2025-05-20",
+          "locator_hash": "4b23ef293d1b866d",
+          "amount": "50万元以下"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-9bb3327a",
+      "project_code": "R9-PROC-010",
+      "project_name": "package 3",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 7",
+      "declared_total_award_amount": "152万元",
+      "declared_budget_amount": "162万元",
+      "ceiling_amount": "167万元",
+      "package_sum_amount": "152万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm",
+          "published_at": "2025-09-15",
+          "locator_hash": "483efd9c71936b69",
+          "amount": "152万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-96b32a9b",
+      "project_code": "R9-PROC-010",
+      "project_name": "package 4",
+      "purchaser_name": "Hubei purchaser",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 8",
+      "declared_total_award_amount": "154万元",
+      "declared_budget_amount": "164万元",
+      "ceiling_amount": "169万元",
+      "package_sum_amount": "154万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm",
+          "published_at": "2025-04-25",
+          "locator_hash": "918897a18fbc3240",
+          "amount": "154万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-99b32f54",
+      "project_code": "R9-PROC-010",
+      "project_name": "package 1",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 9",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "166万元",
+      "ceiling_amount": "171万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm",
+          "published_at": "2025-03-17",
+          "locator_hash": "7e493da4221ef4d7",
+          "amount": "5.90万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-b78d835b",
+      "project_code": "R9-PROC-011",
+      "project_name": "package 3",
+      "purchaser_name": "Henan purchaser",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 11",
+      "declared_total_award_amount": "160万元",
+      "declared_budget_amount": "170万元",
+      "ceiling_amount": "175万元",
+      "package_sum_amount": "160万元",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm",
+          "published_at": "2025-06-24",
+          "locator_hash": "60567a411cd7e20e",
+          "amount": "160万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm",
+          "published_at": "2025-09-15",
+          "locator_hash": "39783b3f97de76a7",
+          "amount": "2.00万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-bc8d8b3a",
+      "project_code": "R9-PROC-011",
+      "project_name": "package 4",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 12",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "172万元",
+      "ceiling_amount": "177万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm",
+          "published_at": "2025-03-28",
+          "locator_hash": "4575e6c45d27f317",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-b98d8681",
+      "project_code": "R9-PROC-011",
+      "project_name": "package 1",
+      "purchaser_name": "Hainan purchaser",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 0",
+      "declared_total_award_amount": "164万元",
+      "declared_budget_amount": "174万元",
+      "ceiling_amount": "179万元",
+      "package_sum_amount": "164万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm",
+          "published_at": "2025-04-22",
+          "locator_hash": "7b8fb8ffb5cb4a57",
+          "amount": "164万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-b68d81c8",
+      "project_code": "R9-PROC-011",
+      "project_name": "package 2",
+      "purchaser_name": "Shanghai purchaser",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 1",
+      "declared_total_award_amount": "166万元",
+      "declared_budget_amount": "176万元",
+      "ceiling_amount": "181万元",
+      "package_sum_amount": "166万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm",
+          "published_at": "2025-04-18",
+          "locator_hash": "3633270ac089bde9",
+          "amount": "166万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-eda4a425",
+      "project_code": "R9-PROC-012",
+      "project_name": "package 4",
+      "purchaser_name": "Hubei purchaser",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 3",
+      "declared_total_award_amount": "170万元",
+      "declared_budget_amount": "180万元",
+      "ceiling_amount": "185万元",
+      "package_sum_amount": "170万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm",
+          "published_at": "2025-04-25",
+          "locator_hash": "e11351c49af91d3d",
+          "amount": "170万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250328_24368472.htm",
+          "published_at": "2025-03-28",
+          "locator_hash": "3dd5acd2038a02b0",
+          "amount": "178万元"
+        }
+      ],
+      "present_stages": [
+        "announcement",
+        "payment"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-e8a49c46",
+      "project_code": "R9-PROC-012",
+      "project_name": "package 1",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 4",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "182万元",
+      "ceiling_amount": "187万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202503/t20250317_24309679.htm",
+          "published_at": "2025-03-17",
+          "locator_hash": "1298bb595bd40976",
+          "amount": "50万元以下"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-e7a49ab3",
+      "project_code": "R9-PROC-012",
+      "project_name": "package 2",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 5",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "184万元",
+      "ceiling_amount": "189万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202505/t20250520_24628048.htm",
+          "published_at": "2025-05-20",
+          "locator_hash": "289d1e22dc4dbdb3",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-e6a49920",
+      "project_code": "R9-PROC-012",
+      "project_name": "package 3",
+      "purchaser_name": "Henan purchaser",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 6",
+      "declared_total_award_amount": "176万元",
+      "declared_budget_amount": "186万元",
+      "ceiling_amount": "191万元",
+      "package_sum_amount": "176万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202506/t20250624_24839323.htm",
+          "published_at": "2025-06-24",
+          "locator_hash": "38299130682d5584",
+          "amount": "176万元"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-a39452d3",
+      "project_code": "R9-PROC-013",
+      "project_name": "package 1",
+      "purchaser_name": "Hainan purchaser",
+      "package_no": "pkg1",
+      "package_name": "package 1",
+      "supplier_name": "Round9 Supplier 8",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "190万元",
+      "ceiling_amount": "195万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250422_24478319.htm",
+          "published_at": "2025-04-22",
+          "locator_hash": "9af39e0fc4b4341f",
+          "amount": "9.80万元"
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "announcement"
+      ],
+      "missing_stages": [
+        "award",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-a4945466",
+      "project_code": "R9-PROC-013",
+      "project_name": "package 2",
+      "purchaser_name": "Shanghai purchaser",
+      "package_no": "pkg2",
+      "package_name": "package 2",
+      "supplier_name": "Round9 Supplier 9",
+      "declared_total_award_amount": "182万元",
+      "declared_budget_amount": "192万元",
+      "ceiling_amount": "197万元",
+      "package_sum_amount": "182万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24462443.htm",
+          "published_at": "2025-04-18",
+          "locator_hash": "bff679fc13f105f2",
+          "amount": "182万元"
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "award"
+      ],
+      "missing_stages": [
+        "announcement",
+        "contract",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    },
+    {
+      "chain_id": "pc-a59455f9",
+      "project_code": "R9-PROC-013",
+      "project_name": "package 3",
+      "purchaser_name": "Central procurement unit",
+      "package_no": "pkg3",
+      "package_name": "package 3",
+      "supplier_name": "Round9 Supplier 10",
+      "declared_total_award_amount": "184万元",
+      "declared_budget_amount": "194万元",
+      "ceiling_amount": "199万元",
+      "package_sum_amount": "184万元",
+      "amount_consistency_status": "consistent",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "total amount available",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250915_25346529.htm",
+          "published_at": "2025-09-15",
+          "locator_hash": "bb56ea6c17abb98b",
+          "amount": "184万元"
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "contract"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "acceptance",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "履约验收公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_downstream_evidence"
+    },
+    {
+      "chain_id": "pc-a694578c",
+      "project_code": "R9-PROC-013",
+      "project_name": "package 4",
+      "purchaser_name": "Hubei purchaser",
+      "package_no": "pkg4",
+      "package_name": "package 4",
+      "supplier_name": "Round9 Supplier 11",
+      "declared_total_award_amount": "",
+      "declared_budget_amount": "196万元",
+      "ceiling_amount": "201万元",
+      "package_sum_amount": "",
+      "amount_consistency_status": "review_only",
+      "amount_difference_yuan": "0",
+      "amount_check_reason": "non-total amount semantic; review only",
+      "stage_statuses": [
+        {
+          "stage": "announcement",
+          "label": "采购公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "award",
+          "label": "成交/中标公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "contract",
+          "label": "合同公告",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        },
+        {
+          "stage": "acceptance",
+          "label": "履约验收公告",
+          "present": true,
+          "record_count": 1,
+          "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202504/t20250425_24499992.htm",
+          "published_at": "2025-04-25",
+          "locator_hash": "8e54575c5b7d5e6d",
+          "amount": "0.68万元/台"
+        },
+        {
+          "stage": "payment",
+          "label": "支付公开信息",
+          "present": false,
+          "record_count": 0,
+          "source_url": null,
+          "published_at": null,
+          "locator_hash": null,
+          "amount": ""
+        }
+      ],
+      "present_stages": [
+        "acceptance"
+      ],
+      "missing_stages": [
+        "announcement",
+        "award",
+        "contract",
+        "payment"
+      ],
+      "recommended_next_data": [
+        "合同公告",
+        "支付公开信息"
+      ],
+      "closure_status": "missing_contract"
+    }
+  ]
+}

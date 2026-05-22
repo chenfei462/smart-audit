@@ -1,0 +1,523 @@
+{
+  "template_kind": "special_inspection",
+  "records": [
+    {
+      "case_seed_id": "r11-case-001",
+      "issue_title": "rectification progress disclosure sample 1",
+      "project_name": "rectification progress disclosure evidence item 1",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "100000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "in_progress_or_partly_completed",
+      "source_evidence": {
+        "title": "Jiangsu audit rectification progress 2025 update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/2/7/art_995_11487931.html",
+        "published_at": "2025-02-07",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 1,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 1,
+        "locator_hash": "605d1e13e08a9272",
+        "raw_excerpt": "rectification progress disclosure; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-002",
+      "issue_title": "special audit survey update sample 2",
+      "project_name": "special audit survey update evidence item 2",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "117000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit special survey work update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/6/24/art_1105_11598239.html",
+        "published_at": "2025-06-24",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 2,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 2,
+        "locator_hash": "bec528f8fc4f23f4",
+        "raw_excerpt": "special audit survey update; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-003",
+      "issue_title": "audit work dynamic update sample 3",
+      "project_name": "audit work dynamic update evidence item 3",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "134000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_work_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit work dynamic update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/5/20/art_1104_11576603.html",
+        "published_at": "2025-05-20",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 3,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 3,
+        "locator_hash": "96ab857b8dddc488",
+        "raw_excerpt": "audit work dynamic update; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-004",
+      "issue_title": "audit method reference sample 4",
+      "project_name": "audit method reference evidence item 4",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "151000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "work_method_reference",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit method and experience reference",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/2/20/art_1104_11500391.html",
+        "published_at": "2025-02-20",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 4,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 4,
+        "locator_hash": "79ff52a7d16027fe",
+        "raw_excerpt": "audit method reference; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-005",
+      "issue_title": "audit result feedback meeting sample 5",
+      "project_name": "audit result feedback meeting evidence item 5",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_result_feedback",
+      "issue_amount": "168000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_result_feedback",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "audit_result_feedback",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit result feedback meeting update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/10/21/art_1104_11362390.html",
+        "published_at": "2024-10-21",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 5,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 5,
+        "locator_hash": "560992574eaadea1",
+        "raw_excerpt": "audit result feedback meeting; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-006",
+      "issue_title": "rectification progress disclosure sample 6",
+      "project_name": "rectification progress disclosure evidence item 6",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "185000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "in_progress_or_partly_completed",
+      "source_evidence": {
+        "title": "Jiangsu audit rectification progress 2025 update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/2/7/art_995_11487931.html",
+        "published_at": "2025-02-07",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 6,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 6,
+        "locator_hash": "5b3902de8a3407cd",
+        "raw_excerpt": "rectification progress disclosure; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-007",
+      "issue_title": "special audit survey update sample 7",
+      "project_name": "special audit survey update evidence item 7",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "202000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit special survey work update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/6/24/art_1105_11598239.html",
+        "published_at": "2025-06-24",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 7,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 7,
+        "locator_hash": "b45561e093980210",
+        "raw_excerpt": "special audit survey update; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-008",
+      "issue_title": "audit work dynamic update sample 8",
+      "project_name": "audit work dynamic update evidence item 8",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "219000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_work_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit work dynamic update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/5/20/art_1104_11576603.html",
+        "published_at": "2025-05-20",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 8,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 8,
+        "locator_hash": "0879329dab23da56",
+        "raw_excerpt": "audit work dynamic update; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-009",
+      "issue_title": "audit method reference sample 9",
+      "project_name": "audit method reference evidence item 9",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "236000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "work_method_reference",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit method and experience reference",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/2/20/art_1104_11500391.html",
+        "published_at": "2025-02-20",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 9,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 9,
+        "locator_hash": "bbdd19a9eb116dc7",
+        "raw_excerpt": "audit method reference; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-010",
+      "issue_title": "audit result feedback meeting sample 10",
+      "project_name": "audit result feedback meeting evidence item 10",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_result_feedback",
+      "issue_amount": "253000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_result_feedback",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "audit_result_feedback",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit result feedback meeting update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/10/21/art_1104_11362390.html",
+        "published_at": "2024-10-21",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 10,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 10,
+        "locator_hash": "504c94a68c89f4ea",
+        "raw_excerpt": "audit result feedback meeting; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-011",
+      "issue_title": "rectification progress disclosure sample 11",
+      "project_name": "rectification progress disclosure evidence item 11",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "270000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "in_progress_or_partly_completed",
+      "source_evidence": {
+        "title": "Jiangsu audit rectification progress 2025 update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/2/7/art_995_11487931.html",
+        "published_at": "2025-02-07",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 11,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 11,
+        "locator_hash": "c246dfdfe3c17de5",
+        "raw_excerpt": "rectification progress disclosure; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-012",
+      "issue_title": "special audit survey update sample 12",
+      "project_name": "special audit survey update evidence item 12",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "287000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "special_audit_survey",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit special survey work update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/6/24/art_1105_11598239.html",
+        "published_at": "2025-06-24",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 12,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 12,
+        "locator_hash": "3afdbbe4fa33f9c1",
+        "raw_excerpt": "special audit survey update; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-013",
+      "issue_title": "audit work dynamic update sample 13",
+      "project_name": "audit work dynamic update evidence item 13",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "304000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_work_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit work dynamic update",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/5/20/art_1104_11576603.html",
+        "published_at": "2025-05-20",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 13,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 13,
+        "locator_hash": "9de8e31bb88f584b",
+        "raw_excerpt": "audit work dynamic update; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    },
+    {
+      "case_seed_id": "r11-case-014",
+      "issue_title": "audit method reference sample 14",
+      "project_name": "audit method reference evidence item 14",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "321000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "work_method_reference",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "manual review and complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit method and experience reference",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2025/2/20/art_1104_11500391.html",
+        "published_at": "2025-02-20",
+        "captured_at": "2026-04-27T17:30:00+08:00",
+        "row_number": 14,
+        "parser_version": "official-public-instance-round11-v1",
+        "page_number": "",
+        "section_title": "audit evidence level and disposition",
+        "paragraph_index": 14,
+        "locator_hash": "298b0552328d8170",
+        "raw_excerpt": "audit method reference; low evidence levels do not enter substantive violation conclusion pool"
+      }
+    }
+  ]
+}

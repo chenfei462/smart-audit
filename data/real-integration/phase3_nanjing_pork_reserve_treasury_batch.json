@@ -1,0 +1,44 @@
+{
+  "title": "第三阶段联调：南京市冻猪肉政府性储备项目国库支付样本",
+  "dataset_kind": "treasury_payment_detail",
+  "records": [
+    {
+      "budget_unit_name": "南京市商务局",
+      "budget_project_name": "2025年菜篮子发展专项-肉菜储备",
+      "budget_project_id": null,
+      "procurement_project_id": null,
+      "supplier_name": "南京冻猪肉储备联调供应商",
+      "funding_source_name": "一般公共预算财政拨款",
+      "function_classification_code": "2220199",
+      "economic_classification_code": "30227",
+      "indicator_document_no": "NJSWJ-CLZ-2025-001",
+      "project_catalog_id": "NJSWJ-PORK-RESERVE-2025",
+      "contract_no": "NJSWJ-CLZ-2025-HT-001",
+      "payment_order_no": "NJSWJ-PAY-2025-001",
+      "treasury_voucher_no": "NJSWJ-TV-2025-001",
+      "amount": "4342500",
+      "paid_at": "2025-05-12",
+      "counterparty": "南京冻猪肉储备联调供应商",
+      "source_row": 1
+    },
+    {
+      "budget_unit_name": "南京市商务局",
+      "budget_project_name": "2025年菜篮子发展专项-肉菜储备",
+      "budget_project_id": null,
+      "procurement_project_id": null,
+      "supplier_name": "南京冻猪肉储备联调供应商",
+      "funding_source_name": "一般公共预算财政拨款",
+      "function_classification_code": "2220199",
+      "economic_classification_code": "30227",
+      "indicator_document_no": "NJSWJ-CLZ-2025-001",
+      "project_catalog_id": "NJSWJ-PORK-RESERVE-2025",
+      "contract_no": "NJSWJ-CLZ-2025-HT-001",
+      "payment_order_no": "NJSWJ-PAY-2025-002",
+      "treasury_voucher_no": "NJSWJ-TV-2025-002",
+      "amount": "4342500",
+      "paid_at": "2025-08-12",
+      "counterparty": "南京冻猪肉储备联调供应商",
+      "source_row": 2
+    }
+  ]
+}

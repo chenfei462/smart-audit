@@ -1,0 +1,3176 @@
+{
+  "summary": {
+    "total_items": 56,
+    "processed_count": 56,
+    "matched_count": 0,
+    "not_found_count": 49,
+    "parse_failed_count": 0,
+    "manual_review_count": 7,
+    "match_rate": 0,
+    "by_status": {
+      "not_found": 49,
+      "manual_review": 7
+    },
+    "by_target_stage": {
+      "contract": 16,
+      "payment": 16,
+      "acceptance": 12,
+      "rectification": 12
+    },
+    "crawler_provider": "registry_snapshot_round14"
+  },
+  "items": [
+    {
+      "queue_id": "pc-712b09eb",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-001",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Guangzhou public purchaser",
+      "search_keyword": "Guangzhou public purchaser R14-PROC-001 round14 package 1 合同公告",
+      "search_keywords": [
+        "Guangzhou public purchaser R14-PROC-001 round14 package 1 合同公告",
+        "Guangzhou public purchaser",
+        "R14-PROC-001",
+        "round14 package 1",
+        "合同公告",
+        "Round14 Supplier 37",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_contract_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-1f7e8459",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-001",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Guangzhou public purchaser",
+      "search_keyword": "Guangzhou public purchaser R14-PROC-001 round14 package 1 支付公开信息",
+      "search_keywords": [
+        "Guangzhou public purchaser R14-PROC-001 round14 package 1 支付公开信息",
+        "Guangzhou public purchaser",
+        "R14-PROC-001",
+        "round14 package 1",
+        "支付公开信息",
+        "Round14 Supplier 37",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-1392f8a9",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-002",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-002 round14 package 2 支付公开信息",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-002 round14 package 2 支付公开信息",
+        "China Government Procurement Network",
+        "R14-PROC-002",
+        "round14 package 2",
+        "支付公开信息",
+        "Round14 Supplier 2",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "contract": 0.29
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-96d0a2ea",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-004",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-004 round14 package 1 合同公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-004 round14 package 1 合同公告",
+        "Central procurement unit",
+        "R14-PROC-004",
+        "round14 package 1",
+        "合同公告",
+        "Round14 Supplier 4",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "announcement",
+      "chain_discovery_reason": "missing_contract_after_announcement",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-0759b704",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-005",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-005 round14 package 2 合同公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-005 round14 package 2 合同公告",
+        "Central procurement unit",
+        "R14-PROC-005",
+        "round14 package 2",
+        "合同公告",
+        "Round14 Supplier 5",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_contract_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-461b27d9",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-005",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-005 round14 package 2 履约验收公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-005 round14 package 2 履约验收公告",
+        "Central procurement unit",
+        "R14-PROC-005",
+        "round14 package 2",
+        "履约验收公告",
+        "Round14 Supplier 5",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_acceptance_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-b708d989",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-006",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Shenzhen public purchaser",
+      "search_keyword": "Shenzhen public purchaser R14-PROC-006 round14 package 3 履约验收公告",
+      "search_keywords": [
+        "Shenzhen public purchaser R14-PROC-006 round14 package 3 履约验收公告",
+        "Shenzhen public purchaser",
+        "R14-PROC-006",
+        "round14 package 3",
+        "履约验收公告",
+        "Round14 Supplier 42",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_acceptance_after_contract",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-9dd6f404",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-006",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Shenzhen public purchaser",
+      "search_keyword": "Shenzhen public purchaser R14-PROC-006 round14 package 3 支付公开信息",
+      "search_keywords": [
+        "Shenzhen public purchaser R14-PROC-006 round14 package 3 支付公开信息",
+        "Shenzhen public purchaser",
+        "R14-PROC-006",
+        "round14 package 3",
+        "支付公开信息",
+        "Round14 Supplier 42",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_payment_after_contract",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-8f3bd946",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-007",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-007 round14 package 1 支付公开信息",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-007 round14 package 1 支付公开信息",
+        "China Government Procurement Network",
+        "R14-PROC-007",
+        "round14 package 1",
+        "支付公开信息",
+        "Round14 Supplier 7",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "contract": 0.29
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-72533ffd",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-008",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Nanjing public purchaser",
+      "search_keyword": "Nanjing public purchaser R14-PROC-008 round14 package 2 合同公告",
+      "search_keywords": [
+        "Nanjing public purchaser R14-PROC-008 round14 package 2 合同公告",
+        "Nanjing public purchaser",
+        "R14-PROC-008",
+        "round14 package 2",
+        "合同公告",
+        "Round14 Supplier 8",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "announcement",
+      "chain_discovery_reason": "missing_contract_after_announcement",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-edd74d67",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-009",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-009 round14 package 3 合同公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-009 round14 package 3 合同公告",
+        "Central procurement unit",
+        "R14-PROC-009",
+        "round14 package 3",
+        "合同公告",
+        "Round14 Supplier 9",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "announcement",
+      "chain_discovery_reason": "missing_contract_after_announcement",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-ef87fce2",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-010",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Chuzhou public purchaser",
+      "search_keyword": "Chuzhou public purchaser R14-PROC-010 round14 package 1 合同公告",
+      "search_keywords": [
+        "Chuzhou public purchaser R14-PROC-010 round14 package 1 合同公告",
+        "Chuzhou public purchaser",
+        "R14-PROC-010",
+        "round14 package 1",
+        "合同公告",
+        "Round14 Supplier 10",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_contract_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-6c8e47c3",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-010",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Chuzhou public purchaser",
+      "search_keyword": "Chuzhou public purchaser R14-PROC-010 round14 package 1 履约验收公告",
+      "search_keywords": [
+        "Chuzhou public purchaser R14-PROC-010 round14 package 1 履约验收公告",
+        "Chuzhou public purchaser",
+        "R14-PROC-010",
+        "round14 package 1",
+        "履约验收公告",
+        "Round14 Supplier 10",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_acceptance_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-5a3cec8a",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-011",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-011 round14 package 2 支付公开信息",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-011 round14 package 2 支付公开信息",
+        "China Government Procurement Network",
+        "R14-PROC-011",
+        "round14 package 2",
+        "支付公开信息",
+        "Round14 Supplier 47",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "contract": 0.29
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-91aa747b",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-012",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-012 round14 package 3 支付公开信息",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-012 round14 package 3 支付公开信息",
+        "China Government Procurement Network",
+        "R14-PROC-012",
+        "round14 package 3",
+        "支付公开信息",
+        "Round14 Supplier 12",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "contract": 0.29
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-6488b204",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-014",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Guangzhou public purchaser",
+      "search_keyword": "Guangzhou public purchaser R14-PROC-014 round14 package 2 合同公告",
+      "search_keywords": [
+        "Guangzhou public purchaser R14-PROC-014 round14 package 2 合同公告",
+        "Guangzhou public purchaser",
+        "R14-PROC-014",
+        "round14 package 2",
+        "合同公告",
+        "Round14 Supplier 14",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "announcement",
+      "chain_discovery_reason": "missing_contract_after_announcement",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-e23247c4",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-015",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-015 round14 package 3 合同公告",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-015 round14 package 3 合同公告",
+        "China Government Procurement Network",
+        "R14-PROC-015",
+        "round14 package 3",
+        "合同公告",
+        "Round14 Supplier 15",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "manual_review",
+      "matched_source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+      "matched_source_title": "Human resource service public tender with contract performance period",
+      "matched_stage": "contract",
+      "match_confidence": 0.59,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_contract_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.59,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "payment": 0.05
+      },
+      "failure_reason": "candidate below automatic match confidence threshold",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-fec45f99",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-015",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-015 round14 package 3 履约验收公告",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-015 round14 package 3 履约验收公告",
+        "China Government Procurement Network",
+        "R14-PROC-015",
+        "round14 package 3",
+        "履约验收公告",
+        "Round14 Supplier 15",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "manual_review",
+      "matched_source_url": "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+      "matched_source_title": "Jiangsu standardizes government procurement fulfillment acceptance management",
+      "matched_stage": "acceptance",
+      "match_confidence": 0.59,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_acceptance_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.59,
+        "unknown": 0.29,
+        "contract": 0.29,
+        "payment": 0.05
+      },
+      "failure_reason": "candidate below automatic match confidence threshold",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-16399413",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-016",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-016 round14 package 1 履约验收公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-016 round14 package 1 履约验收公告",
+        "Central procurement unit",
+        "R14-PROC-016",
+        "round14 package 1",
+        "履约验收公告",
+        "Round14 Supplier 52",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_acceptance_after_contract",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-074ae9ee",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-016",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-016 round14 package 1 支付公开信息",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-016 round14 package 1 支付公开信息",
+        "Central procurement unit",
+        "R14-PROC-016",
+        "round14 package 1",
+        "支付公开信息",
+        "Round14 Supplier 52",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_payment_after_contract",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-2bce2847",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-017",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-017 round14 package 2 支付公开信息",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-017 round14 package 2 支付公开信息",
+        "Central procurement unit",
+        "R14-PROC-017",
+        "round14 package 2",
+        "支付公开信息",
+        "Round14 Supplier 17",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-a2e82ffe",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-019",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Shenzhen public purchaser",
+      "search_keyword": "Shenzhen public purchaser R14-PROC-019 round14 package 1 合同公告",
+      "search_keywords": [
+        "Shenzhen public purchaser R14-PROC-019 round14 package 1 合同公告",
+        "Shenzhen public purchaser",
+        "R14-PROC-019",
+        "round14 package 1",
+        "合同公告",
+        "Round14 Supplier 19",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "announcement",
+      "chain_discovery_reason": "missing_contract_after_announcement",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-f9c1703b",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-020",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-020 round14 package 2 合同公告",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-020 round14 package 2 合同公告",
+        "China Government Procurement Network",
+        "R14-PROC-020",
+        "round14 package 2",
+        "合同公告",
+        "Round14 Supplier 20",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "manual_review",
+      "matched_source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+      "matched_source_title": "Human resource service public tender with contract performance period",
+      "matched_stage": "contract",
+      "match_confidence": 0.59,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_contract_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.59,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "payment": 0.05
+      },
+      "failure_reason": "candidate below automatic match confidence threshold",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-e7b4832a",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-020",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-020 round14 package 2 履约验收公告",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-020 round14 package 2 履约验收公告",
+        "China Government Procurement Network",
+        "R14-PROC-020",
+        "round14 package 2",
+        "履约验收公告",
+        "Round14 Supplier 20",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "manual_review",
+      "matched_source_url": "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+      "matched_source_title": "Jiangsu standardizes government procurement fulfillment acceptance management",
+      "matched_stage": "acceptance",
+      "match_confidence": 0.59,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_acceptance_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.59,
+        "unknown": 0.29,
+        "contract": 0.29,
+        "payment": 0.05
+      },
+      "failure_reason": "candidate below automatic match confidence threshold",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-1b066543",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-021",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Nanjing public purchaser",
+      "search_keyword": "Nanjing public purchaser R14-PROC-021 round14 package 3 支付公开信息",
+      "search_keywords": [
+        "Nanjing public purchaser R14-PROC-021 round14 package 3 支付公开信息",
+        "Nanjing public purchaser",
+        "R14-PROC-021",
+        "round14 package 3",
+        "支付公开信息",
+        "Round14 Supplier 21",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-c3e868fa",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-022",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-022 round14 package 1 支付公开信息",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-022 round14 package 1 支付公开信息",
+        "Central procurement unit",
+        "R14-PROC-022",
+        "round14 package 1",
+        "支付公开信息",
+        "Round14 Supplier 22",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-61ae4580",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-024",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-024 round14 package 3 合同公告",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-024 round14 package 3 合同公告",
+        "China Government Procurement Network",
+        "R14-PROC-024",
+        "round14 package 3",
+        "合同公告",
+        "Round14 Supplier 24",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "manual_review",
+      "matched_source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+      "matched_source_title": "Human resource service public tender with contract performance period",
+      "matched_stage": "contract",
+      "match_confidence": 0.59,
+      "source_stage_from": "announcement",
+      "chain_discovery_reason": "missing_contract_after_announcement",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.59,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "payment": 0.05
+      },
+      "failure_reason": "candidate below automatic match confidence threshold",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-4a5e6c58",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-024",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-024 round14 package 3 支付公开信息",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-024 round14 package 3 支付公开信息",
+        "China Government Procurement Network",
+        "R14-PROC-024",
+        "round14 package 3",
+        "支付公开信息",
+        "Round14 Supplier 24",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "contract": 0.29
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-0058f326",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-025",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-025 round14 package 1 合同公告",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-025 round14 package 1 合同公告",
+        "China Government Procurement Network",
+        "R14-PROC-025",
+        "round14 package 1",
+        "合同公告",
+        "Round14 Supplier 25",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "manual_review",
+      "matched_source_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+      "matched_source_title": "Human resource service public tender with contract performance period",
+      "matched_stage": "contract",
+      "match_confidence": 0.59,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_contract_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.59,
+        "unknown": 0.29,
+        "acceptance": 0.29,
+        "payment": 0.05
+      },
+      "failure_reason": "candidate below automatic match confidence threshold",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-6ebb8377",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-025",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "China Government Procurement Network",
+      "search_keyword": "China Government Procurement Network R14-PROC-025 round14 package 1 履约验收公告",
+      "search_keywords": [
+        "China Government Procurement Network R14-PROC-025 round14 package 1 履约验收公告",
+        "China Government Procurement Network",
+        "R14-PROC-025",
+        "round14 package 1",
+        "履约验收公告",
+        "Round14 Supplier 25",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "manual_review",
+      "matched_source_url": "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+      "matched_source_title": "Jiangsu standardizes government procurement fulfillment acceptance management",
+      "matched_stage": "acceptance",
+      "match_confidence": 0.59,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_acceptance_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.59,
+        "unknown": 0.29,
+        "contract": 0.29,
+        "payment": 0.05
+      },
+      "failure_reason": "candidate below automatic match confidence threshold",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-e34d8028",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-026",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Hefei public purchaser",
+      "search_keyword": "Hefei public purchaser R14-PROC-026 round14 package 2 履约验收公告",
+      "search_keywords": [
+        "Hefei public purchaser R14-PROC-026 round14 package 2 履约验收公告",
+        "Hefei public purchaser",
+        "R14-PROC-026",
+        "round14 package 2",
+        "履约验收公告",
+        "Round14 Supplier 62",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_acceptance_after_contract",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-8a06069f",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-026",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Hefei public purchaser",
+      "search_keyword": "Hefei public purchaser R14-PROC-026 round14 package 2 支付公开信息",
+      "search_keywords": [
+        "Hefei public purchaser R14-PROC-026 round14 package 2 支付公开信息",
+        "Hefei public purchaser",
+        "R14-PROC-026",
+        "round14 package 2",
+        "支付公开信息",
+        "Round14 Supplier 62",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_payment_after_contract",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-8b32eba4",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-027",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Guangzhou public purchaser",
+      "search_keyword": "Guangzhou public purchaser R14-PROC-027 round14 package 3 支付公开信息",
+      "search_keywords": [
+        "Guangzhou public purchaser R14-PROC-027 round14 package 3 支付公开信息",
+        "Guangzhou public purchaser",
+        "R14-PROC-027",
+        "round14 package 3",
+        "支付公开信息",
+        "Round14 Supplier 27",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-5ac4d0aa",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-029",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-029 round14 package 2 合同公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-029 round14 package 2 合同公告",
+        "Central procurement unit",
+        "R14-PROC-029",
+        "round14 package 2",
+        "合同公告",
+        "Round14 Supplier 29",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "announcement",
+      "chain_discovery_reason": "missing_contract_after_announcement",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-7b0c99e2",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-030",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-030 round14 package 3 合同公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-030 round14 package 3 合同公告",
+        "Central procurement unit",
+        "R14-PROC-030",
+        "round14 package 3",
+        "合同公告",
+        "Round14 Supplier 30",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_contract_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-12c4acc3",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-030",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-030 round14 package 3 履约验收公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-030 round14 package 3 履约验收公告",
+        "Central procurement unit",
+        "R14-PROC-030",
+        "round14 package 3",
+        "履约验收公告",
+        "Round14 Supplier 30",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_acceptance_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-0992ed99",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-031",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-031 round14 package 1 履约验收公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-031 round14 package 1 履约验收公告",
+        "Central procurement unit",
+        "R14-PROC-031",
+        "round14 package 1",
+        "履约验收公告",
+        "Round14 Supplier 67",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_acceptance_after_contract",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-5f984e14",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-031",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-031 round14 package 1 支付公开信息",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-031 round14 package 1 支付公开信息",
+        "Central procurement unit",
+        "R14-PROC-031",
+        "round14 package 1",
+        "支付公开信息",
+        "Round14 Supplier 67",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_payment_after_contract",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-409ccad0",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-032",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Shenzhen public purchaser",
+      "search_keyword": "Shenzhen public purchaser R14-PROC-032 round14 package 2 支付公开信息",
+      "search_keywords": [
+        "Shenzhen public purchaser R14-PROC-032 round14 package 2 支付公开信息",
+        "Shenzhen public purchaser",
+        "R14-PROC-032",
+        "round14 package 2",
+        "支付公开信息",
+        "Round14 Supplier 32",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "acceptance",
+      "chain_discovery_reason": "missing_payment_after_acceptance",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-5f0747b0",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-034",
+      "package_no": "pkg-1",
+      "package_name": "round14 package 1",
+      "purchaser_name": "Nanjing public purchaser",
+      "search_keyword": "Nanjing public purchaser R14-PROC-034 round14 package 1 合同公告",
+      "search_keywords": [
+        "Nanjing public purchaser R14-PROC-034 round14 package 1 合同公告",
+        "Nanjing public purchaser",
+        "R14-PROC-034",
+        "round14 package 1",
+        "合同公告",
+        "Round14 Supplier 34",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "announcement",
+      "chain_discovery_reason": "missing_contract_after_announcement",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-7d292bf8",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R14-PROC-035",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-035 round14 package 2 合同公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-035 round14 package 2 合同公告",
+        "Central procurement unit",
+        "R14-PROC-035",
+        "round14 package 2",
+        "合同公告",
+        "Round14 Supplier 35",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_contract_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250502_24539455.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "contract": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Human resource service public tender with contract performance period",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-9852858d",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-035",
+      "package_no": "pkg-2",
+      "package_name": "round14 package 2",
+      "purchaser_name": "Central procurement unit",
+      "search_keyword": "Central procurement unit R14-PROC-035 round14 package 2 履约验收公告",
+      "search_keywords": [
+        "Central procurement unit R14-PROC-035 round14 package 2 履约验收公告",
+        "Central procurement unit",
+        "R14-PROC-035",
+        "round14 package 2",
+        "履约验收公告",
+        "Round14 Supplier 35",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "award",
+      "chain_discovery_reason": "missing_acceptance_after_award",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-4569368f",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R14-PROC-036",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Chuzhou public purchaser",
+      "search_keyword": "Chuzhou public purchaser R14-PROC-036 round14 package 3 履约验收公告",
+      "search_keywords": [
+        "Chuzhou public purchaser R14-PROC-036 round14 package 3 履约验收公告",
+        "Chuzhou public purchaser",
+        "R14-PROC-036",
+        "round14 package 3",
+        "履约验收公告",
+        "Round14 Supplier 72",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_acceptance_after_contract",
+      "candidate_source_urls": [
+        "https://www.ccgp.gov.cn/zcdt/202503/t20250325_24344025.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "acceptance": 0.35,
+        "unknown": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu standardizes government procurement fulfillment acceptance management",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-51ab79a2",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R14-PROC-036",
+      "package_no": "pkg-3",
+      "package_name": "round14 package 3",
+      "purchaser_name": "Chuzhou public purchaser",
+      "search_keyword": "Chuzhou public purchaser R14-PROC-036 round14 package 3 支付公开信息",
+      "search_keywords": [
+        "Chuzhou public purchaser R14-PROC-036 round14 package 3 支付公开信息",
+        "Chuzhou public purchaser",
+        "R14-PROC-036",
+        "round14 package 3",
+        "支付公开信息",
+        "Round14 Supplier 72",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "contract",
+      "chain_discovery_reason": "missing_payment_after_contract",
+      "candidate_source_urls": [
+        "https://czt.jiangsu.gov.cn/art/2025/1/3/art_7938_11464807.html",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202509/t20250930_25447716.htm",
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202504/t20250418_24464916.htm"
+      ],
+      "candidate_stage_scores": {
+        "payment": 0.35,
+        "unknown": 0.05,
+        "acceptance": 0.05,
+        "contract": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu finance researches transfer payment monitoring through budget management integration",
+        "Guangzhou 12345 hotline intelligence upgrade and operation tender",
+        "Third Division city sanitation and municipal integration franchise tender"
+      ]
+    },
+    {
+      "queue_id": "pc-5529952a",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office formal budget execution audit report project 1 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office formal budget execution audit report project 1 rectification result",
+        "Jiangsu Audit Office",
+        "formal budget execution audit report project 1",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "formal_audit_report",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-62c85e54",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office audit rectification disclosure project 2 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office audit rectification disclosure project 2 rectification result",
+        "Jiangsu Audit Office",
+        "audit rectification disclosure project 2",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "rectification_progress",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-7855139b",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office special audit survey project 3 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office special audit survey project 3 rectification result",
+        "Jiangsu Audit Office",
+        "special audit survey project 3",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "special_audit_survey",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-4f298bb8",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office formal budget execution audit report project 7 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office formal budget execution audit report project 7 rectification result",
+        "Jiangsu Audit Office",
+        "formal budget execution audit report project 7",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "formal_audit_report",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-5cc854e2",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office audit rectification disclosure project 8 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office audit rectification disclosure project 8 rectification result",
+        "Jiangsu Audit Office",
+        "audit rectification disclosure project 8",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "rectification_progress",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-72550a29",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office special audit survey project 9 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office special audit survey project 9 rectification result",
+        "Jiangsu Audit Office",
+        "special audit survey project 9",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "special_audit_survey",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-2975b65b",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office formal budget execution audit report project 13 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office formal budget execution audit report project 13 rectification result",
+        "Jiangsu Audit Office",
+        "formal budget execution audit report project 13",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "formal_audit_report",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-737432bb",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office audit rectification disclosure project 14 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office audit rectification disclosure project 14 rectification result",
+        "Jiangsu Audit Office",
+        "audit rectification disclosure project 14",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "rectification_progress",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-87f3221c",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office special audit survey project 15 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office special audit survey project 15 rectification result",
+        "Jiangsu Audit Office",
+        "special audit survey project 15",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "special_audit_survey",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-2375ace9",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office formal budget execution audit report project 19 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office formal budget execution audit report project 19 rectification result",
+        "Jiangsu Audit Office",
+        "formal budget execution audit report project 19",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "formal_audit_report",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-e56c976c",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office audit rectification disclosure project 20 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office audit rectification disclosure project 20 rectification result",
+        "Jiangsu Audit Office",
+        "audit rectification disclosure project 20",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "rectification_progress",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    },
+    {
+      "queue_id": "pc-13ebafbb",
+      "target_stage": "rectification",
+      "target_stage_label": "整改公告",
+      "project_code": "",
+      "package_no": "",
+      "package_name": "",
+      "purchaser_name": "Jiangsu Audit Office",
+      "search_keyword": "Jiangsu Audit Office special audit survey project 21 整改结果公告",
+      "recommended_source_types": [
+        "整改结果公告",
+        "整改进展公开",
+        "审计整改公开"
+      ],
+      "search_keywords": [
+        "Jiangsu Audit Office special audit survey project 21 rectification result",
+        "Jiangsu Audit Office",
+        "special audit survey project 21",
+        "rectification result",
+        "rectification_result",
+        "audit_rectification"
+      ],
+      "priority": "P2",
+      "review_status": "new",
+      "crawler_status": "not_found",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "",
+      "match_confidence": 0,
+      "source_stage_from": "special_audit_survey",
+      "chain_discovery_reason": "audit_rectification_followup",
+      "candidate_source_urls": [
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250519_24618310.htm",
+        "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202505/t20250515_24605353.htm"
+      ],
+      "candidate_stage_scores": {
+        "unknown": 0.29,
+        "acceptance": 0.05,
+        "contract": 0.05,
+        "payment": 0.05
+      },
+      "failure_reason": "no official source matched generated project, package, purchaser, supplier, and stage keywords",
+      "finding_disposition": "review_recommended",
+      "reason": "审计或整改线索需要补充整改结果公开来源，不直接形成实质违规结论",
+      "crawler_provider": "registry_snapshot_round14",
+      "searched_at": "2026-04-27T22:20:00+08:00",
+      "candidate_count": 25,
+      "top_candidate_titles": [
+        "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF"
+      ]
+    }
+  ]
+}

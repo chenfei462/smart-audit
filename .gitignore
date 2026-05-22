@@ -1,0 +1,47 @@
+# Rust build output
+target/
+target-*/
+
+# Local runtime state
+.tmp/
+tmp/
+-ConfigPath
+data/platform_state.json
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/archive/
+data/evidence/
+data/exception-receipts/
+data/**/cookies*.txt
+data/**/*cookie*.txt
+data/**/login*.json
+data/**/*login*response*.txt
+data/**/*.pid
+
+# Local runtime configuration and secrets
+config/runtime.local.json
+config/runtime.local.env
+.env
+.env.*
+!.env.example
+!*.example
+
+# Logs and editor metadata
+*.log
+*.user
+__pycache__/
+*.py[cod]
+
+# Downloaded or generated third-party binaries/models
+tools/downloads/
+tools/whisper/Release/
+tools/whisper/models/
+
+# Playwright/browser scratch data
+.playwright-cli/
+
+# Generated presentation artifacts
+projects/**/.live_preview.lock
+projects/**/backup/
+projects/**/exports/

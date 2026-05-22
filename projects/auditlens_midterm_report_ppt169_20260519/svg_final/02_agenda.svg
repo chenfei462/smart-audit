@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53" />
+      <stop offset="100%" stop-color="#1F7A6D" />
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)" />
+  </g>
+  <g id="header">
+    
+  <g transform="translate(56.0, 54.0) scale(1.5)" fill="none" stroke="#1F7A6D" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="108" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">本次汇报聚焦三个问题</text>
+    <text x="108" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">做到了什么、如何演示、接下来怎么推进</text>
+    <path fill="#EAF2F0" stroke="#CBD5E1" d="M1069,70 H1179 A21,21 0 0 1 1200,91 V91 A21,21 0 0 1 1179,112 H1069 A21,21 0 0 1 1048,91 V91 A21,21 0 0 1 1069,70 Z" />
+    <text x="1124" y="98" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#64748B">5 分钟答辩节奏</text>
+  </g>
+  <g id="agenda-item-1">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M86,156 H1194 A8,8 0 0 1 1202,164 V266 A8,8 0 0 1 1194,274 H86 A8,8 0 0 1 78,266 V164 A8,8 0 0 1 86,156 Z" />
+    <circle cx="132" cy="215" r="30" fill="#EAF2F0" stroke="#1F7A6D" stroke-width="2" />
+    <text x="132" y="222" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1F7A6D">01</text>
+    <text x="266" y="200" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#1E293B">已完成工作</text>
+    <text x="266" y="232" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">说明产品主流程、工程基线和 PoC 能力已经形成可演示闭环</text>
+    <path fill="#F8FAFC" stroke="#1F7A6D" d="M1057,194 H1155 A21,21 0 0 1 1176,215 V215 A21,21 0 0 1 1155,236 H1057 A21,21 0 0 1 1036,215 V215 A21,21 0 0 1 1057,194 Z" />
+    <text x="1106" y="221" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#1F7A6D">约 1 分钟</text>
+  </g>
+  <g id="agenda-item-2">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M86,306 H1194 A8,8 0 0 1 1202,314 V416 A8,8 0 0 1 1194,424 H86 A8,8 0 0 1 78,416 V314 A8,8 0 0 1 86,306 Z" />
+    <circle cx="132" cy="365" r="30" fill="#EAF2F0" stroke="#F59E0B" stroke-width="2" />
+    <text x="132" y="372" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F59E0B">02</text>
+    <text x="266" y="350" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#1E293B">演示路径</text>
+    <text x="266" y="382" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">沿财政监督任务创建、数据导入、风险识别、报告导出、整改留痕展开</text>
+    <path fill="#F8FAFC" stroke="#F59E0B" d="M1057,344 H1155 A21,21 0 0 1 1176,365 V365 A21,21 0 0 1 1155,386 H1057 A21,21 0 0 1 1036,365 V365 A21,21 0 0 1 1057,344 Z" />
+    <text x="1106" y="371" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#F59E0B">约 2 分钟</text>
+  </g>
+  <g id="agenda-item-3">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M86,456 H1194 A8,8 0 0 1 1202,464 V566 A8,8 0 0 1 1194,574 H86 A8,8 0 0 1 78,566 V464 A8,8 0 0 1 86,456 Z" />
+    <circle cx="132" cy="515" r="30" fill="#EAF2F0" stroke="#0B3A53" stroke-width="2" />
+    <text x="132" y="522" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#0B3A53">03</text>
+    <text x="266" y="500" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700" fill="#1E293B">后期安排</text>
+    <text x="266" y="532" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">聚焦 PoC 加固、产品体验、测试运维和真实交付验收准备</text>
+    <path fill="#EAF2F0" stroke="#0B3A53" d="M1057,494 H1155 A21,21 0 0 1 1176,515 V515 A21,21 0 0 1 1155,536 H1057 A21,21 0 0 1 1036,515 V515 A21,21 0 0 1 1057,494 Z" />
+    <text x="1106" y="521" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#0B3A53">约 2 分钟</text>
+  </g>
+  <g id="summary-band">
+    <path fill="#0B3A53" d="M86,608 H1194 A8,8 0 0 1 1202,616 V652 A8,8 0 0 1 1194,660 H86 A8,8 0 0 1 78,652 V616 A8,8 0 0 1 86,608 Z" />
+    <text x="640" y="641" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">汇报结论先行：当前已经可演示，后续重点转向真实 PoC 可交付</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: README.md, docs/STATUS.md, docs/FUTURE_IMPROVEMENTS.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">02 / 08</text>
+  </g>
+</svg>

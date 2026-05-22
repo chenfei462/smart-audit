@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-04-26T16:30:19.236Z",
+  "captured_at": "2026-04-27T00:05:00+08:00",
+  "fetch_mode": "official_snapshot_round7_with_discovery_crawler",
+  "source_count": 38,
+  "seventh_round_source_count": 38,
+  "parsed_source_count": 38,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 115,
+  "previous_source_overlap_count": 0,
+  "total_records": 96,
+  "payment_condition_records": 45,
+  "payment_deadline_missing_count": 25,
+  "framework_non_total_records": 12,
+  "special_fund_downstream_records": 30,
+  "discovery_queue_item_count": 79,
+  "previous_discovery_queue_item_count": 61,
+  "discovery_crawler_processed_count": 61,
+  "discovery_crawler_matched_count": 34,
+  "discovery_crawler_match_rate": 55.74,
+  "discovery_crawler_statuses": {
+    "matched": 34,
+    "not_found": 27
+  },
+  "procurement_chain_group_count": 33,
+  "procurement_chain_missing_contract_count": 22,
+  "procurement_chain_missing_acceptance_count": 22,
+  "procurement_chain_missing_payment_count": 23,
+  "audit_evidence_weights": {
+    "20": 2,
+    "35": 2,
+    "55": 2,
+    "60": 2,
+    "70": 2,
+    "90": 2
+  },
+  "finding_dispositions": {
+    "risk_candidate": 2,
+    "review_recommended": 6,
+    "knowledge_reference": 4
+  },
+  "source_completeness_rate": 100
+}

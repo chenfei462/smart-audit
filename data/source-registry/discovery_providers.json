@@ -1,0 +1,36 @@
+{
+  "registry_version": "discovery-provider-registry-v1",
+  "captured_at": "2026-04-27T13:00:00+08:00",
+  "providers": [
+    {
+      "provider_id": "ccgp_main_search",
+      "name": "China Government Procurement Network search",
+      "publisher": "China Government Procurement Network",
+      "source_region_scope": "central_unit",
+      "enabled": true,
+      "search_url_template": "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=0&dbselect=bidx&kw={query}&start_time=2025%3A01%3A01&end_time=2026%3A12%3A31&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=",
+      "max_candidate_pages": 5,
+      "stage_hints": ["announcement", "award", "contract", "acceptance"]
+    },
+    {
+      "provider_id": "jiangsu_ccgp_search",
+      "name": "Jiangsu Government Procurement Network search",
+      "publisher": "Jiangsu Government Procurement Network",
+      "source_region_scope": "jiangsu_local",
+      "enabled": true,
+      "search_url_template": "https://www.ccgp-jiangsu.gov.cn/jiangsu/search.html?keyword={query}",
+      "max_candidate_pages": 5,
+      "stage_hints": ["announcement", "award", "contract", "acceptance"]
+    },
+    {
+      "provider_id": "national_ggzy_search",
+      "name": "National Public Resource Trading Platform search",
+      "publisher": "National Public Resource Trading Platform",
+      "source_region_scope": "cross_province",
+      "enabled": true,
+      "search_url_template": "https://www.ggzy.gov.cn/search.html?keyword={query}",
+      "max_candidate_pages": 5,
+      "stage_hints": ["announcement", "award", "contract"]
+    }
+  ]
+}

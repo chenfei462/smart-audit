@@ -1,0 +1,20 @@
+{
+  "environmentMode": "public_demo",
+  "host": "127.0.0.1",
+  "port": 18080,
+  "cargoTargetDir": "./target-local",
+  "useReleaseProfile": false,
+  "healthPath": "/api/health",
+  "platformDataDir": "C:\\Users\\CYL\\Documents\\New project\\smart-audit-data",
+  "secureCookies": false,
+  "allowPublicRegistration": false,
+  "aiEnabled": true,
+  "publicDemoMode": true,
+  "multimodalProvider": "local",
+  "ocrEnabled": true,
+  "speechEnabled": true,
+  "ocrApiUrl": "http://127.0.0.1:18090/ocr",
+  "speechApiUrl": "http://127.0.0.1:18090/speech",
+  "ocrModel": "tesseract-chi_sim+eng",
+  "speechModel": "ggml-base.bin"
+}

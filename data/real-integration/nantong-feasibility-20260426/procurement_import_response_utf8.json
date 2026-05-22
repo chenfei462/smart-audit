@@ -1,0 +1,1376 @@
+﻿{
+    "id":  "bc7279fa-688d-468e-8ad5-35e428424e54",
+    "tenant_id":  "812f0ebf-166c-46b3-97b8-166808499f4c",
+    "organization_id":  "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+    "task_kind":  "procurement_project",
+    "title":  "Nantong public-resource procurement and construction notices feasibility sample",
+    "source_kind":  "batch",
+    "status":  "completed",
+    "risk_level":  "High",
+    "primary_subject":  "å¯ä¸å¸æè²ä½è²å±",
+    "findings":  [
+                     {
+                         "id":  "PROC-CHAIN-001-6e3a9efb-72fd-4670-9b12-963d401d5bbf",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç® ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· JSZC-320681-JZCG-G2025-0025ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; total budget 4.30 million yuan; package budgets 2.0803 and 2.2197 million yuan.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-40212da2-da98-4b01-9c94-5d29d4c47dbe",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®éè´­å\u00851 ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· JSZC-320681-JZCG-G2025-0025-01ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; package 1 budget 2.0803 million yuan.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-2681aeae-b66c-404b-8803-2ef73991f4f1",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®éè´­å\u00852 ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· JSZC-320681-JZCG-G2025-0025-02ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; package 2 budget 2.2197 million yuan.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-4b5b88ab-2a0e-41bf-9ded-2598dcfad475",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® å¯ä¸å¸2025å¹´å¿éå\u0085»æ¤å·¥ç¨ï¼éæµ·å¤§éå¤§ä¿®ï¼ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· 2025QDXDDXï¼åå Noneï¼éªæ¶ Some(\"Construction notice; estimated construction and installation cost about 28 million yuan; fiscal appropriation funding 100%.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-a2abb97d-c94f-4d70-bbf2-abf66854b4d8",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® å¯ä¸å¸å¯éé2025å¹´åæå\u0085¬è·¯æ°å»ºåå\u0085»æ¤å·¥ç¨ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· å¯äº¤[2025]19å·ï¼åå Noneï¼éªæ¶ Some(\"Construction notice; estimated construction and installation cost about 15 million yuan; fiscal appropriation funding 100%.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-74ee3174-6d2c-4475-b09b-0bf1cbf4e9c0",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® æµ·å®å¸åå»ºå¼åæèµéå¢æéå\u0085¬å¸èèµæ¥è¡¨å®¡è®¡æå¡éè´­é¡¹ç®ï¼ç¬¬äºæ¬¡ï¼ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· NTGC2025063002(CS078)ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; budget 3 million yuan; maximum bid rate 98%.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-bf0b3980-b8ce-4d89-be37-0f1a101dd0d1",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® åéå¤§å§é¢æ­å§å\u0085èå°æºæ¢°è®¾å¤å¹´åº¦ç»´ä¿é¡¹ç® ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· NT-GJTWJ-20250314ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; budget and maximum limit 0.52 million yuan per year.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-4feec3b3-980b-45e8-935b-c97c353a9f9e",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® åéå¤§å§é¢èå°ç¯å\u0085äºæ æ®µè®¾å¤å¹´åº¦ç»´ä¿é¡¹ç® ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· NT-DJYDG-20250109ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; project budget and maximum limit 0.24 million yuan.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-575ba3b2-da65-4bc6-a662-0469898fbcf8",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· A3206010318001105ï¼åå Noneï¼éªæ¶ Some(\"Construction notice; total investment about 57.8 million yuan; district fiscal funding 100%.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-f19ef989-5ef1-41f8-a740-9d844b8d4f39",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥ä¸æ æ®µ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· A3206010318001105001001ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; contract estimate about 17.8 million yuan for Ping\u0027an Road 1 and Xinhaitong Garden.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-0cb5c3e5-2aa6-4720-b22d-20979f4dd7ce",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥äºæ æ®µ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· A3206010318001105001002ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; contract estimate about 20.5 million yuan for Yinhua Garden.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-65f1b700-942b-4fe3-8b14-3796512c59f8",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥ä¸æ æ®µ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· A3206010318001105001003ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; contract estimate about 10.6 million yuan for Beiguo Xincun.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-78d95f58-c4d1-44e8-9384-b2d7357c8f49",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥åæ æ®µ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· A3206010318001105001004ï¼åå Noneï¼éªæ¶ Some(\"Notice stage; contract estimate about 8.9 million yuan; published control price 8,802,382.36 yuan.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-CHAIN-001-618e4ac1-b89c-4fcc-93e7-2b8fb6f80ab3",
+                         "rule_code":  "PROC-CHAIN-001",
+                         "rule_name":  "å\u0085¬åå°ååå°éªæ¶é¾æ¡ä¸é­å",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "Medium",
+                         "summary":  "é¡¹ç® 2025å¹´å´å·åºåå¹³æ¡¥è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨ ç¼ºå°ååæéªæ¶é­ç¯ä¿¡æ¯",
+                         "audit_rationale":  "éè´­é¡¹ç®åºå½¢æå\u0085¬åãååãå±¥çº¦ä¸éªæ¶é­ç¯ä¿¡æ¯ã",
+                         "recommended_action":  "è¡¥å\u0085\u0085ååå\u0085¬åãååç¼å·ãå±¥çº¦éªæ¶ç¶ææå¨ä»»å¡ä¸­æ è®°ä¿¡æ¯ä¸è¶³ã",
+                         "evidence_summary":  "é¡¹ç®ç¼å· CC-HPQ-20250219ï¼åå Noneï¼éªæ¶ Some(\"Procurement plan; contract estimate about 18 million yuan; fiscal funding.\")",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-SPLIT-001-ea142cbf-20ba-47f7-9ad7-eb5a60ea99ea",
+                         "rule_code":  "PROC-SPLIT-001",
+                         "rule_name":  "æå\u0085å«ç",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "High",
+                         "summary":  "å¯ä¸å¸æè²ä½è²å± å¨ç­æå\u0085å­å¨ 3 ä¸ªç¸ä¼¼éè´­é¡¹ç®ï¼çä¼¼æå\u0085",
+                         "audit_rationale":  "åä¸éè´­åä½å¨ç­æ¶é´å\u0085åèµ·éé¢æ¥è¿ãä¸»é¢ç¸è¿çå¤ç¬éè´­ï¼éè¦ææ¥æå\u0085è§é¿æ¹å¼ã",
+                         "recommended_action":  "æ ¸å¯¹éæ±å½å¹¶ãéè´­è®¡åãåå\u0085ä¾æ®åé¢ç®æåè¯´æã",
+                         "evidence_summary":  "éè´­åä½ å¯ä¸å¸æè²ä½è²å±ï¼å°åº Some(\"Qidong City, Nantong, Jiangsu\")ï¼åè®¡é¢ç® 8600000ï¼æ¶åé¡¹ç® JSZC-320681-JZCG-G2025-0025, JSZC-320681-JZCG-G2025-0025-01, JSZC-320681-JZCG-G2025-0025-02",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     },
+                     {
+                         "id":  "PROC-SPLIT-001-c4396ed3-b999-4087-b0fd-fbaa9234f606",
+                         "rule_code":  "PROC-SPLIT-001",
+                         "rule_name":  "æå\u0085å«ç",
+                         "rule_category":  "éè´­è§å",
+                         "risk_level":  "High",
+                         "summary":  "åéå¸å´å·åºåä¸è¡éåäºå¤ãåéå¸åéæ¿å°äº§å¼åæéå\u0085¬å¸ å¨ç­æå\u0085å­å¨ 5 ä¸ªç¸ä¼¼éè´­é¡¹ç®ï¼çä¼¼æå\u0085",
+                         "audit_rationale":  "åä¸éè´­åä½å¨ç­æ¶é´å\u0085åèµ·éé¢æ¥è¿ãä¸»é¢ç¸è¿çå¤ç¬éè´­ï¼éè¦ææ¥æå\u0085è§é¿æ¹å¼ã",
+                         "recommended_action":  "æ ¸å¯¹éæ±å½å¹¶ãéè´­è®¡åãåå\u0085ä¾æ®åé¢ç®æåè¯´æã",
+                         "evidence_summary":  "éè´­åä½ åéå¸å´å·åºåä¸è¡éåäºå¤ãåéå¸åéæ¿å°äº§å¼åæéå\u0085¬å¸ï¼å°åº Some(\"Chongchuan District, Nantong, Jiangsu\")ï¼åè®¡é¢ç® 115600000ï¼æ¶åé¡¹ç® A3206010318001105, A3206010318001105001001, A3206010318001105001002, A3206010318001105001003, A3206010318001105001004",
+                         "finding_status":  "open",
+                         "assignee":  null,
+                         "disposition_note":  null,
+                         "disposition_priority":  null,
+                         "disposition_outcome":  null,
+                         "remediation_due_at":  null,
+                         "reminder_flag":  false,
+                         "disposed_at":  null
+                     }
+                 ],
+    "detail":  {
+                   "kind":  "procurement_project",
+                   "payload":  {
+                                   "projects":  [
+                                                    {
+                                                        "id":  "ebc0b3a7-e4b1-4a3a-89be-c042197c6da8",
+                                                        "project_name":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®",
+                                                        "purchaser_name":  "å¯ä¸å¸æè²ä½è²å±",
+                                                        "announcement_type":  "éè´­å\u0085¬å",
+                                                        "project_code":  "JSZC-320681-JZCG-G2025-0025",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-04-30",
+                                                        "region":  "Qidong City, Nantong, Jiangsu",
+                                                        "budget_amount":  "4300000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+                                                        "budget_project_id":  "7a2c1e12-4c6d-48cf-a93a-58faea9540c0",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "98628ddb-7b84-41b0-bf69-137231ffa8c2",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+                                                        "source_row":  1,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "7a2c1e12-4c6d-48cf-a93a-58faea9540c0"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "9e77a93c-fa14-49c9-8359-29b9ca20d9d2",
+                                                        "project_name":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®éè´­å\u00851",
+                                                        "purchaser_name":  "å¯ä¸å¸æè²ä½è²å±",
+                                                        "announcement_type":  "éè´­å\u0085¬å",
+                                                        "project_code":  "JSZC-320681-JZCG-G2025-0025-01",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-04-30",
+                                                        "region":  "Qidong City, Nantong, Jiangsu",
+                                                        "budget_amount":  "2080300",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+                                                        "budget_project_id":  "032c7f71-62f5-447b-bb64-30081dc86dea",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "5796849a-0821-4ecb-b868-47ee8fb876ce",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+                                                        "source_row":  2,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "032c7f71-62f5-447b-bb64-30081dc86dea"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "d93cdf03-422f-4539-8f8d-8775871b86b2",
+                                                        "project_name":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®éè´­å\u00852",
+                                                        "purchaser_name":  "å¯ä¸å¸æè²ä½è²å±",
+                                                        "announcement_type":  "éè´­å\u0085¬å",
+                                                        "project_code":  "JSZC-320681-JZCG-G2025-0025-02",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-04-30",
+                                                        "region":  "Qidong City, Nantong, Jiangsu",
+                                                        "budget_amount":  "2219700",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+                                                        "budget_project_id":  "eaf45dde-9b00-4ea8-9442-1e0643581978",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "3ea00ab0-18f1-47c6-b6ad-4374050f6de7",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+                                                        "source_row":  3,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "eaf45dde-9b00-4ea8-9442-1e0643581978"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "053c73f7-bc6d-4bbc-8bc3-877f48316a76",
+                                                        "project_name":  "å¯ä¸å¸2025å¹´å¿éå\u0085»æ¤å·¥ç¨ï¼éæµ·å¤§éå¤§ä¿®ï¼",
+                                                        "purchaser_name":  "å¯ä¸å¸äº¤éäºä¸åå±ä¸­å¿",
+                                                        "announcement_type":  "ææ å\u0085¬å",
+                                                        "project_code":  "2025QDXDDX",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-06-23",
+                                                        "region":  "Qidong City, Nantong, Jiangsu",
+                                                        "budget_amount":  "28000000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "79b00339-1b1c-47e0-a7e1-e4b5c4a33a51",
+                                                        "budget_project_id":  "af258a98-affc-49d9-a29f-3d692f4c0906",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "ae81df18-3157-4ed3-98eb-f7a951862952",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003005/003005001/20250623/7cff5368-3cca-4521-a21c-78e7c4e418f0.html",
+                                                        "source_row":  4,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "af258a98-affc-49d9-a29f-3d692f4c0906"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "67bc309b-c407-4376-99cf-52b2f6c44aed",
+                                                        "project_name":  "å¯ä¸å¸å¯éé2025å¹´åæå\u0085¬è·¯æ°å»ºåå\u0085»æ¤å·¥ç¨",
+                                                        "purchaser_name":  "å¯ä¸å¸å¯ééäººæ°æ¿åº",
+                                                        "announcement_type":  "ææ å\u0085¬å",
+                                                        "project_code":  "å¯äº¤[2025]19å·",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-07-14",
+                                                        "region":  "Qidong City, Nantong, Jiangsu",
+                                                        "budget_amount":  "15000000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "b6741ab3-69ed-4012-a8d7-157b01281f78",
+                                                        "budget_project_id":  "385aa3cd-e34d-4f77-a87c-e153c7cf4e0a",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "7b8ce42e-a6e1-4e25-b163-58d5f3445c41",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003005/003005001/20250714/793a3af1-9c2f-45ea-8b1a-ea4fc7af277b.html",
+                                                        "source_row":  5,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "385aa3cd-e34d-4f77-a87c-e153c7cf4e0a"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "45125432-2802-48bc-a025-b71924cb12b8",
+                                                        "project_name":  "æµ·å®å¸åå»ºå¼åæèµéå¢æéå\u0085¬å¸èèµæ¥è¡¨å®¡è®¡æå¡éè´­é¡¹ç®ï¼ç¬¬äºæ¬¡ï¼",
+                                                        "purchaser_name":  "æµ·å®å¸åå»ºå¼åæèµéå¢æéå\u0085¬å¸",
+                                                        "announcement_type":  "ç«äºæ§ç£åå\u0085¬å",
+                                                        "project_code":  "NTGC2025063002(CS078)",
+                                                        "procurement_method":  "ç«äºæ§ç£å",
+                                                        "published_at":  "2025-07-14",
+                                                        "region":  "Haian City, Nantong, Jiangsu",
+                                                        "budget_amount":  "3000000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "d5d9054e-9b9c-4ce4-86b7-3c8a9447cab3",
+                                                        "budget_project_id":  "8469de21-9498-43b0-8bbf-e1b00fb5b97c",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "1f3fed89-bcec-4e39-8799-78f56f196bc9",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003009/003009001/20250714/31ad4f91-528e-4ad2-80fe-c7a9c2777d9f.html",
+                                                        "source_row":  6,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "8469de21-9498-43b0-8bbf-e1b00fb5b97c"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "8e5c06f2-9cf5-4023-9ec5-9c588a4854b5",
+                                                        "project_name":  "åéå¤§å§é¢æ­å§å\u0085èå°æºæ¢°è®¾å¤å¹´åº¦ç»´ä¿é¡¹ç®",
+                                                        "purchaser_name":  "åéæåèºæ¯ä¸­å¿ç®¡çæéå\u0085¬å¸",
+                                                        "announcement_type":  "ç«äºæ§ç£åå\u0085¬å",
+                                                        "project_code":  "NT-GJTWJ-20250314",
+                                                        "procurement_method":  "ç«äºæ§ç£å",
+                                                        "published_at":  "2025-03-14",
+                                                        "region":  "Nantong City, Jiangsu",
+                                                        "budget_amount":  "520000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+                                                        "budget_project_id":  "0baccd75-4a0d-496a-8b63-74dab9463695",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "5f5258cc-a5c9-40b6-b046-147062159678",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003015/003015005/20250314/f78c79e3-9b6c-44d0-b5e9-b39f9221c0e5.html",
+                                                        "source_row":  7,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "0baccd75-4a0d-496a-8b63-74dab9463695"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "3533137c-5cef-4a6c-8cc0-1d6650bc8a18",
+                                                        "project_name":  "åéå¤§å§é¢èå°ç¯å\u0085äºæ æ®µè®¾å¤å¹´åº¦ç»´ä¿é¡¹ç®",
+                                                        "purchaser_name":  "åéæåèºæ¯ä¸­å¿ç®¡çæéå\u0085¬å¸",
+                                                        "announcement_type":  "ç«äºæ§ç£åå\u0085¬å",
+                                                        "project_code":  "NT-DJYDG-20250109",
+                                                        "procurement_method":  "ç«äºæ§ç£å",
+                                                        "published_at":  "2025-01-09",
+                                                        "region":  "Nantong City, Jiangsu",
+                                                        "budget_amount":  "240000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+                                                        "budget_project_id":  "0dd5f9ef-f259-46de-8874-5682586ef896",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "404909e6-f447-4633-ac61-6dafaa592ab0",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003015/003015005/20250109/8645e6fe-d602-43d2-811b-0bfd78473279.html",
+                                                        "source_row":  8,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "0dd5f9ef-f259-46de-8874-5682586ef896"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "b67e6f79-7e92-43fd-b36e-aa29cbf86772",
+                                                        "project_name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨",
+                                                        "purchaser_name":  "åéå¸å´å·åºåä¸è¡éåäºå¤ãåéå¸åéæ¿å°äº§å¼åæéå\u0085¬å¸",
+                                                        "announcement_type":  "ææ å\u0085¬å",
+                                                        "project_code":  "A3206010318001105",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-05-19",
+                                                        "region":  "Chongchuan District, Nantong, Jiangsu",
+                                                        "budget_amount":  "57800000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                        "budget_project_id":  "a41bbf1f-a43f-4a9e-9c3d-de6e733b9e15",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "8bcf582e-0b51-4721-91bb-b3e17b5d3a6d",
+                                                        "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+                                                        "source_row":  9,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "a41bbf1f-a43f-4a9e-9c3d-de6e733b9e15"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "981705e7-7af7-4c1e-bfc4-9cb8a82e28eb",
+                                                        "project_name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥ä¸æ æ®µ",
+                                                        "purchaser_name":  "åéå¸å´å·åºåä¸è¡éåäºå¤ãåéå¸åéæ¿å°äº§å¼åæéå\u0085¬å¸",
+                                                        "announcement_type":  "ææ å\u0085¬å",
+                                                        "project_code":  "A3206010318001105001001",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-05-19",
+                                                        "region":  "Chongchuan District, Nantong, Jiangsu",
+                                                        "budget_amount":  "17800000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                        "budget_project_id":  "d97cbf9c-33a4-4081-98ea-78b3bbc6aee6",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "2aca2051-3018-40c1-9b9c-3c3abfd79390",
+                                                        "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+                                                        "source_row":  10,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "d97cbf9c-33a4-4081-98ea-78b3bbc6aee6"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "08e7193d-b1de-4bcf-9c9d-d61e37064d21",
+                                                        "project_name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥äºæ æ®µ",
+                                                        "purchaser_name":  "åéå¸å´å·åºåä¸è¡éåäºå¤ãåéå¸åéæ¿å°äº§å¼åæéå\u0085¬å¸",
+                                                        "announcement_type":  "ææ å\u0085¬å",
+                                                        "project_code":  "A3206010318001105001002",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-05-19",
+                                                        "region":  "Chongchuan District, Nantong, Jiangsu",
+                                                        "budget_amount":  "20500000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                        "budget_project_id":  "d9b390bf-79a4-4491-b883-0d146f0c06a0",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "925f92d9-369a-4662-a231-86bee4b0c9a4",
+                                                        "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+                                                        "source_row":  11,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "d9b390bf-79a4-4491-b883-0d146f0c06a0"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "83ebc9f5-5e9b-412d-9cd8-f96a0e0b0320",
+                                                        "project_name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥ä¸æ æ®µ",
+                                                        "purchaser_name":  "åéå¸å´å·åºåä¸è¡éåäºå¤ãåéå¸åéæ¿å°äº§å¼åæéå\u0085¬å¸",
+                                                        "announcement_type":  "ææ å\u0085¬å",
+                                                        "project_code":  "A3206010318001105001003",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-05-19",
+                                                        "region":  "Chongchuan District, Nantong, Jiangsu",
+                                                        "budget_amount":  "10600000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                        "budget_project_id":  "8aa9db86-9999-4d7a-b23d-4534f1df9a43",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "bfea9e07-e5a4-41b4-bf5e-d37ca45bc38a",
+                                                        "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+                                                        "source_row":  12,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "8aa9db86-9999-4d7a-b23d-4534f1df9a43"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "e0a8598d-dba9-4233-8bff-813d85553cda",
+                                                        "project_name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥åæ æ®µ",
+                                                        "purchaser_name":  "åéå¸å´å·åºåä¸è¡éåäºå¤ãåéå¸åéæ¿å°äº§å¼åæéå\u0085¬å¸",
+                                                        "announcement_type":  "ææ å\u0085¬å",
+                                                        "project_code":  "A3206010318001105001004",
+                                                        "procurement_method":  "å\u0085¬å¼ææ ",
+                                                        "published_at":  "2025-05-19",
+                                                        "region":  "Chongchuan District, Nantong, Jiangsu",
+                                                        "budget_amount":  "8900000",
+                                                        "award_amount":  "8802382.36",
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                        "budget_project_id":  "1fb15039-6f07-4c2b-bc07-74ea78790016",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "29533b72-5a00-4553-87aa-cc8022831d60",
+                                                        "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001003/20250519/0fe316ef-e310-461b-85bb-6928cfc50ccc.html",
+                                                        "source_row":  13,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "1fb15039-6f07-4c2b-bc07-74ea78790016"
+                                                                                                                  ]
+                                                                             }
+                                                    },
+                                                    {
+                                                        "id":  "a5d94bc8-338b-4484-b6f0-78fb2a670b35",
+                                                        "project_name":  "2025å¹´å´å·åºåå¹³æ¡¥è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨",
+                                                        "purchaser_name":  "åéå¸å´å·åºåå¹³æ¡¥è¡éåäºå¤",
+                                                        "announcement_type":  "ææ è®¡åå\u0085¬å",
+                                                        "project_code":  "CC-HPQ-20250219",
+                                                        "procurement_method":  "ææ è®¡å",
+                                                        "published_at":  "2025-02-19",
+                                                        "region":  "Chongchuan District, Nantong, Jiangsu",
+                                                        "budget_amount":  "18000000",
+                                                        "award_amount":  null,
+                                                        "supplier_name":  null,
+                                                        "budget_unit_id":  "453eb7f9-49f3-4aac-b26b-411ae7309fa3",
+                                                        "budget_project_id":  "a2c3da88-f1fe-450c-9a32-44bc64d5f468",
+                                                        "supplier_id":  null,
+                                                        "funding_source_id":  null,
+                                                        "account_classification_id":  "c785aa12-e5c8-45d4-b0cc-cbb995279142",
+                                                        "indicator_document_no":  null,
+                                                        "project_catalog_id":  null,
+                                                        "notice_url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001009/20250219/a514ab8a-0aa9-4896-b19a-b4eb8880e7af.html",
+                                                        "source_row":  14,
+                                                        "linkage_evidence":  {
+                                                                                 "match_mode":  "exact",
+                                                                                 "match_score":  100,
+                                                                                 "match_reasons":  [
+                                                                                                       "linked during procurement import"
+                                                                                                   ],
+                                                                                 "candidate_budget_project_ids":  [
+                                                                                                                      "a2c3da88-f1fe-450c-9a32-44bc64d5f468"
+                                                                                                                  ]
+                                                                             }
+                                                    }
+                                                ],
+                                   "contracts":  [
+                                                     {
+                                                         "id":  "64c57dee-b613-46f0-8cb8-695f11404373",
+                                                         "procurement_project_id":  "ebc0b3a7-e4b1-4a3a-89be-c042197c6da8",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; total budget 4.30 million yuan; package budgets 2.0803 and 2.2197 million yuan.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "98628ddb-7b84-41b0-bf69-137231ffa8c2",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "845b45b2-0747-4aa2-b3df-0d88034595a9",
+                                                         "procurement_project_id":  "9e77a93c-fa14-49c9-8359-29b9ca20d9d2",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; package 1 budget 2.0803 million yuan.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "5796849a-0821-4ecb-b868-47ee8fb876ce",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "b9830853-c824-498a-8f13-2e4ece0097cd",
+                                                         "procurement_project_id":  "d93cdf03-422f-4539-8f8d-8775871b86b2",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; package 2 budget 2.2197 million yuan.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "3ea00ab0-18f1-47c6-b6ad-4374050f6de7",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "bd597cb6-7326-4446-873d-cc6a9c2b39dc",
+                                                         "procurement_project_id":  "053c73f7-bc6d-4bbc-8bc3-877f48316a76",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Construction notice; estimated construction and installation cost about 28 million yuan; fiscal appropriation funding 100%.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "ae81df18-3157-4ed3-98eb-f7a951862952",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "1bf7a9f3-816c-4f57-86da-83256464c2fa",
+                                                         "procurement_project_id":  "67bc309b-c407-4376-99cf-52b2f6c44aed",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Construction notice; estimated construction and installation cost about 15 million yuan; fiscal appropriation funding 100%.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "7b8ce42e-a6e1-4e25-b163-58d5f3445c41",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "9dc298b1-54a9-4af3-9104-8c4a64283bb0",
+                                                         "procurement_project_id":  "45125432-2802-48bc-a025-b71924cb12b8",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; budget 3 million yuan; maximum bid rate 98%.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "1f3fed89-bcec-4e39-8799-78f56f196bc9",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "41f7b19b-303e-4525-8802-3b53ad229c22",
+                                                         "procurement_project_id":  "8e5c06f2-9cf5-4023-9ec5-9c588a4854b5",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; budget and maximum limit 0.52 million yuan per year.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "5f5258cc-a5c9-40b6-b046-147062159678",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "ec89f761-19c8-41b6-9cb1-d6b1335bb2c6",
+                                                         "procurement_project_id":  "3533137c-5cef-4a6c-8cc0-1d6650bc8a18",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; project budget and maximum limit 0.24 million yuan.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "404909e6-f447-4633-ac61-6dafaa592ab0",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "fe4e8cc7-870c-48ae-bc48-c1971f4ac6d5",
+                                                         "procurement_project_id":  "b67e6f79-7e92-43fd-b36e-aa29cbf86772",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Construction notice; total investment about 57.8 million yuan; district fiscal funding 100%.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "8bcf582e-0b51-4721-91bb-b3e17b5d3a6d",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "3d9673d6-a343-4004-a093-2623da6592e3",
+                                                         "procurement_project_id":  "981705e7-7af7-4c1e-bfc4-9cb8a82e28eb",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; contract estimate about 17.8 million yuan for Ping\u0027an Road 1 and Xinhaitong Garden.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "2aca2051-3018-40c1-9b9c-3c3abfd79390",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "92197e1d-4cc8-426d-97cf-df5cfb26d55d",
+                                                         "procurement_project_id":  "08e7193d-b1de-4bcf-9c9d-d61e37064d21",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; contract estimate about 20.5 million yuan for Yinhua Garden.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "925f92d9-369a-4662-a231-86bee4b0c9a4",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "ae0db9cc-57bd-4b76-9365-4f243bfe464e",
+                                                         "procurement_project_id":  "83ebc9f5-5e9b-412d-9cd8-f96a0e0b0320",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; contract estimate about 10.6 million yuan for Beiguo Xincun.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "bfea9e07-e5a4-41b4-bf5e-d37ca45bc38a",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "e6badd7e-d2ed-45c6-b7f1-db33451438ce",
+                                                         "procurement_project_id":  "e0a8598d-dba9-4233-8bff-813d85553cda",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Notice stage; contract estimate about 8.9 million yuan; published control price 8,802,382.36 yuan.",
+                                                         "acceptance_status":  "notice_stage",
+                                                         "contract_amount":  "8802382.36",
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "29533b72-5a00-4553-87aa-cc8022831d60",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     },
+                                                     {
+                                                         "id":  "6ab7eca3-bc79-47a4-b7e9-78a032fb1c67",
+                                                         "procurement_project_id":  "a5d94bc8-338b-4484-b6f0-78fb2a670b35",
+                                                         "contract_no":  null,
+                                                         "contract_published_at":  null,
+                                                         "acceptance_summary":  "Procurement plan; contract estimate about 18 million yuan; fiscal funding.",
+                                                         "acceptance_status":  "plan_stage",
+                                                         "contract_amount":  null,
+                                                         "supplier_id":  null,
+                                                         "funding_source_id":  null,
+                                                         "account_classification_id":  "c785aa12-e5c8-45d4-b0cc-cbb995279142",
+                                                         "source_document_id":  null,
+                                                         "writeback_status":  null,
+                                                         "writeback_ref":  null,
+                                                         "reconciliation_status":  null
+                                                     }
+                                                 ],
+                                   "budget_units":  [
+                                                        {
+                                                            "id":  "79b00339-1b1c-47e0-a7e1-e4b5c4a33a51",
+                                                            "code":  null,
+                                                            "name":  "å¯ä¸å¸äº¤éäºä¸åå±ä¸­å¿",
+                                                            "region":  "Qidong City, Nantong, Jiangsu"
+                                                        },
+                                                        {
+                                                            "id":  "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+                                                            "code":  null,
+                                                            "name":  "åéæåèºæ¯ä¸­å¿ç®¡çæéå\u0085¬å¸",
+                                                            "region":  "Nantong City, Jiangsu"
+                                                        },
+                                                        {
+                                                            "id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                            "code":  null,
+                                                            "name":  "åéå¸å´å·åºåä¸è¡éåäºå¤ãåéå¸åéæ¿å°äº§å¼åæéå\u0085¬å¸",
+                                                            "region":  "Chongchuan District, Nantong, Jiangsu"
+                                                        },
+                                                        {
+                                                            "id":  "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+                                                            "code":  null,
+                                                            "name":  "å¯ä¸å¸æè²ä½è²å±",
+                                                            "region":  "Qidong City, Nantong, Jiangsu"
+                                                        },
+                                                        {
+                                                            "id":  "d5d9054e-9b9c-4ce4-86b7-3c8a9447cab3",
+                                                            "code":  null,
+                                                            "name":  "æµ·å®å¸åå»ºå¼åæèµéå¢æéå\u0085¬å¸",
+                                                            "region":  "Haian City, Nantong, Jiangsu"
+                                                        },
+                                                        {
+                                                            "id":  "453eb7f9-49f3-4aac-b26b-411ae7309fa3",
+                                                            "code":  null,
+                                                            "name":  "åéå¸å´å·åºåå¹³æ¡¥è¡éåäºå¤",
+                                                            "region":  "Chongchuan District, Nantong, Jiangsu"
+                                                        },
+                                                        {
+                                                            "id":  "b6741ab3-69ed-4012-a8d7-157b01281f78",
+                                                            "code":  null,
+                                                            "name":  "å¯ä¸å¸å¯ééäººæ°æ¿åº",
+                                                            "region":  "Qidong City, Nantong, Jiangsu"
+                                                        }
+                                                    ],
+                                   "budget_projects":  [
+                                                           {
+                                                               "id":  "7a2c1e12-4c6d-48cf-a93a-58faea9540c0",
+                                                               "budget_unit_id":  "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+                                                               "name":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "032c7f71-62f5-447b-bb64-30081dc86dea",
+                                                               "budget_unit_id":  "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+                                                               "name":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®éè´­å\u00851",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "eaf45dde-9b00-4ea8-9442-1e0643581978",
+                                                               "budget_unit_id":  "b8fcc369-6499-44b5-9a78-b4d3e84a8416",
+                                                               "name":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®éè´­å\u00852",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "af258a98-affc-49d9-a29f-3d692f4c0906",
+                                                               "budget_unit_id":  "79b00339-1b1c-47e0-a7e1-e4b5c4a33a51",
+                                                               "name":  "å¯ä¸å¸2025å¹´å¿éå\u0085»æ¤å·¥ç¨ï¼éæµ·å¤§éå¤§ä¿®ï¼",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "385aa3cd-e34d-4f77-a87c-e153c7cf4e0a",
+                                                               "budget_unit_id":  "b6741ab3-69ed-4012-a8d7-157b01281f78",
+                                                               "name":  "å¯ä¸å¸å¯éé2025å¹´åæå\u0085¬è·¯æ°å»ºåå\u0085»æ¤å·¥ç¨",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "8469de21-9498-43b0-8bbf-e1b00fb5b97c",
+                                                               "budget_unit_id":  "d5d9054e-9b9c-4ce4-86b7-3c8a9447cab3",
+                                                               "name":  "æµ·å®å¸åå»ºå¼åæèµéå¢æéå\u0085¬å¸èèµæ¥è¡¨å®¡è®¡æå¡éè´­é¡¹ç®ï¼ç¬¬äºæ¬¡ï¼",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "0baccd75-4a0d-496a-8b63-74dab9463695",
+                                                               "budget_unit_id":  "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+                                                               "name":  "åéå¤§å§é¢æ­å§å\u0085èå°æºæ¢°è®¾å¤å¹´åº¦ç»´ä¿é¡¹ç®",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "0dd5f9ef-f259-46de-8874-5682586ef896",
+                                                               "budget_unit_id":  "fc3099ec-6e20-4d70-a0fa-69dedfe5e644",
+                                                               "name":  "åéå¤§å§é¢èå°ç¯å\u0085äºæ æ®µè®¾å¤å¹´åº¦ç»´ä¿é¡¹ç®",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "a41bbf1f-a43f-4a9e-9c3d-de6e733b9e15",
+                                                               "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                               "name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "d97cbf9c-33a4-4081-98ea-78b3bbc6aee6",
+                                                               "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                               "name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥ä¸æ æ®µ",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "d9b390bf-79a4-4491-b883-0d146f0c06a0",
+                                                               "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                               "name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥äºæ æ®µ",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "8aa9db86-9999-4d7a-b23d-4534f1df9a43",
+                                                               "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                               "name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥ä¸æ æ®µ",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "1fb15039-6f07-4c2b-bc07-74ea78790016",
+                                                               "budget_unit_id":  "fe23dd7d-9540-4cd8-8a05-76d15452027e",
+                                                               "name":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥åæ æ®µ",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  "å´æ°æ®æ¹ã2025ã20å·",
+                                                               "funding_source_id":  null
+                                                           },
+                                                           {
+                                                               "id":  "a2c3da88-f1fe-450c-9a32-44bc64d5f468",
+                                                               "budget_unit_id":  "453eb7f9-49f3-4aac-b26b-411ae7309fa3",
+                                                               "name":  "2025å¹´å´å·åºåå¹³æ¡¥è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨",
+                                                               "project_catalog_id":  null,
+                                                               "indicator_document_no":  null,
+                                                               "funding_source_id":  null
+                                                           }
+                                                       ],
+                                   "suppliers":  [
+
+                                                 ],
+                                   "funding_sources":  [
+
+                                                       ],
+                                   "account_classifications":  [
+                                                                   {
+                                                                       "id":  "98628ddb-7b84-41b0-bf69-137231ffa8c2",
+                                                                       "function_classification_code":  "205",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "5796849a-0821-4ecb-b868-47ee8fb876ce",
+                                                                       "function_classification_code":  "205",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "3ea00ab0-18f1-47c6-b6ad-4374050f6de7",
+                                                                       "function_classification_code":  "205",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "ae81df18-3157-4ed3-98eb-f7a951862952",
+                                                                       "function_classification_code":  "214",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "7b8ce42e-a6e1-4e25-b163-58d5f3445c41",
+                                                                       "function_classification_code":  "214",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "1f3fed89-bcec-4e39-8799-78f56f196bc9",
+                                                                       "function_classification_code":  "201",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "5f5258cc-a5c9-40b6-b046-147062159678",
+                                                                       "function_classification_code":  "207",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "404909e6-f447-4633-ac61-6dafaa592ab0",
+                                                                       "function_classification_code":  "207",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "8bcf582e-0b51-4721-91bb-b3e17b5d3a6d",
+                                                                       "function_classification_code":  "212",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "2aca2051-3018-40c1-9b9c-3c3abfd79390",
+                                                                       "function_classification_code":  "212",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "925f92d9-369a-4662-a231-86bee4b0c9a4",
+                                                                       "function_classification_code":  "212",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "bfea9e07-e5a4-41b4-bf5e-d37ca45bc38a",
+                                                                       "function_classification_code":  "212",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "29533b72-5a00-4553-87aa-cc8022831d60",
+                                                                       "function_classification_code":  "212",
+                                                                       "economic_classification_code":  null
+                                                                   },
+                                                                   {
+                                                                       "id":  "c785aa12-e5c8-45d4-b0cc-cbb995279142",
+                                                                       "function_classification_code":  "212",
+                                                                       "economic_classification_code":  null
+                                                                   }
+                                                               ],
+                                   "source_documents":  [
+                                                            {
+                                                                "id":  "fea79aac-348a-4c7a-8344-3c03b607d6c9",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+                                                                "captured_at":  "2025-04-30"
+                                                            },
+                                                            {
+                                                                "id":  "a1837179-b79d-4d9c-a558-500401d03fae",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®éè´­å\u00851",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+                                                                "captured_at":  "2025-04-30"
+                                                            },
+                                                            {
+                                                                "id":  "57a1ed72-2064-48ac-98cb-6dd0d0124eb9",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å¯ä¸å¸æ ¡å­å®å\u0085¨æåé¡¹ç®éè´­å\u00852",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003002/003002001/003002001004/20250430/e670baac-e240-4025-a730-ef6145d2e249.html",
+                                                                "captured_at":  "2025-04-30"
+                                                            },
+                                                            {
+                                                                "id":  "7bc59d68-8fb8-4b9f-b4a9-52e5a930203f",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "å¯ä¸å¸2025å¹´å¿éå\u0085»æ¤å·¥ç¨ï¼éæµ·å¤§éå¤§ä¿®ï¼",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003005/003005001/20250623/7cff5368-3cca-4521-a21c-78e7c4e418f0.html",
+                                                                "captured_at":  "2025-06-23"
+                                                            },
+                                                            {
+                                                                "id":  "800f36e4-f525-41a2-9216-f04856db855d",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "å¯ä¸å¸å¯éé2025å¹´åæå\u0085¬è·¯æ°å»ºåå\u0085»æ¤å·¥ç¨",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003005/003005001/20250714/793a3af1-9c2f-45ea-8b1a-ea4fc7af277b.html",
+                                                                "captured_at":  "2025-07-14"
+                                                            },
+                                                            {
+                                                                "id":  "75f82739-9185-4d37-a69c-2d470c5bf7d2",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "æµ·å®å¸åå»ºå¼åæèµéå¢æéå\u0085¬å¸èèµæ¥è¡¨å®¡è®¡æå¡éè´­é¡¹ç®ï¼ç¬¬äºæ¬¡ï¼",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003009/003009001/20250714/31ad4f91-528e-4ad2-80fe-c7a9c2777d9f.html",
+                                                                "captured_at":  "2025-07-14"
+                                                            },
+                                                            {
+                                                                "id":  "283f271c-7484-4feb-9f8f-7d037303805d",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "åéå¤§å§é¢æ­å§å\u0085èå°æºæ¢°è®¾å¤å¹´åº¦ç»´ä¿é¡¹ç®",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003015/003015005/20250314/f78c79e3-9b6c-44d0-b5e9-b39f9221c0e5.html",
+                                                                "captured_at":  "2025-03-14"
+                                                            },
+                                                            {
+                                                                "id":  "c54c00b5-1661-44c3-90b7-5d54470719e0",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "åéå¤§å§é¢èå°ç¯å\u0085äºæ æ®µè®¾å¤å¹´åº¦ç»´ä¿é¡¹ç®",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003015/003015005/20250109/8645e6fe-d602-43d2-811b-0bfd78473279.html",
+                                                                "captured_at":  "2025-01-09"
+                                                            },
+                                                            {
+                                                                "id":  "bb4c1c55-8b38-4cbc-ba92-642664bc1c59",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+                                                                "captured_at":  "2025-05-19"
+                                                            },
+                                                            {
+                                                                "id":  "2175f795-6cf1-406e-891a-ec44c35741df",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥ä¸æ æ®µ",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+                                                                "captured_at":  "2025-05-19"
+                                                            },
+                                                            {
+                                                                "id":  "f61603c6-ffab-4556-a4f0-227f3bf6d6f6",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥äºæ æ®µ",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+                                                                "captured_at":  "2025-05-19"
+                                                            },
+                                                            {
+                                                                "id":  "203e870a-3160-46e6-b061-e15fd450c4b9",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥ä¸æ æ®µ",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001001/20250519/65412159-1df5-4948-abda-1d1165c6a415.html",
+                                                                "captured_at":  "2025-05-19"
+                                                            },
+                                                            {
+                                                                "id":  "de865cfa-e4c3-4d98-ad14-ec1a9b44e6b3",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å´å·åºåä¸è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨æ½å·¥åæ æ®µ",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001003/20250519/0fe316ef-e310-461b-85bb-6928cfc50ccc.html",
+                                                                "captured_at":  "2025-05-19"
+                                                            },
+                                                            {
+                                                                "id":  "0e1d907b-5421-4531-bba1-e91ebf307f2c",
+                                                                "document_type":  "procurement_notice",
+                                                                "title":  "2025å¹´å´å·åºåå¹³æ¡¥è¡éèæ§å°åºç»¼åæ¹é å·¥ç¨",
+                                                                "url":  "https://ggzyjy.nantong.gov.cn/jyxx/003001/003001009/20250219/a514ab8a-0aa9-4896-b19a-b4eb8880e7af.html",
+                                                                "captured_at":  "2025-02-19"
+                                                            }
+                                                        ],
+                                   "quality_report":  {
+                                                          "total_rows":  14,
+                                                          "accepted_rows":  14,
+                                                          "rejected_rows":  0,
+                                                          "checks":  [
+
+                                                                     ]
+                                                      },
+                                   "applicable_rule_sets":  [
+                                                                "procurement_rules"
+                                                            ]
+                               }
+               },
+    "budget_linkage_summary":  {
+                                   "exact_linked_procurement_projects":  0,
+                                   "evidence_auto_linked_procurement_projects":  0,
+                                   "candidate_procurement_projects":  0,
+                                   "unlinked_procurement_projects":  0,
+                                   "ambiguous_matches":  0
+                               },
+    "contract_linkage_summary":  {
+                                     "linked_contracts":  0,
+                                     "missing_contracts":  0,
+                                     "closed_contract_chains":  0,
+                                     "open_contract_chains":  0,
+                                     "writeback_pending":  0
+                                 },
+    "payment_linkage_summary":  {
+                                    "linked_payments":  0,
+                                    "unmatched_payments":  0,
+                                    "paid_without_ledger":  0,
+                                    "ledger_without_payment":  0,
+                                    "amount_gap":  ""
+                                },
+    "ledger_linkage_summary":  {
+                                   "linked_entries":  0,
+                                   "unbalanced_entries":  0,
+                                   "duplicate_entries":  0,
+                                   "timing_exceptions":  0,
+                                   "manual_review_required":  0
+                               },
+    "created_by":  "c1f19662-b4fe-44ca-8785-172e4ac4395b",
+    "created_at":  "2026-04-26 14:41:23",
+    "updated_at":  "2026-04-26 14:41:23"
+}

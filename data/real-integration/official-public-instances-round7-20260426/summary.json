@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-04-26T16:30:19.238Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 38,
+  "procurement_input_records": 54,
+  "budget_input_records": 30,
+  "case_seed_input_records": 12,
+  "total_input_records": 96,
+  "procurement_accepted_records": 54,
+  "budget_accepted_records": 30,
+  "case_seed_accepted_records": 12,
+  "total_accepted_records": 96,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-PUBLIC-TREND-001": 1,
+    "PROC-CHAIN-001": 1
+  },
+  "source_traceable_rows": 96,
+  "source_total_rows": 96,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 11,
+    "award": 11,
+    "contract": 11,
+    "acceptance": 11,
+    "payment": 10
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 30
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Info",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "BUDGET-PUBLIC-TREND-001",
+      "risk_level": "Medium",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-26T16:30:19.236Z",
+    "captured_at": "2026-04-27T00:05:00+08:00",
+    "fetch_mode": "official_snapshot_round7_with_discovery_crawler",
+    "source_count": 38,
+    "seventh_round_source_count": 38,
+    "parsed_source_count": 38,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 115,
+    "previous_source_overlap_count": 0,
+    "total_records": 96,
+    "payment_condition_records": 45,
+    "payment_deadline_missing_count": 25,
+    "framework_non_total_records": 12,
+    "special_fund_downstream_records": 30,
+    "discovery_queue_item_count": 79,
+    "previous_discovery_queue_item_count": 61,
+    "discovery_crawler_processed_count": 61,
+    "discovery_crawler_matched_count": 34,
+    "discovery_crawler_match_rate": 55.74,
+    "discovery_crawler_statuses": {
+      "matched": 34,
+      "not_found": 27
+    },
+    "procurement_chain_group_count": 33,
+    "procurement_chain_missing_contract_count": 22,
+    "procurement_chain_missing_acceptance_count": 22,
+    "procurement_chain_missing_payment_count": 23,
+    "audit_evidence_weights": {
+      "20": 2,
+      "35": 2,
+      "55": 2,
+      "60": 2,
+      "70": 2,
+      "90": 2
+    },
+    "finding_dispositions": {
+      "risk_candidate": 2,
+      "review_recommended": 6,
+      "knowledge_reference": 4
+    },
+    "source_completeness_rate": 100
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "crawler queue productionization",
+      "action": "Connect the queue to scheduled official-site crawlers and persist matched, not_found, parse_failed and manual_review states.",
+      "reason": "Round 6 queue items can now be consumed deterministically; production needs scheduling, retries and reviewer workflow."
+    },
+    {
+      "priority": "P0",
+      "area": "payment condition modeling",
+      "action": "Promote settlement_basis, payment_trigger and payment_deadline into procurement-chain detail and report views.",
+      "reason": "Tender and contract payment terms explain why budget amounts must not be treated as actual payments."
+    },
+    {
+      "priority": "P1",
+      "area": "special fund downstream evidence",
+      "action": "Use required_payment_data and required_voucher_data to drive payment and voucher import checklists.",
+      "reason": "Policy records should become concrete follow-up data requests instead of isolated fiscal indicators."
+    }
+  ],
+  "batch_name": "official_public_instances_round7",
+  "round7_acceptance_baseline": 90
+}

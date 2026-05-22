@@ -1,0 +1,12 @@
+{
+  "sample": "nanjing_commerce",
+  "captured_at": "2026-05-06",
+  "source": ".tmp/fullstack-test-report.json baseline inspected during PoC repair",
+  "budget_linkage_summary": {
+    "exact_linked_procurement_projects": 0,
+    "evidence_auto_linked_procurement_projects": 34,
+    "candidate_procurement_projects": 0,
+    "unlinked_procurement_projects": 939,
+    "ambiguous_matches": 0
+  }
+}

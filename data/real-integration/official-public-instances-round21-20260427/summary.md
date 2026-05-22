@@ -1,0 +1,51 @@
+# Round 21 Official Public Instances Test Result
+
+Generated at: 2026-04-27T13:05:00.661Z
+Batch: official_public_instances_round21
+
+## Source Coverage
+
+- Official sources: 20
+- Previous source overlap: 0
+- Input / accepted: 260 / 260
+- Source traceability: 100%
+
+## Supervision Penalty And Credit Constraints
+
+- Penalty records: 190
+- Credit constraint records: 190
+- Credit repair follow-up records: 64
+- Malicious collusion records: 21
+- False material records: 21
+- Exception weight coverage: 100%
+- Review-only rate: 100%
+- Queue stages: correction_notice 190, penalty_followup 190, credit_restriction 169, credit_repair 169, re_participation 169, contract 190, acceptance 190, payment 190, rectification 199, award_invalidated 63, rebid_notice 63, new_award 63
+
+## Further Optimization Plan
+
+- P0 administrative penalty and credit constraints: Keep penalty decision number, legal basis, penalty period, market restriction scope, penalty subject and credit repair status as first-class procurement fields. Reason: Round 21 sources show administrative penalties need different evidence weight and follow-up handling from rejected complaints.
+- P0 exception chain discovery: Search penalty follow-up, credit restriction, credit repair, re-participation, contract, acceptance and payment by decision number plus penalty subject. Reason: Penalty notices alone remain review evidence; downstream closure is required before any risk candidate.
+- P1 reporting topic: Separate supervision penalty and credit constraint reporting from complaint handling, with evidence weights and manual review status. Reason: PoC delivery should not give complaint rejection and administrative penalty the same weight.
+
+## Sources
+
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148907 administrative penalty: https://www.ccgp.gov.cn/gg/202602/t20260204_26148907.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148891 credit restriction follow-up: https://www.ccgp.gov.cn/gg/202602/t20260204_26148891.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148876 false material review: https://www.ccgp.gov.cn/gg/202602/t20260204_26148876.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148870 malicious collusion review: https://www.ccgp.gov.cn/gg/202602/t20260204_26148870.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148838 complaint handling rejected: https://www.ccgp.gov.cn/gg/202602/t20260204_26148838.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148836 credit repair follow-up: https://www.ccgp.gov.cn/gg/202602/t20260204_26148836.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148812 re-participation review: https://www.ccgp.gov.cn/gg/202602/t20260204_26148812.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148802 market entry restriction: https://www.ccgp.gov.cn/gg/202602/t20260204_26148802.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148790 administrative penalty: https://www.ccgp.gov.cn/gg/202602/t20260204_26148790.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148759 false material penalty: https://www.ccgp.gov.cn/gg/202602/t20260204_26148759.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148757 complaint established: https://www.ccgp.gov.cn/gg/202602/t20260204_26148757.htm
+- [China Government Procurement Network] MOF procurement information notice 20260204 26148742 complaint partly established: https://www.ccgp.gov.cn/gg/202602/t20260204_26148742.htm
+- [China Government Procurement Network] MOF procurement information notice 20260202 26141639 administrative penalty: https://www.ccgp.gov.cn/gg/202602/t20260202_26141639.htm
+- [China Government Procurement Network] MOF procurement information notice 20260202 26141614 credit restriction: https://www.ccgp.gov.cn/gg/202602/t20260202_26141614.htm
+- [China Government Procurement Network] MOF procurement information notice 20260202 26141593 malicious collusion: https://www.ccgp.gov.cn/gg/202602/t20260202_26141593.htm
+- [China Government Procurement Network] MOF procurement information notice 20260202 26141571 credit repair: https://www.ccgp.gov.cn/gg/202602/t20260202_26141571.htm
+- [China Government Procurement Network] MOF procurement information notice 20260202 26141542 re-participation: https://www.ccgp.gov.cn/gg/202602/t20260202_26141542.htm
+- [China Government Procurement Network] MOF procurement information notice 20260202 26141519 administrative penalty: https://www.ccgp.gov.cn/gg/202602/t20260202_26141519.htm
+- [China Government Procurement Network] MOF procurement information notice 20260202 26141498 supplier credit restriction: https://www.ccgp.gov.cn/gg/202602/t20260202_26141498.htm
+- [China Government Procurement Network] MOF procurement information notice 20260202 26141471 complaint rejected: https://www.ccgp.gov.cn/gg/202602/t20260202_26141471.htm

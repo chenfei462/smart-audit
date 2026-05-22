@@ -1,0 +1,942 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:,">
+  <title>AuditLens 璐㈡斂鐩戠潱宸ヤ綔鍙?/title>
+  <style>
+    :root {
+      --ink: #10243f;
+      --ink-soft: #4f647e;
+      --line: #d8e0ea;
+      --paper: #f5f7fb;
+      --card: #ffffff;
+      --navy: #12345a;
+      --navy-2: #1f4f82;
+      --gold: #c6973f;
+      --red: #bf4a3e;
+      --green: #2f7d5b;
+      --blue: #2a6db2;
+      --shadow: 0 12px 30px rgba(16, 36, 63, 0.08);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Segoe UI", "Microsoft YaHei", sans-serif; background: radial-gradient(circle at top right, rgba(198,151,63,.16), transparent 22%), linear-gradient(180deg, #eef3f8 0%, #f7f9fc 100%); color: var(--ink); }
+    .shell { min-height: 100vh; display: grid; grid-template-columns: 320px 1fr; }
+    .sidebar { background: linear-gradient(180deg, #0f2745 0%, #173a64 100%); color: #fff; padding: 28px 22px; display: flex; flex-direction: column; gap: 18px; box-shadow: 8px 0 28px rgba(16, 36, 63, 0.12); }
+    .brand h1 { margin: 0; font-size: 26px; letter-spacing: 0.04em; }
+    .brand p, .sidebar small { margin: 6px 0 0; color: rgba(255,255,255,.76); line-height: 1.5; }
+    .user-card, .side-panel { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); border-radius: 18px; padding: 16px; backdrop-filter: blur(10px); }
+    .pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,.12); font-size: 12px; letter-spacing: .04em; }
+    .main { padding: 26px; display: grid; gap: 18px; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; background: rgba(255,255,255,.82); border: 1px solid rgba(16,36,63,.08); border-radius: 22px; padding: 16px 20px; box-shadow: var(--shadow); backdrop-filter: blur(10px); }
+    .workspace-switcher { display: flex; flex-wrap: wrap; gap: 10px; padding: 12px; border-radius: 18px; background: rgba(255,255,255,.82); border: 1px solid rgba(16,36,63,.08); box-shadow: var(--shadow); }
+    .workspace-switcher button, .workspace-subnav button { border: 1px solid rgba(16,36,63,.08); }
+    .workspace-switcher button.active, .workspace-subnav button.active { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; }
+    .workspace-page { display: grid; gap: 18px; }
+    .workspace-subnav { display: flex; flex-wrap: wrap; gap: 10px; }
+    .card { background: var(--card); border: 1px solid rgba(16,36,63,.08); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+    .section-title { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .section-title h2 { margin: 0; font-size: 19px; }
+    .section-title p { margin: 4px 0 0; color: var(--ink-soft); font-size: 13px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .scenario { padding: 18px; border-radius: 18px; border: 1px solid var(--line); background: linear-gradient(180deg, #fff 0%, #f9fbfe 100%); cursor: pointer; transition: .2s ease; }
+    .scenario.active { border-color: var(--navy-2); box-shadow: inset 0 0 0 2px rgba(31,79,130,.18); transform: translateY(-2px); }
+    .scenario h3 { margin: 0 0 8px; font-size: 17px; }
+    .scenario p { margin: 0 0 10px; color: var(--ink-soft); font-size: 13px; line-height: 1.6; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; }
+    .stat { border: 1px solid var(--line); border-radius: 18px; padding: 16px; background: linear-gradient(180deg, #fff 0%, #fbfcff 100%); }
+    .stat strong { display: block; margin-top: 8px; font-size: 26px; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    input, select, textarea, button { font: inherit; }
+    input, select, textarea { width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--ink); }
+    textarea { min-height: 88px; resize: vertical; }
+    .form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .form-grid .full { grid-column: 1 / -1; }
+    button { border: none; border-radius: 12px; padding: 11px 16px; cursor: pointer; transition: .2s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; }
+    .btn-secondary { background: #eef3f8; color: var(--ink); }
+    .btn-gold { background: linear-gradient(135deg, #b8862d, var(--gold)); color: #fff; }
+    button:hover { transform: translateY(-1px); }
+    button:disabled { opacity: .56; cursor: not-allowed; transform: none; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { color: var(--ink-soft); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+    .task-list-toolbar { display: grid; grid-template-columns: minmax(220px, 1.4fr) repeat(3, minmax(130px, .75fr)) auto auto; gap: 10px; align-items: center; margin-top: 14px; }
+    .task-list-toolbar input, .task-list-toolbar select { min-width: 0; }
+    .task-list-count { white-space: nowrap; font-size: 13px; }
+    .task-group-row td { background: #f3f7fb; padding: 8px 10px; }
+    .task-group-toggle { width: 100%; display: flex; align-items: center; gap: 8px; padding: 6px 2px; border-radius: 8px; background: transparent; color: var(--ink); text-align: left; }
+    .task-group-toggle:hover { transform: none; background: rgba(42,109,178,.08); }
+    .task-group-arrow { width: 16px; color: var(--blue); font-weight: 700; }
+    .chart-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+    .chart-grid.compact { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 14px; }
+    .chart-panel { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: linear-gradient(180deg, #fff 0%, #fbfcff 100%); min-width: 0; }
+    .chart-panel h3 { margin: 0 0 8px; font-size: 14px; }
+    .chart-panel canvas { display: block; width: 100%; height: 160px; }
+    .chart-grid.compact .chart-panel canvas { height: 140px; }
+    .badge { display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+    .badge.red { background: rgba(191,74,62,.12); color: var(--red); }
+    .badge.gold { background: rgba(198,151,63,.15); color: #9a6d15; }
+    .badge.green { background: rgba(47,125,91,.12); color: var(--green); }
+    .badge.blue { background: rgba(42,109,178,.12); color: var(--blue); }
+    .muted { color: var(--ink-soft); }
+    .hidden { display: none !important; }
+    .detail-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 16px; }
+    .notice { padding: 12px 14px; border-radius: 14px; background: #eef4fb; border: 1px solid #d7e3f4; color: var(--ink); font-size: 13px; line-height: 1.6; }
+    .auth-shell { max-width: 1080px; margin: 40px auto; padding: 0 20px 40px; }
+    .auth-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 18px; align-items: stretch; }
+    .auth-callout { padding: 28px; border-radius: 28px; color: #fff; background: radial-gradient(circle at top right, rgba(255,255,255,.22), transparent 18%), linear-gradient(135deg, #10243f 0%, #214d7e 62%, #c6973f 100%); box-shadow: var(--shadow); }
+    .auth-callout h1 { margin: 0 0 14px; font-size: 34px; }
+    .auth-card { padding: 24px; border-radius: 28px; background: rgba(255,255,255,.92); border: 1px solid rgba(16,36,63,.08); box-shadow: var(--shadow); }
+    .auth-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+    .auth-tabs button.active { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; }
+    #sourceKindTabs button.active { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .banner { padding: 14px 16px; border-radius: 18px; background: linear-gradient(135deg, rgba(18,52,90,.08), rgba(198,151,63,.12)); border: 1px solid rgba(18,52,90,.12); line-height: 1.7; font-size: 13px; }
+    .collapsible { border: 1px solid rgba(16,36,63,.08); border-radius: 14px; background: linear-gradient(180deg, #fff 0%, #fbfcff 100%); overflow: hidden; margin-bottom: 14px; }
+    .collapsible > summary { list-style: none; cursor: pointer; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 600; }
+    .collapsible > summary::-webkit-details-marker { display: none; }
+    .collapsible > summary::after { content: '灞曞紑'; color: var(--ink-soft); font-size: 12px; font-weight: 500; }
+    .collapsible[open] > summary::after { content: '鏀惰捣'; }
+    .collapsible-body { padding: 0 14px 14px; }
+    #message { position: sticky; top: 10px; z-index: 20; }
+    .skip-link { position:absolute; left:-999px; top:12px; background:#fff; color:var(--ink); padding:8px 12px; border:1px solid var(--line); border-radius:8px; z-index:30; }
+    .skip-link:focus { left:12px; }
+    @media (max-width: 1100px) { .shell, .auth-hero, .detail-grid, .grid-3, .grid-2, .stats, .form-grid, .task-list-toolbar, .chart-grid, .chart-grid.compact { grid-template-columns: 1fr; } .sidebar { display: none; } .main { padding: 14px; } .section-title { align-items: flex-start; } }
+  </style>
+</head>
+<body>
+  <div id="message" class="auth-shell hidden"></div>
+  <section id="authRoot" class="auth-shell hidden">
+    <div class="auth-hero">
+      <div class="auth-callout">
+        <div class="pill">Government PoC Demo</div>
+        <h1>AuditLens 鏀垮簻瀹¤宸ヤ綔鍙版牱鏉跨幆澧?/h1>
+        <p id="publicModeText">鍏綉鐜浠呯敤浜庢柟妗堟眹鎶ャ€佽矾婕斿拰璇曠偣娌熼€氾紝涓嶆壙杞界湡瀹炴斂搴滀笟鍔℃暟鎹€傛寮?PoC 灏嗗垏鎹㈠埌鏀垮姟浜戞垨绉佹湁鍖栭儴缃茬幆澧冦€?/p>
+        <div class="notice" style="margin-top:18px;background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.16);color:#fff;">榛樿浜や粯娴佺▼锛氳储鏀跨洃鐫ｅ満鏅€夋嫨 -&gt; 鏁版嵁瀵煎叆 -&gt; 椋庨櫓瀹¤ -&gt; 鏍囧噯鎶ュ憡 -&gt; 鏁存敼璺熻釜</div>
+        <div class="cta-row">
+          <button class="btn-gold" id="briefingBtn">棰勭害姹囨姤</button>
+          <button class="btn-secondary" id="pocBtn">鐢宠 PoC</button>
+        </div>
+      </div>
+      <div class="auth-card">
+        <div class="auth-tabs">
+          <button class="btn-secondary active" id="loginTab">鐧诲綍</button>
+          <button class="btn-secondary" id="registerTab">鍒濆鍖栫鐞嗗憳</button>
+        </div>
+        <form id="loginForm"><div class="form-grid"><div class="full"><input id="loginUser" placeholder="鐢ㄦ埛鍚?></div><div class="full"><input id="loginPass" type="password" placeholder="瀵嗙爜"></div></div><div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-primary">鐧诲綍宸ヤ綔鍙?/button></div></form>
+        <form id="registerForm" class="hidden"><div class="notice" style="margin-bottom:14px;">浠呯敤浜庨娆″垵濮嬪寲鎴栨槑纭紑鏀捐嚜鍔╂敞鍐岀殑鐜銆?/div><div class="form-grid"><div><input id="regTenant" placeholder="绉熸埛鍚嶇О / 鐩戠涓讳綋"></div><div><input id="regOrg" placeholder="缁勭粐鍚嶇О"></div><div><input id="regUser" placeholder="绠＄悊鍛樿处鍙?></div><div><input id="regName" placeholder="鏄剧ず鍚嶇О"></div><div class="full"><input id="regPass" type="password" placeholder="瀵嗙爜锛堣嚦灏?浣嶏紝鍚瓧姣嶅拰鏁板瓧锛?></div></div><div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-primary">鍒涘缓鐩戠绉熸埛</button></div></form>
+        <div id="leadPanel" style="margin-top:18px;">
+          <div class="section-title"><div><h2>棰勭害姹囨姤 / 鐢宠 PoC</h2><p>鍏紑鏍锋澘鐜涓嶅紑鏀捐嚜鐢辫瘯鐢紝璇锋彁浜ら」鐩俊鎭悗鐢卞洟闃熻窡杩涖€?/p></div></div>
+          <form id="leadForm">
+            <div class="form-grid">
+              <div><input id="leadContactName" placeholder="鑱旂郴浜?></div>
+              <div><input id="leadContactChannel" placeholder="鎵嬫満鍙?/ 閭 / 浼佷笟寰俊"></div>
+              <div><input id="leadUnitType" placeholder="鍗曚綅绫诲瀷锛屼緥濡傝储鏀垮眬 / 鍥借祫濮?></div>
+              <div><input id="leadDepartment" placeholder="浣跨敤閮ㄩ棬"></div>
+              <div><input id="leadScenario" placeholder="璁″垝瀹¤鍦烘櫙"></div>
+              <div><select id="leadDeployment"><option value="private-cloud-poc">鏀垮姟浜?/ 绉佹湁鍖?PoC</option><option value="lan-poc">鍐呯綉 / 灞€鍩熺綉璇曠偣</option><option value="briefing-only">鍏堝仛鏂规姹囨姤</option></select></div>
+              <div><select id="leadRealData"><option value="false">鍏堜娇鐢ㄨ劚鏁忔牱渚嬫暟鎹?/option><option value="true">闇€瑕佽瘎浼扮湡瀹炴暟鎹?PoC</option></select></div>
+              <div><select id="leadAiPolicy"><option value="configurable">AI 鍙厤缃惎鍋?/option><option value="disabled">PoC 榛樿鍏抽棴 AI</option><option value="internet-ai">鍓嶆湡鍏佽鍏綉 AI</option></select></div>
+              <div class="full"><textarea id="leadNote" placeholder="琛ュ厖璇存槑锛屼緥濡傛湡鏈涘懆鏈熴€佹秹鍙婄郴缁熴€佸璁″璞¤寖鍥?></textarea></div>
+            </div>
+            <div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-gold">鎻愪氦椤圭洰鐢宠</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a class="skip-link" href="#main-content">璺冲埌涓诲唴瀹?/a>
+  <section id="appRoot" class="shell hidden">
+    <aside class="sidebar">
+      <div class="brand"><div class="pill">AuditLens v0.4</div><h2>鏀垮簻瀹¤鍦烘櫙鏍锋澘鐜</h2><p>鐢ㄧ粺涓€鐨勫満鏅ā鏉裤€佷换鍔℃祦銆佹姤鍛婃ā鏉垮拰鐣欑棔鑳藉姏锛屾妸涓€娆℃鍒嗘瀽鍋氭垚鍙眹鎶ャ€佸彲璇曠偣銆佸彲浜や粯鐨勭洃绠″伐浣滃彴銆?/p></div>
+      <div class="user-card"><strong id="userName">-</strong><div class="muted" id="userOrg" style="margin-top:6px;"></div><div class="toolbar" style="margin-top:10px;"><span class="pill" id="userRole">viewer</span><button class="btn-secondary" id="logoutBtn">閫€鍑?/button></div></div>
+      <div class="side-panel"><strong>閮ㄧ讲杈圭晫</strong><small id="sidebarDeploymentCopy">鍏綉鐜浠呯敤浜庢眹鎶ワ紱娑夊強鐪熷疄鏁版嵁鍜屾寮忚瘯鐐规椂锛屽垏鎹㈣嚦鏀垮姟浜戞垨绉佹湁鍖栫幆澧冦€?/small></div>
+      <div class="side-panel"><strong>AI 瑙ｉ噴杈圭晫</strong><small id="sidebarAiCopy">瑙勫垯缁撹鏄寮忓璁＄粨鏋滐紝AI 浠呯敤浜庤緟鍔╄В璇汇€佸舰鎴愭憳瑕佷笌寤鸿銆?/small></div>
+    </aside>
+    <main class="main" id="main-content">
+      <div class="topbar"><div><strong id="topbarTitle" style="font-size:20px;">鏀垮簻璐㈠姟澶氱被鍨嬪鍏ュ伐浣滃彴</strong><div class="muted" id="topbarCopy">绗笁闃舵宸插惎鐢ㄩ噰璐€侀绠椼€佸浗搴撴敮浠樸€佷細璁″嚟璇佸洓绫讳换鍔★紝骞惰ˉ涓婅繛鎺ュ櫒瀵煎叆涓庡悎鍚?鏀粯-鍏ヨ处鑱旀煡銆?/div></div><div class="toolbar"><button class="btn-secondary" id="refreshBtn">鍒锋柊鏁版嵁</button></div></div>
+      <div id="environmentBanner" class="banner"></div>
+      <nav id="workspaceNav" class="workspace-switcher">
+        <button class="btn-secondary" data-workspace-page="import" type="button">瀵煎叆宸ヤ綔鍙?/button>
+        <button class="btn-secondary" data-workspace-page="tasks" type="button">浠诲姟鎬昏</button>
+        <button class="btn-secondary" data-workspace-page="cases" type="button">妗堜欢涓庢暣鏀?/button>
+        <button class="btn-secondary" data-workspace-page="operations" type="button">杩愯惀涓庤嚜鍔ㄥ寲</button>
+        <button class="btn-secondary" data-workspace-page="admin" type="button">绠＄悊鍛樺悗鍙?/button>
+      </nav>
+      <div id="workspacePageImport" class="workspace-page">
+      <section class="card">
+        <div class="section-title"><div><h2>1. 瀵煎叆宸ヤ綔鍙?/h2><p>鍏堥€夋暟鎹被鍨嬶紝鍐嶉€夋潵婧愶紝鎸夊鍏ラ妫€ -&gt; 浠诲姟鍏ュ簱 -&gt; 瑙勫垯鐮斿垽鐨勬祦绋嬫帹杩涖€?/p></div><div class="toolbar"><button class="btn-secondary" id="downloadTemplateBtn">涓嬭浇妯℃澘</button></div></div>
+        <details class="collapsible">
+          <summary>瀵煎叆绫诲瀷鍗＄墖</summary>
+          <div class="collapsible-body">
+            <div id="taskKindGrid" class="grid-2"></div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>瀛楁璇存槑涓庡鍏ユ潵婧?/summary>
+          <div class="collapsible-body">
+        <div class="grid-2" style="margin-top:18px;">
+          <div>
+            <div class="section-title"><div><h2 id="importDefinitionTitle">瀵煎叆绫诲瀷</h2><p id="importDefinitionCopy">璇烽€夋嫨瀵煎叆绫诲瀷銆?/p></div></div>
+            <div id="importDefinitionFields"></div>
+          </div>
+          <div>
+            <div class="section-title"><div><h2>瀵煎叆鏉ユ簮</h2><p>鏂囦欢棰勬銆佹壒閲?payload銆佸叕鍛婇〉鎶撳彇鍜岃繛鎺ュ櫒瀵煎叆鍏辩敤缁熶竴浠诲姟涓績銆?/p></div></div>
+            <div class="toolbar" id="sourceKindTabs" style="margin-bottom:14px;"></div>
+            <div id="fileSourcePanel">
+              <div class="form-grid">
+                <div class="full"><input id="importTitle" placeholder="浠诲姟鏍囬锛屼緥濡?2026 骞撮噰璐洃鐫ｅ鍏?></div>
+                <div class="full"><input id="importFileInput" type="file" accept=".csv,.xlsx,.xls"></div>
+              </div>
+              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="previewImportBtn">鎵ц棰勬</button><button class="btn-gold" id="commitImportBtn">纭鍏ュ簱</button></div>
+            </div>
+            <div id="batchSourcePanel" class="hidden">
+              <div class="form-grid">
+                <div class="full"><input id="batchTitle" placeholder="浠诲姟鏍囬锛屼緥濡?鎵归噺閲囪喘瀵煎叆"></div>
+                <div class="full"><textarea id="batchPayload" placeholder='杈撳叆 JSON锛屼緥濡?{"title":"鎵归噺瀵煎叆","records":[...]}'></textarea></div>
+              </div>
+              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="submitBatchBtn">鍒涘缓鎵归噺浠诲姟</button></div>
+            </div>
+            <div id="fetchSourcePanel" class="hidden">
+              <div class="form-grid">
+                <div class="full"><input id="fetchTitle" placeholder="浠诲姟鏍囬锛屼緥濡?鍏憡鎶撳彇瀵煎叆"></div>
+                <div class="full"><textarea id="fetchUrls" placeholder="姣忚涓€涓叕鍛婇〉鎴栧垪琛ㄩ〉 URL"></textarea></div>
+              </div>
+              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="submitFetchBtn">鎶撳彇骞跺垱寤轰换鍔?/button></div>
+            </div>
+            <div id="connectorSourcePanel" class="hidden">
+              <div class="form-grid">
+                <div class="full">
+                  <select id="connectorProfileSelect">
+                    <option value="">鏆傛棤鍙敤杩炴帴妗ｆ</option>
+                  </select>
+                </div>
+                <div class="full">
+                  <div id="connectorDatasetHint" class="notice">杩炴帴鍣ㄤ細鎸夊綋鍓嶄换鍔＄被鍨嬪拰瀛愮被鍨嬭繃婊ゃ€?/div>
+                </div>
+              </div>
+              <div class="toolbar" style="margin-top:14px;">
+                <button class="btn-primary" id="previewConnectorBtn">鎵ц杩炴帴鍣ㄩ妫€</button>
+                <button class="btn-gold" id="commitConnectorBtn">纭杩炴帴鍣ㄥ叆搴?/button>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </details>
+      </section>
+      <details class="collapsible">
+        <summary>鐩戠潱璇勫鍙拌处 / 妗堜欢绉嶅瓙瀵煎叆</summary>
+        <div class="collapsible-body">
+      <section class="grid-2">
+        <div class="card">
+          <div class="section-title">
+            <div>
+              <h2>1.5 鐩戠潱璇勫鍙拌处 / 妗堜欢绉嶅瓙瀵煎叆</h2>
+              <p>娴峰畨甯傝储鏀挎姇璧勮瘎瀹″懆鎶ャ€佸鍑忛鍛ㄦ姤銆佸缃氬彴璐︺€佷笓椤规鏌ラ棶棰樻竻鍗曠洿鎺ョ敓鎴愭浠讹紝涓嶅啀寮鸿濂楀洓绫诲璁′换鍔°€?/p>
+            </div>
+            <div class="toolbar">
+              <button class="btn-secondary" id="downloadCaseSeedTemplateBtn">涓嬭浇绉嶅瓙妯℃澘</button>
+            </div>
+          </div>
+            <div class="form-grid">
+              <div class="full"><input id="caseSeedTitle" placeholder="瀵煎叆鏍囬锛屼緥濡?娴峰畨甯傝储鏀挎姇璧勮瘎瀹″懆鎶ユ浠剁瀛?></div>
+              <div>
+                <select id="caseSeedTemplateKind">
+                  <option value="investment_review">鎶曡祫璇勫妯℃澘</option>
+                  <option value="penalty_ledger">澶勭綒鍙拌处妯℃澘</option>
+                  <option value="special_inspection">涓撻」妫€鏌ユā鏉?/option>
+                </select>
+              </div>
+              <div class="toolbar">
+                <button class="btn-secondary" id="saveCaseSeedConfigBtn" type="button">淇濆瓨褰撳墠妯℃澘閰嶇疆</button>
+              </div>
+              <div class="full"><input id="caseSeedFileInput" type="file" accept=".csv,.xlsx,.xls"></div>
+            </div>
+            <div class="muted" id="caseSeedConfigMeta" style="margin-top:12px;">褰撳墠妯℃澘杩樻病鏈変繚瀛樼殑瀵煎叆閰嶇疆銆?/div>
+            <div class="card" style="margin-top:14px;padding:14px;">
+              <div class="section-title">
+                <div>
+                  <h2>鑷姩鍒嗘淳瑙勫垯</h2>
+                  <p>鎸夋潵婧愰儴闂ㄦ垨鏁存敼鍗曚綅鑷姩钀借矗浠讳汉锛屾湭鍛戒腑鐨勮褰曚繚鎸佹湭鍒嗘淳銆?/p>
+              </div>
+              <div class="toolbar">
+                <button class="btn-secondary" id="addCaseSeedAssignmentRuleBtn" type="button">鏂板瑙勫垯</button>
+              </div>
+            </div>
+            <div id="caseSeedAssignmentRuleRows" class="muted">鏈厤缃嚜鍔ㄥ垎娲捐鍒欍€?/div>
+          </div>
+          <div class="toolbar" style="margin-top:14px;">
+            <button class="btn-primary" id="previewCaseSeedBtn" type="button">鎵ц绉嶅瓙棰勬</button>
+            <button class="btn-gold" id="importCaseSeedBtn" type="button" disabled>纭鐢熸垚妗堜欢</button>
+            </div>
+            <div class="notice" id="caseSeedPreviewMeta" style="margin-top:14px;">涓婁紶鐩戠潱璇勫鍙拌处銆佸鍑忛鍛ㄦ姤銆佸缃氬彴璐︽垨涓撻」妫€鏌ラ棶棰樻竻鍗曪紝鐩存帴鐢熸垚妗堜欢绉嶅瓙銆?/div>
+          </div>
+          <div class="card">
+            <div class="section-title">
+            <div>
+              <h2>妗堜欢绉嶅瓙棰勬</h2>
+              <p>鍏堢湅鍙拌处瀛楁銆佽川閲忛棶棰樺拰灏嗚鍒涘缓鐨勬浠舵憳瑕併€?/p>
+            </div>
+            </div>
+            <div id="caseSeedPreviewRecords" class="muted">鏆傛棤妗堜欢绉嶅瓙棰勬缁撴灉銆?/div>
+            <div style="margin-top:14px;" id="caseSeedFieldMappings" class="muted">鏆傛棤瀛楁鏄犲皠棰勮銆?/div>
+            <div style="margin-top:14px;" id="caseSeedAssignmentMatches" class="muted">鏆傛棤鑷姩鍒嗘淳鍛戒腑璇存槑銆?/div>
+            <div style="margin-top:14px;" id="caseSeedPreviewChecks" class="muted">鏆傛棤璐ㄩ噺鎶ュ憡銆?/div>
+          </div>
+        </section>
+        </div>
+      </details>
+      <section class="grid-2 hidden" id="importConfigCenter">
+        <div class="card">
+          <div class="section-title">
+            <div>
+              <h2>瀵煎叆閰嶇疆涓績</h2>
+              <p>缁存姢鍏变韩 / 绉佹湁瀵煎叆鏂规锛屽鐢ㄥ埌妗堜欢绉嶅瓙瀵煎叆锛屼笉鍐嶉噸澶嶈皟鏁村瓧娈垫槧灏勫拰鍒嗘淳瑙勫垯銆?/p>
+            </div>
+            <div class="toolbar">
+              <select id="importProfileScopeFilter">
+                <option value="all">鍏ㄩ儴鏂规</option>
+                <option value="shared">鍏变韩鏂规</option>
+                <option value="private">绉佹湁鏂规</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-grid">
+            <div><input id="importProfileName" placeholder="鏂规鍚嶇О"></div>
+            <div>
+              <select id="importProfileTemplateKind">
+                <option value="investment_review">鎶曡祫璇勫妯℃澘</option>
+                <option value="penalty_ledger">澶勭綒鍙拌处妯℃澘</option>
+                <option value="special_inspection">涓撻」妫€鏌ユā鏉?/option>
+              </select>
+            </div>
+            <div>
+              <select id="importProfileScope">
+                <option value="private">绉佹湁</option>
+                <option value="shared">鍏变韩</option>
+              </select>
+            </div>
+            <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="importProfileDefault" type="checkbox" style="width:auto;">璁句负榛樿鏂规</label></div>
+            <div class="full"><textarea id="importProfileNotes" placeholder="鏂规璇存槑"></textarea></div>
+            <div class="full"><input id="importProfileFile" type="file" accept=".json"></div>
+          </div>
+          <div class="toolbar" style="margin-top:14px;flex-wrap:wrap;">
+            <button class="btn-primary" id="createImportProfileBtn" type="button">浠庡綋鍓嶉厤缃繚瀛樻柟妗?/button>
+            <button class="btn-secondary" id="cloneImportProfileBtn" type="button">澶嶅埗鎵€閫夋柟妗?/button>
+            <button class="btn-secondary" id="exportImportProfileBtn" type="button">瀵煎嚭鎵€閫夋柟妗?/button>
+            <button class="btn-secondary" id="importImportProfileBtn" type="button">瀵煎叆 JSON 鏂规</button>
+          </div>
+          <div class="notice" id="importProfilesMeta" style="margin-top:14px;">褰撳墠妯℃澘涓嬫殏鏃犳柟妗堛€?/div>
+          <div id="importProfileRows" style="margin-top:14px;" class="muted">鏆傛棤瀵煎叆鏂规銆?/div>
+        </div>
+        <div class="card">
+          <div class="section-title">
+            <div>
+              <h2>璐ｄ换鍒嗘淳瀛楀吀</h2>
+              <p>鎸夋潵婧愰儴闂ㄦ垨鏁存敼鍗曚綅缁存姢榛樿璐ｄ换浜鸿矾鐢憋紝渚涢妫€銆佸鍏ュ拰鑷姩绔嬫澶嶇敤銆?/p>
+            </div>
+            <div class="toolbar">
+              <select id="assignmentDictionaryScopeFilter">
+                <option value="all">鍏ㄩ儴瑙勫垯</option>
+                <option value="shared">鍏变韩瑙勫垯</option>
+                <option value="private">绉佹湁瑙勫垯</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-grid">
+            <div>
+              <select id="assignmentDictionaryTemplateKind">
+                <option value="investment_review">鎶曡祫璇勫妯℃澘</option>
+                <option value="penalty_ledger">澶勭綒鍙拌处妯℃澘</option>
+                <option value="special_inspection">涓撻」妫€鏌ユā鏉?/option>
+              </select>
+            </div>
+            <div>
+              <select id="assignmentDictionaryScope">
+                <option value="private">绉佹湁</option>
+                <option value="shared">鍏变韩</option>
+              </select>
+            </div>
+            <div>
+              <select id="assignmentDictionaryField">
+                <option value="rectification_unit_name">鏁存敼鍗曚綅</option>
+                <option value="source_department">鏉ユ簮閮ㄩ棬</option>
+              </select>
+            </div>
+            <div><input id="assignmentDictionaryValue" placeholder="鍛戒腑鍊?></div>
+            <div><input id="assignmentDictionaryAssignee" placeholder="璐ｄ换浜虹敤鎴峰悕"></div>
+            <div><input id="assignmentDictionaryTargetDepartment" placeholder="鐩爣澶勫"></div>
+            <div><input id="assignmentDictionaryPriority" type="number" min="1" value="100" placeholder="浼樺厛绾?></div>
+            <div><input id="assignmentDictionaryLabel" placeholder="瑙勫垯鏍囩"></div>
+            <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="assignmentDictionaryEnabled" type="checkbox" checked style="width:auto;">鍚敤瑙勫垯</label></div>
+          </div>
+          <div class="toolbar" style="margin-top:14px;">
+            <button class="btn-primary" id="createAssignmentDictionaryBtn" type="button">淇濆瓨鍒嗘淳瑙勫垯</button>
+          </div>
+          <div class="notice" id="assignmentDictionaryMeta" style="margin-top:14px;">褰撳墠妯℃澘涓嬫殏鏃犺矗浠诲垎娲捐鍒欍€?/div>
+          <div id="assignmentDictionaryRows" style="margin-top:14px;" class="muted">鏆傛棤璐ｄ换鍒嗘淳瀛楀吀瑙勫垯銆?/div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="section-title">
+          <div>
+            <h2>1.6 鍐呴儴鏍锋湰璇曠偣</h2>
+            <p>闈㈠悜鍘垮尯璐㈡斂鎴栧璁″崟浣嶇殑鑴辨晱 Excel/CSV 璇曡窇锛屽浐瀹氳鐩栭绠楁寚鏍囥€侀噰璐悎鍚屻€佸浗搴撴敮浠樸€佷細璁″嚟璇佸拰鏁存敼鍙拌处浜旂被鏍锋湰銆?/p>
+          </div>
+          <div class="toolbar">
+            <select id="internalSampleTemplateKind"></select>
+            <button class="btn-secondary" id="downloadInternalSampleTemplateBtn" type="button">涓嬭浇鍐呴儴妯℃澘</button>
+          </div>
+        </div>
+        <details class="collapsible">
+          <summary>鍐呴儴鏍锋湰缁熻涓庢ā鏉?/summary>
+          <div class="collapsible-body">
+            <div class="stats" id="internalSamplePocStats"></div>
+            <div id="internalSampleTemplateRows" class="grid-2" style="margin-top:18px;"></div>
+          </div>
+        </details>
+      </section>
+      <details class="collapsible">
+        <summary>瀵煎叆棰勬涓庤川閲忔姤鍛?/summary>
+        <div class="collapsible-body">
+      <section class="grid-2">
+        <div class="card">
+          <div class="section-title"><div><h2>2. 瀵煎叆棰勬</h2><p id="previewMeta">鍏堟墽琛屽鍏ラ妫€鎴栫洿鎺ュ垱寤烘壒閲?/ URL 浠诲姟銆?/p></div></div>
+          <div id="previewRecords" class="muted">鏆傛棤棰勬缁撴灉銆?/div>
+        </div>
+        <div class="card">
+          <div class="section-title"><div><h2>3. 璐ㄩ噺鎶ュ憡</h2><p>瀛楁璇嗗埆銆佺己澶遍」銆侀噾棰濆拰鏃ユ湡鏍煎紡浼氬湪杩欓噷姹囨€汇€?/p></div></div>
+          <div id="previewChecks" class="muted">鏆傛棤璐ㄩ噺鎶ュ憡銆?/div>
+        </div>
+      </section>
+        </div>
+      </details>
+      </div>
+      <div id="workspacePageTasks" class="workspace-page hidden">
+      <section class="card"><div class="section-title"><div><h2>浠诲姟鎬昏</h2><p>缁熶竴灞曠ず澶氱被鍨嬩换鍔★紝鍙寜绫诲瀷鍜屾潵婧愭姌鍙犳祴璇曟牱渚嬨€?/p></div><span id="taskListCount" class="muted task-list-count">鏄剧ず 0 / 鍏?0 鏉?/span></div><details class="collapsible"><summary>缁熻鍗′笌鍥捐〃</summary><div class="collapsible-body"><div class="stats" id="stats"></div><div id="overviewCharts" class="chart-grid"><div class="chart-panel"><h3>椋庨櫓绛夌骇鍒嗗竷</h3><canvas id="overviewRiskChart"></canvas></div><div class="chart-panel"><h3>浠诲姟绫诲瀷鍒嗗竷</h3><canvas id="overviewTaskKindChart"></canvas></div><div class="chart-panel"><h3>瀵煎叆鏉ユ簮鍒嗗竷</h3><canvas id="overviewSourceChart"></canvas></div></div></div></details><div class="task-list-toolbar"><input id="taskSearchInput" placeholder="鎼滅储浠诲姟銆佷富浣撱€両D銆佺被鍨嬫垨鏉ユ簮"><select id="taskKindFilter"><option value="all">鍏ㄩ儴绫诲瀷</option></select><select id="taskSourceFilter"><option value="all">鍏ㄩ儴鏉ユ簮</option><option value="file">鏂囦欢瀵煎叆</option><option value="batch">鎵归噺瀵煎叆</option><option value="fetch">URL 閲囬泦</option><option value="connector">杩炴帴鍣?/option></select><select id="taskRiskFilter"><option value="all">鍏ㄩ儴椋庨櫓</option><option value="Critical">鏋侀珮</option><option value="High">楂?/option><option value="Medium">涓?/option><option value="Low">浣?/option></select><button class="btn-secondary" id="expandTaskGroupsBtn" type="button">鍏ㄩ儴灞曞紑</button><button class="btn-secondary" id="collapseTaskGroupsBtn" type="button">鍏ㄩ儴鎶樺彔</button></div><div style="margin-top:14px;overflow:auto;"><table><thead><tr><th>浠诲姟</th><th>绫诲瀷</th><th>鏉ユ簮</th><th>鐘舵€?/th><th>椋庨櫓</th><th>涓讳綋</th><th>鏇存柊鏃堕棿</th></tr></thead><tbody id="taskRows"></tbody></table></div></section>
+      <details class="collapsible">
+        <summary>浠诲姟璇︽儏涓庤川閲忔姤鍛?/summary>
+        <div class="collapsible-body">
+      <section class="grid-2">
+        <div class="card">
+          <div class="section-title"><div><h2>浠诲姟璇︽儏</h2><p id="detailSubtitle">閫夋嫨涓€鏉′换鍔℃煡鐪嬭鎯呫€?/p></div></div>
+          <div class="toolbar" style="margin-bottom:12px;flex-wrap:wrap;">
+            <button class="btn-secondary" id="exportPdfBtn" type="button">瀵煎嚭 PDF</button>
+            <button class="btn-secondary" id="sealTaskBtn" type="button">鐢熸垚瀵嗗皝鍖?/button>
+            <button class="btn-secondary" id="aiExplainBtn" type="button">AI 杈呭姪瑙ｉ噴</button>
+            <span class="muted" id="taskActionStatus"></span>
+          </div>
+          <details class="collapsible">
+            <summary>浠诲姟鍥捐〃鎽樿</summary>
+            <div class="collapsible-body">
+              <div id="taskResultCharts" class="chart-grid compact"><div class="chart-panel"><h3>瑙勫垯椋庨櫓鍒嗗竷</h3><canvas id="taskFindingRiskChart"></canvas></div><div class="chart-panel"><h3>瑙勫垯绫诲埆鍒嗗竷</h3><canvas id="taskRuleCategoryChart"></canvas></div><div class="chart-panel"><h3>瀵煎叆璐ㄩ噺妫€鏌?/h3><canvas id="taskQualityChart"></canvas></div></div>
+            </div>
+          </details>
+          <div id="taskDetailBody" class="muted">鏆傛棤浠诲姟銆?/div>
+        </div>
+        <div class="card">
+          <div class="section-title"><div><h2>瀵煎叆璐ㄩ噺鎶ュ憡</h2><p>宸插叆搴撲换鍔＄殑璐ㄩ噺妫€鏌ュ拰鍛婅浼氫繚鐣欏湪杩欓噷銆?/p></div></div>
+          <div id="qualityReportList" class="muted">鏆傛棤瀵煎叆璐ㄩ噺鎶ュ憡銆?/div>
+        </div>
+      </section>
+        </div>
+      </details>
+      <details class="collapsible">
+        <summary>璇佹嵁闄勪欢</summary>
+        <div class="collapsible-body">
+      <section class="card">
+        <div class="section-title"><div><h2>璇佹嵁闄勪欢</h2><p>涓婁紶鍥剧墖鎴栭煶棰戣瘉鎹苟鏌ョ湅 OCR / ASR 缁撴灉銆?/p></div></div>
+        <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;">
+          <input id="imageArtifactInput" type="file" accept="image/*,.pdf">
+          <button class="btn-secondary" id="uploadImageBtn" type="button">涓婁紶鍥剧墖璇佹嵁</button>
+          <input id="audioArtifactInput" type="file" accept="audio/*">
+          <button class="btn-secondary" id="uploadAudioBtn" type="button">涓婁紶闊抽璇佹嵁</button>
+        </div>
+        <div id="artifactList" class="muted">璇烽€夋嫨浠诲姟鍚庢煡鐪嬭瘉鎹潗鏂欍€?/div>
+      </section>
+        </div>
+      </details>
+      <details class="collapsible">
+        <summary>瑙勫垯缁撴灉</summary>
+        <div class="collapsible-body">
+      <section class="card"><div class="section-title"><div><h2>瑙勫垯缁撴灉</h2><p>褰撳墠闃舵宸插惎鐢ㄩ噰璐鍒欍€侀绠楄鍒欍€佹敮浠樿鍒欏拰浼氳鍕剧ń瑙勫垯銆?/p></div></div><div id="findingRows" class="muted">鏆傛棤瑙勫垯缁撴灉銆?/div></section>
+        </div>
+      </details>
+      <details class="collapsible">
+        <summary>寮傚父姹犱笌澶勭疆鏃堕棿绾?/summary>
+        <div class="collapsible-body">
+      <section class="card">
+        <div class="section-title">
+          <div>
+            <h2>寮傚父姹?/h2>
+            <p>缁熶竴鏌ョ湅 PAY-* / LEDGER-* / CHAIN-* 鏄庣粏锛屽彲鎸夋潵婧愩€佷换鍔＄被鍨嬨€佽矗浠讳汉銆佸悎鍚屽彿銆佹敮浠樺崟鍙枫€佸嚟璇佸彿鍜岀姸鎬佺粍鍚堢瓫閫夛紝骞舵敮鎸侀棴鐜缃€?/p>
+          </div>
+        </div>
+        <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;">
+          <select id="exceptionSourceFilter">
+            <option value="all">鍏ㄩ儴鏉ユ簮</option>
+            <option value="rule">瑙勫垯寮傚父</option>
+            <option value="reconciliation">閾捐矾寮傚父</option>
+          </select>
+          <select id="exceptionPrefixFilter">
+            <option value="all">鍏ㄩ儴鍓嶇紑</option>
+            <option value="PAY">PAY</option>
+            <option value="LEDGER">LEDGER</option>
+            <option value="CHAIN">CHAIN</option>
+          </select>
+          <select id="exceptionTaskKindFilter">
+            <option value="all">鍏ㄩ儴浠诲姟绫诲瀷</option>
+            <option value="procurement_project">閲囪喘浠诲姟</option>
+            <option value="budget_summary">棰勭畻浠诲姟</option>
+            <option value="treasury_payment">鏀粯浠诲姟</option>
+            <option value="voucher_ledger">浼氳浠诲姟</option>
+          </select>
+          <select id="exceptionSeverityFilter">
+            <option value="all">鍏ㄩ儴绾у埆</option>
+            <option value="Critical">Critical</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+          </select>
+          <select id="exceptionStatusFilter">
+            <option value="all">鍏ㄩ儴鐘舵€?/option>
+            <option value="Open">Open</option>
+            <option value="InReview">InReview</option>
+            <option value="Resolved">Resolved</option>
+            <option value="Closed">Closed</option>
+          </select>
+          <input id="exceptionAssigneeFilter" placeholder="鎸夎矗浠讳汉绛涢€?>
+          <input id="exceptionContractFilter" placeholder="鎸夊悎鍚屽彿绛涢€?>
+          <input id="exceptionPaymentFilter" placeholder="鎸夋敮浠樺崟鍙风瓫閫?>
+          <input id="exceptionVoucherFilter" placeholder="鎸夋敮浠?浼氳鍑瘉绛涢€?>
+        </div>
+        <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;align-items:center;">
+          <label style="display:flex;align-items:center;gap:8px;">
+            <input type="checkbox" id="exceptionSelectAll">
+            <span>鍏ㄩ€夊綋鍓嶇瓫閫夌粨鏋?/span>
+          </label>
+          <select id="exceptionBulkStatusSelect">
+            <option value="InReview">鏍囪涓?InReview</option>
+            <option value="Resolved">鏍囪涓?Resolved</option>
+            <option value="Closed">鏍囪涓?Closed</option>
+            <option value="Open">鏍囪涓?Open</option>
+          </select>
+          <input id="exceptionBulkAssignee" placeholder="璐ｄ换浜?>
+          <select id="exceptionBulkPrioritySelect">
+            <option value="">澶勭疆浼樺厛绾т笉鍙?/option>
+            <option value="P1">P1 / 绔嬪嵆澶勭悊</option>
+            <option value="P2">P2 / 楂樹紭鍏堢骇</option>
+            <option value="P3">P3 / 甯歌澶勭悊</option>
+            <option value="P4">P4 / 瑙傚療璺熻釜</option>
+          </select>
+          <select id="exceptionBulkOutcomeSelect">
+            <option value="">澶勭疆缁撹涓嶅彉</option>
+            <option value="pending_evidence">寰呰ˉ璇佹嵁</option>
+            <option value="confirmed_issue">纭寮傚父</option>
+            <option value="false_positive">璇姤鎺掗櫎</option>
+            <option value="rectified">宸叉暣鏀?/option>
+            <option value="escalated">宸蹭笂鎶?/option>
+          </select>
+          <input id="exceptionBulkDueAt" type="date" placeholder="鏁存敼鎴鏃堕棿">
+          <select id="exceptionBulkReminderSelect">
+            <option value="">鍌姙鏍囪涓嶅彉</option>
+            <option value="true">鏍囪鍌姙</option>
+            <option value="false">娓呴櫎鍌姙</option>
+          </select>
+          <input id="exceptionBulkNote" placeholder="澶勭疆澶囨敞">
+          <input id="exceptionBulkReminderNote" placeholder="鍌姙澶囨敞">
+          <button class="btn-primary" id="applyExceptionBulkBtn" type="button" disabled>鎵归噺鏇存柊鐘舵€?/button>
+          <span id="exceptionSelectionMeta" class="muted">Filtered 0 / Selected 0</span>
+        </div>
+        <div id="exceptionWorkflowStats" style="margin-bottom:14px;"></div>
+        <div id="exceptionPoolList" class="muted">鏆傛棤寮傚父姹犮€?/div>
+        <div class="section-title" style="margin-top:18px;">
+          <div>
+            <h3 style="margin:0;">瓒呮湡瑙嗗浘</h3>
+            <p>鍩轰簬鏁存敼鎴鏃堕棿鑷姩璇嗗埆鏈棴鐜秴鏈熷伐鍗曪紝骞跺睍绀哄綋鍓嶅偓鍔炲帇鍔涖€?/p>
+          </div>
+        </div>
+        <div id="exceptionOverdueList" class="muted">鏆傛棤瓒呮湡瑙嗗浘銆?/div>
+        <div class="section-title" style="margin-top:18px;">
+          <div>
+            <h3 style="margin:0;">澶勭疆鏃堕棿绾?/h3>
+            <p>鎸夋椂闂寸嚎鏌ョ湅姣忔鐘舵€併€佽矗浠讳汉鍜屽娉ㄥ彉鏇达紝骞舵敮鎸佸鍑鸿褰曘€?/p>
+          </div>
+        </div>
+        <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;align-items:center;">
+          <select id="exceptionTimelineStatusFilter">
+            <option value="all">鍏ㄩ儴鐘舵€?/option>
+            <option value="Open">Open</option>
+            <option value="InReview">InReview</option>
+            <option value="Resolved">Resolved</option>
+            <option value="Closed">Closed</option>
+          </select>
+          <input id="exceptionTimelineAssigneeFilter" placeholder="鎸夎矗浠讳汉绛涢€夋椂闂寸嚎">
+          <input id="exceptionTimelineChangedByFilter" placeholder="鎸夊缃汉绛涢€夋椂闂寸嚎">
+          <input id="exceptionTimelineChangedAtFilter" placeholder="鎸夋椂闂村叧閿瓧绛涢€?>
+          <button id="exportExceptionTimelineBtn" type="button">瀵煎嚭澶勭疆璁板綍</button>
+          <span id="exceptionTimelineMeta" class="muted">Timeline 0</span>
+        </div>
+        <div id="exceptionTimelineList" class="muted">鏆傛棤澶勭疆鏃堕棿绾裤€?/div>
+      </section>
+        </div>
+      </details>
+      </div>
+      <div id="workspacePageCases" class="workspace-page hidden">
+        <div class="workspace-subnav" id="casesSubnav">
+          <button class="btn-secondary" data-cases-view="workbench" type="button">妗堜欢宸ヤ綔鍙?/button>
+          <button class="btn-secondary" data-cases-view="rectification" type="button">鏁存敼闂ㄦ埛</button>
+        </div>
+      <section class="card hidden" id="caseBoard">
+        <div class="section-title">
+          <div>
+            <h2>妗堜欢宸ヤ綔鍙?/h2>
+            <p>灏嗕换鍔″紓甯告彁鍗囦负姝ｅ紡澶勭疆妗堜欢锛岀粺涓€鏌ョ湅鍒嗗彂銆佹祦杞拰 SLA 杩愯惀鎸囨爣銆?/p>
+          </div>
+        </div>
+        <details class="collapsible">
+          <summary>妗堜欢缁熻涓庡垎甯?/summary>
+          <div class="collapsible-body">
+            <div id="caseMetricsPanel" style="margin-bottom:14px;"></div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>绛涢€変笌鎵归噺鎿嶄綔</summary>
+          <div class="collapsible-body">
+            <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;align-items:center;">
+              <select id="caseTaskKindFilter">
+                <option value="all">鍏ㄩ儴浠诲姟绫诲瀷</option>
+                <option value="procurement_project">閲囪喘浠诲姟</option>
+                <option value="budget_summary">棰勭畻浠诲姟</option>
+                <option value="treasury_payment">鏀粯浠诲姟</option>
+                <option value="voucher_ledger">浼氳浠诲姟</option>
+                <option value="supervision_case_seed">鐩戠潱妗堜欢</option>
+              </select>
+              <select id="caseStatusFilter">
+                <option value="all">鍏ㄩ儴妗堜欢鐘舵€?/option>
+                <option value="open">open</option>
+                <option value="closed">closed</option>
+                <option value="archived">archived</option>
+              </select>
+              <select id="caseStageFilter">
+                <option value="all">鍏ㄩ儴闃舵</option>
+                <option value="New">New</option>
+                <option value="Assigned">Assigned</option>
+                <option value="InRectification">InRectification</option>
+                <option value="SubmittedForReview">SubmittedForReview</option>
+                <option value="ReviewRejected">ReviewRejected</option>
+                <option value="Reviewed">Reviewed</option>
+                <option value="Escalated">Escalated</option>
+                <option value="Closed">Closed</option>
+                <option value="Archived">Archived</option>
+              </select>
+              <input id="caseHandlerFilter" placeholder="鎸夎矗浠讳汉绛涢€夋浠?>
+            </div>
+            <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;align-items:center;">
+              <label style="display:flex;align-items:center;gap:8px;">
+                <input type="checkbox" id="caseSelectAll">
+                <span>鍏ㄩ€夊綋鍓嶇瓫閫夌粨鏋?/span>
+              </label>
+              <input id="caseBulkAssignee" placeholder="璐ｄ换浜?>
+              <input id="caseSourceDepartment" placeholder="鏉ユ簮澶勫">
+              <input id="caseTargetDepartment" placeholder="鐩爣澶勫">
+              <input id="caseRectificationUnit" placeholder="鏁存敼鍗曚綅">
+              <input id="caseBulkDueAt" type="date" placeholder="SLA 鎴鏃堕棿">
+              <button class="btn-secondary" id="assignCasesBtn" type="button">鎵归噺鍒嗗彂</button>
+            </div>
+            <div class="toolbar" style="flex-wrap:wrap;align-items:center;">
+              <select id="caseStageSelect">
+                <option value="Assigned">Assigned</option>
+                <option value="InRectification">InRectification</option>
+                <option value="SubmittedForReview">SubmittedForReview</option>
+                <option value="ReviewRejected">ReviewRejected</option>
+                <option value="Reviewed">Reviewed</option>
+                <option value="Escalated">Escalated</option>
+                <option value="Closed">Closed</option>
+                <option value="Archived">Archived</option>
+              </select>
+              <select id="casePrioritySelect">
+                <option value="">浼樺厛绾т笉鍙?/option>
+                <option value="P1">P1</option>
+                <option value="P2">P2</option>
+                <option value="P3">P3</option>
+                <option value="P4">P4</option>
+              </select>
+              <select id="caseOutcomeSelect">
+                <option value="">澶勭疆缁撹涓嶅彉</option>
+                <option value="pending_evidence">pending_evidence</option>
+                <option value="confirmed_issue">confirmed_issue</option>
+                <option value="false_positive">false_positive</option>
+                <option value="rectified">rectified</option>
+                <option value="escalated">escalated</option>
+              </select>
+              <input id="caseTransitionDueAt" type="date" placeholder="鏁存敼鎴鏃堕棿">
+              <select id="caseReminderFlag">
+                <option value="">鍌姙鏍囪涓嶅彉</option>
+                <option value="true">鏍囪鍌姙</option>
+                <option value="false">鍙栨秷鍌姙</option>
+              </select>
+              <input id="caseTransitionNote" placeholder="娴佽浆澶囨敞">
+              <button class="btn-primary" id="transitionCasesBtn" type="button">鎵归噺娴佽浆</button>
+              <span id="caseSelectionMeta" class="muted">Filtered 0 / Selected 0</span>
+            </div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>妗堜欢鍒楄〃</summary>
+          <div class="collapsible-body">
+            <div id="caseList" class="muted">鏆傛棤妗堜欢銆?/div>
+          </div>
+        </details>
+      </section>
+      <section class="card hidden" id="rectificationBoard">
+        <div class="section-title">
+          <div>
+            <h2>鏁存敼鍗曚綅闂ㄦ埛</h2>
+            <p>鍙煡鐪嬪垎閰嶅埌鏈崟浣嶇殑妗堜欢锛屾彁浜ゆ暣鏀硅鏄庛€佸欢鏈熺敵璇峰拰澶嶆牳鏉愭枡銆?/p>
+          </div>
+        </div>
+        <div class="toolbar" style="margin-bottom:14px;align-items:center;">
+          <span id="rectificationMeta" class="muted">妗堜欢 0</span>
+        </div>
+        <details class="collapsible">
+          <summary>鏁存敼妗堜欢鍒楄〃</summary>
+          <div class="collapsible-body">
+            <div id="rectificationCaseList" class="muted">鏆傛棤鏁存敼妗堜欢銆?/div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>妗堜欢璇︽儏涓庢彁浜ゆ潗鏂?/summary>
+          <div class="collapsible-body">
+            <div id="rectificationDetail" class="muted" style="margin-bottom:12px;">璇烽€夋嫨妗堜欢銆?/div>
+            <div class="grid-2">
+              <div class="card" style="box-shadow:none;">
+                <h3 style="margin-top:0;">鎻愪氦鏁存敼</h3>
+                <div class="form-grid">
+                  <div class="full"><textarea id="rectificationStatement" placeholder="鏁存敼璇存槑"></textarea></div>
+                  <div><input id="rectificationRequestedExtension" type="date" placeholder="鎻愪氦鏃堕檮甯﹀欢鏈熸棩鏈?></div>
+                </div>
+                <div class="toolbar" style="margin-top:12px;">
+                  <button class="btn-primary" id="submitRectificationBtn" type="button">鎻愪氦鏁存敼</button>
+                </div>
+              </div>
+              <div class="card" style="box-shadow:none;">
+                <h3 style="margin-top:0;">鐢宠寤舵湡</h3>
+                <div class="form-grid">
+                  <div><input id="rectificationExtensionDueAt" type="date" placeholder="鐢宠寤舵湡鑷?></div>
+                  <div class="full"><textarea id="rectificationExtensionReason" placeholder="寤舵湡鍘熷洜"></textarea></div>
+                </div>
+                <div class="toolbar" style="margin-top:12px;">
+                  <button class="btn-secondary" id="submitRectificationExtensionBtn" type="button">鎻愪氦寤舵湡鐢宠</button>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="box-shadow:none; margin-top:12px;">
+              <h3 style="margin-top:0;">琛ュ厖闄勪欢</h3>
+              <div class="form-grid">
+                <div><input id="rectificationAttachmentFile" type="file"></div>
+                <div class="full"><input id="rectificationAttachmentNote" placeholder="闄勪欢璇存槑"></div>
+              </div>
+              <div class="toolbar" style="margin-top:12px;">
+                <button class="btn-secondary" id="uploadRectificationAttachmentBtn" type="button">涓婁紶闄勪欢</button>
+              </div>
+            </div>
+          </div>
+        </details>
+      </section>
+      </div>
+      <div id="workspacePageOperations" class="workspace-page hidden">
+        <div class="workspace-subnav" id="operationsSubnav">
+          <button class="btn-secondary" data-operations-view="overview" type="button">杩愯惀鐪嬫澘</button>
+          <button class="btn-secondary" data-operations-view="automation" type="button">鑷姩鍖栦腑蹇?/button>
+        </div>
+      <section class="card hidden" id="operationsBoard">
+        <div class="section-title">
+          <div>
+            <h2>鐩戠潱杩愯惀鐪嬫澘</h2>
+            <p>鎸夊瀹ゃ€佹暣鏀瑰崟浣嶅拰璐ｄ换浜鸿瀵熷姙缁撶巼銆佽秴鏈熶笌鍌姙鎯呭喌銆?/p>
+          </div>
+          <div class="toolbar">
+            <button class="btn-secondary" id="exportOperationsCasesBtn" type="button">瀵煎嚭妗堜欢鍙拌处</button>
+          </div>
+        </div>
+        <details class="collapsible">
+          <summary>杩愯惀鎬昏</summary>
+          <div class="collapsible-body">
+            <div id="operationsOverview"></div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>澶勫涓庤矗浠诲垎甯?/summary>
+          <div class="collapsible-body">
+            <div id="operationsBuckets"></div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>瓒嬪娍鏁版嵁</summary>
+          <div class="collapsible-body">
+            <div id="operationsTrends" class="muted">鏆傛棤瓒嬪娍鏁版嵁銆?/div>
+          </div>
+        </details>
+      </section>
+      <section class="card hidden" id="automationCenter">
+        <div class="section-title">
+          <div>
+            <h2>鑷姩鍖栬繍琛屼腑蹇?/h2>
+            <p>缁熶竴缁存姢鍏变韩鏂规銆佽嚜鍔ㄥ寲璁″垝鍜屾渶杩戞墽琛岃褰曪紝鏀寔鎵嬪姩瑙﹀彂璋冨害閾俱€?/p>
+          </div>
+          <div class="toolbar">
+            <button class="btn-secondary" id="refreshAutomationCenterBtn" type="button">鍒锋柊鎵ц璁板綍</button>
+          </div>
+        </div>
+        <details class="collapsible">
+          <summary>鏂板缓鑷姩鍖栬鍒?/summary>
+          <div class="collapsible-body">
+            <div class="form-grid">
+              <div><input id="automationScheduleName" placeholder="璁″垝鍚嶇О"></div>
+              <div>
+                <select id="automationScheduleKind" data-testid="automation-schedule-kind">
+                  <option value="manual_only">浠呮墜鍔?/option>
+                  <option value="hourly">姣忓皬鏃?/option>
+                  <option value="daily">姣忔棩</option>
+                  <option value="weekly">姣忓懆</option>
+                </select>
+              </div>
+              <div>
+                <select id="automationTargetKind">
+                  <option value="case_followup">妗堜欢璺熻繘</option>
+                  <option value="case_seed_import">妗堜欢绉嶅瓙瀵煎叆</option>
+                  <option value="connector_sync">杩炴帴鍣ㄥ悓姝?/option>
+                </select>
+              </div>
+              <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="automationEnabled" type="checkbox" checked style="width:auto;">鍚敤璁″垝</label></div>
+              <div><select id="automationSharedProfileId"><option value="">鏆傛棤鍏变韩鏂规</option></select></div>
+              <div><select id="automationConnectorProfileId"><option value="">鏆傛棤杩炴帴妗ｆ</option></select></div>
+              <div class="full"><input id="automationSourcePath" placeholder="妗堜欢绉嶅瓙瀵煎叆婧愭枃浠剁粷瀵硅矾寰?></div>
+              <div class="full"><textarea id="automationNotes" placeholder="璁″垝璇存槑"></textarea></div>
+            </div>
+            <div class="toolbar" style="margin-top:14px;">
+              <button class="btn-primary" id="createAutomationScheduleBtn" type="button">鍒涘缓鑷姩鍖栬鍒?/button>
+            </div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>鏈€杩戣嚜鍔ㄥ寲鎵ц</summary>
+          <div class="collapsible-body">
+            <div id="automationExecutionRows" class="muted">鏆傛棤鑷姩鍖栨墽琛岃褰曘€?/div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>鑷姩鍖栬鍒掑垪琛?/summary>
+          <div class="collapsible-body">
+            <div id="automationScheduleRows" class="muted">鏆傛棤鑷姩鍖栬鍒掋€?/div>
+          </div>
+        </details>
+      </section>
+      </div>
+      <div id="workspacePageAdmin" class="workspace-page hidden">
+      <section class="card hidden" id="adminPanel">
+        <div class="section-title"><div><h2>绠＄悊鍛樺悗鍙?/h2><p>缁熶竴鏌ョ湅閮ㄧ讲绛栫暐銆佽繛鎺ユ。妗堛€侀」鐩敵璇枫€佺敤鎴枫€丄I 閰嶇疆鍜岀暀鐥曚俊鎭€?/p></div></div>
+        <details class="collapsible">
+          <summary>鏂板鐢ㄦ埛</summary>
+          <div class="collapsible-body">
+            <div class="form-grid">
+              <div><input id="adminUser" placeholder="鐢ㄦ埛鍚?></div>
+              <div><input id="adminName" placeholder="鏄剧ず鍚嶇О"></div>
+              <div><input id="adminPassword" type="password" placeholder="鍒濆瀵嗙爜"></div>
+              <div>
+                <select id="adminRole">
+                  <option value="auditor">Auditor</option>
+                  <option value="department_reviewer">Department Reviewer</option>
+                  <option value="supervisor">Supervisor</option>
+                  <option value="rectification_user">Rectification User</option>
+                  <option value="viewer">Viewer</option>
+                </select>
+              </div>
+            </div>
+            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="createUserBtn">鍒涘缓鐢ㄦ埛</button></div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>AI 鏈嶅姟閰嶇疆</summary>
+          <div class="collapsible-body">
+            <div class="notice" id="adminAiNotice" style="margin-bottom:12px;">褰撳墠鐜鍏佽 AI 杈呭姪瑙ｉ噴锛涙寮忚瘯鐐瑰彲鎸夐儴缃茬瓥鐣ュ叧闂垨鏇挎崲銆?/div>
+            <div class="form-grid">
+              <div><input id="aiProvider" placeholder="provider"></div>
+              <div><input id="aiModel" placeholder="model"></div>
+              <div class="full"><input id="aiUrl" placeholder="API URL"></div>
+              <div class="full"><div class="notice"><strong>Secret 状态</strong><br><span class="muted" id="aiSecretStatus">未配置</span></div></div>
+              <div class="full"><textarea id="aiGuidance" placeholder="AI 缁撴灉璇存槑"></textarea></div>
+            </div>
+            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="saveAiBtn">淇濆瓨 AI 閰嶇疆</button></div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>杩炴帴妗ｆ閰嶇疆</summary>
+          <div class="collapsible-body">
+            <div class="form-grid">
+              <div><input id="adminConnectorName" placeholder="妗ｆ鍚嶇О"></div>
+              <div><select id="adminConnectorType"><option value="budget_system">棰勭畻绠＄悊涓€浣撳寲</option><option value="treasury_system">鍥藉簱鏀粯 / 鐢靛瓙鏀粯</option><option value="ledger_system">璐㈠姟鏍哥畻 / 鎬昏处鍑瘉</option><option value="procurement_system">鏀垮簻閲囪喘 / 鍚堝悓灞ョ害</option></select></div>
+              <div><select id="adminConnectorTaskKind"><option value="procurement_project">閲囪喘椤圭洰</option><option value="budget_summary">棰勭畻鎵ц / 璐㈡斂鏀舵敮</option><option value="treasury_payment">鍥藉簱鏀粯</option><option value="voucher_ledger">浼氳鍑瘉</option></select></div>
+              <div><select id="adminConnectorDatasetKind"><option value="">涓嶅尯鍒嗗瓙绫诲瀷</option></select></div>
+              <div class="full"><input id="adminConnectorBaseUrl" placeholder="杩炴帴鍣ㄥ湴鍧€ / API Base URL"></div>
+              <div><input id="adminConnectorAuthMode" placeholder="閴存潈妯″紡锛屼緥濡?bearer / basic"></div>
+              <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="adminConnectorEnabled" type="checkbox" checked style="width:auto;">鍚敤杩炴帴妗ｆ</label></div>
+              <div class="full"><div class="notice"><strong>Connector Secret</strong><br><span class="muted">按 profile ID 从环境变量注入。</span></div></div>
+              <div class="full"><textarea id="adminConnectorSamplePayload" placeholder="鏍蜂緥 payload JSON锛岀敤浜庨妫€鍜屽鍏ヨ仈璋?></textarea></div>
+            </div>
+            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="createConnectorProfileBtn">鍒涘缓杩炴帴妗ｆ</button></div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>閮ㄧ讲绛栫暐</summary>
+          <div class="collapsible-body">
+            <div id="deploymentPolicySummary"></div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>椤圭洰鐢宠涓庤繛鎺ユ。妗堝垪琛?/summary>
+          <div class="collapsible-body">
+            <div class="grid-2">
+              <div><h3 style="margin-top:0;">椤圭洰鐢宠</h3><div id="leadRequests"></div></div>
+              <div><h3 style="margin-top:0;">杩炴帴妗ｆ鍒楄〃</h3><div id="connectorProfiles"></div></div>
+            </div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>鐢ㄦ埛鍒楄〃涓庡璁＄暀鐥?/summary>
+          <div class="collapsible-body">
+            <div class="grid-2">
+              <div><h3 style="margin-top:0;">鐢ㄦ埛鍒楄〃</h3><div id="adminUsers"></div></div>
+              <div><h3 style="margin-top:0;">瀹¤鐣欑棔</h3><div id="auditLogs"></div></div>
+            </div>
+          </div>
+        </details>
+        <details class="collapsible">
+          <summary>鍚屾浣滀笟涓庡啓鍥炰簨浠?/summary>
+          <div class="collapsible-body">
+            <div class="grid-2">
+              <div><h3 style="margin-top:0;">鍚屾浣滀笟</h3><div id="connectorSyncJobs"></div></div>
+              <div><h3 style="margin-top:0;">鍐欏洖浜嬩欢</h3><div id="writebackEvents"></div></div>
+            </div>
+          </div>
+        </details>
+      </section>
+      </div>
+    </main>
+  </section>
+  <script type="module" src="/app/main.js?v=viz-20260520h"></script>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-04-27T13:05:00.661Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 20,
+  "procurement_input_records": 190,
+  "budget_input_records": 45,
+  "case_seed_input_records": 25,
+  "total_input_records": 260,
+  "procurement_accepted_records": 190,
+  "budget_accepted_records": 45,
+  "case_seed_accepted_records": 25,
+  "total_accepted_records": 260,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-POLICY-CHECKLIST-001": 1,
+    "PROC-COMPLAINT-EXCEPTION-001": 1
+  },
+  "source_traceable_rows": 260,
+  "source_total_rows": 260,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "award": 190
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 45
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-COMPLAINT-EXCEPTION-001",
+      "risk_level": "Review",
+      "summary": "Administrative penalty, credit restriction and complaint notices are review-only until downstream evidence is complete.",
+      "severity_reason": null,
+      "missing_evidence": [
+        "penalty follow-up",
+        "credit repair",
+        "contract",
+        "acceptance",
+        "payment",
+        "voucher attachment",
+        "rectification result"
+      ],
+      "recommended_next_data": [
+        "penalty_followup",
+        "credit_restriction",
+        "credit_repair",
+        "re_participation",
+        "contract",
+        "acceptance",
+        "payment"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-POLICY-CHECKLIST-001",
+      "risk_level": "Info",
+      "summary": "Fiscal policy rows generate follow-up evidence checklists only.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "budget indicator",
+        "performance target",
+        "payment detail",
+        "voucher attachment"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T13:05:00.655Z",
+    "captured_at": "2026-04-27T21:20:00+08:00",
+    "fetch_mode": "official_public_round21_web_research_snapshot",
+    "source_count": 20,
+    "twenty_first_round_source_count": 20,
+    "parsed_source_count": 20,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 423,
+    "previous_source_overlap_count": 0,
+    "total_records": 260,
+    "procurement_records": 190,
+    "budget_records": 45,
+    "case_seed_records": 25,
+    "procurement_exception_records": 190,
+    "procurement_penalty_records": 190,
+    "credit_constraint_records": 190,
+    "credit_repair_followup_records": 64,
+    "re_participation_review_records": 55,
+    "malicious_collusion_records": 21,
+    "false_material_records": 21,
+    "complaint_rejected_records": 21,
+    "exception_weight_coverage_rate": 100,
+    "procurement_exception_review_only_rate": 100,
+    "source_region_scopes": {
+      "central_unit": 20
+    },
+    "central_unit_source_count": 20,
+    "finding_dispositions": {
+      "review_recommended": 199,
+      "supplemental_data_only": 45,
+      "knowledge_reference": 16
+    },
+    "fiscal_policy_supplemental_coverage_rate": 100,
+    "audit_evidence_levels": {
+      "rectification_progress": 9,
+      "audit_work_update": 16
+    },
+    "discovery_queue_item_count": 1845,
+    "exception_chain_queue_item_count": 1836,
+    "discovery_queue_by_target_stage": {
+      "correction_notice": 190,
+      "penalty_followup": 190,
+      "credit_restriction": 169,
+      "credit_repair": 169,
+      "re_participation": 169,
+      "contract": 190,
+      "acceptance": 190,
+      "payment": 190,
+      "rectification": 199,
+      "award_invalidated": 63,
+      "rebid_notice": 63,
+      "new_award": 63
+    },
+    "discovery_crawler_processed_count": 1845,
+    "discovery_crawler_matched_count": 298,
+    "discovery_crawler_match_rate": 16.15,
+    "discovery_crawler_statuses": {
+      "not_found": 1148,
+      "matched": 298,
+      "manual_review": 399
+    },
+    "crawler_not_found_explained_count": 1547,
+    "source_completeness_rate": 100,
+    "locator_coverage_rate": 100,
+    "report_topics": [
+      "procurement_penalty_credit_constraints"
+    ]
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "administrative penalty and credit constraints",
+      "action": "Keep penalty decision number, legal basis, penalty period, market restriction scope, penalty subject and credit repair status as first-class procurement fields.",
+      "reason": "Round 21 sources show administrative penalties need different evidence weight and follow-up handling from rejected complaints."
+    },
+    {
+      "priority": "P0",
+      "area": "exception chain discovery",
+      "action": "Search penalty follow-up, credit restriction, credit repair, re-participation, contract, acceptance and payment by decision number plus penalty subject.",
+      "reason": "Penalty notices alone remain review evidence; downstream closure is required before any risk candidate."
+    },
+    {
+      "priority": "P1",
+      "area": "reporting topic",
+      "action": "Separate supervision penalty and credit constraint reporting from complaint handling, with evidence weights and manual review status.",
+      "reason": "PoC delivery should not give complaint rejection and administrative penalty the same weight."
+    }
+  ],
+  "batch_name": "official_public_instances_round21",
+  "round21_acceptance_baseline": 130,
+  "report_topics": [
+    "procurement_penalty_credit_constraints"
+  ]
+}

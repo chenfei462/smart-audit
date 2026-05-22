@@ -1,0 +1,1071 @@
+{
+  "generated_at": "2026-04-26T09:52:48.996Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 12,
+  "procurement_input_records": 9,
+  "budget_input_records": 32,
+  "case_seed_input_records": 8,
+  "total_input_records": 49,
+  "procurement_accepted_records": 9,
+  "budget_accepted_records": 32,
+  "case_seed_accepted_records": 8,
+  "total_accepted_records": 49,
+  "import_success_rate": 100,
+  "quality_check_count": 4,
+  "quality_warning_count": 4,
+  "quality_error_count": 0,
+  "finding_count": 12,
+  "rule_hits_by_rule": {
+    "BUDGET-PUBLIC-TREND-001": 1,
+    "PROC-BUDGET-001": 4,
+    "PROC-CHAIN-001": 7
+  },
+  "source_traceable_rows": 49,
+  "source_total_rows": 49,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "award": 4,
+    "announcement": 2,
+    "contract": 3
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 15,
+    "public_statistical_indicator": 9,
+    "investment_review_summary": 8
+  },
+  "risk_levels": {
+    "procurement": "High",
+    "budget": [
+      "Medium",
+      "Low",
+      "Low"
+    ]
+  },
+  "top_quality_checks": [
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 1
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 2
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 3
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 6
+    }
+  ],
+  "top_findings": [
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 南通市海洋生态保护修复项目互花米草治理遥感监测 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 南通市海洋生态保护修复项目互花米草治理遥感监测 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025-2026年度江苏省省级、南京市及各区印刷服务框架协议采购 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025-2026年度江苏省省级、南京市及各区印刷服务框架协议采购 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025年度第三方检测服务项目 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025年度第三方检测服务项目 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 2025年度南通通州区社会治安监控系统（雪亮技防工程）维保项目 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 宿迁市市级政务云服务采购项目 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "High",
+      "summary": "项目 医院医用液氧采购项目 在 合同公告 阶段缺少后续证据",
+      "severity_reason": "contract-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-PUBLIC-TREND-001",
+      "risk_level": "Medium",
+      "summary": "南通市级教育支出 同比变动 16%",
+      "severity_reason": "public-data-lightweight-rule",
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "部门预算指标",
+        "决算公开明细",
+        "采购合同",
+        "支付凭证"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-26T09:52:47.651Z",
+    "captured_at": "2026-04-26T16:40:00+08:00",
+    "fetch_mode": "live",
+    "source_count": 12,
+    "parsed_source_count": 12,
+    "failed_source_count": 0,
+    "network_failure_count": 12,
+    "proxy_configured": false,
+    "proxy_origin": null,
+    "external_downloader_configured": false,
+    "external_downloader_success_count": 0,
+    "external_downloader_failure_count": 0,
+    "offline_snapshot_verified_count": 12,
+    "offline_snapshot_issue_count": 0,
+    "retry_attempt_count": 24,
+    "source_success_rate": 100,
+    "total_records": 49,
+    "unit_normalized_records": 49,
+    "locator_coverage_rate": 100,
+    "parser_types": {
+      "fiscal_report_pdf": 1,
+      "government_metric_html": 1,
+      "audit_report_pdf": 1,
+      "ccgp_procurement_html": 9
+    },
+    "failure_kinds": {
+      "tls_handshake_reset": 12
+    },
+    "download_methods": {
+      "registered_snapshot": 12
+    },
+    "unit_distribution": {
+      "wan_yuan": 9,
+      "yi_yuan": 26,
+      "percent": 7,
+      "count": 7
+    },
+    "sources": [
+      {
+        "id": "js-czt-2025-budget-pdf",
+        "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+        "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+        "published_at": "2025-01-22",
+        "publisher": "江苏省财政厅",
+        "source_type": "财政预算报告",
+        "parser_type": "fiscal_report_pdf",
+        "expected_record_count": 17,
+        "parsed_record_count": 17,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "c559d30c27820ead",
+          "7bdebeab07ee90c1",
+          "ada4e4eb369d3b80",
+          "70726dffd2c5ebc6",
+          "2fd84ff7e70987d7",
+          "1ddf86e27f6761fa",
+          "808baede261dd2df",
+          "9ac7757427c35e50",
+          "61320a60d544a1b0",
+          "902dac9d16190b55",
+          "09fb77b0ee75e07f",
+          "38e2c5525907db63",
+          "393f1a452675c4b8",
+          "3ed7daf9be1b27af",
+          "ffe6589afd2be181",
+          "ddea557c036396a9",
+          "71af2b416407e91a"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 1297,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 196,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 219,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "nantong-education-spending-2025h1",
+        "title": "1.7%！",
+        "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html",
+        "published_at": "2025-08-05",
+        "publisher": "南通市财政局",
+        "source_type": "财政支出动态",
+        "parser_type": "government_metric_html",
+        "expected_record_count": 7,
+        "parsed_record_count": 7,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "bdc734b4189bb344",
+          "26ee0b9b713e5353",
+          "c283e3bfa7ab4721",
+          "a98fc503f36540a7",
+          "8d1f8e012e602d68",
+          "38cc4cd697901672",
+          "ac7e630fde1bbca3"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 217,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 219,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 199,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "js-audit-2024-budget-execution-report",
+        "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+        "published_at": "2025-07-30",
+        "publisher": "江苏省审计厅",
+        "source_type": "审计工作报告",
+        "parser_type": "audit_report_pdf",
+        "expected_record_count": 16,
+        "parsed_record_count": 16,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "13b1c0e1257b5d62",
+          "7818e6dd7d7f8585",
+          "ef146392c8ff8e42",
+          "a62f9419ea65762f",
+          "150b7db9e440083d",
+          "3f73740359bcb46c",
+          "06c261ad73f60ad7",
+          "37e8e923e0212b0d",
+          "9e8830e3f25555f3",
+          "4a09dfbd8ba88049",
+          "10493d4031a818a7",
+          "b60c69d807617795",
+          "9e21a5f4d040009c",
+          "bcf832c81f602b6a",
+          "bdefacc6d7698d2f",
+          "12f5e1e900e21de0"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 536,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 215,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 206,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-nantong-seagrass-award",
+        "title": "南通市海洋生态保护修复项目互花米草治理遥感监测成交公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251010_25498889.htm",
+        "published_at": "2025-10-10",
+        "publisher": "中国政府采购网",
+        "source_type": "成交公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "68a0f685f4a23e76"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 205,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 208,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 213,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-jaas-crop-test-award",
+        "title": "江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购中标公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202511/t20251125_25761259.htm",
+        "published_at": "2025-11-25",
+        "publisher": "中国政府采购网",
+        "source_type": "中标公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "9ddc7ce973571b2a"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 210,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 391,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 203,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-jiangsu-printing-framework-award",
+        "title": "2025-2026年度江苏省省级、南京市及各区党政机关、事业单位及团体组织印刷服务框架协议采购（南京市共享）入围公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202508/t20250813_25119997.htm",
+        "published_at": "2025-08-13",
+        "publisher": "中国政府采购网",
+        "source_type": "入围公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "87a67011426979d4"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 208,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 381,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 250,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-changshu-lifeline-announcement",
+        "title": "常熟市住房和城乡建设局关于常熟市城市生命线安全工程风险评估与管控应用的招标公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202506/t20250611_24810237.htm",
+        "published_at": "2025-06-11",
+        "publisher": "中国政府采购网",
+        "source_type": "招标公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "3b7043e9dcf85e39"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 282,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 357,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 375,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-jaas-germplasm-announcement",
+        "title": "江苏省农业科学院种质资源与生物技术研究所国家作物种质资源综合基因库仪器设备采购公开招标公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202501/t20250121_24118163.htm",
+        "published_at": "2025-01-21",
+        "publisher": "中国政府采购网",
+        "source_type": "公开招标公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "81ef3bf4f89e2f87"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 2173,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 308,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 1942,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-changzhou-monitoring-award",
+        "title": "2025年度第三方检测服务项目中标公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202512/t20251216_25912635.htm",
+        "published_at": "2025-12-16",
+        "publisher": "中国政府采购网",
+        "source_type": "中标公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "8c147eea04e9041f"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 461,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 543,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 289,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-tongzhou-security-contract",
+        "title": "2025年度南通通州区社会治安监控系统（雪亮技防工程）维保项目合同",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202505/t20250522_24721043.htm",
+        "published_at": "2025-05-22",
+        "publisher": "中国政府采购网",
+        "source_type": "合同公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "a1d8db5c65afa207"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 459,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 1617,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 215,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-suqian-cloud-contract",
+        "title": "宿迁市市级政务云服务采购项目宿迁市市级政务云服务采购项目合同",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202508/t20250813_25119890.htm",
+        "published_at": "2025-08-13",
+        "publisher": "中国政府采购网",
+        "source_type": "合同公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "6f30bd690883d0a5"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 205,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 210,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 207,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      },
+      {
+        "id": "ccgp-tongzhou-prison-oxygen-contract",
+        "title": "医院医用液氧采购项目合同",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202505/t20250516_24690119.htm",
+        "published_at": "2025-05-16",
+        "publisher": "中国政府采购网",
+        "source_type": "合同公告",
+        "parser_type": "ccgp_procurement_html",
+        "expected_record_count": 1,
+        "parsed_record_count": 1,
+        "offline_snapshot_status": "verified",
+        "proxy_configured": false,
+        "proxy_origin": null,
+        "external_downloader_configured": false,
+        "locator_hashes": [
+          "a251dff013471a96"
+        ],
+        "status": "parsed_from_registered_snapshot",
+        "http_status": null,
+        "content_bytes": null,
+        "fetch_attempt_count": 3,
+        "fetch_attempts": [
+          {
+            "attempt": 1,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 210,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 2,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 217,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          },
+          {
+            "attempt": 3,
+            "ok": false,
+            "http_status": null,
+            "duration_ms": 206,
+            "error_kind": "tls_handshake_reset",
+            "error_code": "ECONNRESET",
+            "error_message": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+            "proxy_configured": false,
+            "proxy_origin": null
+          }
+        ],
+        "network_failure_kind": "tls_handshake_reset",
+        "network_failure_reason": "ECONNRESET: Client network socket disconnected before secure TLS connection was established",
+        "download_method": "registered_snapshot",
+        "external_downloader_status": "not_configured"
+      }
+    ]
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "正式来源采集自动化",
+      "action": "把本次手工整理的中国政府采购网、江苏财政厅 PDF、江苏审计厅 PDF、南通财政局网页拆成可配置采集器，输出统一 source_evidence 和原始行定位。",
+      "reason": "正式实例可以导入，但仍依赖人工摘录；下一轮要能用同一来源复跑并自动发现新增公告。"
+    },
+    {
+      "priority": "P0",
+      "area": "金额单位与异常值归一",
+      "action": "增加元、万元、亿元、百分比、项目数量的单位字段和换算规则，对公告页显示为极小金额的记录标记单位复核。",
+      "reason": "政府采购公告和财政报告存在不同金额口径，直接用字符串金额会影响拆分采购和波动规则评分。"
+    },
+    {
+      "priority": "P1",
+      "area": "采购阶段证据链",
+      "action": "对公告、成交、合同三类已覆盖阶段建立项目级合并视图，缺失验收或支付时只输出补数建议，不形成强违规结论。",
+      "reason": "公开数据通常缺少验收、支付、凭证，阶段感知规则需要继续防误报。"
+    },
+    {
+      "priority": "P1",
+      "area": "PDF 页码和条款回溯",
+      "action": "source_evidence 增加 page、section、quote_hash 或 locator 字段，在报告中显示页码/段落位置。",
+      "reason": "财政预算和审计报告 PDF 是关键正式证据，当前只有 URL 和行号，审计沟通时定位还不够细。"
+    },
+    {
+      "priority": "P1",
+      "area": "审计问题线索结构化",
+      "action": "把审计工作报告的问题金额、责任主体、问题类型、需补充资料拆成专用字段，并和整改台账模板打通。",
+      "reason": "审计报告适合生成 case seed，但后续闭环需要可匹配整改状态和补证清单。"
+    },
+    {
+      "priority": "P2",
+      "area": "公开样本验收基线扩展",
+      "action": "将本次 49 条正式实例加入公开 PoC 基线，和南通 92 条、江苏多县市 164 条一起纳入一键复测差异报告。",
+      "reason": "正式来源样本覆盖财政、采购、审计三类，应成为后续回归测试的一部分。"
+    }
+  ]
+}

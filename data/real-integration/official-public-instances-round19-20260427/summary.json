@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-04-27T11:09:21.248Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 20,
+  "procurement_input_records": 150,
+  "budget_input_records": 50,
+  "case_seed_input_records": 25,
+  "total_input_records": 225,
+  "procurement_accepted_records": 150,
+  "budget_accepted_records": 50,
+  "case_seed_accepted_records": 25,
+  "total_accepted_records": 225,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-POLICY-CHECKLIST-001": 1,
+    "PROC-COMPLAINT-EXCEPTION-001": 1
+  },
+  "source_traceable_rows": 225,
+  "source_total_rows": 225,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "award": 150
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 50
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-COMPLAINT-EXCEPTION-001",
+      "risk_level": "Review",
+      "summary": "Complaint, supervision, correction and rebid public notices are review-only until downstream evidence is complete.",
+      "severity_reason": null,
+      "missing_evidence": [
+        "correction or rebid notice",
+        "new award",
+        "contract",
+        "acceptance",
+        "payment",
+        "voucher attachment"
+      ],
+      "recommended_next_data": [
+        "correction notice",
+        "rebid notice",
+        "new award",
+        "contract",
+        "acceptance result",
+        "payment detail"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-POLICY-CHECKLIST-001",
+      "risk_level": "Info",
+      "summary": "Fiscal supervision policy rows generate follow-up evidence checklists only.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "budget indicator",
+        "performance target",
+        "payment detail",
+        "voucher attachment"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T11:09:21.244Z",
+    "captured_at": "2026-04-27T19:20:00+08:00",
+    "fetch_mode": "official_public_round19_web_research_snapshot",
+    "source_count": 20,
+    "nineteenth_round_source_count": 20,
+    "parsed_source_count": 20,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 383,
+    "previous_source_overlap_count": 0,
+    "total_records": 225,
+    "procurement_records": 150,
+    "budget_records": 50,
+    "case_seed_records": 25,
+    "official_web_research_source_count": 20,
+    "procurement_exception_records": 150,
+    "complaint_decision_records": 150,
+    "complaint_or_supervision_records": 150,
+    "correction_notice_records": 63,
+    "false_material_records": 46,
+    "award_invalidated_records": 76,
+    "rebid_required_records": 94,
+    "agency_penalty_records": 33,
+    "procurement_exception_review_only_rate": 100,
+    "source_region_scopes": {
+      "central_unit": 20
+    },
+    "central_unit_source_count": 20,
+    "cross_province_source_count": 0,
+    "jiangsu_local_source_count": 0,
+    "finding_dispositions": {
+      "review_recommended": 157,
+      "supplemental_data_only": 50,
+      "knowledge_reference": 18
+    },
+    "fiscal_policy_supplemental_coverage_rate": 100,
+    "audit_evidence_levels": {
+      "formal_audit_report": 7,
+      "audit_work_update": 18
+    },
+    "audit_low_weight_records": 18,
+    "discovery_queue_item_count": 863,
+    "exception_chain_queue_item_count": 856,
+    "discovery_queue_by_target_stage": {
+      "correction_notice": 131,
+      "award_invalidated": 72,
+      "rebid_notice": 76,
+      "new_award": 94,
+      "contract": 150,
+      "acceptance": 150,
+      "payment": 150,
+      "rectification": 40
+    },
+    "discovery_crawler_processed_count": 863,
+    "discovery_crawler_matched_count": 0,
+    "discovery_crawler_match_rate": 0,
+    "discovery_crawler_statuses": {
+      "not_found": 723,
+      "manual_review": 140
+    },
+    "crawler_chain_scored_count": 863,
+    "crawler_not_found_explained_count": 863,
+    "source_completeness_rate": 100,
+    "locator_coverage_rate": 100,
+    "report_topics": [
+      "procurement_complaint_exception_handling"
+    ]
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "procurement complaint and supervision exceptions",
+      "action": "Keep complaint decision number, issue summary, handling result, false material flag, award invalidation, rebid requirement, correction notice, penalty subject and affected package as first-class procurement fields.",
+      "reason": "Round 19 official notices show these fields are needed to explain review status without overstating a violation."
+    },
+    {
+      "priority": "P0",
+      "area": "exception chain discovery",
+      "action": "Continue crawler expansion from complaint or supervision notice to correction, award invalidation, rebid, new award, contract, acceptance, payment and rectification candidates.",
+      "reason": "The public evidence chain changes after a complaint, so downstream stages must be discovered before any risk candidate is formed."
+    },
+    {
+      "priority": "P1",
+      "area": "legal basis locator evidence",
+      "action": "Persist legal basis, article, decision paragraph, affected package and handling result locator hash in report evidence blocks.",
+      "reason": "Formal PoC reports need exact decision-location evidence for manual review."
+    }
+  ],
+  "batch_name": "official_public_instances_round19",
+  "round19_acceptance_baseline": 120,
+  "report_topics": [
+    "procurement_complaint_exception_handling"
+  ]
+}

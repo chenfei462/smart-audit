@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53" />
+      <stop offset="100%" stop-color="#1F7A6D" />
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)" />
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">后期以“真实 PoC 可交付”为主线推进</text>
+    <text x="56" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">三阶段路线：先控风险，再提效率，最后补齐产品化维护能力</text>
+  </g>
+  <g id="roadmap-line">
+    <line x1="190" y1="168" x2="190" y2="548" stroke="#CBD5E1" stroke-width="4" />
+    <circle cx="190" cy="194" r="16" fill="#1F7A6D" />
+    <circle cx="190" cy="338" r="16" fill="#F59E0B" />
+    <circle cx="190" cy="482" r="16" fill="#0B3A53" />
+  </g>
+  <g id="phase-near">
+    <text x="132" y="202" text-anchor="end" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1F7A6D">近期</text>
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M244,154 H1074 A8,8 0 0 1 1082,162 V232 A8,8 0 0 1 1074,240 H244 A8,8 0 0 1 236,232 V162 A8,8 0 0 1 244,154 Z" />
+    <text x="266" y="194" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">PoC 安全与数据可信加固</text>
+    <text x="266" y="226" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">密钥管理、审计日志、数据来源追溯、规则解释字段、固定样本回归</text>
+    <path fill="#EAF2F0" stroke="#1F7A6D" d="M1122,174 H1180 A20,20 0 0 1 1200,194 V194 A20,20 0 0 1 1180,214 H1122 A20,20 0 0 1 1102,194 V194 A20,20 0 0 1 1122,174 Z" />
+    <text x="1151" y="199" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F7A6D">答辩后优先</text>
+  </g>
+  <g id="phase-mid">
+    <text x="132" y="346" text-anchor="end" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F59E0B">中期</text>
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M244,298 H1074 A8,8 0 0 1 1082,306 V376 A8,8 0 0 1 1074,384 H244 A8,8 0 0 1 236,376 V306 A8,8 0 0 1 244,298 Z" />
+    <text x="266" y="338" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">提升交付效率与页面可用性</text>
+    <text x="266" y="370" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">报告模板、整改台账、连接器预检、前端导出入口、错误反馈与权限状态</text>
+    <path fill="#F8FAFC" stroke="#F59E0B" d="M1122,318 H1180 A20,20 0 0 1 1200,338 V338 A20,20 0 0 1 1180,358 H1122 A20,20 0 0 1 1102,338 V338 A20,20 0 0 1 1122,318 Z" />
+    <text x="1151" y="343" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#F59E0B">演示后迭代</text>
+  </g>
+  <g id="phase-long">
+    <text x="132" y="490" text-anchor="end" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#0B3A53">长期</text>
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M244,442 H1074 A8,8 0 0 1 1082,450 V520 A8,8 0 0 1 1074,528 H244 A8,8 0 0 1 236,520 V450 A8,8 0 0 1 244,442 Z" />
+    <text x="266" y="482" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">产品化维护和工程结构演进</text>
+    <text x="266" y="514" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">后端模块拆分、数据库迁移、CI / E2E、可观测性、多环境配置基线</text>
+    <path fill="#EAF2F0" stroke="#0B3A53" d="M1122,462 H1180 A20,20 0 0 1 1200,482 V482 A20,20 0 0 1 1180,502 H1122 A20,20 0 0 1 1102,482 V482 A20,20 0 0 1 1122,462 Z" />
+    <text x="1151" y="487" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="700" fill="#0B3A53">产品化方向</text>
+  </g>
+  <g id="closing-output">
+    <path fill="#0B3A53" d="M64,596 H1216 A8,8 0 0 1 1224,604 V654 A8,8 0 0 1 1216,662 H64 A8,8 0 0 1 56,654 V604 A8,8 0 0 1 64,596 Z" />
+    
+  <g transform="translate(86.0, 612.0) scale(1.3333333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+    <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+    <path d="M14 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  </g>
+    <text x="136" y="636" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">答辩后输出：</text>
+    <text x="256" y="636" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#FFFFFF">可运行环境、演示脚本、PoC 验收清单、风险加固任务列表和下一轮迭代计划</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: docs/FUTURE_IMPROVEMENTS.md, docs/POC_ACCEPTANCE_CHECKLIST.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">08 / 08</text>
+  </g>
+</svg>

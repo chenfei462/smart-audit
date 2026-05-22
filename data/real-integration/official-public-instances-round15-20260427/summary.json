@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-04-27T08:55:50.044Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 24,
+  "procurement_input_records": 96,
+  "budget_input_records": 42,
+  "case_seed_input_records": 18,
+  "total_input_records": 156,
+  "procurement_accepted_records": 96,
+  "budget_accepted_records": 42,
+  "case_seed_accepted_records": 18,
+  "total_accepted_records": 156,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-POLICY-CHECKLIST-001": 1,
+    "PROC-FULFILLMENT-ACCEPTANCE-001": 1
+  },
+  "source_traceable_rows": 156,
+  "source_total_rows": 156,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 20,
+    "award": 19,
+    "contract": 19,
+    "acceptance": 19,
+    "payment": 19
+  },
+  "dataset_coverage": {
+    "budget_policy_supplemental": 7,
+    "special_fund_policy": 7,
+    "budget_performance_policy": 14,
+    "township_budget_performance_policy": 7,
+    "debt_or_current_account_management_policy": 7
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-FULFILLMENT-ACCEPTANCE-001",
+      "risk_level": "Info",
+      "summary": "Fulfillment acceptance and payment conditions are preserved as chain evidence fields.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "acceptance plan",
+        "acceptance opinion",
+        "acceptance archive",
+        "payment disclosure",
+        "voucher abstract"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-POLICY-CHECKLIST-001",
+      "risk_level": "Info",
+      "summary": "Fiscal policy records generate supplemental checklist requirements only.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "budget indicator",
+        "performance target",
+        "payment detail",
+        "voucher abstract"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T08:55:50.040Z",
+    "captured_at": "2026-04-27T23:10:00+08:00",
+    "fetch_mode": "official_public_round15_web_research_snapshot",
+    "source_count": 24,
+    "fifteenth_round_source_count": 24,
+    "official_web_research_source_count": 24,
+    "parsed_source_count": 24,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 288,
+    "previous_source_overlap_count": 0,
+    "total_records": 156,
+    "procurement_records": 96,
+    "budget_records": 42,
+    "case_seed_records": 18,
+    "source_region_scopes": {
+      "jiangsu_local": 19,
+      "central_unit": 5
+    },
+    "central_unit_source_count": 5,
+    "cross_province_source_count": 0,
+    "jiangsu_local_source_count": 19,
+    "procurement_stages": {
+      "announcement": 20,
+      "award": 19,
+      "contract": 19,
+      "acceptance": 19,
+      "payment": 19
+    },
+    "fulfillment_acceptance_records": 44,
+    "fulfillment_acceptance_policy_records": 44,
+    "missing_acceptance_plan_count": 11,
+    "missing_acceptance_opinion_count": 10,
+    "missing_acceptance_archive_count": 4,
+    "contract_term_records": 96,
+    "payment_condition_records": 96,
+    "payment_deadline_missing_count": 80,
+    "government_purchase_service_records": 20,
+    "joint_bid_allowed_records": 12,
+    "policy_sensitive_procurement_records": 52,
+    "budget_policy_records": 42,
+    "policy_checklist_types": {
+      "fiscal_policy_supplemental_checklist": 21,
+      "special_fund_supplemental_checklist": 7,
+      "township_budget_performance_checklist": 7,
+      "debt_current_account_checklist": 7
+    },
+    "policy_supplemental_data_coverage_rate": 100,
+    "payment_voucher_linkage_field_coverage_rate": 100,
+    "audit_evidence_levels": {
+      "audit_report_interpretation": 3,
+      "formal_audit_report": 3,
+      "special_audit_survey": 2,
+      "work_method_reference": 2,
+      "audit_work_update": 6,
+      "rectification_progress": 2
+    },
+    "audit_low_weight_records": 13,
+    "audit_pdf_locator_complete_count": 18,
+    "audit_pdf_locator_quality": {
+      "page_paragraph_table_locator": 18
+    },
+    "evidence_locator_quality": {
+      "complete": 18
+    },
+    "finding_dispositions": {
+      "supplemental_data_only": 138,
+      "review_recommended": 5,
+      "risk_candidate": 5,
+      "knowledge_reference": 8
+    },
+    "discovery_queue_item_count": 94,
+    "discovery_queue_by_target_stage": {
+      "contract": 29,
+      "payment": 29,
+      "acceptance": 29,
+      "rectification": 7
+    },
+    "chain_discovery_candidate_metadata_coverage_rate": 100,
+    "discovery_crawler_processed_count": 94,
+    "discovery_crawler_matched_count": 0,
+    "discovery_crawler_match_rate": 0,
+    "discovery_crawler_statuses": {
+      "not_found": 87,
+      "manual_review": 7
+    },
+    "crawler_not_found_explained_count": 87,
+    "source_completeness_rate": 100,
+    "locator_coverage_rate": 100
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "fulfillment acceptance and payment condition topic",
+      "action": "Keep acceptance plan, acceptance opinion, archive locator, contract performance period and payment trigger in one procurement-chain topic for reports and front-end chain views.",
+      "reason": "Round 15 records show acceptance and payment clauses explain public-chain gaps without supporting a substantive violation conclusion by themselves."
+    },
+    {
+      "priority": "P0",
+      "area": "provider-backed crawler diagnostics",
+      "action": "Promote provider query terms, search URL, candidate URLs, candidate stage scores and not-found reasons into the public discovery queue output.",
+      "reason": "A not-found result needs enough diagnostic evidence to explain whether the crawler searched the right project, package, purchaser, supplier and target stage."
+    },
+    {
+      "priority": "P1",
+      "area": "fiscal policy supplemental checklist",
+      "action": "Keep transfer-payment monitoring, township performance, debt/current-account and expenditure-standard policies as next-data checklists for budget indicators, performance targets, payments and vouchers.",
+      "reason": "Policy text is useful to define missing internal evidence, but it should not become a risk finding without payment and voucher proof."
+    }
+  ],
+  "batch_name": "official_public_instances_round15",
+  "round15_acceptance_baseline": 150
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Haian Procurement Notice Sample (official public data)",
+  "records": [
+    {
+      "project_name": "Haian Urban Construction Investment Group Financing Statement Audit Service Procurement Project (Second Round)",
+      "purchaser_name": "Haian Urban Construction Investment Group Co., Ltd.",
+      "announcement_type": "Competitive consultation notice",
+      "project_code": "NTGC2025063002(CS078)",
+      "procurement_method": "competitive_consultation",
+      "published_at": "2025-07-14",
+      "region": "Haian, Nantong, Jiangsu",
+      "budget_amount": "3000000",
+      "award_amount": null,
+      "supplier_name": null,
+      "budget_project_id": null,
+      "contract_no": null,
+      "contract_published_at": null,
+      "acceptance_summary": "Notice stage only; official page exposes project code, method and budget but no contract or acceptance record yet.",
+      "acceptance_status": "notice_stage",
+      "notice_url": "https://ggzyjy.nantong.gov.cn/jyxx/003009/003009001/20250714/31ad4f91-528e-4ad2-80fe-c7a9c2777d9f.html",
+      "indicator_document_no": null,
+      "project_catalog_id": null,
+      "function_classification_code": null,
+      "economic_classification_code": null,
+      "source_row": 1
+    }
+  ]
+}

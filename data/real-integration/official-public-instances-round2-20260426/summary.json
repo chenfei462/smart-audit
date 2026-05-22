@@ -1,0 +1,485 @@
+{
+  "generated_at": "2026-04-26T11:00:23.098Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 21,
+  "procurement_input_records": 41,
+  "budget_input_records": 69,
+  "case_seed_input_records": 8,
+  "total_input_records": 118,
+  "procurement_accepted_records": 41,
+  "budget_accepted_records": 69,
+  "case_seed_accepted_records": 8,
+  "total_accepted_records": 118,
+  "import_success_rate": 100,
+  "quality_check_count": 39,
+  "quality_warning_count": 39,
+  "quality_error_count": 0,
+  "finding_count": 78,
+  "rule_hits_by_rule": {
+    "PROC-BUDGET-001": 39,
+    "PROC-CHAIN-001": 39
+  },
+  "source_traceable_rows": 118,
+  "source_total_rows": 118,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 2,
+    "award": 39
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 7,
+    "public_statistical_indicator": 45,
+    "investment_review_summary": 17
+  },
+  "risk_levels": {
+    "procurement": "High",
+    "budget": [
+      "Low",
+      "Low",
+      "Low"
+    ]
+  },
+  "top_quality_checks": [
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 1
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 1
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 1
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 1
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 2
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 3
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 5
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 6
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 7
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 8
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 9
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 10
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 11
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 12
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 13
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 14
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 16
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 20
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 21
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 22
+    }
+  ],
+  "top_findings": [
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 南京市中心医院智慧医院建设（二期） 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 南京市中心医院智慧医院建设（二期） 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025年江苏省教育系统网络安全监测服务 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025年江苏省教育系统网络安全监测服务 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 苏州海关综合技术中心高效液相质谱联用仪和液相色谱-质谱联用仪项目 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 苏州海关综合技术中心高效液相质谱联用仪和液相色谱-质谱联用仪项目 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包1 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包1 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包2 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包2 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包3 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包3 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包5 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包5 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包6 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包6 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包7 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包7 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包8 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省南京市国家农作物区域性品种测试评价站建设项目-仪器设备采购项目分包8 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-26T11:00:21.608Z",
+    "captured_at": "2026-04-26T18:30:00+08:00",
+    "fetch_mode": "researched_snapshot",
+    "source_count": 21,
+    "parsed_source_count": 21,
+    "failed_source_count": 0,
+    "network_failure_count": 0,
+    "source_success_rate": 100,
+    "total_records": 118,
+    "unit_normalized_records": 96,
+    "locator_coverage_rate": 100,
+    "parser_types": {
+      "ccgp_procurement_html": 9,
+      "fiscal_report_pdf": 2,
+      "government_metric_html": 5,
+      "audit_report_html": 5
+    },
+    "download_methods": {
+      "web_researched_snapshot": 21
+    },
+    "previous_source_overlap_count": 0,
+    "framework_agreement_count": 22,
+    "amount_semantic_types": {
+      "budget_amount": 2,
+      "award_total": 17,
+      "framework_quote": 12,
+      "discount_rate": 10
+    },
+    "audit_evidence_levels": {
+      "rectification_progress": 5,
+      "formal_audit_report": 1,
+      "audit_work_update": 2
+    },
+    "requires_manual_verification_count": 8
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "网页检索来源登记",
+      "action": "把第二批来源登记为可配置source registry，保留检索关键词、发现时间、人工复核状态和是否与历史基线重复。",
+      "reason": "本批来源21个且均与上一批不重复，后续需要自动去重和批次化管理。"
+    },
+    {
+      "priority": "P0",
+      "area": "框架协议金额语义",
+      "action": "对框架协议的评审报价、优惠率、单价和总中标金额分别建模，避免把优惠率误当作成交金额。",
+      "reason": "本批车辆、安全审计设备、印刷服务框架协议中同时出现单价、总额和百分比。"
+    },
+    {
+      "priority": "P1",
+      "area": "PDF表格抽取",
+      "action": "南京、南通部门预算PDF应进入表格抽取器，输出表号、页码、科目编码、金额列和空表标记。",
+      "reason": "部门预算PDF字段结构清晰，但现在仍由人工登记样本固化。"
+    },
+    {
+      "priority": "P1",
+      "area": "审计动态线索分层",
+      "action": "将审计动态类网页区分为正式审计结果、整改进展、审计工作动态和方法经验，分别设置不同证据强度。",
+      "reason": "地方审计动态能形成线索，但不能等同于正式审计结论。"
+    },
+    {
+      "priority": "P2",
+      "area": "跨批次回归对比",
+      "action": "把第二批样本加入统一回归摘要，按批次比较采购阶段、金额单位、来源类型、规则命中差异。",
+      "reason": "第二批包含更多框架协议和预算PDF，能补足第一批样本结构。"
+    }
+  ],
+  "batch_name": "official_public_instances_round2"
+}

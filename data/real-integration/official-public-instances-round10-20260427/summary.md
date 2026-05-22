@@ -1,0 +1,46 @@
+# Round 10 Official Public Instance Test
+
+Generated at: 2026-04-27T04:48:35.573Z
+
+## Test Result
+- Input records: 126
+- Accepted records: 126
+- Import success rate: 100%
+- Source count: 19
+- Previous source URL overlap: 0
+- Discovery queue processed: 209
+
+## Coverage
+- Source scopes: jiangsu_local 8, central_unit 6, cross_province 5
+- Procurement intention records: 6
+- Central batch award records: 33
+- Live search candidate source count: 3
+- Budget performance policy records: 20
+- Audit low-weight records: 11
+
+## Official Sources
+- [China Government Procurement Network] 2026 Jiangsu cloud service framework agreement solicitation: https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202601/t20260109_26060536.htm
+- [China Government Procurement Network] China Special Equipment Inspection Institute 2026 internet access service tender: https://www.ccgp.gov.cn/cggg/zygg/gkzb/202601/t20260129_26129949.htm
+- [China Government Procurement Network] General Administration of Sport performance process management service consultation: https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202601/t20260126_26117994.htm
+- [China Government Procurement Network] PBOC Credit Reference Center 2026 first batch procurement intention: https://www.ccgp.gov.cn/cggg/zygg/qtgg/202601/t20260115_26076732.htm
+- [China Government Procurement Network] Central state organs 2026 desktop computer batch procurement February award: https://www.ccgp.gov.cn/cggg/zygg/zbgg/202602/t20260205_26150696.htm
+- [China Government Procurement Network] Shanghai Big Data Center network and data security service tender: https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202601/t20260109_26055840.htm
+- [China Government Procurement Network] Hefei High-tech Zone integrated media publicity planning consultation: https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202601/t20260131_26138821.htm
+- [China Government Procurement Network] Xingcheng 2026 rural road engineering design consultation: https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202601/t20260122_26106071.htm
+- [China Government Procurement Network] Central directly-administered organs 2026 first batch centralized procurement tender: https://www.ccgp.gov.cn/cggg/zygg/gkzb/202512/t20251203_25842383.htm
+- [China Government Procurement Network] Central state organs centralized batch award list: https://www.ccgp.gov.cn/zydwplcg/zy/zyzhb/
+- [China Government Procurement Network] China Government Procurement Network local award list page one: https://www.ccgp.gov.cn/cggg/dfgg/cjgg/index_1.htm
+- [China Government Procurement Network] China Government Procurement Network local award list page two: https://www.ccgp.gov.cn/cggg/dfgg/cjgg/index_2.htm
+- [Jiangsu Department of Finance] Jiangsu finance accelerates modern fiscal expenditure standard construction: https://czt.jiangsu.gov.cn/art/2025/1/20/art_7938_11477553.html
+- [Jiangsu Department of Finance] Jiangsu 2025 budget draft disclosure page: https://czt.jiangsu.gov.cn/art/2025/2/5/art_79613_11485617.html
+- [Jiangsu Department of Finance] Sucheng finance deepens zero-based budgeting reform: https://czt.jiangsu.gov.cn/art/2025/4/11/art_77300_11543308.html
+- [Jiangsu Audit Office] Jiangsu same-level audit rectification promotes 268 systems: https://jssjt.jiangsu.gov.cn/art/2024/3/29/art_995_11205343.html
+- [Jiangsu Audit Office] Nanjing audit bureau issues rectification process management measures: https://jssjt.jiangsu.gov.cn/art/2024/5/10/art_1104_11237807.html
+- [Jiangsu Audit Office] Jiangsu audit supports flood prevention governance: https://jssjt.jiangsu.gov.cn/art/2024/7/5/art_1104_11283062.html
+- [Jiangsu Audit Office] Lianyungang audit advances performance audit work: https://jssjt.jiangsu.gov.cn/art/2023/8/21/art_1104_10987006.html
+
+## Further Optimization Plan
+- P0 live official crawler sampling: Run live crawler in sampling mode against 10 to 20 queue items per batch and persist provider attempt diagnostics separately from stable baselines. Reason: Round 10 added official provider registry and candidate index sources; live web volatility should not corrupt deterministic regression evidence.
+- P0 procurement intention lifecycle: Model procurement intention as a pre-announcement stage and link it forward to announcement, award, contract and acceptance records by project name and purchaser. Reason: Procurement intentions expose planned budget but not final project numbers or suppliers, so they should create follow-up discovery tasks rather than risk findings.
+- P1 centralized batch procurement normalization: Add batch-month, product category and manufacturer dimensions for central batch awards before budget comparison. Reason: Centralized batch awards aggregate multiple product lots and should not be treated as one local single-project award.
+- P1 audit evidence disposition controls: Keep audit work updates and method references outside the risk candidate pool unless linked to formal audit results or rectification reports. Reason: Round 10 low-weight audit examples show useful context but insufficient evidence for substantive violations.

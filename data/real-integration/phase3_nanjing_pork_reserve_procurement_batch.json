@@ -1,0 +1,28 @@
+{
+  "title": "第三阶段联调：南京市冻猪肉政府性储备项目采购链路样本",
+  "records": [
+    {
+      "project_name": "2025—2026年度南京市冻猪肉政府性储备项目",
+      "purchaser_name": "南京市商务局",
+      "announcement_type": "公开招标公告（联调补充合同字段）",
+      "project_code": "JSZC-320100-JSZB-G2025-0002",
+      "procurement_method": "公开招标",
+      "published_at": "2025-03-24",
+      "region": "江苏省南京市",
+      "budget_amount": "8700000",
+      "award_amount": "8685000",
+      "supplier_name": "南京冻猪肉储备联调供应商",
+      "budget_project_id": null,
+      "contract_no": "NJSWJ-CLZ-2025-HT-001",
+      "contract_published_at": "2025-04-18",
+      "acceptance_summary": "联调样本：合同已签订，正在按储备计划分批支付，验收待完成。",
+      "acceptance_status": "in_progress",
+      "function_classification_code": null,
+      "economic_classification_code": null,
+      "project_catalog_id": "NJSWJ-PORK-RESERVE-2025",
+      "indicator_document_no": "NJSWJ-CLZ-2025-001",
+      "notice_url": "https://njgc.jfh.com/purchase/detail?id=48705&type=1",
+      "source_row": 1
+    }
+  ]
+}

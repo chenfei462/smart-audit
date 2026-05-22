@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-04-27T13:05:00.655Z",
+  "captured_at": "2026-04-27T21:20:00+08:00",
+  "fetch_mode": "official_public_round21_web_research_snapshot",
+  "source_count": 20,
+  "twenty_first_round_source_count": 20,
+  "parsed_source_count": 20,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 423,
+  "previous_source_overlap_count": 0,
+  "total_records": 260,
+  "procurement_records": 190,
+  "budget_records": 45,
+  "case_seed_records": 25,
+  "procurement_exception_records": 190,
+  "procurement_penalty_records": 190,
+  "credit_constraint_records": 190,
+  "credit_repair_followup_records": 64,
+  "re_participation_review_records": 55,
+  "malicious_collusion_records": 21,
+  "false_material_records": 21,
+  "complaint_rejected_records": 21,
+  "exception_weight_coverage_rate": 100,
+  "procurement_exception_review_only_rate": 100,
+  "source_region_scopes": {
+    "central_unit": 20
+  },
+  "central_unit_source_count": 20,
+  "finding_dispositions": {
+    "review_recommended": 199,
+    "supplemental_data_only": 45,
+    "knowledge_reference": 16
+  },
+  "fiscal_policy_supplemental_coverage_rate": 100,
+  "audit_evidence_levels": {
+    "rectification_progress": 9,
+    "audit_work_update": 16
+  },
+  "discovery_queue_item_count": 1845,
+  "exception_chain_queue_item_count": 1836,
+  "discovery_queue_by_target_stage": {
+    "correction_notice": 190,
+    "penalty_followup": 190,
+    "credit_restriction": 169,
+    "credit_repair": 169,
+    "re_participation": 169,
+    "contract": 190,
+    "acceptance": 190,
+    "payment": 190,
+    "rectification": 199,
+    "award_invalidated": 63,
+    "rebid_notice": 63,
+    "new_award": 63
+  },
+  "discovery_crawler_processed_count": 1845,
+  "discovery_crawler_matched_count": 298,
+  "discovery_crawler_match_rate": 16.15,
+  "discovery_crawler_statuses": {
+    "not_found": 1148,
+    "matched": 298,
+    "manual_review": 399
+  },
+  "crawler_not_found_explained_count": 1547,
+  "source_completeness_rate": 100,
+  "locator_coverage_rate": 100,
+  "report_topics": [
+    "procurement_penalty_credit_constraints"
+  ]
+}

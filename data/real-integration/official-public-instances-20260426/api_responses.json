@@ -1,0 +1,3590 @@
+{
+  "procurement": {
+    "id": "ebaf5f34-0cf4-422e-91b9-37c1fabab463",
+    "tenant_id": "812f0ebf-166c-46b3-97b8-166808499f4c",
+    "organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+    "task_kind": "procurement_project",
+    "title": "正式公开实例：江苏政府采购公告、成交与合同",
+    "source_kind": "batch",
+    "status": "completed",
+    "risk_level": "High",
+    "primary_subject": "南通市自然资源和规划局",
+    "findings": [
+      {
+        "id": "PROC-BUDGET-001-0babcea1-0ffd-4334-8e9c-4c9d1f7a8915",
+        "rule_code": "PROC-BUDGET-001",
+        "rule_name": "无预算不采购",
+        "rule_category": "采购规则",
+        "risk_level": "High",
+        "summary": "项目 南通市海洋生态保护修复项目互花米草治理遥感监测 缺少预算金额",
+        "audit_rationale": "采购监管需要先有预算控制，再进入采购实施环节。",
+        "recommended_action": "补录预算指标、预算金额和指标文号，确认是否存在先采购后预算。",
+        "evidence_summary": "项目编号 JSZC-320600-XXDF-C2025-0082，采购单位 南通市自然资源和规划局",
+        "severity_reason": null,
+        "missing_evidence": [],
+        "recommended_next_data": [],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-CHAIN-001-5155dfef-3c44-4132-8a4e-26563474ae8c",
+        "rule_code": "PROC-CHAIN-001",
+        "rule_name": "公告-成交-合同-验收链条证据缺口",
+        "rule_category": "采购规则",
+        "risk_level": "Medium",
+        "summary": "项目 南通市海洋生态保护修复项目互花米草治理遥感监测 在 成交/中标公告 阶段缺少后续证据",
+        "audit_rationale": "公开采购数据按阶段解释证据缺口，公告阶段不直接判定链条缺失。",
+        "recommended_action": "补充合同公告、履约验收或支付信息后再形成强结论。",
+        "evidence_summary": "项目编号 JSZC-320600-XXDF-C2025-0082 / 阶段 award / 缺失 [\"contract\", \"acceptance\"]",
+        "severity_reason": "award-stage-missing-downstream-evidence",
+        "missing_evidence": [
+          "contract",
+          "acceptance"
+        ],
+        "recommended_next_data": [
+          "采购合同",
+          "履约验收信息",
+          "国库集中支付"
+        ],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-BUDGET-001-a1e0b821-a315-473f-afe7-51878fdc9103",
+        "rule_code": "PROC-BUDGET-001",
+        "rule_name": "无预算不采购",
+        "rule_category": "采购规则",
+        "risk_level": "High",
+        "summary": "项目 江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购 缺少预算金额",
+        "audit_rationale": "采购监管需要先有预算控制，再进入采购实施环节。",
+        "recommended_action": "补录预算指标、预算金额和指标文号，确认是否存在先采购后预算。",
+        "evidence_summary": "项目编号 JSZC-320000-SMDY-G2025-0008，采购单位 江苏省农业科学院",
+        "severity_reason": null,
+        "missing_evidence": [],
+        "recommended_next_data": [],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-CHAIN-001-b15d8136-efb4-4bb6-841a-dcb375c32922",
+        "rule_code": "PROC-CHAIN-001",
+        "rule_name": "公告-成交-合同-验收链条证据缺口",
+        "rule_category": "采购规则",
+        "risk_level": "Medium",
+        "summary": "项目 江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购 在 成交/中标公告 阶段缺少后续证据",
+        "audit_rationale": "公开采购数据按阶段解释证据缺口，公告阶段不直接判定链条缺失。",
+        "recommended_action": "补充合同公告、履约验收或支付信息后再形成强结论。",
+        "evidence_summary": "项目编号 JSZC-320000-SMDY-G2025-0008 / 阶段 award / 缺失 [\"contract\", \"acceptance\"]",
+        "severity_reason": "award-stage-missing-downstream-evidence",
+        "missing_evidence": [
+          "contract",
+          "acceptance"
+        ],
+        "recommended_next_data": [
+          "采购合同",
+          "履约验收信息",
+          "国库集中支付"
+        ],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-BUDGET-001-ab4b3934-d8a2-4451-b5d8-764ef75859c0",
+        "rule_code": "PROC-BUDGET-001",
+        "rule_name": "无预算不采购",
+        "rule_category": "采购规则",
+        "risk_level": "High",
+        "summary": "项目 2025-2026年度江苏省省级、南京市及各区印刷服务框架协议采购 缺少预算金额",
+        "audit_rationale": "采购监管需要先有预算控制，再进入采购实施环节。",
+        "recommended_action": "补录预算指标、预算金额和指标文号，确认是否存在先采购后预算。",
+        "evidence_summary": "项目编号 JSZC-320000-SCZX-K2025-0174，采购单位 江苏省政府采购中心",
+        "severity_reason": null,
+        "missing_evidence": [],
+        "recommended_next_data": [],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-CHAIN-001-9093176d-edd3-4a43-a978-27008a1a2159",
+        "rule_code": "PROC-CHAIN-001",
+        "rule_name": "公告-成交-合同-验收链条证据缺口",
+        "rule_category": "采购规则",
+        "risk_level": "Medium",
+        "summary": "项目 2025-2026年度江苏省省级、南京市及各区印刷服务框架协议采购 在 成交/中标公告 阶段缺少后续证据",
+        "audit_rationale": "公开采购数据按阶段解释证据缺口，公告阶段不直接判定链条缺失。",
+        "recommended_action": "补充合同公告、履约验收或支付信息后再形成强结论。",
+        "evidence_summary": "项目编号 JSZC-320000-SCZX-K2025-0174 / 阶段 award / 缺失 [\"contract\", \"acceptance\"]",
+        "severity_reason": "award-stage-missing-downstream-evidence",
+        "missing_evidence": [
+          "contract",
+          "acceptance"
+        ],
+        "recommended_next_data": [
+          "采购合同",
+          "履约验收信息",
+          "国库集中支付"
+        ],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-BUDGET-001-b81e49f9-626f-477d-bbe3-f3567557b134",
+        "rule_code": "PROC-BUDGET-001",
+        "rule_name": "无预算不采购",
+        "rule_category": "采购规则",
+        "risk_level": "High",
+        "summary": "项目 2025年度第三方检测服务项目 缺少预算金额",
+        "audit_rationale": "采购监管需要先有预算控制，再进入采购实施环节。",
+        "recommended_action": "补录预算指标、预算金额和指标文号，确认是否存在先采购后预算。",
+        "evidence_summary": "项目编号 JSZC-320400-CZZY-G2025-0019，采购单位 江苏省常州环境监测中心",
+        "severity_reason": null,
+        "missing_evidence": [],
+        "recommended_next_data": [],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-CHAIN-001-bac1fd12-ba3d-45b8-b7f9-f1488f7ac621",
+        "rule_code": "PROC-CHAIN-001",
+        "rule_name": "公告-成交-合同-验收链条证据缺口",
+        "rule_category": "采购规则",
+        "risk_level": "Medium",
+        "summary": "项目 2025年度第三方检测服务项目 在 成交/中标公告 阶段缺少后续证据",
+        "audit_rationale": "公开采购数据按阶段解释证据缺口，公告阶段不直接判定链条缺失。",
+        "recommended_action": "补充合同公告、履约验收或支付信息后再形成强结论。",
+        "evidence_summary": "项目编号 JSZC-320400-CZZY-G2025-0019 / 阶段 award / 缺失 [\"contract\", \"acceptance\"]",
+        "severity_reason": "award-stage-missing-downstream-evidence",
+        "missing_evidence": [
+          "contract",
+          "acceptance"
+        ],
+        "recommended_next_data": [
+          "采购合同",
+          "履约验收信息",
+          "国库集中支付"
+        ],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-CHAIN-001-b5523cf2-a76a-411a-b571-7557a60c1d27",
+        "rule_code": "PROC-CHAIN-001",
+        "rule_name": "公告-成交-合同-验收链条证据缺口",
+        "rule_category": "采购规则",
+        "risk_level": "High",
+        "summary": "项目 2025年度南通通州区社会治安监控系统（雪亮技防工程）维保项目 在 合同公告 阶段缺少后续证据",
+        "audit_rationale": "公开采购数据按阶段解释证据缺口，公告阶段不直接判定链条缺失。",
+        "recommended_action": "补充合同公告、履约验收或支付信息后再形成强结论。",
+        "evidence_summary": "项目编号 JSZC-320612-SSJT-G2025-0014001 / 阶段 contract / 缺失 [\"acceptance\"]",
+        "severity_reason": "contract-stage-missing-downstream-evidence",
+        "missing_evidence": [
+          "acceptance"
+        ],
+        "recommended_next_data": [
+          "采购合同",
+          "履约验收信息",
+          "国库集中支付"
+        ],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-CHAIN-001-3ade03b5-a1f5-4a1e-bd06-d1583aba07e2",
+        "rule_code": "PROC-CHAIN-001",
+        "rule_name": "公告-成交-合同-验收链条证据缺口",
+        "rule_category": "采购规则",
+        "risk_level": "High",
+        "summary": "项目 宿迁市市级政务云服务采购项目 在 合同公告 阶段缺少后续证据",
+        "audit_rationale": "公开采购数据按阶段解释证据缺口，公告阶段不直接判定链条缺失。",
+        "recommended_action": "补充合同公告、履约验收或支付信息后再形成强结论。",
+        "evidence_summary": "项目编号 JSZC-321300-HZJS-D2025-0010001 / 阶段 contract / 缺失 [\"acceptance\"]",
+        "severity_reason": "contract-stage-missing-downstream-evidence",
+        "missing_evidence": [
+          "acceptance"
+        ],
+        "recommended_next_data": [
+          "采购合同",
+          "履约验收信息",
+          "国库集中支付"
+        ],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      },
+      {
+        "id": "PROC-CHAIN-001-db7acf0f-f38d-4b1f-abb4-195fcf1df3f2",
+        "rule_code": "PROC-CHAIN-001",
+        "rule_name": "公告-成交-合同-验收链条证据缺口",
+        "rule_category": "采购规则",
+        "risk_level": "High",
+        "summary": "项目 医院医用液氧采购项目 在 合同公告 阶段缺少后续证据",
+        "audit_rationale": "公开采购数据按阶段解释证据缺口，公告阶段不直接判定链条缺失。",
+        "recommended_action": "补充合同公告、履约验收或支付信息后再形成强结论。",
+        "evidence_summary": "项目编号 JSZC-320000-JSHY-C2025-0088001 / 阶段 contract / 缺失 [\"acceptance\"]",
+        "severity_reason": "contract-stage-missing-downstream-evidence",
+        "missing_evidence": [
+          "acceptance"
+        ],
+        "recommended_next_data": [
+          "采购合同",
+          "履约验收信息",
+          "国库集中支付"
+        ],
+        "finding_status": "open",
+        "assignee": null,
+        "disposition_note": null,
+        "disposition_priority": null,
+        "disposition_outcome": null,
+        "remediation_due_at": null,
+        "reminder_flag": false,
+        "disposed_at": null
+      }
+    ],
+    "detail": {
+      "kind": "procurement_project",
+      "payload": {
+        "projects": [
+          {
+            "id": "cf503f63-47ea-4700-bb8a-d8fb827dd595",
+            "project_name": "南通市海洋生态保护修复项目互花米草治理遥感监测",
+            "purchaser_name": "南通市自然资源和规划局",
+            "announcement_type": "成交公告",
+            "procurement_stage": "award",
+            "project_code": "JSZC-320600-XXDF-C2025-0082",
+            "procurement_method": "竞争性磋商",
+            "published_at": "2025-10-10",
+            "region": "江苏省南通市",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": null,
+              "county": "江苏省南通市",
+              "normalized_region_code": null,
+              "display_name": "江苏省南通市"
+            },
+            "budget_amount": null,
+            "award_amount": "0.0294",
+            "supplier_name": "北京飞马航遥科技有限公司",
+            "budget_unit_id": "974fb891-472d-49f1-aa47-99e6ae45f0dd",
+            "budget_project_id": "0af5fe82-ad7b-441f-ac4b-c0d9bc04cb6d",
+            "supplier_id": "a5976fd4-3dc6-4548-bf33-3047073fb7f1",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251010_25498889.htm",
+            "source_evidence": {
+              "title": "南通市海洋生态保护修复项目互花米草治理遥感监测成交公告",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251010_25498889.htm",
+              "published_at": "2025-10-10",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 1,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 1,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "0af5fe82-ad7b-441f-ac4b-c0d9bc04cb6d"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "0af5fe82-ad7b-441f-ac4b-c0d9bc04cb6d",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          },
+          {
+            "id": "116daa21-edd4-4e59-aa37-830cf41aa056",
+            "project_name": "江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购",
+            "purchaser_name": "江苏省农业科学院",
+            "announcement_type": "中标公告",
+            "procurement_stage": "award",
+            "project_code": "JSZC-320000-SMDY-G2025-0008",
+            "procurement_method": "公开招标",
+            "published_at": "2025-11-25",
+            "region": "江苏省",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": null,
+              "county": "江苏省",
+              "normalized_region_code": null,
+              "display_name": "江苏省"
+            },
+            "budget_amount": null,
+            "award_amount": "1045.73",
+            "supplier_name": "南京苏美达仪器设备有限公司等",
+            "budget_unit_id": "ac730637-87d0-4ec8-8c2c-e0afcb8b4e94",
+            "budget_project_id": "7b22d0dd-3191-4f76-9d6b-bf82c82adcf9",
+            "supplier_id": "b4049671-6d9d-42ab-9ea4-1a2f5768b976",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202511/t20251125_25761259.htm",
+            "source_evidence": {
+              "title": "江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购中标公告",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202511/t20251125_25761259.htm",
+              "published_at": "2025-11-25",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 2,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 2,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "7b22d0dd-3191-4f76-9d6b-bf82c82adcf9"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "7b22d0dd-3191-4f76-9d6b-bf82c82adcf9",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          },
+          {
+            "id": "1de0b69b-46ea-4e02-9e13-b4967ccd3761",
+            "project_name": "2025-2026年度江苏省省级、南京市及各区印刷服务框架协议采购",
+            "purchaser_name": "江苏省政府采购中心",
+            "announcement_type": "入围公告",
+            "procurement_stage": "award",
+            "project_code": "JSZC-320000-SCZX-K2025-0174",
+            "procurement_method": "框架协议采购",
+            "published_at": "2025-08-13",
+            "region": "江苏省南京市",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": null,
+              "county": "江苏省南京市",
+              "normalized_region_code": null,
+              "display_name": "江苏省南京市"
+            },
+            "budget_amount": null,
+            "award_amount": "5.279718",
+            "supplier_name": "框架协议入围供应商",
+            "budget_unit_id": "e3f05d91-2395-449e-8399-e7ae240b70bd",
+            "budget_project_id": "e1b9f4ea-ae5c-40cf-ad3e-dc9b99baeb10",
+            "supplier_id": "4b07c586-b473-4f3a-b693-817c530e4911",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202508/t20250813_25119997.htm",
+            "source_evidence": {
+              "title": "2025-2026年度江苏省省级、南京市及各区党政机关、事业单位及团体组织印刷服务框架协议采购（南京市共享）入围公告",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202508/t20250813_25119997.htm",
+              "published_at": "2025-08-13",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 3,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 3,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "e1b9f4ea-ae5c-40cf-ad3e-dc9b99baeb10"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "e1b9f4ea-ae5c-40cf-ad3e-dc9b99baeb10",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          },
+          {
+            "id": "3630b264-9ae1-484f-a777-8a522e09bf5a",
+            "project_name": "常熟市城市生命线安全工程风险评估与管控应用",
+            "purchaser_name": "常熟市住房和城乡建设局",
+            "announcement_type": "招标公告",
+            "procurement_stage": "announcement",
+            "project_code": "JSZC-320581-CSYD-G2025-0025",
+            "procurement_method": "公开招标",
+            "published_at": "2025-06-11",
+            "region": "江苏省苏州市常熟市",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": null,
+              "county": "江苏省苏州市常熟市",
+              "normalized_region_code": null,
+              "display_name": "江苏省苏州市常熟市"
+            },
+            "budget_amount": "250",
+            "award_amount": null,
+            "supplier_name": null,
+            "budget_unit_id": "1a0c37c7-2826-4935-87ef-e6b1132b1d72",
+            "budget_project_id": "df9e5b6c-6469-45ca-ae95-ab0a56285444",
+            "supplier_id": null,
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202506/t20250611_24810237.htm",
+            "source_evidence": {
+              "title": "常熟市住房和城乡建设局关于常熟市城市生命线安全工程风险评估与管控应用的招标公告",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202506/t20250611_24810237.htm",
+              "published_at": "2025-06-11",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 4,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 4,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "df9e5b6c-6469-45ca-ae95-ab0a56285444"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "df9e5b6c-6469-45ca-ae95-ab0a56285444",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          },
+          {
+            "id": "a37918fb-56e1-40f8-89fe-20964b4e9993",
+            "project_name": "国家作物种质资源综合基因库仪器设备采购",
+            "purchaser_name": "江苏省农业科学院种质资源与生物技术研究所",
+            "announcement_type": "公开招标公告",
+            "procurement_stage": "announcement",
+            "project_code": "JSZC-320000-SMDY-G2025-0001",
+            "procurement_method": "公开招标",
+            "published_at": "2025-01-21",
+            "region": "江苏省",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": null,
+              "county": "江苏省",
+              "normalized_region_code": null,
+              "display_name": "江苏省"
+            },
+            "budget_amount": "1150",
+            "award_amount": null,
+            "supplier_name": null,
+            "budget_unit_id": "3027e829-8746-44fb-969b-37a42071565c",
+            "budget_project_id": "92f72d62-622a-45ef-92fa-e1c955d102b1",
+            "supplier_id": null,
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202501/t20250121_24118163.htm",
+            "source_evidence": {
+              "title": "江苏省农业科学院种质资源与生物技术研究所国家作物种质资源综合基因库仪器设备采购公开招标公告",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202501/t20250121_24118163.htm",
+              "published_at": "2025-01-21",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 5,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 5,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "92f72d62-622a-45ef-92fa-e1c955d102b1"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "92f72d62-622a-45ef-92fa-e1c955d102b1",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          },
+          {
+            "id": "dd8d3cdf-4ad6-4c58-a92b-5c4218a3d994",
+            "project_name": "2025年度第三方检测服务项目",
+            "purchaser_name": "江苏省常州环境监测中心",
+            "announcement_type": "中标公告",
+            "procurement_stage": "award",
+            "project_code": "JSZC-320400-CZZY-G2025-0019",
+            "procurement_method": "公开招标",
+            "published_at": "2025-12-16",
+            "region": "江苏省常州市",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": null,
+              "county": "江苏省常州市",
+              "normalized_region_code": null,
+              "display_name": "江苏省常州市"
+            },
+            "budget_amount": null,
+            "award_amount": "0.0105",
+            "supplier_name": "分包中标供应商",
+            "budget_unit_id": "00fbb6b3-2668-405c-9dce-3b250a060a9f",
+            "budget_project_id": "1c484f02-30ab-42ff-93b7-4234369bfdae",
+            "supplier_id": "b5882110-d3be-4d8f-9a66-89ccd9316074",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202512/t20251216_25912635.htm",
+            "source_evidence": {
+              "title": "2025年度第三方检测服务项目中标公告",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202512/t20251216_25912635.htm",
+              "published_at": "2025-12-16",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 6,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 6,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "1c484f02-30ab-42ff-93b7-4234369bfdae"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "1c484f02-30ab-42ff-93b7-4234369bfdae",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          },
+          {
+            "id": "8389cd2e-ed23-4139-adc5-89e93caa5c38",
+            "project_name": "2025年度南通通州区社会治安监控系统（雪亮技防工程）维保项目",
+            "purchaser_name": "南通市通州区公安局（本级）",
+            "announcement_type": "合同公告",
+            "procurement_stage": "contract",
+            "project_code": "JSZC-320612-SSJT-G2025-0014001",
+            "procurement_method": "公开招标",
+            "published_at": "2025-05-22",
+            "region": "江苏省南通市通州区",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": "南通市",
+              "county": "通州区",
+              "normalized_region_code": "320612",
+              "display_name": "江苏省南通市通州区"
+            },
+            "budget_amount": "136",
+            "award_amount": "135.8",
+            "supplier_name": "中电鸿信信息科技有限公司",
+            "budget_unit_id": "175d10ce-11cf-4908-bdf8-ecbd0d3e93b7",
+            "budget_project_id": "63888f73-e864-440b-8e15-2bf0a6333424",
+            "supplier_id": "eb8bdedd-639d-4cd6-92dc-d71dd80c857c",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202505/t20250522_24721043.htm",
+            "source_evidence": {
+              "title": "2025年度南通通州区社会治安监控系统（雪亮技防工程）维保项目合同",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202505/t20250522_24721043.htm",
+              "published_at": "2025-05-22",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 7,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 7,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "63888f73-e864-440b-8e15-2bf0a6333424"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "63888f73-e864-440b-8e15-2bf0a6333424",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          },
+          {
+            "id": "3e73e412-bb8c-41b4-af99-aa8928d29c38",
+            "project_name": "宿迁市市级政务云服务采购项目",
+            "purchaser_name": "宿迁市大数据管理局",
+            "announcement_type": "合同公告",
+            "procurement_stage": "contract",
+            "project_code": "JSZC-321300-HZJS-D2025-0010001",
+            "procurement_method": "单一来源",
+            "published_at": "2025-08-13",
+            "region": "江苏省宿迁市",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": null,
+              "county": "江苏省宿迁市",
+              "normalized_region_code": null,
+              "display_name": "江苏省宿迁市"
+            },
+            "budget_amount": "1180.28",
+            "award_amount": "1180.28",
+            "supplier_name": "中国移动通信集团江苏有限公司宿迁分公司",
+            "budget_unit_id": "c82a7592-df72-465b-8cd7-8b96223c6e6a",
+            "budget_project_id": "84874a4a-dd9b-4fb4-ae6d-a16ea72c2405",
+            "supplier_id": "6bd34349-b11b-4460-a389-b568d4cc67cc",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202508/t20250813_25119890.htm",
+            "source_evidence": {
+              "title": "宿迁市市级政务云服务采购项目宿迁市市级政务云服务采购项目合同",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202508/t20250813_25119890.htm",
+              "published_at": "2025-08-13",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 8,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 8,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "84874a4a-dd9b-4fb4-ae6d-a16ea72c2405"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "84874a4a-dd9b-4fb4-ae6d-a16ea72c2405",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          },
+          {
+            "id": "79fab3b8-72dd-41d3-b6e7-ff9a23c4cf37",
+            "project_name": "医院医用液氧采购项目",
+            "purchaser_name": "江苏省通州监狱",
+            "announcement_type": "合同公告",
+            "procurement_stage": "contract",
+            "project_code": "JSZC-320000-JSHY-C2025-0088001",
+            "procurement_method": "竞争性磋商",
+            "published_at": "2025-05-16",
+            "region": "江苏省南通市通州区",
+            "normalized_region": {
+              "province": "江苏省",
+              "city": "南通市",
+              "county": "通州区",
+              "normalized_region_code": "320612",
+              "display_name": "江苏省南通市通州区"
+            },
+            "budget_amount": "135",
+            "award_amount": "114",
+            "supplier_name": "江苏盱眙龙虾产业发展股份有限公司",
+            "budget_unit_id": "dd4bd888-c6b8-4666-b0fd-644876b28cc3",
+            "budget_project_id": "57e8c8b3-ba81-4d24-ab56-a7a70c551cf7",
+            "supplier_id": "a5276314-bd1c-4f7a-bf67-81e596b0204a",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "indicator_document_no": null,
+            "project_catalog_id": null,
+            "notice_url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202505/t20250516_24690119.htm",
+            "source_evidence": {
+              "title": "医院医用液氧采购项目合同",
+              "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202505/t20250516_24690119.htm",
+              "published_at": "2025-05-16",
+              "captured_at": "2026-04-26T16:40:00+08:00",
+              "row_number": 9,
+              "parser_version": "official-public-collector-v1"
+            },
+            "source_row": 9,
+            "linkage_evidence": {
+              "match_mode": "exact",
+              "match_score": 100,
+              "match_reasons": [
+                "linked during procurement import"
+              ],
+              "candidate_budget_project_ids": [
+                "57e8c8b3-ba81-4d24-ab56-a7a70c551cf7"
+              ],
+              "linkage_confidence": 100,
+              "candidate_matches": [
+                {
+                  "record_type": "budget_project",
+                  "record_id": "57e8c8b3-ba81-4d24-ab56-a7a70c551cf7",
+                  "confidence": 100,
+                  "match_reasons": [
+                    "linked during procurement import"
+                  ]
+                }
+              ],
+              "unmatched_reason": null
+            }
+          }
+        ],
+        "contracts": [
+          {
+            "id": "9a9b232c-b65d-48ac-ab2c-3c57b66252fa",
+            "procurement_project_id": "cf503f63-47ea-4700-bb8a-d8fb827dd595",
+            "contract_no": null,
+            "contract_published_at": null,
+            "acceptance_summary": null,
+            "acceptance_status": null,
+            "contract_amount": "0.0294",
+            "supplier_id": "a5976fd4-3dc6-4548-bf33-3047073fb7f1",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "source_document_id": null,
+            "writeback_status": null,
+            "writeback_ref": null,
+            "reconciliation_status": null
+          },
+          {
+            "id": "145754e0-a8a2-4a6f-b04b-273389106d96",
+            "procurement_project_id": "116daa21-edd4-4e59-aa37-830cf41aa056",
+            "contract_no": null,
+            "contract_published_at": null,
+            "acceptance_summary": null,
+            "acceptance_status": null,
+            "contract_amount": "1045.73",
+            "supplier_id": "b4049671-6d9d-42ab-9ea4-1a2f5768b976",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "source_document_id": null,
+            "writeback_status": null,
+            "writeback_ref": null,
+            "reconciliation_status": null
+          },
+          {
+            "id": "b7d61cb7-bafe-4301-a00f-72c4c3416f4f",
+            "procurement_project_id": "1de0b69b-46ea-4e02-9e13-b4967ccd3761",
+            "contract_no": null,
+            "contract_published_at": null,
+            "acceptance_summary": null,
+            "acceptance_status": null,
+            "contract_amount": "5.279718",
+            "supplier_id": "4b07c586-b473-4f3a-b693-817c530e4911",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "source_document_id": null,
+            "writeback_status": null,
+            "writeback_ref": null,
+            "reconciliation_status": null
+          },
+          {
+            "id": "8d7a9756-98ce-4e6c-a098-6776e44adecb",
+            "procurement_project_id": "dd8d3cdf-4ad6-4c58-a92b-5c4218a3d994",
+            "contract_no": null,
+            "contract_published_at": null,
+            "acceptance_summary": null,
+            "acceptance_status": null,
+            "contract_amount": "0.0105",
+            "supplier_id": "b5882110-d3be-4d8f-9a66-89ccd9316074",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "source_document_id": null,
+            "writeback_status": null,
+            "writeback_ref": null,
+            "reconciliation_status": null
+          },
+          {
+            "id": "a54f1f13-f056-4ecf-ab06-04567adb4db8",
+            "procurement_project_id": "8389cd2e-ed23-4139-adc5-89e93caa5c38",
+            "contract_no": "JSZC-320612-SSJT-G2025-0014001-HT",
+            "contract_published_at": "2025-05-22",
+            "acceptance_summary": null,
+            "acceptance_status": null,
+            "contract_amount": "135.8",
+            "supplier_id": "eb8bdedd-639d-4cd6-92dc-d71dd80c857c",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "source_document_id": null,
+            "writeback_status": null,
+            "writeback_ref": null,
+            "reconciliation_status": null
+          },
+          {
+            "id": "163f2985-9881-4648-81c9-211f4f2bd937",
+            "procurement_project_id": "3e73e412-bb8c-41b4-af99-aa8928d29c38",
+            "contract_no": "JSZC-321300-HZJS-D2025-0010001-HT",
+            "contract_published_at": "2025-08-13",
+            "acceptance_summary": null,
+            "acceptance_status": null,
+            "contract_amount": "1180.28",
+            "supplier_id": "6bd34349-b11b-4460-a389-b568d4cc67cc",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "source_document_id": null,
+            "writeback_status": null,
+            "writeback_ref": null,
+            "reconciliation_status": null
+          },
+          {
+            "id": "1f253791-37db-4d37-a17e-7400bd5ce2cb",
+            "procurement_project_id": "79fab3b8-72dd-41d3-b6e7-ff9a23c4cf37",
+            "contract_no": "JSZC-320000-JSHY-C2025-0088001-HT",
+            "contract_published_at": "2025-05-16",
+            "acceptance_summary": null,
+            "acceptance_status": null,
+            "contract_amount": "114",
+            "supplier_id": "a5276314-bd1c-4f7a-bf67-81e596b0204a",
+            "funding_source_id": null,
+            "account_classification_id": null,
+            "source_document_id": null,
+            "writeback_status": null,
+            "writeback_ref": null,
+            "reconciliation_status": null
+          }
+        ],
+        "budget_units": [
+          {
+            "id": "974fb891-472d-49f1-aa47-99e6ae45f0dd",
+            "code": null,
+            "name": "南通市自然资源和规划局",
+            "region": "江苏省南通市"
+          },
+          {
+            "id": "1a0c37c7-2826-4935-87ef-e6b1132b1d72",
+            "code": null,
+            "name": "常熟市住房和城乡建设局",
+            "region": "江苏省苏州市常熟市"
+          },
+          {
+            "id": "00fbb6b3-2668-405c-9dce-3b250a060a9f",
+            "code": null,
+            "name": "江苏省常州环境监测中心",
+            "region": "江苏省常州市"
+          },
+          {
+            "id": "ac730637-87d0-4ec8-8c2c-e0afcb8b4e94",
+            "code": null,
+            "name": "江苏省农业科学院",
+            "region": "江苏省"
+          },
+          {
+            "id": "175d10ce-11cf-4908-bdf8-ecbd0d3e93b7",
+            "code": null,
+            "name": "南通市通州区公安局（本级）",
+            "region": "江苏省南通市通州区"
+          },
+          {
+            "id": "e3f05d91-2395-449e-8399-e7ae240b70bd",
+            "code": null,
+            "name": "江苏省政府采购中心",
+            "region": "江苏省南京市"
+          },
+          {
+            "id": "3027e829-8746-44fb-969b-37a42071565c",
+            "code": null,
+            "name": "江苏省农业科学院种质资源与生物技术研究所",
+            "region": "江苏省"
+          },
+          {
+            "id": "dd4bd888-c6b8-4666-b0fd-644876b28cc3",
+            "code": null,
+            "name": "江苏省通州监狱",
+            "region": "江苏省南通市通州区"
+          },
+          {
+            "id": "c82a7592-df72-465b-8cd7-8b96223c6e6a",
+            "code": null,
+            "name": "宿迁市大数据管理局",
+            "region": "江苏省宿迁市"
+          }
+        ],
+        "budget_projects": [
+          {
+            "id": "0af5fe82-ad7b-441f-ac4b-c0d9bc04cb6d",
+            "budget_unit_id": "974fb891-472d-49f1-aa47-99e6ae45f0dd",
+            "name": "南通市海洋生态保护修复项目互花米草治理遥感监测",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          },
+          {
+            "id": "7b22d0dd-3191-4f76-9d6b-bf82c82adcf9",
+            "budget_unit_id": "ac730637-87d0-4ec8-8c2c-e0afcb8b4e94",
+            "name": "江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          },
+          {
+            "id": "e1b9f4ea-ae5c-40cf-ad3e-dc9b99baeb10",
+            "budget_unit_id": "e3f05d91-2395-449e-8399-e7ae240b70bd",
+            "name": "2025-2026年度江苏省省级、南京市及各区印刷服务框架协议采购",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          },
+          {
+            "id": "df9e5b6c-6469-45ca-ae95-ab0a56285444",
+            "budget_unit_id": "1a0c37c7-2826-4935-87ef-e6b1132b1d72",
+            "name": "常熟市城市生命线安全工程风险评估与管控应用",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          },
+          {
+            "id": "92f72d62-622a-45ef-92fa-e1c955d102b1",
+            "budget_unit_id": "3027e829-8746-44fb-969b-37a42071565c",
+            "name": "国家作物种质资源综合基因库仪器设备采购",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          },
+          {
+            "id": "1c484f02-30ab-42ff-93b7-4234369bfdae",
+            "budget_unit_id": "00fbb6b3-2668-405c-9dce-3b250a060a9f",
+            "name": "2025年度第三方检测服务项目",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          },
+          {
+            "id": "63888f73-e864-440b-8e15-2bf0a6333424",
+            "budget_unit_id": "175d10ce-11cf-4908-bdf8-ecbd0d3e93b7",
+            "name": "2025年度南通通州区社会治安监控系统（雪亮技防工程）维保项目",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          },
+          {
+            "id": "84874a4a-dd9b-4fb4-ae6d-a16ea72c2405",
+            "budget_unit_id": "c82a7592-df72-465b-8cd7-8b96223c6e6a",
+            "name": "宿迁市市级政务云服务采购项目",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          },
+          {
+            "id": "57e8c8b3-ba81-4d24-ab56-a7a70c551cf7",
+            "budget_unit_id": "dd4bd888-c6b8-4666-b0fd-644876b28cc3",
+            "name": "医院医用液氧采购项目",
+            "project_catalog_id": null,
+            "indicator_document_no": null,
+            "funding_source_id": null
+          }
+        ],
+        "suppliers": [
+          {
+            "id": "b5882110-d3be-4d8f-9a66-89ccd9316074",
+            "name": "分包中标供应商"
+          },
+          {
+            "id": "4b07c586-b473-4f3a-b693-817c530e4911",
+            "name": "框架协议入围供应商"
+          },
+          {
+            "id": "a5276314-bd1c-4f7a-bf67-81e596b0204a",
+            "name": "江苏盱眙龙虾产业发展股份有限公司"
+          },
+          {
+            "id": "b4049671-6d9d-42ab-9ea4-1a2f5768b976",
+            "name": "南京苏美达仪器设备有限公司等"
+          },
+          {
+            "id": "a5976fd4-3dc6-4548-bf33-3047073fb7f1",
+            "name": "北京飞马航遥科技有限公司"
+          },
+          {
+            "id": "eb8bdedd-639d-4cd6-92dc-d71dd80c857c",
+            "name": "中电鸿信信息科技有限公司"
+          },
+          {
+            "id": "6bd34349-b11b-4460-a389-b568d4cc67cc",
+            "name": "中国移动通信集团江苏有限公司宿迁分公司"
+          }
+        ],
+        "funding_sources": [],
+        "account_classifications": [],
+        "source_documents": [
+          {
+            "id": "4f937a50-2b3f-4086-917a-4613eda11bd4",
+            "document_type": "procurement_notice",
+            "title": "南通市海洋生态保护修复项目互花米草治理遥感监测",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202510/t20251010_25498889.htm",
+            "captured_at": "2025-10-10"
+          },
+          {
+            "id": "744d28f0-212f-48e5-97ce-16a72c13b97d",
+            "document_type": "procurement_notice",
+            "title": "江苏省农业科学院2025年南京国家农作物品种测试评价站仪器设备采购",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202511/t20251125_25761259.htm",
+            "captured_at": "2025-11-25"
+          },
+          {
+            "id": "87af5854-6277-4100-b59b-bedf3a36b604",
+            "document_type": "procurement_notice",
+            "title": "2025-2026年度江苏省省级、南京市及各区印刷服务框架协议采购",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202508/t20250813_25119997.htm",
+            "captured_at": "2025-08-13"
+          },
+          {
+            "id": "b045876a-28cb-42c4-8cc4-3b6af1a87a0d",
+            "document_type": "procurement_notice",
+            "title": "常熟市城市生命线安全工程风险评估与管控应用",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202506/t20250611_24810237.htm",
+            "captured_at": "2025-06-11"
+          },
+          {
+            "id": "566d63cc-8106-4981-8c98-8d50193595a1",
+            "document_type": "procurement_notice",
+            "title": "国家作物种质资源综合基因库仪器设备采购",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202501/t20250121_24118163.htm",
+            "captured_at": "2025-01-21"
+          },
+          {
+            "id": "ac205815-2272-4e9d-987b-31454d58b8f5",
+            "document_type": "procurement_notice",
+            "title": "2025年度第三方检测服务项目",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202512/t20251216_25912635.htm",
+            "captured_at": "2025-12-16"
+          },
+          {
+            "id": "50f02827-923e-452d-8321-f1fb18880459",
+            "document_type": "procurement_notice",
+            "title": "2025年度南通通州区社会治安监控系统（雪亮技防工程）维保项目",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202505/t20250522_24721043.htm",
+            "captured_at": "2025-05-22"
+          },
+          {
+            "id": "6c14424c-f331-4da6-97c9-dd4bf013a6f8",
+            "document_type": "procurement_notice",
+            "title": "宿迁市市级政务云服务采购项目",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202508/t20250813_25119890.htm",
+            "captured_at": "2025-08-13"
+          },
+          {
+            "id": "0250f809-07e5-4cac-8df9-1f05645faba1",
+            "document_type": "procurement_notice",
+            "title": "医院医用液氧采购项目",
+            "url": "https://www.ccgp.gov.cn/cggg/dfgg/htgg/202505/t20250516_24690119.htm",
+            "captured_at": "2025-05-16"
+          }
+        ],
+        "quality_report": {
+          "total_rows": 9,
+          "accepted_rows": 9,
+          "rejected_rows": 0,
+          "checks": [
+            {
+              "code": "missing_budget_amount",
+              "severity": "warning",
+              "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+              "field": "budget_amount",
+              "row_number": 1
+            },
+            {
+              "code": "missing_budget_amount",
+              "severity": "warning",
+              "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+              "field": "budget_amount",
+              "row_number": 2
+            },
+            {
+              "code": "missing_budget_amount",
+              "severity": "warning",
+              "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+              "field": "budget_amount",
+              "row_number": 3
+            },
+            {
+              "code": "missing_budget_amount",
+              "severity": "warning",
+              "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+              "field": "budget_amount",
+              "row_number": 6
+            }
+          ]
+        },
+        "applicable_rule_sets": [
+          "procurement_rules"
+        ]
+      }
+    },
+    "budget_linkage_summary": {
+      "exact_linked_procurement_projects": 0,
+      "evidence_auto_linked_procurement_projects": 0,
+      "candidate_procurement_projects": 0,
+      "unlinked_procurement_projects": 0,
+      "ambiguous_matches": 0
+    },
+    "contract_linkage_summary": {
+      "linked_contracts": 0,
+      "missing_contracts": 0,
+      "closed_contract_chains": 0,
+      "open_contract_chains": 0,
+      "writeback_pending": 0
+    },
+    "payment_linkage_summary": {
+      "linked_payments": 0,
+      "unmatched_payments": 0,
+      "paid_without_ledger": 0,
+      "ledger_without_payment": 0,
+      "amount_gap": ""
+    },
+    "ledger_linkage_summary": {
+      "linked_entries": 0,
+      "unbalanced_entries": 0,
+      "duplicate_entries": 0,
+      "timing_exceptions": 0,
+      "manual_review_required": 0
+    },
+    "created_by": "c1f19662-b4fe-44ca-8785-172e4ac4395b",
+    "created_at": "2026-04-26 17:52:48",
+    "updated_at": "2026-04-26 17:52:48"
+  },
+  "budget": [
+    {
+      "id": "fc58f7b5-11cb-43fd-9058-5263944b560f",
+      "tenant_id": "812f0ebf-166c-46b3-97b8-166808499f4c",
+      "organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+      "task_kind": "budget_summary",
+      "title": "正式公开实例：江苏财政预算与南通教育支出",
+      "source_kind": "batch",
+      "status": "completed",
+      "risk_level": "Medium",
+      "primary_subject": "江苏省",
+      "findings": [
+        {
+          "id": "BUDGET-PUBLIC-TREND-001-82e54a1d-824f-454c-8ddf-57ede94bcce4",
+          "rule_code": "BUDGET-PUBLIC-TREND-001",
+          "rule_name": "公开财政/统计指标异常波动",
+          "rule_category": "公开数据轻量规则",
+          "risk_level": "Medium",
+          "summary": "南通市级教育支出 同比变动 16%",
+          "audit_rationale": "公开数据出现较大同比波动，只作为 PoC 线索，不直接形成违规结论。",
+          "recommended_action": "补充部门预算指标、决算明细、采购合同和支付凭证后复核口径差异。",
+          "evidence_summary": "地区 Some(\"江苏省南通市\") / 期间 2025-06 / 来源 Some(\"https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html\")",
+          "severity_reason": "public-data-lightweight-rule",
+          "missing_evidence": [],
+          "recommended_next_data": [
+            "部门预算指标",
+            "决算公开明细",
+            "采购合同",
+            "支付凭证"
+          ],
+          "finding_status": "open",
+          "assignee": null,
+          "disposition_note": null,
+          "disposition_priority": null,
+          "disposition_outcome": null,
+          "remediation_due_at": null,
+          "reminder_flag": false,
+          "disposed_at": null
+        }
+      ],
+      "detail": {
+        "kind": "budget_summary",
+        "payload": {
+          "dataset_kind": "public_fiscal_summary",
+          "rows_preview": [
+            {
+              "id": "edf54030-b081-4ee2-8ad1-6d5aeb468a95",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "一般公共预算",
+              "direction": "收入",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "全省一般公共预算收入",
+              "budget_amount": null,
+              "actual_amount": "10038.16",
+              "previous_period_amount": null,
+              "yoy_rate": "1.1",
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 1,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 1
+            },
+            {
+              "id": "f561481b-fb14-41d1-90bb-8cc4043e8541",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "一般公共预算",
+              "direction": "收入",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "税收收入",
+              "budget_amount": null,
+              "actual_amount": "7642.03",
+              "previous_period_amount": null,
+              "yoy_rate": "-1.1",
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 2,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 2
+            },
+            {
+              "id": "de77ae59-a1c8-4ad2-b4dd-12de974bbabc",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "一般公共预算",
+              "direction": "收入",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "非税收入",
+              "budget_amount": null,
+              "actual_amount": "2396.13",
+              "previous_period_amount": null,
+              "yoy_rate": "8.8",
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 3,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 3
+            },
+            {
+              "id": "39ad0111-9bba-4f18-84d5-93ed56238392",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "一般公共预算",
+              "direction": "支出",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "全省一般公共预算支出",
+              "budget_amount": null,
+              "actual_amount": "15293.91",
+              "previous_period_amount": null,
+              "yoy_rate": "2.3",
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 4,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 4
+            },
+            {
+              "id": "6b0950eb-d569-423d-895c-84d8e6b11bcf",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "政府性基金预算",
+              "direction": "收入",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "政府性基金收入",
+              "budget_amount": null,
+              "actual_amount": "8097.43",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 5,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 5
+            },
+            {
+              "id": "1235663c-5264-46c0-9bec-8b8ffa0c4a5f",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "政府性基金预算",
+              "direction": "支出",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "政府性基金支出",
+              "budget_amount": null,
+              "actual_amount": "9332.24",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 6,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 6
+            },
+            {
+              "id": "8fadfed9-83ae-4c0c-a557-3e48a73c5f2f",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "国有资本经营预算",
+              "direction": "收入",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "国有资本经营预算收入",
+              "budget_amount": null,
+              "actual_amount": "492.97",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 7,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 7
+            },
+            {
+              "id": "b55efc34-60a0-408c-afb6-9bd19cfa7049",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "国有资本经营预算",
+              "direction": "支出",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "国有资本经营预算支出",
+              "budget_amount": null,
+              "actual_amount": "149.52",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 8,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 8
+            },
+            {
+              "id": "79ee95c2-c41e-4022-86d1-431003bbf81c",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "社会保险基金预算",
+              "direction": "收入",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "社会保险基金收入",
+              "budget_amount": null,
+              "actual_amount": "9098.65",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 9,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 9
+            },
+            {
+              "id": "371926e7-87d2-4f95-8dec-1b0fc0d1d942",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "社会保险基金预算",
+              "direction": "支出",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "社会保险基金支出",
+              "budget_amount": null,
+              "actual_amount": "8364.76",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 10,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 10
+            },
+            {
+              "id": "0de0e7bf-f516-4285-8e3d-53879021d79c",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "政府债务",
+              "direction": "余额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "地方政府债务余额",
+              "budget_amount": null,
+              "actual_amount": "28227.61",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 11,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 11
+            },
+            {
+              "id": "980f2212-3975-4aed-95b4-d8c124fc1e55",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "政府采购",
+              "direction": "规模",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "政府采购规模",
+              "budget_amount": null,
+              "actual_amount": "1888.55",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 12,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 12
+            },
+            {
+              "id": "efc58526-33f7-42df-b69a-d224d3923017",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "政府采购",
+              "direction": "合同金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "授予中小企业合同金额",
+              "budget_amount": null,
+              "actual_amount": "1407.66",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 13,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 13
+            },
+            {
+              "id": "b0d18b9a-757b-4193-9ef0-0c708f2cdb80",
+              "period": "2025-06",
+              "region": "江苏省南通市",
+              "budget_scope": "教育支出",
+              "direction": "支出",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "南通全市教育支出",
+              "budget_amount": null,
+              "actual_amount": "194.3",
+              "previous_period_amount": null,
+              "yoy_rate": "1.7",
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省南通市",
+                "normalized_region_code": null,
+                "display_name": "江苏省南通市"
+              },
+              "source_evidence": {
+                "title": "1.7%！",
+                "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html",
+                "published_at": "2025-08-05",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 14,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 14
+            },
+            {
+              "id": "119ce6d2-0f8e-41c0-9244-5acb5d3a29c2",
+              "period": "2025-06",
+              "region": "江苏省南通市",
+              "budget_scope": "教育支出",
+              "direction": "支出",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "南通市级教育支出",
+              "budget_amount": null,
+              "actual_amount": "27.7",
+              "previous_period_amount": null,
+              "yoy_rate": "16",
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省南通市",
+                "normalized_region_code": null,
+                "display_name": "江苏省南通市"
+              },
+              "source_evidence": {
+                "title": "1.7%！",
+                "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html",
+                "published_at": "2025-08-05",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 15,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 15
+            }
+          ],
+          "quality_report": {
+            "total_rows": 15,
+            "accepted_rows": 15,
+            "rejected_rows": 0,
+            "checks": []
+          },
+          "applicable_rule_sets": [
+            "budget_rules",
+            "public_fiscal_light_rules"
+          ],
+          "trend_points": [
+            {
+              "period": "2024-12",
+              "budget_scope": "一般公共预算",
+              "direction": "支出",
+              "budget_amount": null,
+              "actual_amount": "15293.91"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "一般公共预算",
+              "direction": "收入",
+              "budget_amount": null,
+              "actual_amount": "20076.32"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "国有资本经营预算",
+              "direction": "支出",
+              "budget_amount": null,
+              "actual_amount": "149.52"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "国有资本经营预算",
+              "direction": "收入",
+              "budget_amount": null,
+              "actual_amount": "492.97"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "政府债务",
+              "direction": "余额",
+              "budget_amount": null,
+              "actual_amount": "28227.61"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "政府性基金预算",
+              "direction": "支出",
+              "budget_amount": null,
+              "actual_amount": "9332.24"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "政府性基金预算",
+              "direction": "收入",
+              "budget_amount": null,
+              "actual_amount": "8097.43"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "政府采购",
+              "direction": "合同金额",
+              "budget_amount": null,
+              "actual_amount": "1407.66"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "政府采购",
+              "direction": "规模",
+              "budget_amount": null,
+              "actual_amount": "1888.55"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "社会保险基金预算",
+              "direction": "支出",
+              "budget_amount": null,
+              "actual_amount": "8364.76"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "社会保险基金预算",
+              "direction": "收入",
+              "budget_amount": null,
+              "actual_amount": "9098.65"
+            },
+            {
+              "period": "2025-06",
+              "budget_scope": "教育支出",
+              "direction": "支出",
+              "budget_amount": null,
+              "actual_amount": "222"
+            }
+          ],
+          "classification_breakdown": [
+            {
+              "dimension": "summary_item",
+              "key": "政府性基金支出",
+              "label": "政府性基金支出",
+              "amount": "9332.24"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "社会保险基金收入",
+              "label": "社会保险基金收入",
+              "amount": "9098.65"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "社会保险基金支出",
+              "label": "社会保险基金支出",
+              "amount": "8364.76"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "政府性基金收入",
+              "label": "政府性基金收入",
+              "amount": "8097.43"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "税收收入",
+              "label": "税收收入",
+              "amount": "7642.03"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "国有资本经营预算收入",
+              "label": "国有资本经营预算收入",
+              "amount": "492.97"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "地方政府债务余额",
+              "label": "地方政府债务余额",
+              "amount": "28227.61"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "南通市级教育支出",
+              "label": "南通市级教育支出",
+              "amount": "27.7"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "非税收入",
+              "label": "非税收入",
+              "amount": "2396.13"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "南通全市教育支出",
+              "label": "南通全市教育支出",
+              "amount": "194.3"
+            }
+          ],
+          "variance_highlights": [
+            {
+              "rule_code": "BUDGET-TREND-001",
+              "label": "同比变化",
+              "subject": "非税收入",
+              "metric_value": "8.8",
+              "risk_level": "Low"
+            },
+            {
+              "rule_code": "BUDGET-TREND-001",
+              "label": "同比变化",
+              "subject": "全省一般公共预算支出",
+              "metric_value": "2.3",
+              "risk_level": "Low"
+            },
+            {
+              "rule_code": "BUDGET-TREND-001",
+              "label": "同比变化",
+              "subject": "南通市级教育支出",
+              "metric_value": "16",
+              "risk_level": "Low"
+            },
+            {
+              "rule_code": "BUDGET-TREND-001",
+              "label": "同比变化",
+              "subject": "南通全市教育支出",
+              "metric_value": "1.7",
+              "risk_level": "Low"
+            },
+            {
+              "rule_code": "BUDGET-TREND-001",
+              "label": "同比变化",
+              "subject": "全省一般公共预算收入",
+              "metric_value": "1.1",
+              "risk_level": "Low"
+            },
+            {
+              "rule_code": "BUDGET-TREND-001",
+              "label": "同比变化",
+              "subject": "税收收入",
+              "metric_value": "-1.1",
+              "risk_level": "Low"
+            }
+          ],
+          "linkage_summary": {
+            "exact_linked_procurement_projects": 0,
+            "evidence_auto_linked_procurement_projects": 0,
+            "candidate_procurement_projects": 0,
+            "unlinked_procurement_projects": 0,
+            "ambiguous_matches": 0
+          }
+        }
+      },
+      "budget_linkage_summary": {
+        "exact_linked_procurement_projects": 0,
+        "evidence_auto_linked_procurement_projects": 0,
+        "candidate_procurement_projects": 0,
+        "unlinked_procurement_projects": 0,
+        "ambiguous_matches": 0
+      },
+      "contract_linkage_summary": {
+        "linked_contracts": 0,
+        "missing_contracts": 0,
+        "closed_contract_chains": 0,
+        "open_contract_chains": 0,
+        "writeback_pending": 0
+      },
+      "payment_linkage_summary": {
+        "linked_payments": 0,
+        "unmatched_payments": 0,
+        "paid_without_ledger": 0,
+        "ledger_without_payment": 0,
+        "amount_gap": ""
+      },
+      "ledger_linkage_summary": {
+        "linked_entries": 0,
+        "unbalanced_entries": 0,
+        "duplicate_entries": 0,
+        "timing_exceptions": 0,
+        "manual_review_required": 0
+      },
+      "created_by": "c1f19662-b4fe-44ca-8785-172e4ac4395b",
+      "created_at": "2026-04-26 17:52:48",
+      "updated_at": "2026-04-26 17:52:48"
+    },
+    {
+      "id": "314ef467-caf0-4bf3-a415-72935968996e",
+      "tenant_id": "812f0ebf-166c-46b3-97b8-166808499f4c",
+      "organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+      "task_kind": "budget_summary",
+      "title": "正式公开实例：江苏公开统计指标",
+      "source_kind": "batch",
+      "status": "completed",
+      "risk_level": "Low",
+      "primary_subject": "江苏省",
+      "findings": [],
+      "detail": {
+        "kind": "budget_summary",
+        "payload": {
+          "dataset_kind": "public_statistical_indicator",
+          "rows_preview": [
+            {
+              "id": "1f1198b4-0427-438f-afde-38af0f84151f",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "财政统计指标",
+              "direction": "增长率",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "一般公共预算收入增长率",
+              "budget_amount": null,
+              "actual_amount": "1.1",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 16,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 16
+            },
+            {
+              "id": "4f7a8660-c0cd-4917-ba64-c0bf8c18bb73",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "财政统计指标",
+              "direction": "完成率",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "一般公共预算收入完成预算比",
+              "budget_amount": null,
+              "actual_amount": "100.4",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 17,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 17
+            },
+            {
+              "id": "bcd1c4e0-22f6-4f69-aab2-d57b06c9e4a4",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "财政统计指标",
+              "direction": "完成率",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "一般公共预算支出完成预算比",
+              "budget_amount": null,
+              "actual_amount": "97.9",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 18,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 18
+            },
+            {
+              "id": "f5fa7c6b-217a-4a4e-94e9-36b0af5138ad",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "政府采购统计指标",
+              "direction": "占比",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "授予中小企业合同金额占政府采购规模比",
+              "budget_amount": null,
+              "actual_amount": "74.54",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "2024年江苏省预算执行情况与2025年江苏省预算草案",
+                "url": "https://czt.jiangsu.gov.cn/attach/-1/2502051636560060382.pdf",
+                "published_at": "2025-01-22",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 19,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 19
+            },
+            {
+              "id": "f19e3d85-8058-4894-8fd6-0a0ebeba13e1",
+              "period": "2025-06",
+              "region": "江苏省南通市",
+              "budget_scope": "教育支出统计指标",
+              "direction": "增长率",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "南通全市教育支出增速",
+              "budget_amount": null,
+              "actual_amount": "1.7",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省南通市",
+                "normalized_region_code": null,
+                "display_name": "江苏省南通市"
+              },
+              "source_evidence": {
+                "title": "1.7%！",
+                "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html",
+                "published_at": "2025-08-05",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 20,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 20
+            },
+            {
+              "id": "d5666cba-5d15-40ae-864e-710306bb9c98",
+              "period": "2025-06",
+              "region": "江苏省南通市",
+              "budget_scope": "教育支出统计指标",
+              "direction": "增长率",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "南通市级教育支出增速",
+              "budget_amount": null,
+              "actual_amount": "16",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省南通市",
+                "normalized_region_code": null,
+                "display_name": "江苏省南通市"
+              },
+              "source_evidence": {
+                "title": "1.7%！",
+                "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html",
+                "published_at": "2025-08-05",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 21,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 21
+            },
+            {
+              "id": "b4a28ecd-ccdd-48a8-899b-1b280bea3561",
+              "period": "2025-06",
+              "region": "江苏省南通市",
+              "budget_scope": "教育基建统计指标",
+              "direction": "安排金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "支持21所学校新改扩建安排资金",
+              "budget_amount": null,
+              "actual_amount": "7.22",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省南通市",
+                "normalized_region_code": null,
+                "display_name": "江苏省南通市"
+              },
+              "source_evidence": {
+                "title": "1.7%！",
+                "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html",
+                "published_at": "2025-08-05",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 22,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 22
+            },
+            {
+              "id": "347202e2-a862-47b4-afed-15506fbbdc01",
+              "period": "2025-06",
+              "region": "江苏省南通市",
+              "budget_scope": "教育基建统计指标",
+              "direction": "安排金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "地方政府专项债支持学校项目",
+              "budget_amount": null,
+              "actual_amount": "1.5",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省南通市",
+                "normalized_region_code": null,
+                "display_name": "江苏省南通市"
+              },
+              "source_evidence": {
+                "title": "1.7%！",
+                "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html",
+                "published_at": "2025-08-05",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 23,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 23
+            },
+            {
+              "id": "ac209f71-2fb8-4c86-be6c-c4db4f4f7e38",
+              "period": "2025-06",
+              "region": "江苏省南通市",
+              "budget_scope": "教育基建统计指标",
+              "direction": "安排金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "超长期特别国债学生宿舍安全改造资金",
+              "budget_amount": null,
+              "actual_amount": "0.035",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省南通市",
+                "normalized_region_code": null,
+                "display_name": "江苏省南通市"
+              },
+              "source_evidence": {
+                "title": "1.7%！",
+                "url": "https://czj.nantong.gov.cn/ntsczj/bmdt/content/fa875b30-5b3a-41e1-81df-f834947bbf53.html",
+                "published_at": "2025-08-05",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 24,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 24
+            }
+          ],
+          "quality_report": {
+            "total_rows": 9,
+            "accepted_rows": 9,
+            "rejected_rows": 0,
+            "checks": []
+          },
+          "applicable_rule_sets": [
+            "budget_rules",
+            "public_fiscal_light_rules"
+          ],
+          "trend_points": [
+            {
+              "period": "2024-12",
+              "budget_scope": "政府采购统计指标",
+              "direction": "占比",
+              "budget_amount": null,
+              "actual_amount": "74.54"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "财政统计指标",
+              "direction": "增长率",
+              "budget_amount": null,
+              "actual_amount": "1.1"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "财政统计指标",
+              "direction": "完成率",
+              "budget_amount": null,
+              "actual_amount": "198.3"
+            },
+            {
+              "period": "2025-06",
+              "budget_scope": "教育基建统计指标",
+              "direction": "安排金额",
+              "budget_amount": null,
+              "actual_amount": "8.755"
+            },
+            {
+              "period": "2025-06",
+              "budget_scope": "教育支出统计指标",
+              "direction": "增长率",
+              "budget_amount": null,
+              "actual_amount": "17.7"
+            }
+          ],
+          "classification_breakdown": [
+            {
+              "dimension": "summary_item",
+              "key": "一般公共预算支出完成预算比",
+              "label": "一般公共预算支出完成预算比",
+              "amount": "97.9"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "授予中小企业合同金额占政府采购规模比",
+              "label": "授予中小企业合同金额占政府采购规模比",
+              "amount": "74.54"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "支持21所学校新改扩建安排资金",
+              "label": "支持21所学校新改扩建安排资金",
+              "amount": "7.22"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "南通市级教育支出增速",
+              "label": "南通市级教育支出增速",
+              "amount": "16"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "一般公共预算收入完成预算比",
+              "label": "一般公共预算收入完成预算比",
+              "amount": "100.4"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "南通全市教育支出增速",
+              "label": "南通全市教育支出增速",
+              "amount": "1.7"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "地方政府专项债支持学校项目",
+              "label": "地方政府专项债支持学校项目",
+              "amount": "1.5"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "一般公共预算收入增长率",
+              "label": "一般公共预算收入增长率",
+              "amount": "1.1"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "超长期特别国债学生宿舍安全改造资金",
+              "label": "超长期特别国债学生宿舍安全改造资金",
+              "amount": "0.035"
+            }
+          ],
+          "variance_highlights": [],
+          "linkage_summary": {
+            "exact_linked_procurement_projects": 0,
+            "evidence_auto_linked_procurement_projects": 0,
+            "candidate_procurement_projects": 0,
+            "unlinked_procurement_projects": 0,
+            "ambiguous_matches": 0
+          }
+        }
+      },
+      "budget_linkage_summary": {
+        "exact_linked_procurement_projects": 0,
+        "evidence_auto_linked_procurement_projects": 0,
+        "candidate_procurement_projects": 0,
+        "unlinked_procurement_projects": 0,
+        "ambiguous_matches": 0
+      },
+      "contract_linkage_summary": {
+        "linked_contracts": 0,
+        "missing_contracts": 0,
+        "closed_contract_chains": 0,
+        "open_contract_chains": 0,
+        "writeback_pending": 0
+      },
+      "payment_linkage_summary": {
+        "linked_payments": 0,
+        "unmatched_payments": 0,
+        "paid_without_ledger": 0,
+        "ledger_without_payment": 0,
+        "amount_gap": ""
+      },
+      "ledger_linkage_summary": {
+        "linked_entries": 0,
+        "unbalanced_entries": 0,
+        "duplicate_entries": 0,
+        "timing_exceptions": 0,
+        "manual_review_required": 0
+      },
+      "created_by": "c1f19662-b4fe-44ca-8785-172e4ac4395b",
+      "created_at": "2026-04-26 17:52:48",
+      "updated_at": "2026-04-26 17:52:48"
+    },
+    {
+      "id": "a6b89e07-5de2-457f-9da3-9725afd3c136",
+      "tenant_id": "812f0ebf-166c-46b3-97b8-166808499f4c",
+      "organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+      "task_kind": "budget_summary",
+      "title": "正式公开实例：江苏审计投资与采购问题摘要",
+      "source_kind": "batch",
+      "status": "completed",
+      "risk_level": "Low",
+      "primary_subject": "江苏省",
+      "findings": [],
+      "detail": {
+        "kind": "budget_summary",
+        "payload": {
+          "dataset_kind": "investment_review_summary",
+          "rows_preview": [
+            {
+              "id": "d010cca5-9e1b-48b3-9ee8-be42ac5ab138",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "预算编制审计",
+              "direction": "问题金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "35家部门单位少编预算",
+              "budget_amount": null,
+              "actual_amount": "14.6",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+                "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+                "published_at": "2025-07-30",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 25,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 25
+            },
+            {
+              "id": "628d9837-3782-4d61-b4d3-48fc5fdfef7c",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "基金收益审计",
+              "direction": "闲置未上缴金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "PPP融资支持基金收益长期闲置未上缴财政",
+              "budget_amount": null,
+              "actual_amount": "1.11",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+                "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+                "published_at": "2025-07-30",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 26,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 26
+            },
+            {
+              "id": "4a562cc2-356c-401e-8819-3c3499080763",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "项目绩效审计",
+              "direction": "项目数量",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "上年执行率低于70%仍全额安排同类项目",
+              "budget_amount": null,
+              "actual_amount": "36",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+                "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+                "published_at": "2025-07-30",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 27,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 27
+            },
+            {
+              "id": "a0e67e8d-333b-4a86-9f03-7e3edc8dc25a",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "政府采购审计",
+              "direction": "问题金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "使用上年度预算采购项目资金未按规定采用政府采购方式",
+              "budget_amount": null,
+              "actual_amount": "0.204751",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+                "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+                "published_at": "2025-07-30",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 28,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 28
+            },
+            {
+              "id": "4fca1d99-4b47-45fe-8af5-5c22e4c472c2",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "招投标审计",
+              "direction": "问题金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "涉嫌围标串标招投标项目资金",
+              "budget_amount": null,
+              "actual_amount": "0.253377",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+                "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+                "published_at": "2025-07-30",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 29,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 29
+            },
+            {
+              "id": "85bca3fc-53f2-40ef-af83-9ca6e908c5d9",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "信息化项目审计",
+              "direction": "未报批金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "信息化改造项目未按要求报批",
+              "budget_amount": null,
+              "actual_amount": "0.325927",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+                "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+                "published_at": "2025-07-30",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 30,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 30
+            },
+            {
+              "id": "2c3007a6-38b1-43a3-a30b-3aadfb307f5c",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "政府采购审计",
+              "direction": "规避公开招标金额",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "项目设计任务拆分规避公开招标",
+              "budget_amount": null,
+              "actual_amount": "0.016386",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+                "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+                "published_at": "2025-07-30",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 31,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 31
+            },
+            {
+              "id": "983f5eef-7ff7-47e5-b061-022b62a62aff",
+              "period": "2024-12",
+              "region": "江苏省",
+              "budget_scope": "重大投资审计",
+              "direction": "资本金缺口",
+              "budget_unit_id": null,
+              "budget_project_id": null,
+              "funding_source_id": null,
+              "account_classification_id": null,
+              "budget_unit_name": null,
+              "budget_unit_code": null,
+              "budget_project_name": null,
+              "project_catalog_id": null,
+              "indicator_document_no": null,
+              "funding_source_name": null,
+              "function_classification_code": null,
+              "function_classification_name": null,
+              "economic_classification_code": null,
+              "economic_classification_name": null,
+              "summary_item": "常泰长江大桥资本金未到位",
+              "budget_amount": null,
+              "actual_amount": "14.4",
+              "previous_period_amount": null,
+              "yoy_rate": null,
+              "normalized_region": {
+                "province": "江苏省",
+                "city": null,
+                "county": "江苏省",
+                "normalized_region_code": null,
+                "display_name": "江苏省"
+              },
+              "source_evidence": {
+                "title": "江苏省2024年度省级预算执行和其他财政收支审计工作报告",
+                "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=b10800a1d927439da69969b8269cbfed.pdf",
+                "published_at": "2025-07-30",
+                "captured_at": "2026-04-26T16:40:00+08:00",
+                "row_number": 32,
+                "parser_version": "official-public-collector-v1"
+              },
+              "source_row": 32
+            }
+          ],
+          "quality_report": {
+            "total_rows": 8,
+            "accepted_rows": 8,
+            "rejected_rows": 0,
+            "checks": []
+          },
+          "applicable_rule_sets": [
+            "budget_rules",
+            "public_fiscal_light_rules"
+          ],
+          "trend_points": [
+            {
+              "period": "2024-12",
+              "budget_scope": "信息化项目审计",
+              "direction": "未报批金额",
+              "budget_amount": null,
+              "actual_amount": "0.325927"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "基金收益审计",
+              "direction": "闲置未上缴金额",
+              "budget_amount": null,
+              "actual_amount": "1.11"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "招投标审计",
+              "direction": "问题金额",
+              "budget_amount": null,
+              "actual_amount": "0.253377"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "政府采购审计",
+              "direction": "规避公开招标金额",
+              "budget_amount": null,
+              "actual_amount": "0.016386"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "政府采购审计",
+              "direction": "问题金额",
+              "budget_amount": null,
+              "actual_amount": "0.204751"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "重大投资审计",
+              "direction": "资本金缺口",
+              "budget_amount": null,
+              "actual_amount": "14.4"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "项目绩效审计",
+              "direction": "项目数量",
+              "budget_amount": null,
+              "actual_amount": "36"
+            },
+            {
+              "period": "2024-12",
+              "budget_scope": "预算编制审计",
+              "direction": "问题金额",
+              "budget_amount": null,
+              "actual_amount": "14.6"
+            }
+          ],
+          "classification_breakdown": [
+            {
+              "dimension": "summary_item",
+              "key": "上年执行率低于70%仍全额安排同类项目",
+              "label": "上年执行率低于70%仍全额安排同类项目",
+              "amount": "36"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "35家部门单位少编预算",
+              "label": "35家部门单位少编预算",
+              "amount": "14.6"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "常泰长江大桥资本金未到位",
+              "label": "常泰长江大桥资本金未到位",
+              "amount": "14.4"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "PPP融资支持基金收益长期闲置未上缴财政",
+              "label": "PPP融资支持基金收益长期闲置未上缴财政",
+              "amount": "1.11"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "信息化改造项目未按要求报批",
+              "label": "信息化改造项目未按要求报批",
+              "amount": "0.325927"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "涉嫌围标串标招投标项目资金",
+              "label": "涉嫌围标串标招投标项目资金",
+              "amount": "0.253377"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "使用上年度预算采购项目资金未按规定采用政府采购方式",
+              "label": "使用上年度预算采购项目资金未按规定采用政府采购方式",
+              "amount": "0.204751"
+            },
+            {
+              "dimension": "summary_item",
+              "key": "项目设计任务拆分规避公开招标",
+              "label": "项目设计任务拆分规避公开招标",
+              "amount": "0.016386"
+            }
+          ],
+          "variance_highlights": [],
+          "linkage_summary": {
+            "exact_linked_procurement_projects": 0,
+            "evidence_auto_linked_procurement_projects": 0,
+            "candidate_procurement_projects": 0,
+            "unlinked_procurement_projects": 0,
+            "ambiguous_matches": 0
+          }
+        }
+      },
+      "budget_linkage_summary": {
+        "exact_linked_procurement_projects": 0,
+        "evidence_auto_linked_procurement_projects": 0,
+        "candidate_procurement_projects": 0,
+        "unlinked_procurement_projects": 0,
+        "ambiguous_matches": 0
+      },
+      "contract_linkage_summary": {
+        "linked_contracts": 0,
+        "missing_contracts": 0,
+        "closed_contract_chains": 0,
+        "open_contract_chains": 0,
+        "writeback_pending": 0
+      },
+      "payment_linkage_summary": {
+        "linked_payments": 0,
+        "unmatched_payments": 0,
+        "paid_without_ledger": 0,
+        "ledger_without_payment": 0,
+        "amount_gap": ""
+      },
+      "ledger_linkage_summary": {
+        "linked_entries": 0,
+        "unbalanced_entries": 0,
+        "duplicate_entries": 0,
+        "timing_exceptions": 0,
+        "manual_review_required": 0
+      },
+      "created_by": "c1f19662-b4fe-44ca-8785-172e4ac4395b",
+      "created_at": "2026-04-26 17:52:48",
+      "updated_at": "2026-04-26 17:52:48"
+    }
+  ],
+  "case_seeds": {
+    "imported": 8,
+    "cases": [
+      {
+        "id": "3bde0cfd-60c2-41f9-ad11-b173d6b05b06",
+        "case_no": "CASE-20260426-a5bbef00",
+        "task_id": "case-seed:batch:f9350a13-0ad4-43c4-a30d-6044de336be7",
+        "exception_id": "case-seed:江苏省审计厅公开审计工作报告:2024:JS-AUDIT-2024-001:江苏省2024年度省级预算执行审计工作报告",
+        "exception_source": "case_seed",
+        "task_kind": "supervision_case_seed",
+        "rule_domain": "supervision",
+        "risk_level": "Medium",
+        "exception_code": "预算编制核查",
+        "exception_title": "部门单位少编预算问题",
+        "exception_summary": "因未统筹编制实有资金年初预算等原因，存在少编预算问题，需要补充部门预算底表和实有资金台账。; document no: 江苏省2024年度省级预算执行审计工作报告",
+        "owner_organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+        "visibility_scope": "rectification_unit",
+        "priority": "P3",
+        "case_status": "open",
+        "current_stage": "New",
+        "current_handler_user_id": null,
+        "current_handler_display_name": null,
+        "source_department": "江苏省审计厅",
+        "target_department": "35家省级部门单位",
+        "rectification_unit_name": "35家省级部门单位",
+        "disposition_outcome": null,
+        "disposition_note": "因未统筹编制实有资金年初预算等原因，存在少编预算问题，需要补充部门预算底表和实有资金台账。",
+        "accepted_at": "2026-04-26 17:52:48",
+        "first_assigned_at": null,
+        "first_response_at": null,
+        "submitted_for_review_at": null,
+        "sla_due_at": null,
+        "remediation_due_at": null,
+        "closed_at": null,
+        "overdue_days": 0,
+        "reminder_count": 0,
+        "escalation_count": 0,
+        "notification_summary": {
+          "total_deliveries": 0,
+          "reminder_deliveries": 0,
+          "escalation_deliveries": 0,
+          "unread_deliveries": 0
+        },
+        "extension_status": null,
+        "created_at": "2026-04-26 17:52:48",
+        "updated_at": "2026-04-26 17:52:48"
+      },
+      {
+        "id": "10883a02-42cc-4a09-b88b-3f87b2e55cab",
+        "case_no": "CASE-20260426-b8be4f5d",
+        "task_id": "case-seed:batch:f9350a13-0ad4-43c4-a30d-6044de336be7",
+        "exception_id": "case-seed:江苏省审计厅公开审计工作报告:2024:JS-AUDIT-2024-002:江苏省2024年度省级预算执行审计工作报告",
+        "exception_source": "case_seed",
+        "task_kind": "supervision_case_seed",
+        "rule_domain": "supervision",
+        "risk_level": "Medium",
+        "exception_code": "财政资金沉淀核查",
+        "exception_title": "PPP融资支持基金收益闲置未上缴",
+        "exception_summary": "基金收益长期闲置未上缴财政，需要补充基金账户流水、收益分配和上缴凭证。; document no: 江苏省2024年度省级预算执行审计工作报告",
+        "owner_organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+        "visibility_scope": "rectification_unit",
+        "priority": "P3",
+        "case_status": "open",
+        "current_stage": "New",
+        "current_handler_user_id": null,
+        "current_handler_display_name": null,
+        "source_department": "江苏省审计厅",
+        "target_department": "PPP融资支持基金相关子基金",
+        "rectification_unit_name": "PPP融资支持基金相关子基金",
+        "disposition_outcome": null,
+        "disposition_note": "基金收益长期闲置未上缴财政，需要补充基金账户流水、收益分配和上缴凭证。",
+        "accepted_at": "2026-04-26 17:52:48",
+        "first_assigned_at": null,
+        "first_response_at": null,
+        "submitted_for_review_at": null,
+        "sla_due_at": null,
+        "remediation_due_at": null,
+        "closed_at": null,
+        "overdue_days": 0,
+        "reminder_count": 0,
+        "escalation_count": 0,
+        "notification_summary": {
+          "total_deliveries": 0,
+          "reminder_deliveries": 0,
+          "escalation_deliveries": 0,
+          "unread_deliveries": 0
+        },
+        "extension_status": null,
+        "created_at": "2026-04-26 17:52:48",
+        "updated_at": "2026-04-26 17:52:48"
+      },
+      {
+        "id": "1dea8f3d-9789-4375-afac-807fd6710c6b",
+        "case_no": "CASE-20260426-244415a7",
+        "task_id": "case-seed:batch:f9350a13-0ad4-43c4-a30d-6044de336be7",
+        "exception_id": "case-seed:江苏省审计厅公开审计工作报告:2024:JS-AUDIT-2024-003:江苏省2024年度省级预算执行审计工作报告",
+        "exception_source": "case_seed",
+        "task_kind": "supervision_case_seed",
+        "rule_domain": "supervision",
+        "risk_level": "Medium",
+        "exception_code": "预算绩效核查",
+        "exception_title": "运转类项目低执行率仍安排同类项目",
+        "exception_summary": "上年执行率低于70%仍全额安排同类项目，需要补充项目绩效目标、执行进度和调整审批。; document no: 江苏省2024年度省级预算执行审计工作报告",
+        "owner_organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+        "visibility_scope": "rectification_unit",
+        "priority": "P3",
+        "case_status": "open",
+        "current_stage": "New",
+        "current_handler_user_id": null,
+        "current_handler_display_name": null,
+        "source_department": "江苏省审计厅",
+        "target_department": "相关省级部门单位",
+        "rectification_unit_name": "相关省级部门单位",
+        "disposition_outcome": null,
+        "disposition_note": "上年执行率低于70%仍全额安排同类项目，需要补充项目绩效目标、执行进度和调整审批。",
+        "accepted_at": "2026-04-26 17:52:48",
+        "first_assigned_at": null,
+        "first_response_at": null,
+        "submitted_for_review_at": null,
+        "sla_due_at": null,
+        "remediation_due_at": null,
+        "closed_at": null,
+        "overdue_days": 0,
+        "reminder_count": 0,
+        "escalation_count": 0,
+        "notification_summary": {
+          "total_deliveries": 0,
+          "reminder_deliveries": 0,
+          "escalation_deliveries": 0,
+          "unread_deliveries": 0
+        },
+        "extension_status": null,
+        "created_at": "2026-04-26 17:52:48",
+        "updated_at": "2026-04-26 17:52:48"
+      },
+      {
+        "id": "6bf2cd41-eb1d-424e-b3a3-f39daa87f90e",
+        "case_no": "CASE-20260426-1cedb31a",
+        "task_id": "case-seed:batch:f9350a13-0ad4-43c4-a30d-6044de336be7",
+        "exception_id": "case-seed:江苏省审计厅公开审计工作报告:2024:JS-AUDIT-2024-004:江苏省2024年度省级预算执行审计工作报告",
+        "exception_source": "case_seed",
+        "task_kind": "supervision_case_seed",
+        "rule_domain": "supervision",
+        "risk_level": "Medium",
+        "exception_code": "政府采购核查",
+        "exception_title": "上年度预算采购项目资金未按规定采用政府采购方式",
+        "exception_summary": "采购资金使用方式存在程序风险，需要补充采购计划、审批、合同和支付记录。; document no: 江苏省2024年度省级预算执行审计工作报告",
+        "owner_organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+        "visibility_scope": "rectification_unit",
+        "priority": "P3",
+        "case_status": "open",
+        "current_stage": "New",
+        "current_handler_user_id": null,
+        "current_handler_display_name": null,
+        "source_department": "江苏省审计厅",
+        "target_department": "7家部门单位",
+        "rectification_unit_name": "7家部门单位",
+        "disposition_outcome": null,
+        "disposition_note": "采购资金使用方式存在程序风险，需要补充采购计划、审批、合同和支付记录。",
+        "accepted_at": "2026-04-26 17:52:48",
+        "first_assigned_at": null,
+        "first_response_at": null,
+        "submitted_for_review_at": null,
+        "sla_due_at": null,
+        "remediation_due_at": null,
+        "closed_at": null,
+        "overdue_days": 0,
+        "reminder_count": 0,
+        "escalation_count": 0,
+        "notification_summary": {
+          "total_deliveries": 0,
+          "reminder_deliveries": 0,
+          "escalation_deliveries": 0,
+          "unread_deliveries": 0
+        },
+        "extension_status": null,
+        "created_at": "2026-04-26 17:52:48",
+        "updated_at": "2026-04-26 17:52:48"
+      },
+      {
+        "id": "30e97f7b-84a5-4615-ab33-b79dceee38fb",
+        "case_no": "CASE-20260426-74624e68",
+        "task_id": "case-seed:batch:f9350a13-0ad4-43c4-a30d-6044de336be7",
+        "exception_id": "case-seed:江苏省审计厅公开审计工作报告:2024:JS-AUDIT-2024-005:江苏省2024年度省级预算执行审计工作报告",
+        "exception_source": "case_seed",
+        "task_kind": "supervision_case_seed",
+        "rule_domain": "supervision",
+        "risk_level": "Medium",
+        "exception_code": "招投标专项核查",
+        "exception_title": "协会与企业涉嫌围标串标项目",
+        "exception_summary": "招投标项目存在围标串标线索，需要补充投标文件、评审记录、供应商关联关系和资金流。; document no: 江苏省2024年度省级预算执行审计工作报告",
+        "owner_organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+        "visibility_scope": "rectification_unit",
+        "priority": "P3",
+        "case_status": "open",
+        "current_stage": "New",
+        "current_handler_user_id": null,
+        "current_handler_display_name": null,
+        "source_department": "江苏省审计厅",
+        "target_department": "某协会及相关企业",
+        "rectification_unit_name": "某协会及相关企业",
+        "disposition_outcome": null,
+        "disposition_note": "招投标项目存在围标串标线索，需要补充投标文件、评审记录、供应商关联关系和资金流。",
+        "accepted_at": "2026-04-26 17:52:48",
+        "first_assigned_at": null,
+        "first_response_at": null,
+        "submitted_for_review_at": null,
+        "sla_due_at": null,
+        "remediation_due_at": null,
+        "closed_at": null,
+        "overdue_days": 0,
+        "reminder_count": 0,
+        "escalation_count": 0,
+        "notification_summary": {
+          "total_deliveries": 0,
+          "reminder_deliveries": 0,
+          "escalation_deliveries": 0,
+          "unread_deliveries": 0
+        },
+        "extension_status": null,
+        "created_at": "2026-04-26 17:52:48",
+        "updated_at": "2026-04-26 17:52:48"
+      },
+      {
+        "id": "552c0ae9-ef29-4477-b751-095186f82166",
+        "case_no": "CASE-20260426-3618aff1",
+        "task_id": "case-seed:batch:f9350a13-0ad4-43c4-a30d-6044de336be7",
+        "exception_id": "case-seed:江苏省审计厅公开审计工作报告:2024:JS-AUDIT-2024-006:江苏省2024年度省级预算执行审计工作报告",
+        "exception_source": "case_seed",
+        "task_kind": "supervision_case_seed",
+        "rule_domain": "supervision",
+        "risk_level": "Medium",
+        "exception_code": "信息化项目核查",
+        "exception_title": "信息化改造项目未按要求报批",
+        "exception_summary": "信息化改造项目未按要求报批，需要补充立项审批、合同、验收和支付资料。; document no: 江苏省2024年度省级预算执行审计工作报告",
+        "owner_organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+        "visibility_scope": "rectification_unit",
+        "priority": "P3",
+        "case_status": "open",
+        "current_stage": "New",
+        "current_handler_user_id": null,
+        "current_handler_display_name": null,
+        "source_department": "江苏省审计厅",
+        "target_department": "相关企业",
+        "rectification_unit_name": "相关企业",
+        "disposition_outcome": null,
+        "disposition_note": "信息化改造项目未按要求报批，需要补充立项审批、合同、验收和支付资料。",
+        "accepted_at": "2026-04-26 17:52:48",
+        "first_assigned_at": null,
+        "first_response_at": null,
+        "submitted_for_review_at": null,
+        "sla_due_at": null,
+        "remediation_due_at": null,
+        "closed_at": null,
+        "overdue_days": 0,
+        "reminder_count": 0,
+        "escalation_count": 0,
+        "notification_summary": {
+          "total_deliveries": 0,
+          "reminder_deliveries": 0,
+          "escalation_deliveries": 0,
+          "unread_deliveries": 0
+        },
+        "extension_status": null,
+        "created_at": "2026-04-26 17:52:48",
+        "updated_at": "2026-04-26 17:52:48"
+      },
+      {
+        "id": "ef62780a-80aa-4409-ac9d-94416d6b25cf",
+        "case_no": "CASE-20260426-4cd043ea",
+        "task_id": "case-seed:batch:f9350a13-0ad4-43c4-a30d-6044de336be7",
+        "exception_id": "case-seed:江苏省审计厅公开审计工作报告:2024:JS-AUDIT-2024-007:江苏省2024年度省级预算执行审计工作报告",
+        "exception_source": "case_seed",
+        "task_kind": "supervision_case_seed",
+        "rule_domain": "supervision",
+        "risk_level": "Medium",
+        "exception_code": "拆分采购核查",
+        "exception_title": "医院项目设计任务拆分规避公开招标",
+        "exception_summary": "项目设计任务疑似拆分规避公开招标，需要补充项目立项、预算、采购需求和合同拆分依据。; document no: 江苏省2024年度省级预算执行审计工作报告",
+        "owner_organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+        "visibility_scope": "rectification_unit",
+        "priority": "P3",
+        "case_status": "open",
+        "current_stage": "New",
+        "current_handler_user_id": null,
+        "current_handler_display_name": null,
+        "source_department": "江苏省审计厅",
+        "target_department": "相关医院",
+        "rectification_unit_name": "相关医院",
+        "disposition_outcome": null,
+        "disposition_note": "项目设计任务疑似拆分规避公开招标，需要补充项目立项、预算、采购需求和合同拆分依据。",
+        "accepted_at": "2026-04-26 17:52:48",
+        "first_assigned_at": null,
+        "first_response_at": null,
+        "submitted_for_review_at": null,
+        "sla_due_at": null,
+        "remediation_due_at": null,
+        "closed_at": null,
+        "overdue_days": 0,
+        "reminder_count": 0,
+        "escalation_count": 0,
+        "notification_summary": {
+          "total_deliveries": 0,
+          "reminder_deliveries": 0,
+          "escalation_deliveries": 0,
+          "unread_deliveries": 0
+        },
+        "extension_status": null,
+        "created_at": "2026-04-26 17:52:48",
+        "updated_at": "2026-04-26 17:52:48"
+      },
+      {
+        "id": "331c79ed-ea4a-4822-b2a8-1b4bf2b837cc",
+        "case_no": "CASE-20260426-4b735924",
+        "task_id": "case-seed:batch:f9350a13-0ad4-43c4-a30d-6044de336be7",
+        "exception_id": "case-seed:江苏省审计厅公开审计工作报告:2024:JS-AUDIT-2024-008:江苏省2024年度省级预算执行审计工作报告",
+        "exception_source": "case_seed",
+        "task_kind": "supervision_case_seed",
+        "rule_domain": "supervision",
+        "risk_level": "Medium",
+        "exception_code": "重大投资资金到位核查",
+        "exception_title": "常泰长江大桥资本金未到位",
+        "exception_summary": "重大项目资本金未到位，需要补充资本金拨付、项目资金计划和银行流水。; document no: 江苏省2024年度省级预算执行审计工作报告",
+        "owner_organization_id": "6041bfb0-3ce9-4cfb-a862-45a65352b382",
+        "visibility_scope": "rectification_unit",
+        "priority": "P3",
+        "case_status": "open",
+        "current_stage": "New",
+        "current_handler_user_id": null,
+        "current_handler_display_name": null,
+        "source_department": "江苏省审计厅",
+        "target_department": "江苏交通控股有限公司",
+        "rectification_unit_name": "江苏交通控股有限公司",
+        "disposition_outcome": null,
+        "disposition_note": "重大项目资本金未到位，需要补充资本金拨付、项目资金计划和银行流水。",
+        "accepted_at": "2026-04-26 17:52:48",
+        "first_assigned_at": null,
+        "first_response_at": null,
+        "submitted_for_review_at": null,
+        "sla_due_at": null,
+        "remediation_due_at": null,
+        "closed_at": null,
+        "overdue_days": 0,
+        "reminder_count": 0,
+        "escalation_count": 0,
+        "notification_summary": {
+          "total_deliveries": 0,
+          "reminder_deliveries": 0,
+          "escalation_deliveries": 0,
+          "unread_deliveries": 0
+        },
+        "extension_status": null,
+        "created_at": "2026-04-26 17:52:48",
+        "updated_at": "2026-04-26 17:52:48"
+      }
+    ]
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "generated_at": "2026-04-26T12:04:51.045Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 36,
+  "procurement_input_records": 30,
+  "budget_input_records": 80,
+  "case_seed_input_records": 12,
+  "total_input_records": 122,
+  "procurement_accepted_records": 30,
+  "budget_accepted_records": 80,
+  "case_seed_accepted_records": 12,
+  "total_accepted_records": 122,
+  "import_success_rate": 100,
+  "quality_check_count": 22,
+  "quality_warning_count": 22,
+  "quality_error_count": 0,
+  "finding_count": 42,
+  "rule_hits_by_rule": {
+    "PROC-BUDGET-001": 22,
+    "PROC-CHAIN-001": 20
+  },
+  "source_traceable_rows": 122,
+  "source_total_rows": 122,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "award": 20,
+    "announcement": 10
+  },
+  "dataset_coverage": {
+    "public_statistical_indicator": 46,
+    "public_fiscal_summary": 29,
+    "investment_review_summary": 5
+  },
+  "risk_levels": {
+    "procurement": "High",
+    "budget": [
+      "Low",
+      "Low",
+      "Low"
+    ]
+  },
+  "top_quality_checks": [
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 1
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 3
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 5
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 6
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 7
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 9
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 15
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 16
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 17
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 18
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 19
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 20
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 21
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 22
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 23
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 24
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 25
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 26
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 27
+    },
+    {
+      "code": "missing_budget_amount",
+      "severity": "warning",
+      "message": "预算金额缺失，后续会触发“无预算不采购”规则",
+      "field": "budget_amount",
+      "row_number": 28
+    }
+  ],
+  "top_findings": [
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 连云港市第一人民医院开发区院区单室质子治疗系统采购项目 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 连云港市第一人民医院开发区院区单室质子治疗系统采购项目 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 江苏省中医院连云港医院项目医疗设备采购-第八批 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 江苏省中医院连云港医院项目医疗设备采购-第八批 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 体视显微镜及远程网络布置-单套预算 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025-2026年第三方委托检测服务 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025-2026年第三方委托检测服务 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025-2026年度常州市党政机关、事业单位及团体组织物业管理服务框架协议采购 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 连云港航标处一体化AIS航标采购项目 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 连云港航标处一体化AIS航标采购项目 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围1 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围1 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围2 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围2 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围3 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围3 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围4 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围4 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    },
+    {
+      "rule_code": "PROC-BUDGET-001",
+      "risk_level": "High",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围5 缺少预算金额",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": []
+    },
+    {
+      "rule_code": "PROC-CHAIN-001",
+      "risk_level": "Medium",
+      "summary": "项目 2025-2026年度苏州市印刷服务框架协议采购-标段一入围5 在 成交/中标公告 阶段缺少后续证据",
+      "severity_reason": "award-stage-missing-downstream-evidence",
+      "missing_evidence": [
+        "contract",
+        "acceptance"
+      ],
+      "recommended_next_data": [
+        "采购合同",
+        "履约验收信息",
+        "国库集中支付"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-26T12:04:48.973Z",
+    "captured_at": "2026-04-26T20:10:00+08:00",
+    "fetch_mode": "web_researched_snapshot",
+    "source_count": 36,
+    "parsed_source_count": 36,
+    "duplicate_source_count": 0,
+    "previous_source_overlap_count": 0,
+    "unique_source_count": 36,
+    "total_records": 122,
+    "source_success_rate": 100,
+    "locator_coverage_rate": 100,
+    "unit_normalized_records": 110,
+    "amount_semantic_types": {
+      "award_total": 3,
+      "budget_amount": 8,
+      "unit_price": 2,
+      "framework_limit": 2,
+      "discount_rate": 15
+    },
+    "framework_agreement_count": 17,
+    "framework_limit_review_count": 2,
+    "unit_price_or_rate_review_count": 2,
+    "audit_evidence_levels": {
+      "formal_audit_report": 2,
+      "rectification_progress": 3,
+      "special_audit_survey": 1,
+      "audit_work_update": 4,
+      "work_method_reference": 1,
+      "audit_result_feedback": 1
+    },
+    "audit_evidence_weights": {
+      "formal_audit_report": 90,
+      "rectification_progress": 70,
+      "special_audit_survey": 60,
+      "audit_work_update": 35,
+      "work_method_reference": 20,
+      "audit_result_feedback": 55
+    },
+    "requires_manual_verification_count": 12,
+    "third_round_source_count": 36,
+    "url_duplicate_source_count": 0,
+    "content_duplicate_source_count": 0,
+    "title_duplicate_source_count": 0,
+    "manual_review_statuses": {
+      "reviewed": 36
+    },
+    "special_fund_structured_records": 4,
+    "special_fund_structured_coverage_rate": 44.44,
+    "parser_types": {
+      "ccgp_procurement_html": 15,
+      "government_metric_html": 11,
+      "audit_report_html": 10
+    },
+    "source_types": {
+      "成交公告": 1,
+      "竞争性磋商公告": 2,
+      "中标公告": 3,
+      "框架协议入围公告": 2,
+      "公开招标公告": 5,
+      "框架协议征集公告": 1,
+      "单一来源采购公示": 1,
+      "财政预算公开制度文件": 1,
+      "专项资金下达通知": 4,
+      "政府信息公开年报": 1,
+      "市县财政动态": 1,
+      "预算执行和预算草案报告": 1,
+      "财政工作总结": 1,
+      "财政工作计划": 1,
+      "财政预算执行报告": 1,
+      "审计工作报告动态": 1,
+      "审计整改公开信息": 1,
+      "审计整改专项调查": 1,
+      "审计工作动态": 2,
+      "部门预算执行审计动态": 1,
+      "地方预算执行审计动态": 1,
+      "经济责任审计结果反馈": 1,
+      "财政预算执行审计动态": 1,
+      "审计整改工作动态": 1
+    }
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "第三批来源入库与批次复核",
+      "action": "把第三批正式来源纳入统一 source registry，并增加 discovered_by_keyword、人工复核结论、跨批次相似标题去重。",
+      "reason": "本批36个来源与前两批URL重合0个，适合固化为第五组回归基线。"
+    },
+    {
+      "priority": "P0",
+      "area": "框架协议报价语义",
+      "action": "继续把优惠率、入围限额、单价、总金额分开建模；对“50万元以下”“详见项目需求”这类限额型报价单独标记为 framework_limit。",
+      "reason": "苏州印刷框架协议给出大量优惠率，姜堰和常州物业框架协议给出限额或需求型报价，两类语义不同。"
+    },
+    {
+      "priority": "P1",
+      "area": "采购异常小金额识别",
+      "action": "对“总中标金额0.0105万元”但正文体现分标段服务和代理费的记录增加 unit_price_or_rate_review，要求人工确认是总价、单价还是费率。",
+      "reason": "常州第三方检测服务出现极小中标金额，直接进入预算金额比较会造成误判。"
+    },
+    {
+      "priority": "P1",
+      "area": "财政政策文件结构化",
+      "action": "财政专项资金下达通知应抽取文号、预算科目、资金去向、禁止用途、绩效报送期限，形成可和支付/凭证模板对接的字段。",
+      "reason": "泰州支农、种业、现代农业补助资金文件包含明确预算科目和管理要求，目前仍以摘要指标为主。"
+    },
+    {
+      "priority": "P1",
+      "area": "审计证据等级细化",
+      "action": "把正式审计报告、整改进展、专项调查、审计结果反馈会、方法经验再拆成证据权重，并在规则结果中显示“不得直接形成实质违规”的原因。",
+      "reason": "本批审计来源既有正式报告动态，也有工作方法和整改制度动态，证据强度差异明显。"
+    }
+  ],
+  "batch_name": "official_public_instances_round3"
+}

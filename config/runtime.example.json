@@ -1,0 +1,20 @@
+{
+  "environmentMode": "local",
+  "host": "127.0.0.1",
+  "port": 8080,
+  "cargoTargetDir": "./target-local",
+  "platformDataDir": "./data",
+  "useReleaseProfile": false,
+  "healthPath": "/api/health",
+  "secureCookies": false,
+  "allowPublicRegistration": false,
+  "aiEnabled": true,
+  "publicDemoMode": false,
+  "multimodalProvider": "",
+  "ocrEnabled": false,
+  "speechEnabled": false,
+  "ocrApiUrl": "",
+  "speechApiUrl": "",
+  "ocrModel": "",
+  "speechModel": ""
+}

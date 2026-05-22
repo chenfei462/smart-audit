@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-04-27T09:36:06.591Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 27,
+  "procurement_input_records": 130,
+  "budget_input_records": 50,
+  "case_seed_input_records": 24,
+  "total_input_records": 204,
+  "procurement_accepted_records": 130,
+  "budget_accepted_records": 50,
+  "case_seed_accepted_records": 24,
+  "total_accepted_records": 204,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-PERFORMANCE-CHECKLIST-001": 1,
+    "PROC-SERVICE-MAINTENANCE-ACCEPTANCE-001": 1
+  },
+  "source_traceable_rows": 204,
+  "source_total_rows": 204,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 26,
+    "award": 26,
+    "contract": 26,
+    "acceptance": 26,
+    "payment": 26
+  },
+  "dataset_coverage": {
+    "public_fiscal_summary": 50
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-SERVICE-MAINTENANCE-ACCEPTANCE-001",
+      "risk_level": "Info",
+      "summary": "Service period, maintenance, warranty and acceptance evidence are preserved for downstream chain discovery.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "acceptance standard",
+        "acceptance result locator",
+        "maintenance record",
+        "payment detail",
+        "voucher attachment"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-PERFORMANCE-CHECKLIST-001",
+      "risk_level": "Info",
+      "summary": "Fiscal performance policy rows generate next-data checklist requirements only.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "budget indicator",
+        "project performance target",
+        "quarterly performance monitoring",
+        "payment progress",
+        "voucher attachment"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T09:36:06.585Z",
+    "captured_at": "2026-04-28T09:20:00+08:00",
+    "fetch_mode": "official_public_round17_web_research_snapshot",
+    "source_count": 27,
+    "seventeenth_round_source_count": 27,
+    "parsed_source_count": 27,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 336,
+    "previous_source_overlap_count": 0,
+    "total_records": 204,
+    "procurement_records": 130,
+    "budget_records": 50,
+    "case_seed_records": 24,
+    "source_region_scopes": {
+      "jiangsu_local": 17,
+      "central_unit": 6,
+      "cross_province": 4
+    },
+    "service_period_records": 130,
+    "procurement_service_period_records": 130,
+    "maintenance_or_warranty_records": 130,
+    "acceptance_standard_records": 130,
+    "acceptance_result_locator_records": 44,
+    "payment_condition_records": 63,
+    "fiscal_performance_policy_records": 50,
+    "fiscal_policy_supplemental_coverage_rate": 100,
+    "fiscal_performance_checklist_coverage_rate": 100,
+    "fiscal_performance_metric_records": 50,
+    "audit_evidence_levels": {
+      "audit_work_update": 12,
+      "work_method_reference": 6,
+      "rectification_progress": 6
+    },
+    "audit_followup_or_review_records": 18,
+    "audit_low_weight_records": 18,
+    "finding_dispositions": {
+      "supplemental_data_only": 180,
+      "review_recommended": 12,
+      "knowledge_reference": 6,
+      "risk_candidate": 6
+    },
+    "discovery_queue_item_count": 318,
+    "discovery_queue_by_target_stage": {
+      "contract": 104,
+      "acceptance": 104,
+      "payment": 104,
+      "rectification": 6
+    },
+    "discovery_crawler_processed_count": 318,
+    "discovery_crawler_matched_count": 92,
+    "discovery_crawler_match_rate": 28.93,
+    "discovery_crawler_statuses": {
+      "manual_review": 160,
+      "matched": 92,
+      "not_found": 66
+    },
+    "crawler_chain_scored_count": 318,
+    "crawler_not_found_explained_count": 226,
+    "source_completeness_rate": 100,
+    "locator_coverage_rate": 100,
+    "report_topics": [
+      "service_period_maintenance_acceptance_evidence"
+    ]
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "service period maintenance and acceptance evidence",
+      "action": "Keep service_period, maintenance_period, warranty_period, acceptance_standard and acceptance_result_locator separate from payment terms in import, chain closure and reports.",
+      "reason": "Round 17 official procurement sources expose service and warranty clauses that are downstream evidence requirements rather than payment conditions."
+    },
+    {
+      "priority": "P0",
+      "area": "fiscal performance checklist granularity",
+      "action": "Report budget indicator, project performance target, quarterly monitoring, payment progress and voucher attachment coverage separately.",
+      "reason": "Fiscal performance policies describe follow-up evidence needed for internal sample trials, not standalone violations."
+    },
+    {
+      "priority": "P1",
+      "area": "crawler chain scoring",
+      "action": "Use project code, package number, supplier, service period and acceptance clauses to score contract, acceptance and payment candidates.",
+      "reason": "URL and title matching alone leaves too many not_found or manual_review queue items."
+    }
+  ],
+  "batch_name": "official_public_instances_round17",
+  "round17_acceptance_baseline": 120,
+  "report_topics": [
+    "service_period_maintenance_acceptance_evidence"
+  ]
+}

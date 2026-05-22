@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53" />
+      <stop offset="100%" stop-color="#1F7A6D" />
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)" />
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">项目已完成可演示的财政监督闭环</text>
+    <text x="56" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">重点不是单点算法，而是覆盖角色、数据、规则、报告、整改和运维配置的工作台主流程</text>
+  </g>
+  <g id="capability-access">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M64,146 H408 A8,8 0 0 1 416,154 V280 A8,8 0 0 1 408,288 H64 A8,8 0 0 1 56,280 V154 A8,8 0 0 1 64,146 Z" />
+    <path fill="#EAF2F0" d="M86,168 H112 A8,8 0 0 1 120,176 V202 A8,8 0 0 1 112,210 H86 A8,8 0 0 1 78,202 V176 A8,8 0 0 1 86,168 Z" />
+    
+  <g transform="translate(87.0, 177.0)" fill="none" stroke="#1F7A6D" stroke-width="2">
+    <path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+  </g>
+    <text x="142" y="193" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">角色与权限</text>
+    <text x="142" y="222" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">admin / auditor / viewer</text>
+    <text x="78" y="257" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">多角色登录、租户隔离和权限差异已经能支撑现场演示。</text>
+  </g>
+  <g id="capability-data">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M468,146 H812 A8,8 0 0 1 820,154 V280 A8,8 0 0 1 812,288 H468 A8,8 0 0 1 460,280 V154 A8,8 0 0 1 468,146 Z" />
+    <path fill="#EAF2F0" d="M490,168 H516 A8,8 0 0 1 524,176 V202 A8,8 0 0 1 516,210 H490 A8,8 0 0 1 482,202 V176 A8,8 0 0 1 490,168 Z" />
+    
+  <g transform="translate(491.0, 177.0)" fill="none" stroke="#1F7A6D" stroke-width="2">
+    <path d="M4 6c0 1.657 3.582 3 8 3s8 -1.343 8 -3s-3.582 -3 -8 -3s-8 1.343 -8 3" />
+    <path d="M4 6v6c0 1.657 3.582 3 8 3c.856 0 1.68 -.05 2.454 -.144m5.546 -2.856v-6" />
+    <path d="M4 12v6c0 1.657 3.582 3 8 3c.171 0 .341 -.002 .51 -.006" />
+    <path d="M19 22v-6" />
+    <path d="M22 19l-3 -3l-3 3" />
+  </g>
+    <text x="546" y="193" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">多源数据导入</text>
+    <text x="546" y="222" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">预算 / 采购 / 支付 / 凭证</text>
+    <text x="482" y="257" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">样板任务可导入多类财政数据，并进入统一任务视图。</text>
+  </g>
+  <g id="capability-rule">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M872,146 H1216 A8,8 0 0 1 1224,154 V280 A8,8 0 0 1 1216,288 H872 A8,8 0 0 1 864,280 V154 A8,8 0 0 1 872,146 Z" />
+    <path fill="#EAF2F0" d="M894,168 H920 A8,8 0 0 1 928,176 V202 A8,8 0 0 1 920,210 H894 A8,8 0 0 1 886,202 V176 A8,8 0 0 1 894,168 Z" />
+    
+  <g transform="translate(895.0, 177.0)" fill="none" stroke="#1F7A6D" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="950" y="193" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">规则识别</text>
+    <text x="950" y="222" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">财政风险与证据关联</text>
+    <text x="886" y="257" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">规则命中、证据摘要和 AI 辅助解释开关已经打通。</text>
+  </g>
+  <g id="capability-report">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M64,328 H408 A8,8 0 0 1 416,336 V462 A8,8 0 0 1 408,470 H64 A8,8 0 0 1 56,462 V336 A8,8 0 0 1 64,328 Z" />
+    <path fill="#EAF2F0" d="M86,350 H112 A8,8 0 0 1 120,358 V384 A8,8 0 0 1 112,392 H86 A8,8 0 0 1 78,384 V358 A8,8 0 0 1 86,350 Z" />
+    
+  <g transform="translate(87.0, 359.0)" fill="none" stroke="#F59E0B" stroke-width="2">
+    <path d="M13 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+    <path d="M17 13v4h4" />
+    <path d="M12 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M11.5 21h-6.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v2m0 3v4" />
+  </g>
+    <text x="142" y="375" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">报告与密封导出</text>
+    <text x="142" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">PDF / ZIP / manifest 校验</text>
+    <text x="78" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">标准报告和密封包均可生成，并支持校验交付完整性。</text>
+  </g>
+  <g id="capability-rectification">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M468,328 H812 A8,8 0 0 1 820,336 V462 A8,8 0 0 1 812,470 H468 A8,8 0 0 1 460,462 V336 A8,8 0 0 1 468,328 Z" />
+    <path fill="#EAF2F0" d="M490,350 H516 A8,8 0 0 1 524,358 V384 A8,8 0 0 1 516,392 H490 A8,8 0 0 1 482,384 V358 A8,8 0 0 1 490,350 Z" />
+    
+  <g transform="translate(491.0, 359.0)" fill="none" stroke="#F59E0B" stroke-width="2">
+    <path d="M9.615 20h-2.615a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8" />
+    <path d="M14 19l2 2l4 -4" />
+    <path d="M9 8h4" />
+    <path d="M9 12h2" />
+  </g>
+    <text x="546" y="375" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">整改闭环</text>
+    <text x="546" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">异常池 / 案件 / 状态更新</text>
+    <text x="482" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">风险发现后可以进入整改流转，保留状态和处理痕迹。</text>
+  </g>
+  <g id="capability-ops">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M872,328 H1216 A8,8 0 0 1 1224,336 V462 A8,8 0 0 1 1216,470 H872 A8,8 0 0 1 864,462 V336 A8,8 0 0 1 872,328 Z" />
+    <path fill="#EAF2F0" d="M894,350 H920 A8,8 0 0 1 928,358 V384 A8,8 0 0 1 920,392 H894 A8,8 0 0 1 886,384 V358 A8,8 0 0 1 894,350 Z" />
+    
+  <g transform="translate(895.0, 359.0)" fill="none" stroke="#0B3A53" stroke-width="2">
+    <path d="M12.003 21c-.732 .001 -1.465 -.438 -1.678 -1.317a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c.886 .215 1.325 .957 1.318 1.694" />
+    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+    <path d="M17.001 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M19.001 15.5v1.5" />
+    <path d="M19.001 21v1.5" />
+    <path d="M22.032 17.25l-1.299 .75" />
+    <path d="M17.27 20l-1.3 .75" />
+    <path d="M15.97 17.25l1.3 .75" />
+    <path d="M20.733 20l1.3 .75" />
+  </g>
+    <text x="950" y="375" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">部署与运维基线</text>
+    <text x="950" y="404" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#64748B">Public / PoC profile</text>
+    <text x="886" y="439" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1E293B">配置切换、健康检查、备份恢复和归档脚本已有基础。</text>
+  </g>
+  <g id="conclusion-band">
+    <path fill="#0B3A53" d="M64,526 H1216 A8,8 0 0 1 1224,534 V614 A8,8 0 0 1 1216,622 H64 A8,8 0 0 1 56,614 V534 A8,8 0 0 1 64,526 Z" />
+    
+  <g transform="translate(82.0, 552.0) scale(1.5)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="136" y="578" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">阶段性结论</text>
+    <text x="136" y="612" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#FFFFFF">当前系统已经可以围绕一个财政监督样板任务完成“进入、识别、复核、导出、整改、留痕”的主线演示。</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: README.md, docs/STATUS.md, docs/GOVERNMENT_POC_PACKAGE.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">03 / 08</text>
+  </g>
+</svg>

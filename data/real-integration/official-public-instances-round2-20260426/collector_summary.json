@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-26T11:00:21.608Z",
+  "captured_at": "2026-04-26T18:30:00+08:00",
+  "fetch_mode": "researched_snapshot",
+  "source_count": 21,
+  "parsed_source_count": 21,
+  "failed_source_count": 0,
+  "network_failure_count": 0,
+  "source_success_rate": 100,
+  "total_records": 118,
+  "unit_normalized_records": 96,
+  "locator_coverage_rate": 100,
+  "parser_types": {
+    "ccgp_procurement_html": 9,
+    "fiscal_report_pdf": 2,
+    "government_metric_html": 5,
+    "audit_report_html": 5
+  },
+  "download_methods": {
+    "web_researched_snapshot": 21
+  },
+  "previous_source_overlap_count": 0,
+  "framework_agreement_count": 22,
+  "amount_semantic_types": {
+    "budget_amount": 2,
+    "award_total": 17,
+    "framework_quote": 12,
+    "discount_rate": 10
+  },
+  "audit_evidence_levels": {
+    "rectification_progress": 5,
+    "formal_audit_report": 1,
+    "audit_work_update": 2
+  },
+  "requires_manual_verification_count": 8
+}

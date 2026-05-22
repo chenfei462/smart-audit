@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-04-27T02:39:01.075Z",
+  "captured_at": "2026-04-27T10:10:00+08:00",
+  "fetch_mode": "official_web_research_round8_snapshot",
+  "source_count": 14,
+  "eighth_round_source_count": 14,
+  "official_web_research_source_count": 14,
+  "parsed_source_count": 14,
+  "failed_source_count": 0,
+  "previous_registry_source_count": 115,
+  "previous_source_overlap_count": 0,
+  "total_records": 88,
+  "procurement_records": 50,
+  "budget_records": 26,
+  "case_seed_records": 12,
+  "cross_region_procurement_records": 41,
+  "hubei_procurement_records": 16,
+  "pdf_performance_records": 10,
+  "locator_coverage_rate": 100,
+  "missing_source_locator_count": 0,
+  "unit_normalized_records": 76,
+  "amount_semantic_types": {
+    "discount_rate": 4,
+    "award_total": 37,
+    "framework_limit": 5,
+    "unit_price": 4
+  },
+  "framework_agreement_count": 13,
+  "framework_limit_review_count": 5,
+  "unit_price_or_rate_review_count": 8,
+  "procurement_chain_group_count": 40,
+  "procurement_chain_closed_group_count": 0,
+  "procurement_chain_missing_contract_count": 30,
+  "procurement_chain_missing_acceptance_count": 30,
+  "procurement_chain_missing_payment_count": 30,
+  "discovery_queue_item_count": 102,
+  "discovery_queue_by_target_stage": {
+    "contract": 30,
+    "acceptance": 30,
+    "payment": 30,
+    "rectification": 12
+  },
+  "special_fund_structured_records": 26,
+  "special_fund_structured_coverage_rate": 100,
+  "audit_evidence_levels": {
+    "rectification_progress": 2,
+    "special_audit_survey": 2,
+    "work_method_reference": 2,
+    "formal_audit_report": 2,
+    "audit_work_update": 2,
+    "audit_result_feedback": 2
+  },
+  "audit_evidence_weights": {
+    "20": 2,
+    "35": 2,
+    "55": 2,
+    "60": 2,
+    "70": 2,
+    "90": 2
+  },
+  "requires_manual_verification_count": 12,
+  "finding_dispositions": {
+    "review_recommended": 6,
+    "knowledge_reference": 4,
+    "risk_candidate": 2
+  },
+  "source_completeness_rate": 100
+}

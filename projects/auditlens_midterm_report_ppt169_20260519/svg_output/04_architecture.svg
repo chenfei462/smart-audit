@@ -1,0 +1,61 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3A53"/>
+      <stop offset="100%" stop-color="#1F7A6D"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+    <rect x="0" y="0" width="1280" height="14" fill="url(#topGrad)"/>
+  </g>
+  <g id="header">
+    <text x="56" y="70" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="700" fill="#0B3A53">架构围绕工作台、服务层、规则与数据层展开</text>
+    <text x="56" y="105" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#64748B">目标是让财政监督任务从演示环境平滑走向单租户 PoC 交付</text>
+  </g>
+  <g id="architecture-layers">
+    <rect x="56" y="148" width="720" height="96" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="56" y="148" width="10" height="96" rx="5" fill="#1F7A6D"/>
+    <use data-icon="tabler-outline/presentation" x="88" y="174" width="30" height="30" fill="#1F7A6D" stroke-width="2"/>
+    <text x="136" y="184" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">前端工作台</text>
+    <text x="136" y="216" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">任务列表、审计详情、案件整改、异常池、管理后台、公开线索入口</text>
+    <rect x="56" y="266" width="720" height="96" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="56" y="266" width="10" height="96" rx="5" fill="#0B3A53"/>
+    <use data-icon="tabler-outline/server-cog" x="88" y="292" width="30" height="30" fill="#0B3A53" stroke-width="2"/>
+    <text x="136" y="302" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">服务与 API 层</text>
+    <text x="136" y="334" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">认证权限、任务创建、AI 策略、报告导出、密封包生成与验证</text>
+    <rect x="56" y="384" width="720" height="96" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="56" y="384" width="10" height="96" rx="5" fill="#F59E0B"/>
+    <use data-icon="tabler-outline/database-import" x="88" y="410" width="30" height="30" fill="#F59E0B" stroke-width="2"/>
+    <text x="136" y="420" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">规则与数据层</text>
+    <text x="136" y="452" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">CSV / Excel 解析、SQLite 状态库、财政规则、预算采购证据联动</text>
+    <rect x="56" y="502" width="720" height="96" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="56" y="502" width="10" height="96" rx="5" fill="#C2410C"/>
+    <use data-icon="tabler-outline/lock-check" x="88" y="528" width="30" height="30" fill="#C2410C" stroke-width="2"/>
+    <text x="136" y="538" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="700" fill="#1E293B">运维配置层</text>
+    <text x="136" y="570" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#64748B">runtime profile、健康检查、备份恢复、审计归档与 PoC 安全基线</text>
+  </g>
+  <g id="deployment-panel">
+    <rect x="828" y="148" width="396" height="220" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="860" y="185" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E293B">部署策略</text>
+    <rect x="860" y="216" width="144" height="48" rx="8" fill="#EAF2F0" stroke="#1F7A6D"/>
+    <text x="932" y="247" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#1F7A6D">公网样板</text>
+    <rect x="1048" y="216" width="144" height="48" rx="8" fill="#EAF2F0" stroke="#0B3A53"/>
+    <text x="1120" y="247" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#0B3A53">政府 PoC</text>
+    <text x="860" y="302" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#64748B">
+      <tspan x="860" dy="0">先用公开样板证明主流程，再用 PoC profile</tspan>
+      <tspan x="860" dy="25">收敛权限、数据源、日志和导出边界。</tspan>
+    </text>
+  </g>
+  <g id="architecture-placeholder">
+    <rect x="828" y="398" width="396" height="200" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="860" y="430" width="332" height="126" rx="8" fill="none" stroke="#1F7A6D" stroke-width="2" stroke-dasharray="8,4"/>
+    <use data-icon="tabler-outline/photo" x="1008" y="466" width="48" height="48" fill="#1F7A6D" stroke-width="2"/>
+    <text x="1026" y="538" text-anchor="middle" font-family="SimHei, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700" fill="#64748B">架构图 / 部署截图占位</text>
+    <text x="1026" y="578" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">后续可替换为实际部署拓扑截图</text>
+  </g>
+  <g id="footer">
+    <text x="56" y="690" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#94A3B8">Source: docs/architecture.md, docs/DEPLOYMENT.md, docs/API.md</text>
+    <text x="1224" y="690" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="11" fill="#94A3B8">04 / 08</text>
+  </g>
+</svg>

@@ -1,0 +1,1439 @@
+{
+  "summary": {
+    "total_items": 20,
+    "processed_count": 20,
+    "matched_count": 0,
+    "not_found_count": 0,
+    "parse_failed_count": 20,
+    "manual_review_count": 0,
+    "match_rate": 0,
+    "by_status": {
+      "parse_failed": 20
+    },
+    "by_target_stage": {
+      "payment": 7,
+      "acceptance": 5,
+      "contract": 8
+    },
+    "crawler_provider": "ccgp_main_search,jiangsu_ccgp_search,national_ggzy_search",
+    "provider_count": 3,
+    "provider_attempt_count": 60,
+    "by_provider": {
+      "ccgp_main_search": {
+        "provider_id": "ccgp_main_search",
+        "name": "China Government Procurement Network search",
+        "attempted_count": 20,
+        "matched_count": 0,
+        "not_found_count": 0,
+        "parse_failed_count": 20,
+        "manual_review_count": 0,
+        "hit_rate": 0
+      },
+      "jiangsu_ccgp_search": {
+        "provider_id": "jiangsu_ccgp_search",
+        "name": "Jiangsu Government Procurement Network search",
+        "attempted_count": 20,
+        "matched_count": 0,
+        "not_found_count": 0,
+        "parse_failed_count": 20,
+        "manual_review_count": 0,
+        "hit_rate": 0
+      },
+      "national_ggzy_search": {
+        "provider_id": "national_ggzy_search",
+        "name": "National Public Resource Trading Platform search",
+        "attempted_count": 20,
+        "matched_count": 0,
+        "not_found_count": 0,
+        "parse_failed_count": 20,
+        "manual_review_count": 0,
+        "hit_rate": 0
+      }
+    },
+    "sample_mode": true,
+    "sample_size": 20,
+    "sample_seed": "round11-live-sample-v1",
+    "sampled_item_count": 20,
+    "source_queue_total_items": 248,
+    "stable_baseline_impact": false,
+    "report_kind": "live_crawl_sample"
+  },
+  "items": [
+    {
+      "queue_id": "pc-e2d5ab94",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R11-BATCH-27",
+      "package_no": "lot-27",
+      "package_name": "monitor lot-27",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-BATCH-27 monitor lot-27 支付公开信息",
+      "search_keywords": [
+        "Central Government Procurement Center R11-BATCH-27 monitor lot-27 支付公开信息",
+        "Central Government Procurement Center",
+        "R11-BATCH-27",
+        "monitor lot-27",
+        "支付公开信息",
+        "Round11 Supplier 87",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "payment",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-6c86b318",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R11-PROC-009",
+      "package_no": "pkg-4",
+      "package_name": "round11 package 4",
+      "purchaser_name": "Jiangsu Department of Finance",
+      "search_keyword": "Jiangsu Department of Finance R11-PROC-009 round11 package 4 支付公开信息",
+      "search_keywords": [
+        "Jiangsu Department of Finance R11-PROC-009 round11 package 4 支付公开信息",
+        "Jiangsu Department of Finance",
+        "R11-PROC-009",
+        "round11 package 4",
+        "支付公开信息",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "payment",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-70ea21e6",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R11-PROC-013",
+      "package_no": "pkg-3",
+      "package_name": "round11 package 3",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-PROC-013 round11 package 3 履约验收公告",
+      "search_keywords": [
+        "Central Government Procurement Center R11-PROC-013 round11 package 3 履约验收公告",
+        "Central Government Procurement Center",
+        "R11-PROC-013",
+        "round11 package 3",
+        "履约验收公告",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "acceptance",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-3cf37ebb",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R11-BATCH-01",
+      "package_no": "batch-01-total",
+      "package_name": "desktop computer batch-01-total",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-BATCH-01 desktop computer batch-01-total 支付公开信息",
+      "search_keywords": [
+        "Central Government Procurement Center R11-BATCH-01 desktop computer batch-01-total 支付公开信息",
+        "Central Government Procurement Center",
+        "R11-BATCH-01",
+        "desktop computer batch-01-total",
+        "支付公开信息",
+        "Round11 Supplier 61",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "payment",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-c6809be7",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R11-PROC-041",
+      "package_no": "pkg-1",
+      "package_name": "round11 package 1",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-PROC-041 round11 package 1 支付公开信息",
+      "search_keywords": [
+        "Central Government Procurement Center R11-PROC-041 round11 package 1 支付公开信息",
+        "Central Government Procurement Center",
+        "R11-PROC-041",
+        "round11 package 1",
+        "支付公开信息",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "payment",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-dd2034cd",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R11-BATCH-06",
+      "package_no": "lot-06",
+      "package_name": "server lot-06",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-BATCH-06 server lot-06 合同公告",
+      "search_keywords": [
+        "Central Government Procurement Center R11-BATCH-06 server lot-06 合同公告",
+        "Central Government Procurement Center",
+        "R11-BATCH-06",
+        "server lot-06",
+        "合同公告",
+        "Round11 Supplier 66",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "contract",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-5c98696f",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R11-INTENT-03",
+      "package_no": "pkg-1",
+      "package_name": "round11 package 1",
+      "purchaser_name": "Central procurement intention unit",
+      "search_keyword": "Central procurement intention unit R11-INTENT-03 round11 package 1 合同公告",
+      "search_keywords": [
+        "Central procurement intention unit R11-INTENT-03 round11 package 1 合同公告",
+        "Central procurement intention unit",
+        "R11-INTENT-03",
+        "round11 package 1",
+        "合同公告",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "contract",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-75348fb9",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R11-INTENT-06",
+      "package_no": "pkg-4",
+      "package_name": "round11 package 4",
+      "purchaser_name": "Central procurement intention unit",
+      "search_keyword": "Central procurement intention unit R11-INTENT-06 round11 package 4 支付公开信息",
+      "search_keywords": [
+        "Central procurement intention unit R11-INTENT-06 round11 package 4 支付公开信息",
+        "Central procurement intention unit",
+        "R11-INTENT-06",
+        "round11 package 4",
+        "支付公开信息",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "payment",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-81edf81f",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R11-INTENT-02",
+      "package_no": "pkg-5",
+      "package_name": "round11 package 5",
+      "purchaser_name": "Central procurement intention unit",
+      "search_keyword": "Central procurement intention unit R11-INTENT-02 round11 package 5 支付公开信息",
+      "search_keywords": [
+        "Central procurement intention unit R11-INTENT-02 round11 package 5 支付公开信息",
+        "Central procurement intention unit",
+        "R11-INTENT-02",
+        "round11 package 5",
+        "支付公开信息",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "payment",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-08eb29b7",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R11-BATCH-02",
+      "package_no": "lot-02",
+      "package_name": "printer lot-02",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-BATCH-02 printer lot-02 履约验收公告",
+      "search_keywords": [
+        "Central Government Procurement Center R11-BATCH-02 printer lot-02 履约验收公告",
+        "Central Government Procurement Center",
+        "R11-BATCH-02",
+        "printer lot-02",
+        "履约验收公告",
+        "Round11 Supplier 62",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "acceptance",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-4e1b374c",
+      "target_stage": "payment",
+      "target_stage_label": "支付公开信息",
+      "project_code": "R11-PROC-001",
+      "package_no": "pkg-1",
+      "package_name": "round11 package 1",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-PROC-001 round11 package 1 支付公开信息",
+      "search_keywords": [
+        "Central Government Procurement Center R11-PROC-001 round11 package 1 支付公开信息",
+        "Central Government Procurement Center",
+        "R11-PROC-001",
+        "round11 package 1",
+        "支付公开信息",
+        "支付公开",
+        "国库集中支付"
+      ],
+      "recommended_source_types": [
+        "支付公开",
+        "国库集中支付"
+      ],
+      "priority": "P1",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "payment",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "支付公开信息缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "payment",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-0a7debd1",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R11-BATCH-11",
+      "package_no": "lot-11",
+      "package_name": "copier lot-11",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-BATCH-11 copier lot-11 履约验收公告",
+      "search_keywords": [
+        "Central Government Procurement Center R11-BATCH-11 copier lot-11 履约验收公告",
+        "Central Government Procurement Center",
+        "R11-BATCH-11",
+        "copier lot-11",
+        "履约验收公告",
+        "Round11 Supplier 71",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "acceptance",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-6e624a39",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R11-PROC-008",
+      "package_no": "pkg-3",
+      "package_name": "round11 package 3",
+      "purchaser_name": "Jiangsu Department of Finance",
+      "search_keyword": "Jiangsu Department of Finance R11-PROC-008 round11 package 3 合同公告",
+      "search_keywords": [
+        "Jiangsu Department of Finance R11-PROC-008 round11 package 3 合同公告",
+        "Jiangsu Department of Finance",
+        "R11-PROC-008",
+        "round11 package 3",
+        "合同公告",
+        "Round11 Supplier 8",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "contract",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-cac262fa",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R11-PROC-030",
+      "package_no": "pkg-5",
+      "package_name": "round11 package 5",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-PROC-030 round11 package 5 履约验收公告",
+      "search_keywords": [
+        "Central Government Procurement Center R11-PROC-030 round11 package 5 履约验收公告",
+        "Central Government Procurement Center",
+        "R11-PROC-030",
+        "round11 package 5",
+        "履约验收公告",
+        "Round11 Supplier 30",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "acceptance",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-50442340",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R11-PROC-009",
+      "package_no": "pkg-4",
+      "package_name": "round11 package 4",
+      "purchaser_name": "Jiangsu Department of Finance",
+      "search_keyword": "Jiangsu Department of Finance R11-PROC-009 round11 package 4 合同公告",
+      "search_keywords": [
+        "Jiangsu Department of Finance R11-PROC-009 round11 package 4 合同公告",
+        "Jiangsu Department of Finance",
+        "R11-PROC-009",
+        "round11 package 4",
+        "合同公告",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "contract",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-39a8f59a",
+      "target_stage": "acceptance",
+      "target_stage_label": "履约验收公告",
+      "project_code": "R11-INTENT-06",
+      "package_no": "pkg-4",
+      "package_name": "round11 package 4",
+      "purchaser_name": "Central procurement intention unit",
+      "search_keyword": "Central procurement intention unit R11-INTENT-06 round11 package 4 履约验收公告",
+      "search_keywords": [
+        "Central procurement intention unit R11-INTENT-06 round11 package 4 履约验收公告",
+        "Central procurement intention unit",
+        "R11-INTENT-06",
+        "round11 package 4",
+        "履约验收公告",
+        "验收公告"
+      ],
+      "recommended_source_types": [
+        "履约验收公告",
+        "验收公告"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "acceptance",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "履约验收公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "acceptance",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-64051619",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R11-PROC-033",
+      "package_no": "pkg-3",
+      "package_name": "round11 package 3",
+      "purchaser_name": "Jiangsu Department of Finance",
+      "search_keyword": "Jiangsu Department of Finance R11-PROC-033 round11 package 3 合同公告",
+      "search_keywords": [
+        "Jiangsu Department of Finance R11-PROC-033 round11 package 3 合同公告",
+        "Jiangsu Department of Finance",
+        "R11-PROC-033",
+        "round11 package 3",
+        "合同公告",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "contract",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-37606cbd",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R11-PROC-025",
+      "package_no": "pkg-5",
+      "package_name": "round11 package 5",
+      "purchaser_name": "Central Government Procurement Center",
+      "search_keyword": "Central Government Procurement Center R11-PROC-025 round11 package 5 合同公告",
+      "search_keywords": [
+        "Central Government Procurement Center R11-PROC-025 round11 package 5 合同公告",
+        "Central Government Procurement Center",
+        "R11-PROC-025",
+        "round11 package 5",
+        "合同公告",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "contract",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-77854020",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R11-PROC-010",
+      "package_no": "pkg-5",
+      "package_name": "round11 package 5",
+      "purchaser_name": "Jiangsu Department of Finance",
+      "search_keyword": "Jiangsu Department of Finance R11-PROC-010 round11 package 5 合同公告",
+      "search_keywords": [
+        "Jiangsu Department of Finance R11-PROC-010 round11 package 5 合同公告",
+        "Jiangsu Department of Finance",
+        "R11-PROC-010",
+        "round11 package 5",
+        "合同公告",
+        "Round11 Supplier 10",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "contract",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "queue_id": "pc-794bd99c",
+      "target_stage": "contract",
+      "target_stage_label": "合同公告",
+      "project_code": "R11-PROC-024",
+      "package_no": "pkg-4",
+      "package_name": "round11 package 4",
+      "purchaser_name": "Jiangsu Department of Finance",
+      "search_keyword": "Jiangsu Department of Finance R11-PROC-024 round11 package 4 合同公告",
+      "search_keywords": [
+        "Jiangsu Department of Finance R11-PROC-024 round11 package 4 合同公告",
+        "Jiangsu Department of Finance",
+        "R11-PROC-024",
+        "round11 package 4",
+        "合同公告",
+        "Round11 Supplier 24",
+        "采购合同"
+      ],
+      "recommended_source_types": [
+        "合同公告",
+        "采购合同"
+      ],
+      "priority": "P0",
+      "review_status": "new",
+      "crawler_status": "parse_failed",
+      "matched_source_url": "",
+      "matched_source_title": "",
+      "matched_stage": "contract",
+      "match_confidence": 0,
+      "failure_reason": "fetch failed",
+      "finding_disposition": "supplemental_data_only",
+      "reason": "合同公告缺失，建议自动发现公开来源后再复核链条闭合情况",
+      "crawler_provider": "ccgp_main_search",
+      "searched_at": "2026-04-27T05:14:19.227Z",
+      "candidate_count": 0,
+      "top_candidate_titles": [],
+      "provider_attempts": [
+        {
+          "provider_id": "ccgp_main_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "jiangsu_ccgp_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        },
+        {
+          "provider_id": "national_ggzy_search",
+          "crawler_status": "parse_failed",
+          "matched_source_url": "",
+          "matched_source_title": "",
+          "matched_stage": "contract",
+          "match_confidence": 0,
+          "candidate_count": 0,
+          "failure_reason": "fetch failed"
+        }
+      ]
+    }
+  ]
+}

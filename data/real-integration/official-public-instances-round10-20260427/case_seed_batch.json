@@ -1,0 +1,523 @@
+{
+  "template_kind": "special_inspection",
+  "records": [
+    {
+      "case_seed_id": "r10-case-001",
+      "issue_title": "same-level audit rectification progress sample 1",
+      "project_name": "same-level audit rectification progress project 1",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "120000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "in_progress_or_partly_completed",
+      "source_evidence": {
+        "title": "Jiangsu same-level audit rectification promotes 268 systems",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/3/29/art_995_11205343.html",
+        "published_at": "2024-03-29",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 1,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 1,
+        "locator_hash": "71b9e9d30470be47",
+        "raw_excerpt": "same-level audit rectification progress; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-002",
+      "issue_title": "rectification workflow method reference sample 2",
+      "project_name": "rectification workflow method reference project 2",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "143000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "work_method_reference",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Nanjing audit bureau issues rectification process management measures",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/5/10/art_1104_11237807.html",
+        "published_at": "2024-05-10",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 2,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 2,
+        "locator_hash": "379fc607b664c505",
+        "raw_excerpt": "rectification workflow method reference; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-003",
+      "issue_title": "flood prevention audit work update sample 3",
+      "project_name": "flood prevention audit work update project 3",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "166000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_work_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit supports flood prevention governance",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/7/5/art_1104_11283062.html",
+        "published_at": "2024-07-05",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 3,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 3,
+        "locator_hash": "52d0e21a5efabcff",
+        "raw_excerpt": "flood prevention audit work update; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-004",
+      "issue_title": "performance audit work update sample 4",
+      "project_name": "performance audit work update project 4",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "189000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_work_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Lianyungang audit advances performance audit work",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2023/8/21/art_1104_10987006.html",
+        "published_at": "2023-08-21",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 4,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 4,
+        "locator_hash": "6d899240cb413ac6",
+        "raw_excerpt": "performance audit work update; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-005",
+      "issue_title": "fiscal spending standard policy reference sample 5",
+      "project_name": "fiscal spending standard policy reference project 5",
+      "responsible_subject": "Jiangsu Department of Finance",
+      "issue_category": "methodology_or_experience",
+      "issue_amount": "212000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "methodology_or_experience",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "budget_performance_policy",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu finance accelerates modern fiscal expenditure standard construction",
+        "url": "https://czt.jiangsu.gov.cn/art/2025/1/20/art_7938_11477553.html",
+        "published_at": "2025-01-20",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 5,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 5,
+        "locator_hash": "84c2a829f0420e7a",
+        "raw_excerpt": "fiscal spending standard policy reference; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-006",
+      "issue_title": "zero-based budget reform reference sample 6",
+      "project_name": "zero-based budget reform reference project 6",
+      "responsible_subject": "Jiangsu Department of Finance",
+      "issue_category": "methodology_or_experience",
+      "issue_amount": "235000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "methodology_or_experience",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "budget_reform_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Sucheng finance deepens zero-based budgeting reform",
+        "url": "https://czt.jiangsu.gov.cn/art/2025/4/11/art_77300_11543308.html",
+        "published_at": "2025-04-11",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 6,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 6,
+        "locator_hash": "7bcd8968a85b91d2",
+        "raw_excerpt": "zero-based budget reform reference; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-007",
+      "issue_title": "same-level audit rectification progress sample 7",
+      "project_name": "same-level audit rectification progress project 7",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "258000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "in_progress_or_partly_completed",
+      "source_evidence": {
+        "title": "Jiangsu same-level audit rectification promotes 268 systems",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/3/29/art_995_11205343.html",
+        "published_at": "2024-03-29",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 7,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 7,
+        "locator_hash": "23c5b80292955c53",
+        "raw_excerpt": "same-level audit rectification progress; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-008",
+      "issue_title": "rectification workflow method reference sample 8",
+      "project_name": "rectification workflow method reference project 8",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "281000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "work_method_reference",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Nanjing audit bureau issues rectification process management measures",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/5/10/art_1104_11237807.html",
+        "published_at": "2024-05-10",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 8,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 8,
+        "locator_hash": "126811545ae54327",
+        "raw_excerpt": "rectification workflow method reference; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-009",
+      "issue_title": "flood prevention audit work update sample 9",
+      "project_name": "flood prevention audit work update project 9",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "304000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_work_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu audit supports flood prevention governance",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/7/5/art_1104_11283062.html",
+        "published_at": "2024-07-05",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 9,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 9,
+        "locator_hash": "ed826741991ecdd6",
+        "raw_excerpt": "flood prevention audit work update; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-010",
+      "issue_title": "performance audit work update sample 10",
+      "project_name": "performance audit work update project 10",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "327000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_work_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Lianyungang audit advances performance audit work",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2023/8/21/art_1104_10987006.html",
+        "published_at": "2023-08-21",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 10,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 10,
+        "locator_hash": "53f7f7ca22959560",
+        "raw_excerpt": "performance audit work update; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-011",
+      "issue_title": "fiscal spending standard policy reference sample 11",
+      "project_name": "fiscal spending standard policy reference project 11",
+      "responsible_subject": "Jiangsu Department of Finance",
+      "issue_category": "methodology_or_experience",
+      "issue_amount": "350000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "methodology_or_experience",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "budget_performance_policy",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Jiangsu finance accelerates modern fiscal expenditure standard construction",
+        "url": "https://czt.jiangsu.gov.cn/art/2025/1/20/art_7938_11477553.html",
+        "published_at": "2025-01-20",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 11,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 11,
+        "locator_hash": "b493ebfe4e0c975d",
+        "raw_excerpt": "fiscal spending standard policy reference; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-012",
+      "issue_title": "zero-based budget reform reference sample 12",
+      "project_name": "zero-based budget reform reference project 12",
+      "responsible_subject": "Jiangsu Department of Finance",
+      "issue_category": "methodology_or_experience",
+      "issue_amount": "373000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "methodology_or_experience",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "budget_reform_update",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Sucheng finance deepens zero-based budgeting reform",
+        "url": "https://czt.jiangsu.gov.cn/art/2025/4/11/art_77300_11543308.html",
+        "published_at": "2025-04-11",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 12,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 12,
+        "locator_hash": "04ae887df3b61dc3",
+        "raw_excerpt": "zero-based budget reform reference; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-013",
+      "issue_title": "same-level audit rectification progress sample 13",
+      "project_name": "same-level audit rectification progress project 13",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "396000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "rectification_progress",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "in_progress_or_partly_completed",
+      "source_evidence": {
+        "title": "Jiangsu same-level audit rectification promotes 268 systems",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/3/29/art_995_11205343.html",
+        "published_at": "2024-03-29",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 13,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 13,
+        "locator_hash": "63914906196cb152",
+        "raw_excerpt": "same-level audit rectification progress; low evidence items are not substantive violation conclusions"
+      }
+    },
+    {
+      "case_seed_id": "r10-case-014",
+      "issue_title": "rectification workflow method reference sample 14",
+      "project_name": "rectification workflow method reference project 14",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "419000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "work_method_reference",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail"
+      ],
+      "recommended_next_data": [
+        "complete evidence chain before risk conclusion"
+      ],
+      "rectification_status": "unknown",
+      "source_evidence": {
+        "title": "Nanjing audit bureau issues rectification process management measures",
+        "url": "https://jssjt.jiangsu.gov.cn/art/2024/5/10/art_1104_11237807.html",
+        "published_at": "2024-05-10",
+        "captured_at": "2026-04-27T15:00:00+08:00",
+        "row_number": 14,
+        "parser_version": "official-public-instance-round10-v1",
+        "page_number": "",
+        "section_title": "audit evidence classification",
+        "paragraph_index": 14,
+        "locator_hash": "7c10af3649a46c83",
+        "raw_excerpt": "rectification workflow method reference; low evidence items are not substantive violation conclusions"
+      }
+    }
+  ]
+}

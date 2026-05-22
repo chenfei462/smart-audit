@@ -1,0 +1,989 @@
+{
+  "template_kind": "special_inspection",
+  "records": [
+    {
+      "case_seed_id": "r14-case-001",
+      "issue_title": "formal budget execution audit report round14 sample 1",
+      "project_name": "formal budget execution audit report project 1",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "formal_audit_report",
+      "issue_amount": "160000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "formal_audit_report",
+      "audit_evidence_weight": 90,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "published_at": "2024-01-31",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 1,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 2,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 1,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "c10fa4537152d485",
+        "raw_excerpt": "Jiangsu Audit Office 2023 government information disclosure report PDF; evidence level formal_audit_report; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-002",
+      "issue_title": "audit rectification disclosure round14 sample 2",
+      "project_name": "audit rectification disclosure project 2",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "172500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 2,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 3,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 2,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "0c33e7f2831460af",
+        "raw_excerpt": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-003",
+      "issue_title": "special audit survey round14 sample 3",
+      "project_name": "special audit survey project 3",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "185000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 3,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 4,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 3,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "79c3f92e81a8f423",
+        "raw_excerpt": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-004",
+      "issue_title": "audit project plan round14 sample 4",
+      "project_name": "audit project plan project 4",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_project_plan",
+      "issue_amount": "197500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_project_plan",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "published_at": "2024-01-31",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 4,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 5,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 4,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "d2204d9ce268c3b3",
+        "raw_excerpt": "Jiangsu Audit Office 2023 government information disclosure report PDF; evidence level audit_project_plan; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-005",
+      "issue_title": "audit work update round14 sample 5",
+      "project_name": "audit work update project 5",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "210000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 30,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 5,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 6,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 5,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "d812cf14a9045f66",
+        "raw_excerpt": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level audit_work_update; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-006",
+      "issue_title": "audit work method reference round14 sample 6",
+      "project_name": "audit work method reference project 6",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "222500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 6,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 7,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 6,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "b29e6f5732b6b283",
+        "raw_excerpt": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level work_method_reference; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-007",
+      "issue_title": "formal budget execution audit report round14 sample 7",
+      "project_name": "formal budget execution audit report project 7",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "formal_audit_report",
+      "issue_amount": "235000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "formal_audit_report",
+      "audit_evidence_weight": 90,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "published_at": "2024-01-31",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 7,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 8,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 7,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "6933f11f1f3e8b90",
+        "raw_excerpt": "Jiangsu Audit Office 2023 government information disclosure report PDF; evidence level formal_audit_report; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-008",
+      "issue_title": "audit rectification disclosure round14 sample 8",
+      "project_name": "audit rectification disclosure project 8",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "247500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 8,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 1,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 8,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "14b2355524701a21",
+        "raw_excerpt": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-009",
+      "issue_title": "special audit survey round14 sample 9",
+      "project_name": "special audit survey project 9",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "260000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 9,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 2,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 9,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "e012fd748bf0a00a",
+        "raw_excerpt": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-010",
+      "issue_title": "audit project plan round14 sample 10",
+      "project_name": "audit project plan project 10",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_project_plan",
+      "issue_amount": "272500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_project_plan",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "published_at": "2024-01-31",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 10,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 3,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 10,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "6a4f269c3846c456",
+        "raw_excerpt": "Jiangsu Audit Office 2023 government information disclosure report PDF; evidence level audit_project_plan; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-011",
+      "issue_title": "audit work update round14 sample 11",
+      "project_name": "audit work update project 11",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "285000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 30,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 11,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 4,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 11,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "20ec433917c43de7",
+        "raw_excerpt": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level audit_work_update; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-012",
+      "issue_title": "audit work method reference round14 sample 12",
+      "project_name": "audit work method reference project 12",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "297500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 12,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 5,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 12,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "49ab2f1afd3b87e4",
+        "raw_excerpt": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level work_method_reference; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-013",
+      "issue_title": "formal budget execution audit report round14 sample 13",
+      "project_name": "formal budget execution audit report project 13",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "formal_audit_report",
+      "issue_amount": "310000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "formal_audit_report",
+      "audit_evidence_weight": 90,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "published_at": "2024-01-31",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 13,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 6,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 13,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "203d3c01c505c0f7",
+        "raw_excerpt": "Jiangsu Audit Office 2023 government information disclosure report PDF; evidence level formal_audit_report; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-014",
+      "issue_title": "audit rectification disclosure round14 sample 14",
+      "project_name": "audit rectification disclosure project 14",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "322500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 14,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 7,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 14,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "0912107ac0b986a4",
+        "raw_excerpt": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-015",
+      "issue_title": "special audit survey round14 sample 15",
+      "project_name": "special audit survey project 15",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "335000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 15,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 8,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 15,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "171ff5e52d71c8f4",
+        "raw_excerpt": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-016",
+      "issue_title": "audit project plan round14 sample 16",
+      "project_name": "audit project plan project 16",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_project_plan",
+      "issue_amount": "347500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_project_plan",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "published_at": "2024-01-31",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 16,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 1,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 16,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "b5ff3a06bc51ea7b",
+        "raw_excerpt": "Jiangsu Audit Office 2023 government information disclosure report PDF; evidence level audit_project_plan; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-017",
+      "issue_title": "audit work update round14 sample 17",
+      "project_name": "audit work update project 17",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "360000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 30,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 17,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 2,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 17,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "0f301bafafa44d4e",
+        "raw_excerpt": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level audit_work_update; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-018",
+      "issue_title": "audit work method reference round14 sample 18",
+      "project_name": "audit work method reference project 18",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "372500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 18,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 3,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 18,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "387e7ea8d1b88c87",
+        "raw_excerpt": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level work_method_reference; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-019",
+      "issue_title": "formal budget execution audit report round14 sample 19",
+      "project_name": "formal budget execution audit report project 19",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "formal_audit_report",
+      "issue_amount": "385000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "formal_audit_report",
+      "audit_evidence_weight": 90,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "published_at": "2024-01-31",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 19,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 4,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 19,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "6c055fd1b588b30e",
+        "raw_excerpt": "Jiangsu Audit Office 2023 government information disclosure report PDF; evidence level formal_audit_report; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-020",
+      "issue_title": "audit rectification disclosure round14 sample 20",
+      "project_name": "audit rectification disclosure project 20",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "rectification_progress",
+      "issue_amount": "397500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "rectification_progress",
+      "audit_evidence_weight": 70,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "medium",
+      "requires_manual_verification": true,
+      "finding_disposition": "risk_candidate",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 20,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 5,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 20,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "0cc90da1a8db4736",
+        "raw_excerpt": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level rectification_progress; disposition risk_candidate."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-021",
+      "issue_title": "special audit survey round14 sample 21",
+      "project_name": "special audit survey project 21",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "special_audit_survey",
+      "issue_amount": "410000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "special_audit_survey",
+      "audit_evidence_weight": 55,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "review_recommended",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 21,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 6,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 21,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "38adb7615f72e12f",
+        "raw_excerpt": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level special_audit_survey; disposition review_recommended."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-022",
+      "issue_title": "audit project plan round14 sample 22",
+      "project_name": "audit project plan project 22",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_project_plan",
+      "issue_amount": "422500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_project_plan",
+      "audit_evidence_weight": 35,
+      "audit_document_type": "audit_project_plan",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu Audit Office 2023 government information disclosure report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=689aa7d21ac24f36b24d7583820bd5b9.pdf",
+        "published_at": "2024-01-31",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 22,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 7,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 22,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "984e407f8de169a2",
+        "raw_excerpt": "Jiangsu Audit Office 2023 government information disclosure report PDF; evidence level audit_project_plan; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-023",
+      "issue_title": "audit work update round14 sample 23",
+      "project_name": "audit work update project 23",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "audit_work_update",
+      "issue_amount": "435000",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "audit_work_update",
+      "audit_evidence_weight": 30,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=38669f7833e64ca3aea8742ba62b0d95.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 23,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 8,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 23,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "ce9087a3ff74c763",
+        "raw_excerpt": "Jiangsu 2023 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level audit_work_update; disposition knowledge_reference."
+      }
+    },
+    {
+      "case_seed_id": "r14-case-024",
+      "issue_title": "audit work method reference round14 sample 24",
+      "project_name": "audit work method reference project 24",
+      "responsible_subject": "Jiangsu Audit Office",
+      "issue_category": "work_method_reference",
+      "issue_amount": "447500",
+      "issue_amount_unit": "yuan",
+      "audit_evidence_level": "work_method_reference",
+      "audit_evidence_weight": 20,
+      "audit_document_type": "formal_audit_report",
+      "conclusion_strength": "low",
+      "requires_manual_verification": true,
+      "finding_disposition": "knowledge_reference",
+      "required_next_data": [
+        "formal audit report",
+        "rectification ledger",
+        "payment detail",
+        "voucher abstract"
+      ],
+      "recommended_next_data": [
+        "manual review before audit conclusion",
+        "complete internal evidence chain"
+      ],
+      "source_evidence": {
+        "title": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF",
+        "url": "https://jssjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=46cfc8e05b1241ebb4cf36be4df9aba8.pdf",
+        "published_at": "2025-02-01",
+        "captured_at": "2026-04-27T22:20:00+08:00",
+        "row_number": 24,
+        "parser_version": "official-public-instance-round14-v1",
+        "page_number": 1,
+        "section_title": "audit evidence classification",
+        "paragraph_index": null,
+        "table_title": "audit evidence classification table snapshot",
+        "table_row_index": 24,
+        "table_column_name": "amount or indicator column",
+        "locator_hash": "278564213ebb77bc",
+        "raw_excerpt": "Jiangsu 2020 provincial budget execution and other fiscal revenue and expenditure audit report PDF; evidence level work_method_reference; disposition knowledge_reference."
+      }
+    }
+  ]
+}

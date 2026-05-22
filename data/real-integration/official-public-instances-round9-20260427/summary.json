@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-04-27T03:06:25.994Z",
+  "base_url": "http://127.0.0.1:18080",
+  "official_source_count": 16,
+  "procurement_input_records": 64,
+  "budget_input_records": 30,
+  "case_seed_input_records": 14,
+  "total_input_records": 108,
+  "procurement_accepted_records": 64,
+  "budget_accepted_records": 30,
+  "case_seed_accepted_records": 14,
+  "total_accepted_records": 108,
+  "import_success_rate": 100,
+  "quality_check_count": 0,
+  "quality_warning_count": 0,
+  "quality_error_count": 0,
+  "finding_count": 2,
+  "rule_hits_by_rule": {
+    "BUDGET-FINAL-ACCOUNT-PDF-001": 1,
+    "PROC-E-MARKET-001": 1
+  },
+  "source_traceable_rows": 108,
+  "source_total_rows": 108,
+  "source_completeness_rate": 100,
+  "stage_coverage": {
+    "announcement": 13,
+    "award": 13,
+    "contract": 13,
+    "acceptance": 13,
+    "payment": 12
+  },
+  "dataset_coverage": {
+    "department_final_account_summary": 15,
+    "public_fiscal_summary": 15
+  },
+  "risk_levels": {
+    "procurement": null,
+    "budget": [
+      null
+    ]
+  },
+  "top_quality_checks": [],
+  "top_findings": [
+    {
+      "rule_code": "PROC-E-MARKET-001",
+      "risk_level": "Info",
+      "summary": "Electronic marketplace unit prices are review-only unless order totals are present.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "合同公告",
+        "验收公告",
+        "支付公开"
+      ]
+    },
+    {
+      "rule_code": "BUDGET-FINAL-ACCOUNT-PDF-001",
+      "risk_level": "Info",
+      "summary": "Department final-account PDF rows preserve table, subject and performance locators.",
+      "severity_reason": null,
+      "missing_evidence": [],
+      "recommended_next_data": [
+        "部门预算指标",
+        "项目绩效报告",
+        "支付凭证"
+      ]
+    }
+  ],
+  "collector_summary": {
+    "generated_at": "2026-04-27T03:06:25.991Z",
+    "captured_at": "2026-04-27T11:30:00+08:00",
+    "fetch_mode": "official_public_round9_with_registry_crawler",
+    "source_count": 16,
+    "ninth_round_source_count": 16,
+    "parsed_source_count": 16,
+    "failed_source_count": 0,
+    "previous_registry_source_count": 167,
+    "previous_source_overlap_count": 0,
+    "total_records": 108,
+    "procurement_records": 64,
+    "budget_records": 30,
+    "case_seed_records": 14,
+    "central_unit_source_count": 5,
+    "cross_province_source_count": 4,
+    "jiangsu_local_source_count": 7,
+    "source_region_scopes": {
+      "central_unit": 5,
+      "cross_province": 4,
+      "jiangsu_local": 7
+    },
+    "wrong_jiangsu_attribution_review_count": 0,
+    "electronic_marketplace_records": 22,
+    "electronic_marketplace_unit_price_records": 11,
+    "electronic_marketplace_order_total_records": 11,
+    "department_final_account_records": 15,
+    "pdf_performance_records": 5,
+    "locator_coverage_rate": 100,
+    "unit_normalized_records": 94,
+    "amount_semantic_types": {
+      "electronic_marketplace_order_total": 11,
+      "award_total": 36,
+      "electronic_marketplace_unit_price": 11,
+      "framework_limit": 6
+    },
+    "discovery_queue_item_count": 128,
+    "discovery_queue_by_target_stage": {
+      "contract": 39,
+      "acceptance": 39,
+      "payment": 40,
+      "rectification": 10
+    },
+    "discovery_crawler_processed_count": 128,
+    "discovery_crawler_matched_count": 0,
+    "discovery_crawler_match_rate": 0,
+    "discovery_crawler_statuses": {
+      "not_found": 128
+    },
+    "audit_evidence_levels": {
+      "formal_audit_report": 3,
+      "rectification_progress": 3,
+      "special_audit_survey": 2,
+      "audit_result_feedback": 2,
+      "audit_work_update": 2,
+      "work_method_reference": 2
+    },
+    "finding_dispositions": {
+      "risk_candidate": 6,
+      "review_recommended": 4,
+      "knowledge_reference": 4
+    },
+    "source_completeness_rate": 100
+  },
+  "optimization_plan": [
+    {
+      "priority": "P0",
+      "area": "real crawler scheduling and review workflow",
+      "action": "Persist crawler statuses and add scheduled retry batches for matched, not_found, parse_failed and manual_review queue states.",
+      "reason": "Round 9 can run deterministic registry-backed discovery; production needs scheduling, retry windows and reviewer ownership."
+    },
+    {
+      "priority": "P0",
+      "area": "cross-region source governance",
+      "action": "Promote source_region_scope and purchaser_region_code into import preview, detail and report views.",
+      "reason": "Central and cross-province sources must not inherit Jiangsu-only region assumptions."
+    },
+    {
+      "priority": "P1",
+      "area": "electronic marketplace order normalization",
+      "action": "Require order_total_amount before comparing marketplace purchases to budget totals; unit prices remain review-only.",
+      "reason": "Electronic marketplace records often expose unit price and quantity separately from the order total."
+    }
+  ],
+  "batch_name": "official_public_instances_round9",
+  "round9_acceptance_baseline": 100
+}
