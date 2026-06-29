@@ -35,6 +35,7 @@ impl PlatformStore {
         let store = Self { db_path };
         let mut conn = store.connect()?;
         Self::initialize_schema(&mut conn)?;
+        store.ensure_ai_profile_schema()?;
         store.ensure_platform_v2_schema()?;
         store.import_legacy_state_if_needed(&mut conn, &data_dir)?;
         store.repair_question_mark_demo_names()?;
@@ -662,7 +663,7 @@ impl PlatformStore {
         self.connect()
             .and_then(|conn| {
                 Ok(conn.query_row(
-                    "SELECT provider, api_url, model, enabled, guidance
+                    "SELECT provider, api_url, model, enabled, guidance, adapter_kind
                      FROM ai_profile
                      WHERE id = 1",
                     [],
@@ -674,6 +675,10 @@ impl PlatformStore {
                             enabled: int_to_bool(row.get::<_, i64>(3)?),
                             guidance: row.get(4)?,
                             secret_configured: false,
+                            adapter_kind: row
+                                .get::<_, String>(5)?
+                                .parse()
+                                .unwrap_or_default(),
                         })
                     },
                 )?)
@@ -1425,7 +1430,8 @@ impl PlatformStore {
                 model TEXT NOT NULL,
                 api_key TEXT NOT NULL,
                 enabled INTEGER NOT NULL,
-                guidance TEXT NOT NULL
+                guidance TEXT NOT NULL,
+                adapter_kind TEXT NOT NULL DEFAULT 'openai_compatible'
             );
             CREATE TABLE IF NOT EXISTS lead_requests (
                 id TEXT PRIMARY KEY,
@@ -1522,6 +1528,24 @@ impl PlatformStore {
         self.upsert_ai_profile(&tx, &AiServiceProfile::default())?;
         tx.commit().context("failed to commit ai profile seed")?;
         Ok(())
+    }
+
+    fn ensure_ai_profile_schema(&self) -> Result<()> {
+        let conn = self.connect()?;
+        match conn.execute(
+            "ALTER TABLE ai_profile ADD COLUMN adapter_kind TEXT NOT NULL DEFAULT 'openai_compatible'",
+            [],
+        ) {
+            Ok(_) => Ok(()),
+            Err(error) => {
+                let message = error.to_string().to_ascii_lowercase();
+                if message.contains("duplicate column name") {
+                    Ok(())
+                } else {
+                    Err(error).context("failed to add ai_profile.adapter_kind column")
+                }
+            }
+        }
     }
 
     fn repair_question_mark_demo_names(&self) -> Result<()> {
@@ -1781,22 +1805,24 @@ impl PlatformStore {
 
     fn upsert_ai_profile(&self, tx: &Transaction<'_>, profile: &AiServiceProfile) -> Result<()> {
         tx.execute(
-            "INSERT INTO ai_profile (id, provider, api_url, model, api_key, enabled, guidance)
-             VALUES (1, ?1, ?2, ?3, ?4, ?5, ?6)
+            "INSERT INTO ai_profile (id, provider, api_url, model, api_key, enabled, guidance, adapter_kind)
+             VALUES (1, ?1, ?2, ?3, ?4, ?5, ?6, ?7)
              ON CONFLICT(id) DO UPDATE SET
-                provider = excluded.provider,
-                api_url = excluded.api_url,
-                model = excluded.model,
-                api_key = excluded.api_key,
-                enabled = excluded.enabled,
-                guidance = excluded.guidance",
+                 provider = excluded.provider,
+                 api_url = excluded.api_url,
+                 model = excluded.model,
+                 api_key = excluded.api_key,
+                 enabled = excluded.enabled,
+                 guidance = excluded.guidance,
+                 adapter_kind = excluded.adapter_kind",
             params![
                 profile.provider,
                 profile.api_url,
                 profile.model,
                 "",
                 bool_to_int(profile.enabled),
-                profile.guidance
+                profile.guidance,
+                profile.adapter_kind.as_str()
             ],
         )
         .context("failed to upsert ai profile")?;

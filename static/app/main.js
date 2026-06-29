@@ -73,7 +73,7 @@ import {
   runAutomationSchedule,
   loadAutomationCenter
 } from './configuration.js?v=viz-20260430';
-import { setWorkspaceHash, syncWorkspaceRoute } from './navigation.js?v=viz-20260520h';
+import { setWorkspaceHash, syncWorkspaceRoute, initTopNav } from './navigation.js?v=viz-20260520h';
 import { loadRectificationCases } from './rectification.js?v=viz-20260520h';
 import { loadOperations } from './operations.js';
 
@@ -115,11 +115,11 @@ $('loginForm').onsubmit = async (event) => {
     }).then(async (response) => {
       const payload = await response.json();
       if (!response.ok) {
-        throw new Error(payload.error || '鐧诲綍澶辫触');
+        throw new Error(payload.error || '登录失败');
       }
       return payload;
     });
-    notify('鐧诲綍鎴愬姛');
+    notify('登录成功');
     renderAuthenticatedSession(data.user);
     await loadWorkspaceData();
   } catch (error) {
@@ -144,11 +144,11 @@ $('registerForm').onsubmit = async (event) => {
     }).then(async (response) => {
       const payload = await response.json();
       if (!response.ok) {
-        throw new Error(payload.error || '鍒濆鍖栧け璐?);
+        throw new Error(payload.error || '初始化失败');
       }
       return payload;
     });
-    notify('绉熸埛鍒涘缓鎴愬姛');
+    notify('租户创建成功');
     renderAuthenticatedSession(data.user);
     await loadWorkspaceData();
   } catch (error) {
@@ -335,6 +335,8 @@ window.addEventListener('focus', () => renderPreviewPanel());
 window.addEventListener('focus', () => loadImportProfiles().catch(() => {}));
 window.addEventListener('focus', () => loadAssignmentDictionary().catch(() => {}));
 window.addEventListener('focus', () => loadAutomationCenter().catch(() => {}));
+
+initTopNav();
 
 document.querySelectorAll('.collapsible').forEach((node) => {
   if (!node.hasAttribute('open')) {

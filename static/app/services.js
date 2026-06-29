@@ -2,10 +2,11 @@
 
 export function notify(message, type = 'info') {
   const root = $('message');
-  root.className = 'auth-shell';
-  root.innerHTML = `<div class="notice" style="border-color:${type === 'error' ? '#efb2ac' : '#d7e3f4'};background:${type === 'error' ? '#fff1ef' : '#eef4fb'};">${message}</div>`;
+  root.className = `notification-bar notification-${type}`;
+  root.textContent = message;
   setTimeout(() => {
-    root.className = 'auth-shell hidden';
+    root.classList.add('notification-hide');
+    setTimeout(() => { root.className = 'hidden'; }, 400);
   }, 3200);
 }
 

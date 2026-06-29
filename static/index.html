@@ -4,224 +4,326 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="data:,">
-  <title>AuditLens 璐㈡斂鐩戠潱宸ヤ綔鍙?/title>
+  <title>AuditLens 财政监督工作台</title>
   <style>
     :root {
-      --ink: #10243f;
-      --ink-soft: #4f647e;
-      --line: #d8e0ea;
-      --paper: #f5f7fb;
+      --primary: #1a2a4a;
+      --primary-dark: #0f1b33;
+      --primary-light: #2d4a7a;
+      --accent: #c49a3c;
+      --danger: #c0392b;
+      --success: #27724b;
+      --surface: #ffffff;
+      --background: #f0f2f5;
+      --text-primary: #1a1a2e;
+      --text-secondary: #5a6577;
+      --border: #d9dfe8;
+      --shadow: 0 2px 8px rgba(0,0,0,0.06);
+      --radius: 6px;
+      /* Legacy aliases for JS compatibility */
+      --ink: #1a1a2e;
+      --ink-soft: #5a6577;
+      --line: #d9dfe8;
+      --paper: #f0f2f5;
       --card: #ffffff;
-      --navy: #12345a;
-      --navy-2: #1f4f82;
-      --gold: #c6973f;
-      --red: #bf4a3e;
-      --green: #2f7d5b;
+      --navy: #1a2a4a;
+      --navy-2: #2d4a7a;
+      --gold: #c49a3c;
+      --red: #c0392b;
+      --green: #27724b;
       --blue: #2a6db2;
-      --shadow: 0 12px 30px rgba(16, 36, 63, 0.08);
-      --radius: 18px;
     }
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: "Segoe UI", "Microsoft YaHei", sans-serif; background: radial-gradient(circle at top right, rgba(198,151,63,.16), transparent 22%), linear-gradient(180deg, #eef3f8 0%, #f7f9fc 100%); color: var(--ink); }
-    .shell { min-height: 100vh; display: grid; grid-template-columns: 320px 1fr; }
-    .sidebar { background: linear-gradient(180deg, #0f2745 0%, #173a64 100%); color: #fff; padding: 28px 22px; display: flex; flex-direction: column; gap: 18px; box-shadow: 8px 0 28px rgba(16, 36, 63, 0.12); }
-    .brand h1 { margin: 0; font-size: 26px; letter-spacing: 0.04em; }
-    .brand p, .sidebar small { margin: 6px 0 0; color: rgba(255,255,255,.76); line-height: 1.5; }
-    .user-card, .side-panel { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); border-radius: 18px; padding: 16px; backdrop-filter: blur(10px); }
-    .pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,.12); font-size: 12px; letter-spacing: .04em; }
-    .main { padding: 26px; display: grid; gap: 18px; }
-    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; background: rgba(255,255,255,.82); border: 1px solid rgba(16,36,63,.08); border-radius: 22px; padding: 16px 20px; box-shadow: var(--shadow); backdrop-filter: blur(10px); }
-    .workspace-switcher { display: flex; flex-wrap: wrap; gap: 10px; padding: 12px; border-radius: 18px; background: rgba(255,255,255,.82); border: 1px solid rgba(16,36,63,.08); box-shadow: var(--shadow); }
-    .workspace-switcher button, .workspace-subnav button { border: 1px solid rgba(16,36,63,.08); }
-    .workspace-switcher button.active, .workspace-subnav button.active { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; }
-    .workspace-page { display: grid; gap: 18px; }
-    .workspace-subnav { display: flex; flex-wrap: wrap; gap: 10px; }
-    .card { background: var(--card); border: 1px solid rgba(16,36,63,.08); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
-    .section-title { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
-    .section-title h2 { margin: 0; font-size: 19px; }
-    .section-title p { margin: 4px 0 0; color: var(--ink-soft); font-size: 13px; }
+    * { box-sizing: border-box; margin: 0; }
+    body { font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif; background: var(--background); color: var(--text-primary); line-height: 1.5; }
+
+    /* === Top Navigation === */
+    .top-nav { position: fixed; top: 0; left: 0; right: 0; height: 56px; background: var(--primary-dark); display: flex; align-items: center; padding: 0 24px; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    .top-nav-brand { display: flex; align-items: center; gap: 10px; color: #fff; white-space: nowrap; }
+    .top-nav-brand svg { width: 28px; height: 28px; flex-shrink: 0; }
+    .top-nav-brand span { font-size: 16px; font-weight: 600; letter-spacing: 0.02em; }
+    .top-nav-links { display: flex; align-items: center; gap: 2px; margin-left: 40px; flex: 1; }
+    .top-nav-links button { background: transparent; border: none; color: rgba(255,255,255,0.78); padding: 8px 16px; font-size: 14px; cursor: pointer; border-radius: 4px; position: relative; transition: all 0.2s; font-family: inherit; white-space: nowrap; }
+    .top-nav-links button:hover { color: #fff; background: rgba(255,255,255,0.08); transform: none; }
+    .top-nav-links button.active { color: #fff; background: var(--primary-light); }
+    .top-nav-links button.active::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 24px; height: 2px; background: var(--accent); border-radius: 1px; }
+    .top-nav-user { display: flex; align-items: center; gap: 12px; color: #fff; margin-left: auto; }
+    .top-nav-user .user-info { font-size: 13px; opacity: 0.9; }
+    .top-nav-user .user-role { font-size: 11px; padding: 2px 8px; border-radius: 3px; background: rgba(196,154,60,0.25); color: var(--accent); margin-left: 4px; }
+    .top-nav-user button { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 6px 12px; font-size: 12px; border-radius: 4px; cursor: pointer; font-family: inherit; }
+    .top-nav-user button:hover { background: rgba(255,255,255,0.18); transform: none; }
+    .hamburger-btn { display: none; background: transparent; border: none; color: #fff; padding: 8px; cursor: pointer; font-size: 20px; }
+
+    /* === Main Content === */
+    .main-content { padding: 70px 24px 24px; max-width: 1440px; margin: 0 auto; }
+    .main { padding: 0; display: grid; gap: 16px; }
+
+    /* === Topbar (in-page header) === */
+    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--shadow); }
+
+    /* === Workspace Switcher (secondary nav) === */
+    .workspace-switcher { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); }
+    .workspace-switcher button { border: 1px solid var(--border); border-radius: 4px; padding: 8px 14px; font-size: 13px; background: #fff; color: var(--text-primary); }
+    .workspace-switcher button.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .workspace-switcher button:hover:not(.active) { background: #f5f7fa; transform: none; }
+    .workspace-subnav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .workspace-subnav button { border: 1px solid var(--border); border-radius: 4px; }
+    .workspace-subnav button.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .workspace-page { display: grid; gap: 16px; }
+
+    /* === Cards === */
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+    .section-title { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .section-title h2 { margin: 0; font-size: 17px; font-weight: 600; color: var(--text-primary); }
+    .section-title h3 { margin: 0; font-size: 15px; }
+    .section-title p { margin: 4px 0 0; color: var(--text-secondary); font-size: 13px; }
+
+    /* === Grid Layouts === */
     .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-    .scenario { padding: 18px; border-radius: 18px; border: 1px solid var(--line); background: linear-gradient(180deg, #fff 0%, #f9fbfe 100%); cursor: pointer; transition: .2s ease; }
-    .scenario.active { border-color: var(--navy-2); box-shadow: inset 0 0 0 2px rgba(31,79,130,.18); transform: translateY(-2px); }
-    .scenario h3 { margin: 0 0 8px; font-size: 17px; }
-    .scenario p { margin: 0 0 10px; color: var(--ink-soft); font-size: 13px; line-height: 1.6; }
-    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; }
-    .stat { border: 1px solid var(--line); border-radius: 18px; padding: 16px; background: linear-gradient(180deg, #fff 0%, #fbfcff 100%); }
-    .stat strong { display: block; margin-top: 8px; font-size: 26px; }
-    .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-    input, select, textarea, button { font: inherit; }
-    input, select, textarea { width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--ink); }
-    textarea { min-height: 88px; resize: vertical; }
-    .form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .detail-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 16px; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+    .stat { border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; background: var(--surface); }
+    .stat strong { display: block; margin-top: 6px; font-size: 24px; color: var(--primary); }
+
+    /* === Scenario Cards === */
+    .scenario { padding: 16px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); cursor: pointer; transition: .2s ease; }
+    .scenario.active { border-color: var(--primary-light); box-shadow: inset 0 0 0 2px rgba(45,74,122,.18); }
+    .scenario h3 { margin: 0 0 6px; font-size: 15px; }
+    .scenario p { margin: 0 0 8px; color: var(--text-secondary); font-size: 13px; line-height: 1.5; }
+
+    /* === Buttons === */
+    button { border: none; border-radius: 4px; padding: 9px 16px; cursor: pointer; transition: .15s ease; font-family: inherit; font-size: 13px; }
+    .btn-primary { background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: #fff; font-weight: 500; }
+    .btn-primary:hover { opacity: 0.92; }
+    .btn-secondary { background: #eef1f5; color: var(--text-primary); border: 1px solid var(--border); }
+    .btn-secondary:hover { background: #e4e8ee; }
+    .btn-gold, .btn-accent { background: linear-gradient(135deg, #a07b28, var(--accent)); color: #fff; font-weight: 500; }
+    .btn-gold:hover, .btn-accent:hover { opacity: 0.92; }
+    button:hover { transform: none; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+
+    /* === Forms === */
+    input, select, textarea { font: inherit; font-size: 13px; width: 100%; padding: 9px 12px; border-radius: 4px; border: 1px solid var(--border); background: #fff; color: var(--text-primary); transition: border-color .2s; }
+    input:focus, select:focus, textarea:focus { outline: none; border-color: var(--primary-light); box-shadow: 0 0 0 2px rgba(45,74,122,0.1); }
+    textarea { min-height: 80px; resize: vertical; }
+    .form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
     .form-grid .full { grid-column: 1 / -1; }
-    button { border: none; border-radius: 12px; padding: 11px 16px; cursor: pointer; transition: .2s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; }
-    .btn-secondary { background: #eef3f8; color: var(--ink); }
-    .btn-gold { background: linear-gradient(135deg, #b8862d, var(--gold)); color: #fff; }
-    button:hover { transform: translateY(-1px); }
-    button:disabled { opacity: .56; cursor: not-allowed; transform: none; }
+
+    /* === Tables === */
     table { width: 100%; border-collapse: collapse; font-size: 13px; }
-    th, td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
-    th { color: var(--ink-soft); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
-    .task-list-toolbar { display: grid; grid-template-columns: minmax(220px, 1.4fr) repeat(3, minmax(130px, .75fr)) auto auto; gap: 10px; align-items: center; margin-top: 14px; }
+    th, td { padding: 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+    th { color: var(--text-secondary); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; background: #f8f9fb; }
+    tr:nth-child(even) td { background: #fafbfc; }
+    tr:hover td { background: #f0f4f8; }
+
+    /* === Task List === */
+    .task-list-toolbar { display: grid; grid-template-columns: minmax(200px, 1.4fr) repeat(3, minmax(120px, .75fr)) auto auto; gap: 8px; align-items: center; margin-top: 12px; }
     .task-list-toolbar input, .task-list-toolbar select { min-width: 0; }
     .task-list-count { white-space: nowrap; font-size: 13px; }
-    .task-group-row td { background: #f3f7fb; padding: 8px 10px; }
-    .task-group-toggle { width: 100%; display: flex; align-items: center; gap: 8px; padding: 6px 2px; border-radius: 8px; background: transparent; color: var(--ink); text-align: left; }
-    .task-group-toggle:hover { transform: none; background: rgba(42,109,178,.08); }
+    .task-group-row td { background: #f3f6fa; padding: 8px 10px; }
+    .task-group-toggle { width: 100%; display: flex; align-items: center; gap: 8px; padding: 6px 2px; border-radius: 4px; background: transparent; color: var(--text-primary); text-align: left; border: none; }
+    .task-group-toggle:hover { background: rgba(42,109,178,.06); }
     .task-group-arrow { width: 16px; color: var(--blue); font-weight: 700; }
-    .chart-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
-    .chart-grid.compact { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 14px; }
-    .chart-panel { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: linear-gradient(180deg, #fff 0%, #fbfcff 100%); min-width: 0; }
-    .chart-panel h3 { margin: 0 0 8px; font-size: 14px; }
+
+    /* === Charts === */
+    .chart-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 12px; }
+    .chart-grid.compact { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 12px; }
+    .chart-panel { border: 1px solid var(--border); border-radius: var(--radius); padding: 12px; background: var(--surface); min-width: 0; }
+    .chart-panel h3 { margin: 0 0 8px; font-size: 13px; color: var(--text-secondary); }
     .chart-panel canvas { display: block; width: 100%; height: 160px; }
     .chart-grid.compact .chart-panel canvas { height: 140px; }
-    .badge { display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
-    .badge.red { background: rgba(191,74,62,.12); color: var(--red); }
-    .badge.gold { background: rgba(198,151,63,.15); color: #9a6d15; }
-    .badge.green { background: rgba(47,125,91,.12); color: var(--green); }
-    .badge.blue { background: rgba(42,109,178,.12); color: var(--blue); }
-    .muted { color: var(--ink-soft); }
+
+    /* === Badges === */
+    .badge { display: inline-flex; align-items: center; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+    .badge.red { background: rgba(192,57,43,.1); color: var(--danger); }
+    .badge.gold { background: rgba(196,154,60,.12); color: #8a6510; }
+    .badge.green { background: rgba(39,114,75,.1); color: var(--success); }
+    .badge.blue { background: rgba(42,109,178,.1); color: var(--blue); }
+
+    /* === Misc === */
+    .pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 3px; background: rgba(255,255,255,.15); font-size: 12px; letter-spacing: .03em; }
+    .muted { color: var(--text-secondary); }
     .hidden { display: none !important; }
-    .detail-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 16px; }
-    .notice { padding: 12px 14px; border-radius: 14px; background: #eef4fb; border: 1px solid #d7e3f4; color: var(--ink); font-size: 13px; line-height: 1.6; }
-    .auth-shell { max-width: 1080px; margin: 40px auto; padding: 0 20px 40px; }
-    .auth-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 18px; align-items: stretch; }
-    .auth-callout { padding: 28px; border-radius: 28px; color: #fff; background: radial-gradient(circle at top right, rgba(255,255,255,.22), transparent 18%), linear-gradient(135deg, #10243f 0%, #214d7e 62%, #c6973f 100%); box-shadow: var(--shadow); }
-    .auth-callout h1 { margin: 0 0 14px; font-size: 34px; }
-    .auth-card { padding: 24px; border-radius: 28px; background: rgba(255,255,255,.92); border: 1px solid rgba(16,36,63,.08); box-shadow: var(--shadow); }
-    .auth-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
-    .auth-tabs button.active { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; }
-    #sourceKindTabs button.active { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; }
-    .cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-    .banner { padding: 14px 16px; border-radius: 18px; background: linear-gradient(135deg, rgba(18,52,90,.08), rgba(198,151,63,.12)); border: 1px solid rgba(18,52,90,.12); line-height: 1.7; font-size: 13px; }
-    .collapsible { border: 1px solid rgba(16,36,63,.08); border-radius: 14px; background: linear-gradient(180deg, #fff 0%, #fbfcff 100%); overflow: hidden; margin-bottom: 14px; }
-    .collapsible > summary { list-style: none; cursor: pointer; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 600; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .notice { padding: 10px 14px; border-radius: 4px; background: #eef3fa; border: 1px solid #d5e1f0; color: var(--text-primary); font-size: 13px; line-height: 1.6; }
+    .banner { padding: 12px 16px; border-radius: var(--radius); background: linear-gradient(135deg, rgba(26,42,74,.06), rgba(196,154,60,.08)); border: 1px solid rgba(26,42,74,.1); line-height: 1.6; font-size: 13px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+    /* === Notification Bar === */
+    .notification-bar { position: fixed; top: 56px; left: 0; right: 0; z-index: 99; padding: 12px 24px; text-align: center; font-size: 14px; font-weight: 500; color: #fff; animation: notifySlideIn .3s ease; transition: opacity .4s ease, transform .4s ease; }
+    .notification-bar.notification-hide { opacity: 0; transform: translateY(-100%); }
+    .notification-info { background: linear-gradient(135deg, #2a6db2, #3a8fd4); }
+    .notification-error { background: linear-gradient(135deg, #c0392b, #e04b3d); }
+    .notification-success { background: linear-gradient(135deg, #27724b, #33a06a); }
+    @keyframes notifySlideIn { from { opacity: 0; transform: translateY(-100%); } to { opacity: 1; transform: translateY(0); } }
+
+    /* === Collapsible === */
+    .collapsible { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); overflow: hidden; margin-bottom: 12px; }
+    .collapsible > summary { list-style: none; cursor: pointer; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 600; font-size: 14px; }
     .collapsible > summary::-webkit-details-marker { display: none; }
-    .collapsible > summary::after { content: '灞曞紑'; color: var(--ink-soft); font-size: 12px; font-weight: 500; }
-    .collapsible[open] > summary::after { content: '鏀惰捣'; }
+    .collapsible > summary::after { content: '展开'; color: var(--text-secondary); font-size: 12px; font-weight: 500; }
+    .collapsible[open] > summary::after { content: '收起'; }
     .collapsible-body { padding: 0 14px 14px; }
-    #message { position: sticky; top: 10px; z-index: 20; }
-    .skip-link { position:absolute; left:-999px; top:12px; background:#fff; color:var(--ink); padding:8px 12px; border:1px solid var(--line); border-radius:8px; z-index:30; }
-    .skip-link:focus { left:12px; }
-    @media (max-width: 1100px) { .shell, .auth-hero, .detail-grid, .grid-3, .grid-2, .stats, .form-grid, .task-list-toolbar, .chart-grid, .chart-grid.compact { grid-template-columns: 1fr; } .sidebar { display: none; } .main { padding: 14px; } .section-title { align-items: flex-start; } }
+
+    /* === Auth Page (Centered Card + Dark Background) === */
+    .auth-shell { max-width: 1100px; margin: 0 auto; padding: 0 20px; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+    .auth-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 20px; align-items: stretch; }
+    .auth-callout { padding: 32px; border-radius: 8px; color: #fff; background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%); box-shadow: 0 4px 20px rgba(15,27,51,0.3); }
+    .auth-callout h1 { margin: 0 0 14px; font-size: 28px; font-weight: 700; }
+    .auth-callout p { color: rgba(255,255,255,.82); line-height: 1.7; }
+    .auth-card { padding: 28px; border-radius: 8px; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); }
+    .auth-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+    .auth-tabs button.active { background: var(--primary); color: #fff; }
+    #sourceKindTabs button.active { background: var(--primary); color: #fff; }
+
+    /* === Skip Link === */
+    .skip-link { position: absolute; left: -999px; top: 12px; background: #fff; color: var(--text-primary); padding: 8px 12px; border: 1px solid var(--border); border-radius: 4px; z-index: 200; }
+    .skip-link:focus { left: 12px; }
+
+    /* Legacy compat: .shell removed, keep for potential JS references */
+    .shell { min-height: 100vh; }
+    .sidebar { display: none; }
+    .user-card { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); border-radius: 8px; padding: 14px; }
+    .side-panel { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); border-radius: 8px; padding: 14px; }
+
+    /* === Responsive === */
+    @media (max-width: 1100px) {
+      .top-nav-links { display: none; position: absolute; top: 56px; left: 0; right: 0; flex-direction: column; background: var(--primary-dark); padding: 8px 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+      .top-nav-links.open { display: flex; }
+      .top-nav-links button { text-align: left; padding: 12px 16px; }
+      .top-nav-links button.active::after { display: none; }
+      .hamburger-btn { display: block; }
+      .auth-hero, .detail-grid, .grid-3, .grid-2, .stats, .form-grid, .task-list-toolbar, .chart-grid, .chart-grid.compact { grid-template-columns: 1fr; }
+      .main-content { padding: 66px 14px 14px; }
+    }
   </style>
 </head>
 <body>
-  <div id="message" class="auth-shell hidden"></div>
+  <div id="message" class="hidden"></div>
   <section id="authRoot" class="auth-shell hidden">
     <div class="auth-hero">
       <div class="auth-callout">
         <div class="pill">Government PoC Demo</div>
-        <h1>AuditLens 鏀垮簻瀹¤宸ヤ綔鍙版牱鏉跨幆澧?/h1>
-        <p id="publicModeText">鍏綉鐜浠呯敤浜庢柟妗堟眹鎶ャ€佽矾婕斿拰璇曠偣娌熼€氾紝涓嶆壙杞界湡瀹炴斂搴滀笟鍔℃暟鎹€傛寮?PoC 灏嗗垏鎹㈠埌鏀垮姟浜戞垨绉佹湁鍖栭儴缃茬幆澧冦€?/p>
-        <div class="notice" style="margin-top:18px;background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.16);color:#fff;">榛樿浜や粯娴佺▼锛氳储鏀跨洃鐫ｅ満鏅€夋嫨 -&gt; 鏁版嵁瀵煎叆 -&gt; 椋庨櫓瀹¤ -&gt; 鏍囧噯鎶ュ憡 -&gt; 鏁存敼璺熻釜</div>
+        <h1>AuditLens 政府审计工作台样板环境</h1>
+        <p id="publicModeText">公网环境仅用于方案汇报、路演和试点沟通，不承载真实政府业务数据。正式 PoC 将切换到政务云或私有化部署环境。</p>
+        <div class="notice" style="margin-top:18px;background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.16);color:#fff;">默认交付流程：财政监督场景选择 -&gt; 数据导入 -&gt; 风险审计 -&gt; 标准报告 -&gt; 整改跟踪</div>
         <div class="cta-row">
-          <button class="btn-gold" id="briefingBtn">棰勭害姹囨姤</button>
-          <button class="btn-secondary" id="pocBtn">鐢宠 PoC</button>
+          <button class="btn-gold" id="briefingBtn">预约汇报</button>
+          <button class="btn-secondary" id="pocBtn">申请 PoC</button>
         </div>
       </div>
       <div class="auth-card">
         <div class="auth-tabs">
-          <button class="btn-secondary active" id="loginTab">鐧诲綍</button>
-          <button class="btn-secondary" id="registerTab">鍒濆鍖栫鐞嗗憳</button>
+          <button class="btn-secondary active" id="loginTab">登录</button>
+          <button class="btn-secondary" id="registerTab">初始化管理员</button>
         </div>
-        <form id="loginForm"><div class="form-grid"><div class="full"><input id="loginUser" placeholder="鐢ㄦ埛鍚?></div><div class="full"><input id="loginPass" type="password" placeholder="瀵嗙爜"></div></div><div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-primary">鐧诲綍宸ヤ綔鍙?/button></div></form>
-        <form id="registerForm" class="hidden"><div class="notice" style="margin-bottom:14px;">浠呯敤浜庨娆″垵濮嬪寲鎴栨槑纭紑鏀捐嚜鍔╂敞鍐岀殑鐜銆?/div><div class="form-grid"><div><input id="regTenant" placeholder="绉熸埛鍚嶇О / 鐩戠涓讳綋"></div><div><input id="regOrg" placeholder="缁勭粐鍚嶇О"></div><div><input id="regUser" placeholder="绠＄悊鍛樿处鍙?></div><div><input id="regName" placeholder="鏄剧ず鍚嶇О"></div><div class="full"><input id="regPass" type="password" placeholder="瀵嗙爜锛堣嚦灏?浣嶏紝鍚瓧姣嶅拰鏁板瓧锛?></div></div><div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-primary">鍒涘缓鐩戠绉熸埛</button></div></form>
+        <form id="loginForm"><div class="form-grid"><div class="full"><input id="loginUser" placeholder="用户名"></div><div class="full"><input id="loginPass" type="password" placeholder="密码"></div></div><div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-primary">登录工作台</button></div></form>
+        <form id="registerForm" class="hidden"><div class="notice" style="margin-bottom:14px;">仅用于首次初始化或明确开放自助注册的环境。</div><div class="form-grid"><div><input id="regTenant" placeholder="租户名称 / 监管主体"></div><div><input id="regOrg" placeholder="组织名称"></div><div><input id="regUser" placeholder="管理员账号"></div><div><input id="regName" placeholder="显示名称"></div><div class="full"><input id="regPass" type="password" placeholder="密码（至少8位，含字母和数字）"></div></div><div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-primary">创建监管租户</button></div></form>
         <div id="leadPanel" style="margin-top:18px;">
-          <div class="section-title"><div><h2>棰勭害姹囨姤 / 鐢宠 PoC</h2><p>鍏紑鏍锋澘鐜涓嶅紑鏀捐嚜鐢辫瘯鐢紝璇锋彁浜ら」鐩俊鎭悗鐢卞洟闃熻窡杩涖€?/p></div></div>
+          <div class="section-title"><div><h2>预约汇报 / 申请 PoC</h2><p>公开样板环境不开放自由试用，请提交项目信息后由团队跟进。</p></div></div>
           <form id="leadForm">
             <div class="form-grid">
-              <div><input id="leadContactName" placeholder="鑱旂郴浜?></div>
-              <div><input id="leadContactChannel" placeholder="鎵嬫満鍙?/ 閭 / 浼佷笟寰俊"></div>
-              <div><input id="leadUnitType" placeholder="鍗曚綅绫诲瀷锛屼緥濡傝储鏀垮眬 / 鍥借祫濮?></div>
-              <div><input id="leadDepartment" placeholder="浣跨敤閮ㄩ棬"></div>
-              <div><input id="leadScenario" placeholder="璁″垝瀹¤鍦烘櫙"></div>
-              <div><select id="leadDeployment"><option value="private-cloud-poc">鏀垮姟浜?/ 绉佹湁鍖?PoC</option><option value="lan-poc">鍐呯綉 / 灞€鍩熺綉璇曠偣</option><option value="briefing-only">鍏堝仛鏂规姹囨姤</option></select></div>
-              <div><select id="leadRealData"><option value="false">鍏堜娇鐢ㄨ劚鏁忔牱渚嬫暟鎹?/option><option value="true">闇€瑕佽瘎浼扮湡瀹炴暟鎹?PoC</option></select></div>
-              <div><select id="leadAiPolicy"><option value="configurable">AI 鍙厤缃惎鍋?/option><option value="disabled">PoC 榛樿鍏抽棴 AI</option><option value="internet-ai">鍓嶆湡鍏佽鍏綉 AI</option></select></div>
-              <div class="full"><textarea id="leadNote" placeholder="琛ュ厖璇存槑锛屼緥濡傛湡鏈涘懆鏈熴€佹秹鍙婄郴缁熴€佸璁″璞¤寖鍥?></textarea></div>
+              <div><input id="leadContactName" placeholder="联系人"></div>
+              <div><input id="leadContactChannel" placeholder="手机号 / 邮箱 / 企业微信"></div>
+              <div><input id="leadUnitType" placeholder="单位类型，例如财政局 / 国资委"></div>
+              <div><input id="leadDepartment" placeholder="使用部门"></div>
+              <div><input id="leadScenario" placeholder="计划审计场景"></div>
+              <div><select id="leadDeployment"><option value="private-cloud-poc">政务云 / 私有化 PoC</option><option value="lan-poc">内网 / 局域网试点</option><option value="briefing-only">先做方案汇报</option></select></div>
+              <div><select id="leadRealData"><option value="false">先使用脱敏样例数据</option><option value="true">需要评估真实数据 PoC</option></select></div>
+              <div><select id="leadAiPolicy"><option value="configurable">AI 可配置启停</option><option value="disabled">PoC 默认关闭 AI</option><option value="internet-ai">前期允许公网 AI</option></select></div>
+              <div class="full"><textarea id="leadNote" placeholder="补充说明，例如期望周期、涉及系统、审计对象范围"></textarea></div>
             </div>
-            <div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-gold">鎻愪氦椤圭洰鐢宠</button></div>
+            <div class="toolbar" style="margin-top:14px;"><button type="submit" class="btn-gold">提交项目申请</button></div>
           </form>
         </div>
       </div>
     </div>
   </section>
-  <a class="skip-link" href="#main-content">璺冲埌涓诲唴瀹?/a>
-  <section id="appRoot" class="shell hidden">
-    <aside class="sidebar">
-      <div class="brand"><div class="pill">AuditLens v0.4</div><h2>鏀垮簻瀹¤鍦烘櫙鏍锋澘鐜</h2><p>鐢ㄧ粺涓€鐨勫満鏅ā鏉裤€佷换鍔℃祦銆佹姤鍛婃ā鏉垮拰鐣欑棔鑳藉姏锛屾妸涓€娆℃鍒嗘瀽鍋氭垚鍙眹鎶ャ€佸彲璇曠偣銆佸彲浜や粯鐨勭洃绠″伐浣滃彴銆?/p></div>
-      <div class="user-card"><strong id="userName">-</strong><div class="muted" id="userOrg" style="margin-top:6px;"></div><div class="toolbar" style="margin-top:10px;"><span class="pill" id="userRole">viewer</span><button class="btn-secondary" id="logoutBtn">閫€鍑?/button></div></div>
-      <div class="side-panel"><strong>閮ㄧ讲杈圭晫</strong><small id="sidebarDeploymentCopy">鍏綉鐜浠呯敤浜庢眹鎶ワ紱娑夊強鐪熷疄鏁版嵁鍜屾寮忚瘯鐐规椂锛屽垏鎹㈣嚦鏀垮姟浜戞垨绉佹湁鍖栫幆澧冦€?/small></div>
-      <div class="side-panel"><strong>AI 瑙ｉ噴杈圭晫</strong><small id="sidebarAiCopy">瑙勫垯缁撹鏄寮忓璁＄粨鏋滐紝AI 浠呯敤浜庤緟鍔╄В璇汇€佸舰鎴愭憳瑕佷笌寤鸿銆?/small></div>
-    </aside>
-    <main class="main" id="main-content">
-      <div class="topbar"><div><strong id="topbarTitle" style="font-size:20px;">鏀垮簻璐㈠姟澶氱被鍨嬪鍏ュ伐浣滃彴</strong><div class="muted" id="topbarCopy">绗笁闃舵宸插惎鐢ㄩ噰璐€侀绠椼€佸浗搴撴敮浠樸€佷細璁″嚟璇佸洓绫讳换鍔★紝骞惰ˉ涓婅繛鎺ュ櫒瀵煎叆涓庡悎鍚?鏀粯-鍏ヨ处鑱旀煡銆?/div></div><div class="toolbar"><button class="btn-secondary" id="refreshBtn">鍒锋柊鏁版嵁</button></div></div>
+  <a class="skip-link" href="#main-content">跳到主内容</a>
+  <section id="appRoot" class="hidden">
+    <header class="top-nav" id="topNav">
+      <div class="top-nav-brand">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="4" width="28" height="24" rx="3" stroke="#c49a3c" stroke-width="2"/><path d="M8 12h16M8 17h12M8 22h8" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="22" r="3" fill="#c49a3c"/><path d="M23 22l1 1 2-2" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>AuditLens 财政监督工作台</span>
+      </div>
+      <button class="hamburger-btn" id="hamburgerBtn" type="button" aria-label="菜单">☰</button>
+      <nav class="top-nav-links" id="mainNavLinks">
+        <button data-workspace-page="import" type="button">导入工作台</button>
+        <button data-workspace-page="tasks" type="button">任务总览</button>
+        <button data-workspace-page="cases" type="button">案件与整改</button>
+        <button data-workspace-page="operations" type="button">运营与自动化</button>
+        <button data-workspace-page="admin" type="button">管理后台</button>
+      </nav>
+      <div class="top-nav-user" id="topNavUser">
+        <span class="user-info"><span id="userName">-</span><span class="user-role" id="userRole">viewer</span></span>
+        <span class="muted" id="userOrg" style="font-size:12px;color:rgba(255,255,255,.6);"></span>
+        <button id="logoutBtn" type="button">退出</button>
+      </div>
+    </header>
+    <main class="main-content" id="main-content">
+      <div class="topbar"><div><strong id="topbarTitle" style="font-size:18px;">政府财务多类型导入工作台</strong><div class="muted" id="topbarCopy">第三阶段已启用采购、预算、国库支付、会计凭证四类任务，并补上连接器导入与合同-支付-入账联查。</div></div><div class="toolbar"><button class="btn-secondary" id="refreshBtn">刷新数据</button></div></div>
       <div id="environmentBanner" class="banner"></div>
       <nav id="workspaceNav" class="workspace-switcher">
-        <button class="btn-secondary" data-workspace-page="import" type="button">瀵煎叆宸ヤ綔鍙?/button>
-        <button class="btn-secondary" data-workspace-page="tasks" type="button">浠诲姟鎬昏</button>
-        <button class="btn-secondary" data-workspace-page="cases" type="button">妗堜欢涓庢暣鏀?/button>
-        <button class="btn-secondary" data-workspace-page="operations" type="button">杩愯惀涓庤嚜鍔ㄥ寲</button>
-        <button class="btn-secondary" data-workspace-page="admin" type="button">绠＄悊鍛樺悗鍙?/button>
+        <button class="btn-secondary" data-workspace-page="import" type="button">导入工作台</button>
+        <button class="btn-secondary" data-workspace-page="tasks" type="button">任务总览</button>
+        <button class="btn-secondary" data-workspace-page="cases" type="button">案件与整改</button>
+        <button class="btn-secondary" data-workspace-page="operations" type="button">运营与自动化</button>
+        <button class="btn-secondary" data-workspace-page="admin" type="button">管理员后台</button>
       </nav>
       <div id="workspacePageImport" class="workspace-page">
       <section class="card">
-        <div class="section-title"><div><h2>1. 瀵煎叆宸ヤ綔鍙?/h2><p>鍏堥€夋暟鎹被鍨嬶紝鍐嶉€夋潵婧愶紝鎸夊鍏ラ妫€ -&gt; 浠诲姟鍏ュ簱 -&gt; 瑙勫垯鐮斿垽鐨勬祦绋嬫帹杩涖€?/p></div><div class="toolbar"><button class="btn-secondary" id="downloadTemplateBtn">涓嬭浇妯℃澘</button></div></div>
+        <div class="section-title"><div><h2>1. 导入工作台</h2><p>先选数据类型，再选来源，按导入预检 -&gt; 任务入库 -&gt; 规则研判的流程推进。</p></div><div class="toolbar"><button class="btn-secondary" id="downloadTemplateBtn">下载模板</button></div></div>
         <details class="collapsible">
-          <summary>瀵煎叆绫诲瀷鍗＄墖</summary>
+          <summary>导入类型卡片</summary>
           <div class="collapsible-body">
             <div id="taskKindGrid" class="grid-2"></div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>瀛楁璇存槑涓庡鍏ユ潵婧?/summary>
+          <summary>字段说明与导入来源</summary>
           <div class="collapsible-body">
-        <div class="grid-2" style="margin-top:18px;">
+        <div class="grid-2" style="margin-top:14px;">
           <div>
-            <div class="section-title"><div><h2 id="importDefinitionTitle">瀵煎叆绫诲瀷</h2><p id="importDefinitionCopy">璇烽€夋嫨瀵煎叆绫诲瀷銆?/p></div></div>
+            <div class="section-title"><div><h2 id="importDefinitionTitle">导入类型</h2><p id="importDefinitionCopy">请选择导入类型。</p></div></div>
             <div id="importDefinitionFields"></div>
           </div>
           <div>
-            <div class="section-title"><div><h2>瀵煎叆鏉ユ簮</h2><p>鏂囦欢棰勬銆佹壒閲?payload銆佸叕鍛婇〉鎶撳彇鍜岃繛鎺ュ櫒瀵煎叆鍏辩敤缁熶竴浠诲姟涓績銆?/p></div></div>
+            <div class="section-title"><div><h2>导入来源</h2><p>文件预检、批量 payload、公告页抓取和连接器导入共用统一任务中心。</p></div></div>
             <div class="toolbar" id="sourceKindTabs" style="margin-bottom:14px;"></div>
             <div id="fileSourcePanel">
               <div class="form-grid">
-                <div class="full"><input id="importTitle" placeholder="浠诲姟鏍囬锛屼緥濡?2026 骞撮噰璐洃鐫ｅ鍏?></div>
+                <div class="full"><input id="importTitle" placeholder="任务标题，例如 2026 年采购监督导入"></div>
                 <div class="full"><input id="importFileInput" type="file" accept=".csv,.xlsx,.xls"></div>
               </div>
-              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="previewImportBtn">鎵ц棰勬</button><button class="btn-gold" id="commitImportBtn">纭鍏ュ簱</button></div>
+              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="previewImportBtn">执行预检</button><button class="btn-gold" id="commitImportBtn">确认入库</button></div>
             </div>
             <div id="batchSourcePanel" class="hidden">
               <div class="form-grid">
-                <div class="full"><input id="batchTitle" placeholder="浠诲姟鏍囬锛屼緥濡?鎵归噺閲囪喘瀵煎叆"></div>
-                <div class="full"><textarea id="batchPayload" placeholder='杈撳叆 JSON锛屼緥濡?{"title":"鎵归噺瀵煎叆","records":[...]}'></textarea></div>
+                <div class="full"><input id="batchTitle" placeholder="任务标题，例如 批量采购导入"></div>
+                <div class="full"><textarea id="batchPayload" placeholder='输入 JSON，例如 {"title":"批量导入","records":[...]}'></textarea></div>
               </div>
-              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="submitBatchBtn">鍒涘缓鎵归噺浠诲姟</button></div>
+              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="submitBatchBtn">创建批量任务</button></div>
             </div>
             <div id="fetchSourcePanel" class="hidden">
               <div class="form-grid">
-                <div class="full"><input id="fetchTitle" placeholder="浠诲姟鏍囬锛屼緥濡?鍏憡鎶撳彇瀵煎叆"></div>
-                <div class="full"><textarea id="fetchUrls" placeholder="姣忚涓€涓叕鍛婇〉鎴栧垪琛ㄩ〉 URL"></textarea></div>
+                <div class="full"><input id="fetchTitle" placeholder="任务标题，例如 公告抓取导入"></div>
+                <div class="full"><textarea id="fetchUrls" placeholder="每行一个公告页或列表页 URL"></textarea></div>
               </div>
-              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="submitFetchBtn">鎶撳彇骞跺垱寤轰换鍔?/button></div>
+              <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="submitFetchBtn">抓取并创建任务</button></div>
             </div>
             <div id="connectorSourcePanel" class="hidden">
               <div class="form-grid">
                 <div class="full">
                   <select id="connectorProfileSelect">
-                    <option value="">鏆傛棤鍙敤杩炴帴妗ｆ</option>
+                    <option value="">暂无可用连接档案</option>
                   </select>
                 </div>
                 <div class="full">
-                  <div id="connectorDatasetHint" class="notice">杩炴帴鍣ㄤ細鎸夊綋鍓嶄换鍔＄被鍨嬪拰瀛愮被鍨嬭繃婊ゃ€?/div>
+                  <div id="connectorDatasetHint" class="notice">连接器会按当前任务类型和子类型过滤。</div>
                 </div>
               </div>
               <div class="toolbar" style="margin-top:14px;">
-                <button class="btn-primary" id="previewConnectorBtn">鎵ц杩炴帴鍣ㄩ妫€</button>
-                <button class="btn-gold" id="commitConnectorBtn">纭杩炴帴鍣ㄥ叆搴?/button>
+                <button class="btn-primary" id="previewConnectorBtn">执行连接器预检</button>
+                <button class="btn-gold" id="commitConnectorBtn">确认连接器入库</button>
               </div>
             </div>
           </div>
@@ -230,63 +332,63 @@
         </details>
       </section>
       <details class="collapsible">
-        <summary>鐩戠潱璇勫鍙拌处 / 妗堜欢绉嶅瓙瀵煎叆</summary>
+        <summary>监督评审台账 / 案件种子导入</summary>
         <div class="collapsible-body">
       <section class="grid-2">
         <div class="card">
           <div class="section-title">
             <div>
-              <h2>1.5 鐩戠潱璇勫鍙拌处 / 妗堜欢绉嶅瓙瀵煎叆</h2>
-              <p>娴峰畨甯傝储鏀挎姇璧勮瘎瀹″懆鎶ャ€佸鍑忛鍛ㄦ姤銆佸缃氬彴璐︺€佷笓椤规鏌ラ棶棰樻竻鍗曠洿鎺ョ敓鎴愭浠讹紝涓嶅啀寮鸿濂楀洓绫诲璁′换鍔°€?/p>
+              <h2>1.5 监督评审台账 / 案件种子导入</h2>
+              <p>海安市财政投资评审周报、增减额周报、处罚台账、专项检查问题清单直接生成案件，不再强制套四类审计任务。</p>
             </div>
             <div class="toolbar">
-              <button class="btn-secondary" id="downloadCaseSeedTemplateBtn">涓嬭浇绉嶅瓙妯℃澘</button>
+              <button class="btn-secondary" id="downloadCaseSeedTemplateBtn">下载种子模板</button>
             </div>
           </div>
             <div class="form-grid">
-              <div class="full"><input id="caseSeedTitle" placeholder="瀵煎叆鏍囬锛屼緥濡?娴峰畨甯傝储鏀挎姇璧勮瘎瀹″懆鎶ユ浠剁瀛?></div>
+              <div class="full"><input id="caseSeedTitle" placeholder="导入标题，例如 海安市财政投资评审周报案件种子"></div>
               <div>
                 <select id="caseSeedTemplateKind">
-                  <option value="investment_review">鎶曡祫璇勫妯℃澘</option>
-                  <option value="penalty_ledger">澶勭綒鍙拌处妯℃澘</option>
-                  <option value="special_inspection">涓撻」妫€鏌ユā鏉?/option>
+                  <option value="investment_review">投资评审模板</option>
+                  <option value="penalty_ledger">处罚台账模板</option>
+                  <option value="special_inspection">专项检查模板</option>
                 </select>
               </div>
               <div class="toolbar">
-                <button class="btn-secondary" id="saveCaseSeedConfigBtn" type="button">淇濆瓨褰撳墠妯℃澘閰嶇疆</button>
+                <button class="btn-secondary" id="saveCaseSeedConfigBtn" type="button">保存当前模板配置</button>
               </div>
               <div class="full"><input id="caseSeedFileInput" type="file" accept=".csv,.xlsx,.xls"></div>
             </div>
-            <div class="muted" id="caseSeedConfigMeta" style="margin-top:12px;">褰撳墠妯℃澘杩樻病鏈変繚瀛樼殑瀵煎叆閰嶇疆銆?/div>
+            <div class="muted" id="caseSeedConfigMeta" style="margin-top:12px;">当前模板还没有保存的导入配置。</div>
             <div class="card" style="margin-top:14px;padding:14px;">
               <div class="section-title">
                 <div>
-                  <h2>鑷姩鍒嗘淳瑙勫垯</h2>
-                  <p>鎸夋潵婧愰儴闂ㄦ垨鏁存敼鍗曚綅鑷姩钀借矗浠讳汉锛屾湭鍛戒腑鐨勮褰曚繚鎸佹湭鍒嗘淳銆?/p>
+                  <h2>自动分派规则</h2>
+                  <p>按来源部门或整改单位自动落责任人，未命中的记录保持未分派。</p>
               </div>
               <div class="toolbar">
-                <button class="btn-secondary" id="addCaseSeedAssignmentRuleBtn" type="button">鏂板瑙勫垯</button>
+                <button class="btn-secondary" id="addCaseSeedAssignmentRuleBtn" type="button">新增规则</button>
               </div>
             </div>
-            <div id="caseSeedAssignmentRuleRows" class="muted">鏈厤缃嚜鍔ㄥ垎娲捐鍒欍€?/div>
+            <div id="caseSeedAssignmentRuleRows" class="muted">未配置自动分派规则。</div>
           </div>
           <div class="toolbar" style="margin-top:14px;">
-            <button class="btn-primary" id="previewCaseSeedBtn" type="button">鎵ц绉嶅瓙棰勬</button>
-            <button class="btn-gold" id="importCaseSeedBtn" type="button" disabled>纭鐢熸垚妗堜欢</button>
+            <button class="btn-primary" id="previewCaseSeedBtn" type="button">执行种子预检</button>
+            <button class="btn-gold" id="importCaseSeedBtn" type="button" disabled>确认生成案件</button>
             </div>
-            <div class="notice" id="caseSeedPreviewMeta" style="margin-top:14px;">涓婁紶鐩戠潱璇勫鍙拌处銆佸鍑忛鍛ㄦ姤銆佸缃氬彴璐︽垨涓撻」妫€鏌ラ棶棰樻竻鍗曪紝鐩存帴鐢熸垚妗堜欢绉嶅瓙銆?/div>
+            <div class="notice" id="caseSeedPreviewMeta" style="margin-top:14px;">上传监督评审台账、增减额周报、处罚台账或专项检查问题清单，直接生成案件种子。</div>
           </div>
           <div class="card">
             <div class="section-title">
             <div>
-              <h2>妗堜欢绉嶅瓙棰勬</h2>
-              <p>鍏堢湅鍙拌处瀛楁銆佽川閲忛棶棰樺拰灏嗚鍒涘缓鐨勬浠舵憳瑕併€?/p>
+              <h2>案件种子预检</h2>
+              <p>先看台账字段、质量问题和将被创建的案件摘要。</p>
             </div>
             </div>
-            <div id="caseSeedPreviewRecords" class="muted">鏆傛棤妗堜欢绉嶅瓙棰勬缁撴灉銆?/div>
-            <div style="margin-top:14px;" id="caseSeedFieldMappings" class="muted">鏆傛棤瀛楁鏄犲皠棰勮銆?/div>
-            <div style="margin-top:14px;" id="caseSeedAssignmentMatches" class="muted">鏆傛棤鑷姩鍒嗘淳鍛戒腑璇存槑銆?/div>
-            <div style="margin-top:14px;" id="caseSeedPreviewChecks" class="muted">鏆傛棤璐ㄩ噺鎶ュ憡銆?/div>
+            <div id="caseSeedPreviewRecords" class="muted">暂无案件种子预检结果。</div>
+            <div style="margin-top:14px;" id="caseSeedFieldMappings" class="muted">暂无字段映射预览。</div>
+            <div style="margin-top:14px;" id="caseSeedAssignmentMatches" class="muted">暂无自动分派命中说明。</div>
+            <div style="margin-top:14px;" id="caseSeedPreviewChecks" class="muted">暂无质量报告。</div>
           </div>
         </section>
         </div>
@@ -295,336 +397,336 @@
         <div class="card">
           <div class="section-title">
             <div>
-              <h2>瀵煎叆閰嶇疆涓績</h2>
-              <p>缁存姢鍏变韩 / 绉佹湁瀵煎叆鏂规锛屽鐢ㄥ埌妗堜欢绉嶅瓙瀵煎叆锛屼笉鍐嶉噸澶嶈皟鏁村瓧娈垫槧灏勫拰鍒嗘淳瑙勫垯銆?/p>
+              <h2>导入配置中心</h2>
+              <p>维护共享 / 私有导入方案，复用到案件种子导入，不再重复调整字段映射和分派规则。</p>
             </div>
             <div class="toolbar">
               <select id="importProfileScopeFilter">
-                <option value="all">鍏ㄩ儴鏂规</option>
-                <option value="shared">鍏变韩鏂规</option>
-                <option value="private">绉佹湁鏂规</option>
+                <option value="all">全部方案</option>
+                <option value="shared">共享方案</option>
+                <option value="private">私有方案</option>
               </select>
             </div>
           </div>
           <div class="form-grid">
-            <div><input id="importProfileName" placeholder="鏂规鍚嶇О"></div>
+            <div><input id="importProfileName" placeholder="方案名称"></div>
             <div>
               <select id="importProfileTemplateKind">
-                <option value="investment_review">鎶曡祫璇勫妯℃澘</option>
-                <option value="penalty_ledger">澶勭綒鍙拌处妯℃澘</option>
-                <option value="special_inspection">涓撻」妫€鏌ユā鏉?/option>
+                <option value="investment_review">投资评审模板</option>
+                <option value="penalty_ledger">处罚台账模板</option>
+                <option value="special_inspection">专项检查模板</option>
               </select>
             </div>
             <div>
               <select id="importProfileScope">
-                <option value="private">绉佹湁</option>
-                <option value="shared">鍏变韩</option>
+                <option value="private">私有</option>
+                <option value="shared">共享</option>
               </select>
             </div>
-            <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="importProfileDefault" type="checkbox" style="width:auto;">璁句负榛樿鏂规</label></div>
-            <div class="full"><textarea id="importProfileNotes" placeholder="鏂规璇存槑"></textarea></div>
+            <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="importProfileDefault" type="checkbox" style="width:auto;">设为默认方案</label></div>
+            <div class="full"><textarea id="importProfileNotes" placeholder="方案说明"></textarea></div>
             <div class="full"><input id="importProfileFile" type="file" accept=".json"></div>
           </div>
           <div class="toolbar" style="margin-top:14px;flex-wrap:wrap;">
-            <button class="btn-primary" id="createImportProfileBtn" type="button">浠庡綋鍓嶉厤缃繚瀛樻柟妗?/button>
-            <button class="btn-secondary" id="cloneImportProfileBtn" type="button">澶嶅埗鎵€閫夋柟妗?/button>
-            <button class="btn-secondary" id="exportImportProfileBtn" type="button">瀵煎嚭鎵€閫夋柟妗?/button>
-            <button class="btn-secondary" id="importImportProfileBtn" type="button">瀵煎叆 JSON 鏂规</button>
+            <button class="btn-primary" id="createImportProfileBtn" type="button">从当前配置保存方案</button>
+            <button class="btn-secondary" id="cloneImportProfileBtn" type="button">复制所选方案</button>
+            <button class="btn-secondary" id="exportImportProfileBtn" type="button">导出所选方案</button>
+            <button class="btn-secondary" id="importImportProfileBtn" type="button">导入 JSON 方案</button>
           </div>
-          <div class="notice" id="importProfilesMeta" style="margin-top:14px;">褰撳墠妯℃澘涓嬫殏鏃犳柟妗堛€?/div>
-          <div id="importProfileRows" style="margin-top:14px;" class="muted">鏆傛棤瀵煎叆鏂规銆?/div>
+          <div class="notice" id="importProfilesMeta" style="margin-top:14px;">当前模板下暂时无方案。</div>
+          <div id="importProfileRows" style="margin-top:14px;" class="muted">暂无导入方案。</div>
         </div>
         <div class="card">
           <div class="section-title">
             <div>
-              <h2>璐ｄ换鍒嗘淳瀛楀吀</h2>
-              <p>鎸夋潵婧愰儴闂ㄦ垨鏁存敼鍗曚綅缁存姢榛樿璐ｄ换浜鸿矾鐢憋紝渚涢妫€銆佸鍏ュ拰鑷姩绔嬫澶嶇敤銆?/p>
+              <h2>责任分派字典</h2>
+              <p>按来源部门或整改单位维护默认责任人路由，供预检、导入和自动立案复用。</p>
             </div>
             <div class="toolbar">
               <select id="assignmentDictionaryScopeFilter">
-                <option value="all">鍏ㄩ儴瑙勫垯</option>
-                <option value="shared">鍏变韩瑙勫垯</option>
-                <option value="private">绉佹湁瑙勫垯</option>
+                <option value="all">全部规则</option>
+                <option value="shared">共享规则</option>
+                <option value="private">私有规则</option>
               </select>
             </div>
           </div>
           <div class="form-grid">
             <div>
               <select id="assignmentDictionaryTemplateKind">
-                <option value="investment_review">鎶曡祫璇勫妯℃澘</option>
-                <option value="penalty_ledger">澶勭綒鍙拌处妯℃澘</option>
-                <option value="special_inspection">涓撻」妫€鏌ユā鏉?/option>
+                <option value="investment_review">投资评审模板</option>
+                <option value="penalty_ledger">处罚台账模板</option>
+                <option value="special_inspection">专项检查模板</option>
               </select>
             </div>
             <div>
               <select id="assignmentDictionaryScope">
-                <option value="private">绉佹湁</option>
-                <option value="shared">鍏变韩</option>
+                <option value="private">私有</option>
+                <option value="shared">共享</option>
               </select>
             </div>
             <div>
               <select id="assignmentDictionaryField">
-                <option value="rectification_unit_name">鏁存敼鍗曚綅</option>
-                <option value="source_department">鏉ユ簮閮ㄩ棬</option>
+                <option value="rectification_unit_name">整改单位</option>
+                <option value="source_department">来源部门</option>
               </select>
             </div>
-            <div><input id="assignmentDictionaryValue" placeholder="鍛戒腑鍊?></div>
-            <div><input id="assignmentDictionaryAssignee" placeholder="璐ｄ换浜虹敤鎴峰悕"></div>
-            <div><input id="assignmentDictionaryTargetDepartment" placeholder="鐩爣澶勫"></div>
-            <div><input id="assignmentDictionaryPriority" type="number" min="1" value="100" placeholder="浼樺厛绾?></div>
-            <div><input id="assignmentDictionaryLabel" placeholder="瑙勫垯鏍囩"></div>
-            <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="assignmentDictionaryEnabled" type="checkbox" checked style="width:auto;">鍚敤瑙勫垯</label></div>
+            <div><input id="assignmentDictionaryValue" placeholder="命中值"></div>
+            <div><input id="assignmentDictionaryAssignee" placeholder="责任人用户名"></div>
+            <div><input id="assignmentDictionaryTargetDepartment" placeholder="目标处室"></div>
+            <div><input id="assignmentDictionaryPriority" type="number" min="1" value="100" placeholder="优先级"></div>
+            <div><input id="assignmentDictionaryLabel" placeholder="规则标签"></div>
+            <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="assignmentDictionaryEnabled" type="checkbox" checked style="width:auto;">启用规则</label></div>
           </div>
           <div class="toolbar" style="margin-top:14px;">
-            <button class="btn-primary" id="createAssignmentDictionaryBtn" type="button">淇濆瓨鍒嗘淳瑙勫垯</button>
+            <button class="btn-primary" id="createAssignmentDictionaryBtn" type="button">保存分派规则</button>
           </div>
-          <div class="notice" id="assignmentDictionaryMeta" style="margin-top:14px;">褰撳墠妯℃澘涓嬫殏鏃犺矗浠诲垎娲捐鍒欍€?/div>
-          <div id="assignmentDictionaryRows" style="margin-top:14px;" class="muted">鏆傛棤璐ｄ换鍒嗘淳瀛楀吀瑙勫垯銆?/div>
+          <div class="notice" id="assignmentDictionaryMeta" style="margin-top:14px;">当前模板下暂时无责任分派规则。</div>
+          <div id="assignmentDictionaryRows" style="margin-top:14px;" class="muted">暂无责任分派字典规则。</div>
         </div>
       </section>
       <section class="card">
         <div class="section-title">
           <div>
-            <h2>1.6 鍐呴儴鏍锋湰璇曠偣</h2>
-            <p>闈㈠悜鍘垮尯璐㈡斂鎴栧璁″崟浣嶇殑鑴辨晱 Excel/CSV 璇曡窇锛屽浐瀹氳鐩栭绠楁寚鏍囥€侀噰璐悎鍚屻€佸浗搴撴敮浠樸€佷細璁″嚟璇佸拰鏁存敼鍙拌处浜旂被鏍锋湰銆?/p>
+            <h2>1.6 内部样本试点</h2>
+            <p>面向县区财政或审计单位的脱敏 Excel/CSV 试跑，固定覆盖预算指标、采购合同、国库支付、会计凭证和整改台账五类样本。</p>
           </div>
           <div class="toolbar">
             <select id="internalSampleTemplateKind"></select>
-            <button class="btn-secondary" id="downloadInternalSampleTemplateBtn" type="button">涓嬭浇鍐呴儴妯℃澘</button>
+            <button class="btn-secondary" id="downloadInternalSampleTemplateBtn" type="button">下载内部模板</button>
           </div>
         </div>
         <details class="collapsible">
-          <summary>鍐呴儴鏍锋湰缁熻涓庢ā鏉?/summary>
+          <summary>内部样本统计与模板</summary>
           <div class="collapsible-body">
             <div class="stats" id="internalSamplePocStats"></div>
-            <div id="internalSampleTemplateRows" class="grid-2" style="margin-top:18px;"></div>
+            <div id="internalSampleTemplateRows" class="grid-2" style="margin-top:14px;"></div>
           </div>
         </details>
       </section>
       <details class="collapsible">
-        <summary>瀵煎叆棰勬涓庤川閲忔姤鍛?/summary>
+        <summary>导入预检与质量报告</summary>
         <div class="collapsible-body">
       <section class="grid-2">
         <div class="card">
-          <div class="section-title"><div><h2>2. 瀵煎叆棰勬</h2><p id="previewMeta">鍏堟墽琛屽鍏ラ妫€鎴栫洿鎺ュ垱寤烘壒閲?/ URL 浠诲姟銆?/p></div></div>
-          <div id="previewRecords" class="muted">鏆傛棤棰勬缁撴灉銆?/div>
+          <div class="section-title"><div><h2>2. 导入预检</h2><p id="previewMeta">先执行导入预检或直接创建批量 / URL 任务。</p></div></div>
+          <div id="previewRecords" class="muted">暂无预检结果。</div>
         </div>
         <div class="card">
-          <div class="section-title"><div><h2>3. 璐ㄩ噺鎶ュ憡</h2><p>瀛楁璇嗗埆銆佺己澶遍」銆侀噾棰濆拰鏃ユ湡鏍煎紡浼氬湪杩欓噷姹囨€汇€?/p></div></div>
-          <div id="previewChecks" class="muted">鏆傛棤璐ㄩ噺鎶ュ憡銆?/div>
+          <div class="section-title"><div><h2>3. 质量报告</h2><p>字段识别、缺失项、金额和日期格式会在这里汇总。</p></div></div>
+          <div id="previewChecks" class="muted">暂无质量报告。</div>
         </div>
       </section>
         </div>
       </details>
       </div>
       <div id="workspacePageTasks" class="workspace-page hidden">
-      <section class="card"><div class="section-title"><div><h2>浠诲姟鎬昏</h2><p>缁熶竴灞曠ず澶氱被鍨嬩换鍔★紝鍙寜绫诲瀷鍜屾潵婧愭姌鍙犳祴璇曟牱渚嬨€?/p></div><span id="taskListCount" class="muted task-list-count">鏄剧ず 0 / 鍏?0 鏉?/span></div><details class="collapsible"><summary>缁熻鍗′笌鍥捐〃</summary><div class="collapsible-body"><div class="stats" id="stats"></div><div id="overviewCharts" class="chart-grid"><div class="chart-panel"><h3>椋庨櫓绛夌骇鍒嗗竷</h3><canvas id="overviewRiskChart"></canvas></div><div class="chart-panel"><h3>浠诲姟绫诲瀷鍒嗗竷</h3><canvas id="overviewTaskKindChart"></canvas></div><div class="chart-panel"><h3>瀵煎叆鏉ユ簮鍒嗗竷</h3><canvas id="overviewSourceChart"></canvas></div></div></div></details><div class="task-list-toolbar"><input id="taskSearchInput" placeholder="鎼滅储浠诲姟銆佷富浣撱€両D銆佺被鍨嬫垨鏉ユ簮"><select id="taskKindFilter"><option value="all">鍏ㄩ儴绫诲瀷</option></select><select id="taskSourceFilter"><option value="all">鍏ㄩ儴鏉ユ簮</option><option value="file">鏂囦欢瀵煎叆</option><option value="batch">鎵归噺瀵煎叆</option><option value="fetch">URL 閲囬泦</option><option value="connector">杩炴帴鍣?/option></select><select id="taskRiskFilter"><option value="all">鍏ㄩ儴椋庨櫓</option><option value="Critical">鏋侀珮</option><option value="High">楂?/option><option value="Medium">涓?/option><option value="Low">浣?/option></select><button class="btn-secondary" id="expandTaskGroupsBtn" type="button">鍏ㄩ儴灞曞紑</button><button class="btn-secondary" id="collapseTaskGroupsBtn" type="button">鍏ㄩ儴鎶樺彔</button></div><div style="margin-top:14px;overflow:auto;"><table><thead><tr><th>浠诲姟</th><th>绫诲瀷</th><th>鏉ユ簮</th><th>鐘舵€?/th><th>椋庨櫓</th><th>涓讳綋</th><th>鏇存柊鏃堕棿</th></tr></thead><tbody id="taskRows"></tbody></table></div></section>
+      <section class="card"><div class="section-title"><div><h2>任务总览</h2><p>统一展示多类型任务，可按类型和来源折叠测试样例。</p></div><span id="taskListCount" class="muted task-list-count">显示 0 / 共 0 条</span></div><details class="collapsible"><summary>统计卡与图表</summary><div class="collapsible-body"><div class="stats" id="stats"></div><div id="overviewCharts" class="chart-grid"><div class="chart-panel"><h3>风险等级分布</h3><canvas id="overviewRiskChart"></canvas></div><div class="chart-panel"><h3>任务类型分布</h3><canvas id="overviewTaskKindChart"></canvas></div><div class="chart-panel"><h3>导入来源分布</h3><canvas id="overviewSourceChart"></canvas></div></div></div></details><div class="task-list-toolbar"><input id="taskSearchInput" placeholder="搜索任务、主体、ID、类型或来源"><select id="taskKindFilter"><option value="all">全部类型</option></select><select id="taskSourceFilter"><option value="all">全部来源</option><option value="file">文件导入</option><option value="batch">批量导入</option><option value="fetch">URL 采集</option><option value="connector">连接器</option></select><select id="taskRiskFilter"><option value="all">全部风险</option><option value="Critical">极高</option><option value="High">高</option><option value="Medium">中</option><option value="Low">低</option></select><button class="btn-secondary" id="expandTaskGroupsBtn" type="button">全部展开</button><button class="btn-secondary" id="collapseTaskGroupsBtn" type="button">全部折叠</button></div><div style="margin-top:14px;overflow:auto;"><table><thead><tr><th>任务</th><th>类型</th><th>来源</th><th>状态</th><th>风险</th><th>主体</th><th>更新时间</th></tr></thead><tbody id="taskRows"></tbody></table></div></section>
       <details class="collapsible">
-        <summary>浠诲姟璇︽儏涓庤川閲忔姤鍛?/summary>
+        <summary>任务详情与质量报告</summary>
         <div class="collapsible-body">
       <section class="grid-2">
         <div class="card">
-          <div class="section-title"><div><h2>浠诲姟璇︽儏</h2><p id="detailSubtitle">閫夋嫨涓€鏉′换鍔℃煡鐪嬭鎯呫€?/p></div></div>
+          <div class="section-title"><div><h2>任务详情</h2><p id="detailSubtitle">选择一条任务查看详情。</p></div></div>
           <div class="toolbar" style="margin-bottom:12px;flex-wrap:wrap;">
-            <button class="btn-secondary" id="exportPdfBtn" type="button">瀵煎嚭 PDF</button>
-            <button class="btn-secondary" id="sealTaskBtn" type="button">鐢熸垚瀵嗗皝鍖?/button>
-            <button class="btn-secondary" id="aiExplainBtn" type="button">AI 杈呭姪瑙ｉ噴</button>
+            <button class="btn-secondary" id="exportPdfBtn" type="button">导出 PDF</button>
+            <button class="btn-secondary" id="sealTaskBtn" type="button">生成密封包</button>
+            <button class="btn-secondary" id="aiExplainBtn" type="button">AI 辅助解释</button>
             <span class="muted" id="taskActionStatus"></span>
           </div>
           <details class="collapsible">
-            <summary>浠诲姟鍥捐〃鎽樿</summary>
+            <summary>任务图表摘要</summary>
             <div class="collapsible-body">
-              <div id="taskResultCharts" class="chart-grid compact"><div class="chart-panel"><h3>瑙勫垯椋庨櫓鍒嗗竷</h3><canvas id="taskFindingRiskChart"></canvas></div><div class="chart-panel"><h3>瑙勫垯绫诲埆鍒嗗竷</h3><canvas id="taskRuleCategoryChart"></canvas></div><div class="chart-panel"><h3>瀵煎叆璐ㄩ噺妫€鏌?/h3><canvas id="taskQualityChart"></canvas></div></div>
+              <div id="taskResultCharts" class="chart-grid compact"><div class="chart-panel"><h3>规则风险分布</h3><canvas id="taskFindingRiskChart"></canvas></div><div class="chart-panel"><h3>规则类别分布</h3><canvas id="taskRuleCategoryChart"></canvas></div><div class="chart-panel"><h3>导入质量检查</h3><canvas id="taskQualityChart"></canvas></div></div>
             </div>
           </details>
-          <div id="taskDetailBody" class="muted">鏆傛棤浠诲姟銆?/div>
+          <div id="taskDetailBody" class="muted">暂无任务。</div>
         </div>
         <div class="card">
-          <div class="section-title"><div><h2>瀵煎叆璐ㄩ噺鎶ュ憡</h2><p>宸插叆搴撲换鍔＄殑璐ㄩ噺妫€鏌ュ拰鍛婅浼氫繚鐣欏湪杩欓噷銆?/p></div></div>
-          <div id="qualityReportList" class="muted">鏆傛棤瀵煎叆璐ㄩ噺鎶ュ憡銆?/div>
+          <div class="section-title"><div><h2>导入质量报告</h2><p>已入库任务的质量检查和告警会保留在这里。</p></div></div>
+          <div id="qualityReportList" class="muted">暂无导入质量报告。</div>
         </div>
       </section>
         </div>
       </details>
       <details class="collapsible">
-        <summary>璇佹嵁闄勪欢</summary>
+        <summary>证据附件</summary>
         <div class="collapsible-body">
       <section class="card">
-        <div class="section-title"><div><h2>璇佹嵁闄勪欢</h2><p>涓婁紶鍥剧墖鎴栭煶棰戣瘉鎹苟鏌ョ湅 OCR / ASR 缁撴灉銆?/p></div></div>
+        <div class="section-title"><div><h2>证据附件</h2><p>上传图片或音频证据并查看 OCR / ASR 结果。</p></div></div>
         <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;">
           <input id="imageArtifactInput" type="file" accept="image/*,.pdf">
-          <button class="btn-secondary" id="uploadImageBtn" type="button">涓婁紶鍥剧墖璇佹嵁</button>
+          <button class="btn-secondary" id="uploadImageBtn" type="button">上传图片证据</button>
           <input id="audioArtifactInput" type="file" accept="audio/*">
-          <button class="btn-secondary" id="uploadAudioBtn" type="button">涓婁紶闊抽璇佹嵁</button>
+          <button class="btn-secondary" id="uploadAudioBtn" type="button">上传音频证据</button>
         </div>
-        <div id="artifactList" class="muted">璇烽€夋嫨浠诲姟鍚庢煡鐪嬭瘉鎹潗鏂欍€?/div>
+        <div id="artifactList" class="muted">请选择任务后查看证据材料。</div>
       </section>
         </div>
       </details>
       <details class="collapsible">
-        <summary>瑙勫垯缁撴灉</summary>
+        <summary>规则结果</summary>
         <div class="collapsible-body">
-      <section class="card"><div class="section-title"><div><h2>瑙勫垯缁撴灉</h2><p>褰撳墠闃舵宸插惎鐢ㄩ噰璐鍒欍€侀绠楄鍒欍€佹敮浠樿鍒欏拰浼氳鍕剧ń瑙勫垯銆?/p></div></div><div id="findingRows" class="muted">鏆傛棤瑙勫垯缁撴灉銆?/div></section>
+      <section class="card"><div class="section-title"><div><h2>规则结果</h2><p>当前阶段已启用采购规则、预算规则、支付规则和会计勾稽规则。</p></div></div><div id="findingRows" class="muted">暂无规则结果。</div></section>
         </div>
       </details>
       <details class="collapsible">
-        <summary>寮傚父姹犱笌澶勭疆鏃堕棿绾?/summary>
+        <summary>异常池与处置时间线</summary>
         <div class="collapsible-body">
       <section class="card">
         <div class="section-title">
           <div>
-            <h2>寮傚父姹?/h2>
-            <p>缁熶竴鏌ョ湅 PAY-* / LEDGER-* / CHAIN-* 鏄庣粏锛屽彲鎸夋潵婧愩€佷换鍔＄被鍨嬨€佽矗浠讳汉銆佸悎鍚屽彿銆佹敮浠樺崟鍙枫€佸嚟璇佸彿鍜岀姸鎬佺粍鍚堢瓫閫夛紝骞舵敮鎸侀棴鐜缃€?/p>
+            <h2>异常池</h2>
+            <p>统一查看 PAY-* / LEDGER-* / CHAIN-* 明细，可按来源、任务类型、责任人、合同号、支付单号、凭证号和状态组合筛选，并支持闭环处置。</p>
           </div>
         </div>
         <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;">
           <select id="exceptionSourceFilter">
-            <option value="all">鍏ㄩ儴鏉ユ簮</option>
-            <option value="rule">瑙勫垯寮傚父</option>
-            <option value="reconciliation">閾捐矾寮傚父</option>
+            <option value="all">全部来源</option>
+            <option value="rule">规则异常</option>
+            <option value="reconciliation">链路异常</option>
           </select>
           <select id="exceptionPrefixFilter">
-            <option value="all">鍏ㄩ儴鍓嶇紑</option>
+            <option value="all">全部前缀</option>
             <option value="PAY">PAY</option>
             <option value="LEDGER">LEDGER</option>
             <option value="CHAIN">CHAIN</option>
           </select>
           <select id="exceptionTaskKindFilter">
-            <option value="all">鍏ㄩ儴浠诲姟绫诲瀷</option>
-            <option value="procurement_project">閲囪喘浠诲姟</option>
-            <option value="budget_summary">棰勭畻浠诲姟</option>
-            <option value="treasury_payment">鏀粯浠诲姟</option>
-            <option value="voucher_ledger">浼氳浠诲姟</option>
+            <option value="all">全部任务类型</option>
+            <option value="procurement_project">采购任务</option>
+            <option value="budget_summary">预算任务</option>
+            <option value="treasury_payment">支付任务</option>
+            <option value="voucher_ledger">会计任务</option>
           </select>
           <select id="exceptionSeverityFilter">
-            <option value="all">鍏ㄩ儴绾у埆</option>
+            <option value="all">全部级别</option>
             <option value="Critical">Critical</option>
             <option value="High">High</option>
             <option value="Medium">Medium</option>
             <option value="Low">Low</option>
           </select>
           <select id="exceptionStatusFilter">
-            <option value="all">鍏ㄩ儴鐘舵€?/option>
+            <option value="all">全部状态</option>
             <option value="Open">Open</option>
             <option value="InReview">InReview</option>
             <option value="Resolved">Resolved</option>
             <option value="Closed">Closed</option>
           </select>
-          <input id="exceptionAssigneeFilter" placeholder="鎸夎矗浠讳汉绛涢€?>
-          <input id="exceptionContractFilter" placeholder="鎸夊悎鍚屽彿绛涢€?>
-          <input id="exceptionPaymentFilter" placeholder="鎸夋敮浠樺崟鍙风瓫閫?>
-          <input id="exceptionVoucherFilter" placeholder="鎸夋敮浠?浼氳鍑瘉绛涢€?>
+          <input id="exceptionAssigneeFilter" placeholder="按责任人筛选">
+          <input id="exceptionContractFilter" placeholder="按合同号筛选">
+          <input id="exceptionPaymentFilter" placeholder="按支付单号筛选">
+          <input id="exceptionVoucherFilter" placeholder="按支付/会计凭证筛选">
         </div>
         <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;align-items:center;">
           <label style="display:flex;align-items:center;gap:8px;">
             <input type="checkbox" id="exceptionSelectAll">
-            <span>鍏ㄩ€夊綋鍓嶇瓫閫夌粨鏋?/span>
+            <span>全选当前筛选结果</span>
           </label>
           <select id="exceptionBulkStatusSelect">
-            <option value="InReview">鏍囪涓?InReview</option>
-            <option value="Resolved">鏍囪涓?Resolved</option>
-            <option value="Closed">鏍囪涓?Closed</option>
-            <option value="Open">鏍囪涓?Open</option>
+            <option value="InReview">标记为 InReview</option>
+            <option value="Resolved">标记为 Resolved</option>
+            <option value="Closed">标记为 Closed</option>
+            <option value="Open">标记为 Open</option>
           </select>
-          <input id="exceptionBulkAssignee" placeholder="璐ｄ换浜?>
+          <input id="exceptionBulkAssignee" placeholder="责任人">
           <select id="exceptionBulkPrioritySelect">
-            <option value="">澶勭疆浼樺厛绾т笉鍙?/option>
-            <option value="P1">P1 / 绔嬪嵆澶勭悊</option>
-            <option value="P2">P2 / 楂樹紭鍏堢骇</option>
-            <option value="P3">P3 / 甯歌澶勭悊</option>
-            <option value="P4">P4 / 瑙傚療璺熻釜</option>
+            <option value="">处置优先级不变</option>
+            <option value="P1">P1 / 立即处理</option>
+            <option value="P2">P2 / 高优先级</option>
+            <option value="P3">P3 / 常规处理</option>
+            <option value="P4">P4 / 观察跟踪</option>
           </select>
           <select id="exceptionBulkOutcomeSelect">
-            <option value="">澶勭疆缁撹涓嶅彉</option>
-            <option value="pending_evidence">寰呰ˉ璇佹嵁</option>
-            <option value="confirmed_issue">纭寮傚父</option>
-            <option value="false_positive">璇姤鎺掗櫎</option>
-            <option value="rectified">宸叉暣鏀?/option>
-            <option value="escalated">宸蹭笂鎶?/option>
+            <option value="">处置结论不变</option>
+            <option value="pending_evidence">待补证据</option>
+            <option value="confirmed_issue">确认异常</option>
+            <option value="false_positive">误报排除</option>
+            <option value="rectified">已整改</option>
+            <option value="escalated">已上报</option>
           </select>
-          <input id="exceptionBulkDueAt" type="date" placeholder="鏁存敼鎴鏃堕棿">
+          <input id="exceptionBulkDueAt" type="date" placeholder="整改截止时间">
           <select id="exceptionBulkReminderSelect">
-            <option value="">鍌姙鏍囪涓嶅彉</option>
-            <option value="true">鏍囪鍌姙</option>
-            <option value="false">娓呴櫎鍌姙</option>
+            <option value="">催办标记不变</option>
+            <option value="true">标记催办</option>
+            <option value="false">清除催办</option>
           </select>
-          <input id="exceptionBulkNote" placeholder="澶勭疆澶囨敞">
-          <input id="exceptionBulkReminderNote" placeholder="鍌姙澶囨敞">
-          <button class="btn-primary" id="applyExceptionBulkBtn" type="button" disabled>鎵归噺鏇存柊鐘舵€?/button>
+          <input id="exceptionBulkNote" placeholder="处置备注">
+          <input id="exceptionBulkReminderNote" placeholder="催办备注">
+          <button class="btn-primary" id="applyExceptionBulkBtn" type="button" disabled>批量更新状态</button>
           <span id="exceptionSelectionMeta" class="muted">Filtered 0 / Selected 0</span>
         </div>
         <div id="exceptionWorkflowStats" style="margin-bottom:14px;"></div>
-        <div id="exceptionPoolList" class="muted">鏆傛棤寮傚父姹犮€?/div>
+        <div id="exceptionPoolList" class="muted">暂无异常池。</div>
         <div class="section-title" style="margin-top:18px;">
           <div>
-            <h3 style="margin:0;">瓒呮湡瑙嗗浘</h3>
-            <p>鍩轰簬鏁存敼鎴鏃堕棿鑷姩璇嗗埆鏈棴鐜秴鏈熷伐鍗曪紝骞跺睍绀哄綋鍓嶅偓鍔炲帇鍔涖€?/p>
+            <h3 style="margin:0;">超期视图</h3>
+            <p>基于整改截止时间自动识别未闭环超期工单，并展示当前催办压力。</p>
           </div>
         </div>
-        <div id="exceptionOverdueList" class="muted">鏆傛棤瓒呮湡瑙嗗浘銆?/div>
+        <div id="exceptionOverdueList" class="muted">暂无超期视图。</div>
         <div class="section-title" style="margin-top:18px;">
           <div>
-            <h3 style="margin:0;">澶勭疆鏃堕棿绾?/h3>
-            <p>鎸夋椂闂寸嚎鏌ョ湅姣忔鐘舵€併€佽矗浠讳汉鍜屽娉ㄥ彉鏇达紝骞舵敮鎸佸鍑鸿褰曘€?/p>
+            <h3 style="margin:0;">处置时间线</h3>
+            <p>按时间线查看每次状态、责任人和备注变更，并支持导出记录。</p>
           </div>
         </div>
         <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;align-items:center;">
           <select id="exceptionTimelineStatusFilter">
-            <option value="all">鍏ㄩ儴鐘舵€?/option>
+            <option value="all">全部状态</option>
             <option value="Open">Open</option>
             <option value="InReview">InReview</option>
             <option value="Resolved">Resolved</option>
             <option value="Closed">Closed</option>
           </select>
-          <input id="exceptionTimelineAssigneeFilter" placeholder="鎸夎矗浠讳汉绛涢€夋椂闂寸嚎">
-          <input id="exceptionTimelineChangedByFilter" placeholder="鎸夊缃汉绛涢€夋椂闂寸嚎">
-          <input id="exceptionTimelineChangedAtFilter" placeholder="鎸夋椂闂村叧閿瓧绛涢€?>
-          <button id="exportExceptionTimelineBtn" type="button">瀵煎嚭澶勭疆璁板綍</button>
+          <input id="exceptionTimelineAssigneeFilter" placeholder="按责任人筛选时间线">
+          <input id="exceptionTimelineChangedByFilter" placeholder="按处置人筛选时间线">
+          <input id="exceptionTimelineChangedAtFilter" placeholder="按时间关键字筛选">
+          <button id="exportExceptionTimelineBtn" type="button">导出处置记录</button>
           <span id="exceptionTimelineMeta" class="muted">Timeline 0</span>
         </div>
-        <div id="exceptionTimelineList" class="muted">鏆傛棤澶勭疆鏃堕棿绾裤€?/div>
+        <div id="exceptionTimelineList" class="muted">暂无处置时间线。</div>
       </section>
         </div>
       </details>
       </div>
       <div id="workspacePageCases" class="workspace-page hidden">
         <div class="workspace-subnav" id="casesSubnav">
-          <button class="btn-secondary" data-cases-view="workbench" type="button">妗堜欢宸ヤ綔鍙?/button>
-          <button class="btn-secondary" data-cases-view="rectification" type="button">鏁存敼闂ㄦ埛</button>
+          <button class="btn-secondary" data-cases-view="workbench" type="button">案件工作台</button>
+          <button class="btn-secondary" data-cases-view="rectification" type="button">整改门户</button>
         </div>
       <section class="card hidden" id="caseBoard">
         <div class="section-title">
           <div>
-            <h2>妗堜欢宸ヤ綔鍙?/h2>
-            <p>灏嗕换鍔″紓甯告彁鍗囦负姝ｅ紡澶勭疆妗堜欢锛岀粺涓€鏌ョ湅鍒嗗彂銆佹祦杞拰 SLA 杩愯惀鎸囨爣銆?/p>
+            <h2>案件工作台</h2>
+            <p>将任务异常提升为正式处置案件，统一查看分发、流转和 SLA 运营指标。</p>
           </div>
         </div>
         <details class="collapsible">
-          <summary>妗堜欢缁熻涓庡垎甯?/summary>
+          <summary>案件统计与分布</summary>
           <div class="collapsible-body">
             <div id="caseMetricsPanel" style="margin-bottom:14px;"></div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>绛涢€変笌鎵归噺鎿嶄綔</summary>
+          <summary>筛选与批量操作</summary>
           <div class="collapsible-body">
             <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;align-items:center;">
               <select id="caseTaskKindFilter">
-                <option value="all">鍏ㄩ儴浠诲姟绫诲瀷</option>
-                <option value="procurement_project">閲囪喘浠诲姟</option>
-                <option value="budget_summary">棰勭畻浠诲姟</option>
-                <option value="treasury_payment">鏀粯浠诲姟</option>
-                <option value="voucher_ledger">浼氳浠诲姟</option>
-                <option value="supervision_case_seed">鐩戠潱妗堜欢</option>
+                <option value="all">全部任务类型</option>
+                <option value="procurement_project">采购任务</option>
+                <option value="budget_summary">预算任务</option>
+                <option value="treasury_payment">支付任务</option>
+                <option value="voucher_ledger">会计任务</option>
+                <option value="supervision_case_seed">监督案件</option>
               </select>
               <select id="caseStatusFilter">
-                <option value="all">鍏ㄩ儴妗堜欢鐘舵€?/option>
+                <option value="all">全部案件状态</option>
                 <option value="open">open</option>
                 <option value="closed">closed</option>
                 <option value="archived">archived</option>
               </select>
               <select id="caseStageFilter">
-                <option value="all">鍏ㄩ儴闃舵</option>
+                <option value="all">全部阶段</option>
                 <option value="New">New</option>
                 <option value="Assigned">Assigned</option>
                 <option value="InRectification">InRectification</option>
@@ -635,19 +737,19 @@
                 <option value="Closed">Closed</option>
                 <option value="Archived">Archived</option>
               </select>
-              <input id="caseHandlerFilter" placeholder="鎸夎矗浠讳汉绛涢€夋浠?>
+              <input id="caseHandlerFilter" placeholder="按责任人筛选案件">
             </div>
             <div class="toolbar" style="margin-bottom:14px;flex-wrap:wrap;align-items:center;">
               <label style="display:flex;align-items:center;gap:8px;">
                 <input type="checkbox" id="caseSelectAll">
-                <span>鍏ㄩ€夊綋鍓嶇瓫閫夌粨鏋?/span>
+                <span>全选当前筛选结果</span>
               </label>
-              <input id="caseBulkAssignee" placeholder="璐ｄ换浜?>
-              <input id="caseSourceDepartment" placeholder="鏉ユ簮澶勫">
-              <input id="caseTargetDepartment" placeholder="鐩爣澶勫">
-              <input id="caseRectificationUnit" placeholder="鏁存敼鍗曚綅">
-              <input id="caseBulkDueAt" type="date" placeholder="SLA 鎴鏃堕棿">
-              <button class="btn-secondary" id="assignCasesBtn" type="button">鎵归噺鍒嗗彂</button>
+              <input id="caseBulkAssignee" placeholder="责任人">
+              <input id="caseSourceDepartment" placeholder="来源处室">
+              <input id="caseTargetDepartment" placeholder="目标处室">
+              <input id="caseRectificationUnit" placeholder="整改单位">
+              <input id="caseBulkDueAt" type="date" placeholder="SLA 截止时间">
+              <button class="btn-secondary" id="assignCasesBtn" type="button">批量分发</button>
             </div>
             <div class="toolbar" style="flex-wrap:wrap;align-items:center;">
               <select id="caseStageSelect">
@@ -661,89 +763,89 @@
                 <option value="Archived">Archived</option>
               </select>
               <select id="casePrioritySelect">
-                <option value="">浼樺厛绾т笉鍙?/option>
+                <option value="">优先级不变</option>
                 <option value="P1">P1</option>
                 <option value="P2">P2</option>
                 <option value="P3">P3</option>
                 <option value="P4">P4</option>
               </select>
               <select id="caseOutcomeSelect">
-                <option value="">澶勭疆缁撹涓嶅彉</option>
+                <option value="">处置结论不变</option>
                 <option value="pending_evidence">pending_evidence</option>
                 <option value="confirmed_issue">confirmed_issue</option>
                 <option value="false_positive">false_positive</option>
                 <option value="rectified">rectified</option>
                 <option value="escalated">escalated</option>
               </select>
-              <input id="caseTransitionDueAt" type="date" placeholder="鏁存敼鎴鏃堕棿">
+              <input id="caseTransitionDueAt" type="date" placeholder="整改截止时间">
               <select id="caseReminderFlag">
-                <option value="">鍌姙鏍囪涓嶅彉</option>
-                <option value="true">鏍囪鍌姙</option>
-                <option value="false">鍙栨秷鍌姙</option>
+                <option value="">催办标记不变</option>
+                <option value="true">标记催办</option>
+                <option value="false">取消催办</option>
               </select>
-              <input id="caseTransitionNote" placeholder="娴佽浆澶囨敞">
-              <button class="btn-primary" id="transitionCasesBtn" type="button">鎵归噺娴佽浆</button>
+              <input id="caseTransitionNote" placeholder="流转备注">
+              <button class="btn-primary" id="transitionCasesBtn" type="button">批量流转</button>
               <span id="caseSelectionMeta" class="muted">Filtered 0 / Selected 0</span>
             </div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>妗堜欢鍒楄〃</summary>
+          <summary>案件列表</summary>
           <div class="collapsible-body">
-            <div id="caseList" class="muted">鏆傛棤妗堜欢銆?/div>
+            <div id="caseList" class="muted">暂无案件。</div>
           </div>
         </details>
       </section>
       <section class="card hidden" id="rectificationBoard">
         <div class="section-title">
           <div>
-            <h2>鏁存敼鍗曚綅闂ㄦ埛</h2>
-            <p>鍙煡鐪嬪垎閰嶅埌鏈崟浣嶇殑妗堜欢锛屾彁浜ゆ暣鏀硅鏄庛€佸欢鏈熺敵璇峰拰澶嶆牳鏉愭枡銆?/p>
+            <h2>整改单位门户</h2>
+            <p>可查看分配到本单位的案件，提交整改说明、延期申请和复核材料。</p>
           </div>
         </div>
         <div class="toolbar" style="margin-bottom:14px;align-items:center;">
-          <span id="rectificationMeta" class="muted">妗堜欢 0</span>
+          <span id="rectificationMeta" class="muted">案件 0</span>
         </div>
         <details class="collapsible">
-          <summary>鏁存敼妗堜欢鍒楄〃</summary>
+          <summary>整改案件列表</summary>
           <div class="collapsible-body">
-            <div id="rectificationCaseList" class="muted">鏆傛棤鏁存敼妗堜欢銆?/div>
+            <div id="rectificationCaseList" class="muted">暂无整改案件。</div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>妗堜欢璇︽儏涓庢彁浜ゆ潗鏂?/summary>
+          <summary>案件详情与提交材料</summary>
           <div class="collapsible-body">
-            <div id="rectificationDetail" class="muted" style="margin-bottom:12px;">璇烽€夋嫨妗堜欢銆?/div>
+            <div id="rectificationDetail" class="muted" style="margin-bottom:12px;">请选择案件。</div>
             <div class="grid-2">
               <div class="card" style="box-shadow:none;">
-                <h3 style="margin-top:0;">鎻愪氦鏁存敼</h3>
+                <h3 style="margin-top:0;">提交整改</h3>
                 <div class="form-grid">
-                  <div class="full"><textarea id="rectificationStatement" placeholder="鏁存敼璇存槑"></textarea></div>
-                  <div><input id="rectificationRequestedExtension" type="date" placeholder="鎻愪氦鏃堕檮甯﹀欢鏈熸棩鏈?></div>
+                  <div class="full"><textarea id="rectificationStatement" placeholder="整改说明"></textarea></div>
+                  <div><input id="rectificationRequestedExtension" type="date" placeholder="提交时附带延期日期"></div>
                 </div>
                 <div class="toolbar" style="margin-top:12px;">
-                  <button class="btn-primary" id="submitRectificationBtn" type="button">鎻愪氦鏁存敼</button>
+                  <button class="btn-primary" id="submitRectificationBtn" type="button">提交整改</button>
                 </div>
               </div>
               <div class="card" style="box-shadow:none;">
-                <h3 style="margin-top:0;">鐢宠寤舵湡</h3>
+                <h3 style="margin-top:0;">申请延期</h3>
                 <div class="form-grid">
-                  <div><input id="rectificationExtensionDueAt" type="date" placeholder="鐢宠寤舵湡鑷?></div>
-                  <div class="full"><textarea id="rectificationExtensionReason" placeholder="寤舵湡鍘熷洜"></textarea></div>
+                  <div><input id="rectificationExtensionDueAt" type="date" placeholder="申请延期至"></div>
+                  <div class="full"><textarea id="rectificationExtensionReason" placeholder="延期原因"></textarea></div>
                 </div>
                 <div class="toolbar" style="margin-top:12px;">
-                  <button class="btn-secondary" id="submitRectificationExtensionBtn" type="button">鎻愪氦寤舵湡鐢宠</button>
+                  <button class="btn-secondary" id="submitRectificationExtensionBtn" type="button">提交延期申请</button>
                 </div>
               </div>
             </div>
             <div class="card" style="box-shadow:none; margin-top:12px;">
-              <h3 style="margin-top:0;">琛ュ厖闄勪欢</h3>
+              <h3 style="margin-top:0;">补充附件</h3>
               <div class="form-grid">
                 <div><input id="rectificationAttachmentFile" type="file"></div>
-                <div class="full"><input id="rectificationAttachmentNote" placeholder="闄勪欢璇存槑"></div>
+                <div class="full"><input id="rectificationAttachmentNote" placeholder="附件说明"></div>
               </div>
               <div class="toolbar" style="margin-top:12px;">
-                <button class="btn-secondary" id="uploadRectificationAttachmentBtn" type="button">涓婁紶闄勪欢</button>
+                <button class="btn-secondary" id="uploadRectificationAttachmentBtn" type="button">上传附件</button>
               </div>
             </div>
           </div>
@@ -752,103 +854,103 @@
       </div>
       <div id="workspacePageOperations" class="workspace-page hidden">
         <div class="workspace-subnav" id="operationsSubnav">
-          <button class="btn-secondary" data-operations-view="overview" type="button">杩愯惀鐪嬫澘</button>
-          <button class="btn-secondary" data-operations-view="automation" type="button">鑷姩鍖栦腑蹇?/button>
+          <button class="btn-secondary" data-operations-view="overview" type="button">运营看板</button>
+          <button class="btn-secondary" data-operations-view="automation" type="button">自动化中心</button>
         </div>
       <section class="card hidden" id="operationsBoard">
         <div class="section-title">
           <div>
-            <h2>鐩戠潱杩愯惀鐪嬫澘</h2>
-            <p>鎸夊瀹ゃ€佹暣鏀瑰崟浣嶅拰璐ｄ换浜鸿瀵熷姙缁撶巼銆佽秴鏈熶笌鍌姙鎯呭喌銆?/p>
+            <h2>监督运营看板</h2>
+            <p>按处室、整改单位和责任人观察办结率、超期与催办情况。</p>
           </div>
           <div class="toolbar">
-            <button class="btn-secondary" id="exportOperationsCasesBtn" type="button">瀵煎嚭妗堜欢鍙拌处</button>
+            <button class="btn-secondary" id="exportOperationsCasesBtn" type="button">导出案件台账</button>
           </div>
         </div>
         <details class="collapsible">
-          <summary>杩愯惀鎬昏</summary>
+          <summary>运营总览</summary>
           <div class="collapsible-body">
             <div id="operationsOverview"></div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>澶勫涓庤矗浠诲垎甯?/summary>
+          <summary>处室与责任分布</summary>
           <div class="collapsible-body">
             <div id="operationsBuckets"></div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>瓒嬪娍鏁版嵁</summary>
+          <summary>趋势数据</summary>
           <div class="collapsible-body">
-            <div id="operationsTrends" class="muted">鏆傛棤瓒嬪娍鏁版嵁銆?/div>
+            <div id="operationsTrends" class="muted">暂无趋势数据。</div>
           </div>
         </details>
       </section>
       <section class="card hidden" id="automationCenter">
         <div class="section-title">
           <div>
-            <h2>鑷姩鍖栬繍琛屼腑蹇?/h2>
-            <p>缁熶竴缁存姢鍏变韩鏂规銆佽嚜鍔ㄥ寲璁″垝鍜屾渶杩戞墽琛岃褰曪紝鏀寔鎵嬪姩瑙﹀彂璋冨害閾俱€?/p>
+            <h2>自动化运行中心</h2>
+            <p>统一维护共享方案、自动化计划和最近执行记录，支持手动触发调度链。</p>
           </div>
           <div class="toolbar">
-            <button class="btn-secondary" id="refreshAutomationCenterBtn" type="button">鍒锋柊鎵ц璁板綍</button>
+            <button class="btn-secondary" id="refreshAutomationCenterBtn" type="button">刷新执行记录</button>
           </div>
         </div>
         <details class="collapsible">
-          <summary>鏂板缓鑷姩鍖栬鍒?/summary>
+          <summary>新建自动化计划</summary>
           <div class="collapsible-body">
             <div class="form-grid">
-              <div><input id="automationScheduleName" placeholder="璁″垝鍚嶇О"></div>
+              <div><input id="automationScheduleName" placeholder="计划名称"></div>
               <div>
                 <select id="automationScheduleKind" data-testid="automation-schedule-kind">
-                  <option value="manual_only">浠呮墜鍔?/option>
-                  <option value="hourly">姣忓皬鏃?/option>
-                  <option value="daily">姣忔棩</option>
-                  <option value="weekly">姣忓懆</option>
+                  <option value="manual_only">仅手动</option>
+                  <option value="hourly">每小时</option>
+                  <option value="daily">每日</option>
+                  <option value="weekly">每周</option>
                 </select>
               </div>
               <div>
                 <select id="automationTargetKind">
-                  <option value="case_followup">妗堜欢璺熻繘</option>
-                  <option value="case_seed_import">妗堜欢绉嶅瓙瀵煎叆</option>
-                  <option value="connector_sync">杩炴帴鍣ㄥ悓姝?/option>
+                  <option value="case_followup">案件跟进</option>
+                  <option value="case_seed_import">案件种子导入</option>
+                  <option value="connector_sync">连接器同步</option>
                 </select>
               </div>
-              <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="automationEnabled" type="checkbox" checked style="width:auto;">鍚敤璁″垝</label></div>
-              <div><select id="automationSharedProfileId"><option value="">鏆傛棤鍏变韩鏂规</option></select></div>
-              <div><select id="automationConnectorProfileId"><option value="">鏆傛棤杩炴帴妗ｆ</option></select></div>
-              <div class="full"><input id="automationSourcePath" placeholder="妗堜欢绉嶅瓙瀵煎叆婧愭枃浠剁粷瀵硅矾寰?></div>
-              <div class="full"><textarea id="automationNotes" placeholder="璁″垝璇存槑"></textarea></div>
+              <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="automationEnabled" type="checkbox" checked style="width:auto;">启用计划</label></div>
+              <div><select id="automationSharedProfileId"><option value="">暂无共享方案</option></select></div>
+              <div><select id="automationConnectorProfileId"><option value="">暂无连接档案</option></select></div>
+              <div class="full"><input id="automationSourcePath" placeholder="案件种子导入源文件绝对路径"></div>
+              <div class="full"><textarea id="automationNotes" placeholder="计划说明"></textarea></div>
             </div>
             <div class="toolbar" style="margin-top:14px;">
-              <button class="btn-primary" id="createAutomationScheduleBtn" type="button">鍒涘缓鑷姩鍖栬鍒?/button>
+              <button class="btn-primary" id="createAutomationScheduleBtn" type="button">创建自动化计划</button>
             </div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>鏈€杩戣嚜鍔ㄥ寲鎵ц</summary>
+          <summary>最近自动化执行</summary>
           <div class="collapsible-body">
-            <div id="automationExecutionRows" class="muted">鏆傛棤鑷姩鍖栨墽琛岃褰曘€?/div>
+            <div id="automationExecutionRows" class="muted">暂无自动化执行记录。</div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>鑷姩鍖栬鍒掑垪琛?/summary>
+          <summary>自动化计划列表</summary>
           <div class="collapsible-body">
-            <div id="automationScheduleRows" class="muted">鏆傛棤鑷姩鍖栬鍒掋€?/div>
+            <div id="automationScheduleRows" class="muted">暂无自动化计划。</div>
           </div>
         </details>
       </section>
       </div>
       <div id="workspacePageAdmin" class="workspace-page hidden">
       <section class="card hidden" id="adminPanel">
-        <div class="section-title"><div><h2>绠＄悊鍛樺悗鍙?/h2><p>缁熶竴鏌ョ湅閮ㄧ讲绛栫暐銆佽繛鎺ユ。妗堛€侀」鐩敵璇枫€佺敤鎴枫€丄I 閰嶇疆鍜岀暀鐥曚俊鎭€?/p></div></div>
+        <div class="section-title"><div><h2>管理员后台</h2><p>统一查看部署策略、连接档案、项目申请、用户、AI 配置和留痕信息。</p></div></div>
         <details class="collapsible">
-          <summary>鏂板鐢ㄦ埛</summary>
+          <summary>新增用户</summary>
           <div class="collapsible-body">
             <div class="form-grid">
-              <div><input id="adminUser" placeholder="鐢ㄦ埛鍚?></div>
-              <div><input id="adminName" placeholder="鏄剧ず鍚嶇О"></div>
-              <div><input id="adminPassword" type="password" placeholder="鍒濆瀵嗙爜"></div>
+              <div><input id="adminUser" placeholder="用户名"></div>
+              <div><input id="adminName" placeholder="显示名称"></div>
+              <div><input id="adminPassword" type="password" placeholder="初始密码"></div>
               <div>
                 <select id="adminRole">
                   <option value="auditor">Auditor</option>
@@ -859,70 +961,70 @@
                 </select>
               </div>
             </div>
-            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="createUserBtn">鍒涘缓鐢ㄦ埛</button></div>
+            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="createUserBtn">创建用户</button></div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>AI 鏈嶅姟閰嶇疆</summary>
+          <summary>AI 服务配置</summary>
           <div class="collapsible-body">
-            <div class="notice" id="adminAiNotice" style="margin-bottom:12px;">褰撳墠鐜鍏佽 AI 杈呭姪瑙ｉ噴锛涙寮忚瘯鐐瑰彲鎸夐儴缃茬瓥鐣ュ叧闂垨鏇挎崲銆?/div>
+            <div class="notice" id="adminAiNotice" style="margin-bottom:12px;">当前环境允许 AI 辅助解释；正式试点可按部署策略关闭或替换。</div>
             <div class="form-grid">
               <div><input id="aiProvider" placeholder="provider"></div>
               <div><input id="aiModel" placeholder="model"></div>
               <div class="full"><input id="aiUrl" placeholder="API URL"></div>
               <div class="full"><div class="notice"><strong>Secret 状态</strong><br><span class="muted" id="aiSecretStatus">未配置</span></div></div>
-              <div class="full"><textarea id="aiGuidance" placeholder="AI 缁撴灉璇存槑"></textarea></div>
+              <div class="full"><textarea id="aiGuidance" placeholder="AI 结果说明"></textarea></div>
             </div>
-            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="saveAiBtn">淇濆瓨 AI 閰嶇疆</button></div>
+            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="saveAiBtn">保存 AI 配置</button></div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>杩炴帴妗ｆ閰嶇疆</summary>
+          <summary>连接档案配置</summary>
           <div class="collapsible-body">
             <div class="form-grid">
-              <div><input id="adminConnectorName" placeholder="妗ｆ鍚嶇О"></div>
-              <div><select id="adminConnectorType"><option value="budget_system">棰勭畻绠＄悊涓€浣撳寲</option><option value="treasury_system">鍥藉簱鏀粯 / 鐢靛瓙鏀粯</option><option value="ledger_system">璐㈠姟鏍哥畻 / 鎬昏处鍑瘉</option><option value="procurement_system">鏀垮簻閲囪喘 / 鍚堝悓灞ョ害</option></select></div>
-              <div><select id="adminConnectorTaskKind"><option value="procurement_project">閲囪喘椤圭洰</option><option value="budget_summary">棰勭畻鎵ц / 璐㈡斂鏀舵敮</option><option value="treasury_payment">鍥藉簱鏀粯</option><option value="voucher_ledger">浼氳鍑瘉</option></select></div>
-              <div><select id="adminConnectorDatasetKind"><option value="">涓嶅尯鍒嗗瓙绫诲瀷</option></select></div>
-              <div class="full"><input id="adminConnectorBaseUrl" placeholder="杩炴帴鍣ㄥ湴鍧€ / API Base URL"></div>
-              <div><input id="adminConnectorAuthMode" placeholder="閴存潈妯″紡锛屼緥濡?bearer / basic"></div>
-              <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="adminConnectorEnabled" type="checkbox" checked style="width:auto;">鍚敤杩炴帴妗ｆ</label></div>
+              <div><input id="adminConnectorName" placeholder="档案名称"></div>
+              <div><select id="adminConnectorType"><option value="budget_system">预算管理一体化</option><option value="treasury_system">国库支付 / 电子支付</option><option value="ledger_system">财务核算 / 总账凭证</option><option value="procurement_system">政府采购 / 合同履约</option></select></div>
+              <div><select id="adminConnectorTaskKind"><option value="procurement_project">采购项目</option><option value="budget_summary">预算执行 / 财政收支</option><option value="treasury_payment">国库支付</option><option value="voucher_ledger">会计凭证</option></select></div>
+              <div><select id="adminConnectorDatasetKind"><option value="">不区分子类型</option></select></div>
+              <div class="full"><input id="adminConnectorBaseUrl" placeholder="连接器地址 / API Base URL"></div>
+              <div><input id="adminConnectorAuthMode" placeholder="鉴权模式，例如 bearer / basic"></div>
+              <div><label style="display:flex;align-items:center;gap:8px;height:44px;"><input id="adminConnectorEnabled" type="checkbox" checked style="width:auto;">启用连接档案</label></div>
               <div class="full"><div class="notice"><strong>Connector Secret</strong><br><span class="muted">按 profile ID 从环境变量注入。</span></div></div>
-              <div class="full"><textarea id="adminConnectorSamplePayload" placeholder="鏍蜂緥 payload JSON锛岀敤浜庨妫€鍜屽鍏ヨ仈璋?></textarea></div>
+              <div class="full"><textarea id="adminConnectorSamplePayload" placeholder="样例 payload JSON，用于预检和导入联调"></textarea></div>
             </div>
-            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="createConnectorProfileBtn">鍒涘缓杩炴帴妗ｆ</button></div>
+            <div class="toolbar" style="margin-top:14px;"><button class="btn-primary" id="createConnectorProfileBtn">创建连接档案</button></div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>閮ㄧ讲绛栫暐</summary>
+          <summary>部署策略</summary>
           <div class="collapsible-body">
             <div id="deploymentPolicySummary"></div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>椤圭洰鐢宠涓庤繛鎺ユ。妗堝垪琛?/summary>
+          <summary>项目申请与连接档案列表</summary>
           <div class="collapsible-body">
             <div class="grid-2">
-              <div><h3 style="margin-top:0;">椤圭洰鐢宠</h3><div id="leadRequests"></div></div>
-              <div><h3 style="margin-top:0;">杩炴帴妗ｆ鍒楄〃</h3><div id="connectorProfiles"></div></div>
+              <div><h3 style="margin-top:0;">项目申请</h3><div id="leadRequests"></div></div>
+              <div><h3 style="margin-top:0;">连接档案列表</h3><div id="connectorProfiles"></div></div>
             </div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>鐢ㄦ埛鍒楄〃涓庡璁＄暀鐥?/summary>
+          <summary>用户列表与审计留痕</summary>
           <div class="collapsible-body">
             <div class="grid-2">
-              <div><h3 style="margin-top:0;">鐢ㄦ埛鍒楄〃</h3><div id="adminUsers"></div></div>
-              <div><h3 style="margin-top:0;">瀹¤鐣欑棔</h3><div id="auditLogs"></div></div>
+              <div><h3 style="margin-top:0;">用户列表</h3><div id="adminUsers"></div></div>
+              <div><h3 style="margin-top:0;">审计留痕</h3><div id="auditLogs"></div></div>
             </div>
           </div>
         </details>
         <details class="collapsible">
-          <summary>鍚屾浣滀笟涓庡啓鍥炰簨浠?/summary>
+          <summary>同步作业与写回事件</summary>
           <div class="collapsible-body">
             <div class="grid-2">
-              <div><h3 style="margin-top:0;">鍚屾浣滀笟</h3><div id="connectorSyncJobs"></div></div>
-              <div><h3 style="margin-top:0;">鍐欏洖浜嬩欢</h3><div id="writebackEvents"></div></div>
+              <div><h3 style="margin-top:0;">同步作业</h3><div id="connectorSyncJobs"></div></div>
+              <div><h3 style="margin-top:0;">写回事件</h3><div id="writebackEvents"></div></div>
             </div>
           </div>
         </details>
@@ -933,10 +1035,3 @@
   <script type="module" src="/app/main.js?v=viz-20260520h"></script>
 </body>
 </html>
-
-
-
-
-
-
-

@@ -6,6 +6,30 @@ import { loadRectificationCases } from './rectification.js?v=viz-20260520h';
 import { loadOperations } from './operations.js';
 import { loadAutomationCenter } from './configuration.js?v=viz-20260430';
 
+/* ── Top Navigation (hamburger + mobile close) ── */
+export function initTopNav() {
+  const hamburgerBtn = $('hamburgerBtn');
+  const mainNavLinks = $('mainNavLinks');
+  if (hamburgerBtn && mainNavLinks) {
+    hamburgerBtn.addEventListener('click', () => {
+      mainNavLinks.classList.toggle('open');
+    });
+    // Close the mobile menu when a nav link is clicked
+    mainNavLinks.addEventListener('click', (event) => {
+      const btn = event.target.closest('[data-workspace-page]');
+      if (btn) {
+        mainNavLinks.classList.remove('open');
+      }
+    });
+    // Close the mobile menu when clicking outside
+    document.addEventListener('click', (event) => {
+      if (!mainNavLinks.contains(event.target) && event.target !== hamburgerBtn) {
+        mainNavLinks.classList.remove('open');
+      }
+    });
+  }
+}
+
 const PAGE_DEFINITIONS = {
   import: {
     label: '导入工作台',
@@ -150,6 +174,10 @@ export function updateWorkspaceChrome() {
     node.classList.toggle('hidden', !isVisible);
     node.classList.toggle('active', page === currentPage);
   });
+
+  // Close mobile nav menu when workspace page changes
+  const mainNavLinks = $('mainNavLinks');
+  if (mainNavLinks) mainNavLinks.classList.remove('open');
 
   document.querySelectorAll('[data-cases-view]').forEach((node) => {
     node.classList.toggle('active', node.dataset.casesView === state.currentCasesView);

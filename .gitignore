@@ -40,6 +40,7 @@ tools/whisper/models/
 
 # Playwright/browser scratch data
 .playwright-cli/
+.worktrees/
 
 # Generated presentation artifacts
 projects/**/.live_preview.lock

@@ -2,19 +2,19 @@ import { $ } from './services.js';
 import { UI_COPY } from './config.js';
 
 const RISK_SERIES = [
-  { key: 'Critical', label: '极高', color: '#8f2f2a' },
-  { key: 'High', label: '高', color: '#bf4a3e' },
-  { key: 'Medium', label: '中', color: '#c6973f' },
-  { key: 'Low', label: '低', color: '#2f7d5b' },
+  { key: 'Critical', label: '极高', color: '#c0392b' },
+  { key: 'High', label: '高', color: '#e67e22' },
+  { key: 'Medium', label: '中', color: '#c49a3c' },
+  { key: 'Low', label: '低', color: '#27724b' },
 ];
 
 const QUALITY_SERIES = [
-  { key: 'Error', label: '错误', color: '#bf4a3e' },
-  { key: 'Warning', label: '警告', color: '#c6973f' },
-  { key: 'Info', label: '提示', color: '#2a6db2' },
+  { key: 'Error', label: '错误', color: '#c0392b' },
+  { key: 'Warning', label: '警告', color: '#c49a3c' },
+  { key: 'Info', label: '提示', color: '#2d4a7a' },
 ];
 
-const PALETTE = ['#2a6db2', '#c6973f', '#2f7d5b', '#7b5fb2', '#bf4a3e', '#4f647e'];
+const PALETTE = ['#1a2a4a', '#c49a3c', '#27724b', '#2d4a7a', '#c0392b', '#5a6577'];
 
 function prepareCanvas(id) {
   const canvas = $(id);
@@ -32,7 +32,7 @@ function drawEmptyChart(id, message) {
   const canvas = prepareCanvas(id);
   if (!canvas) return;
   const { ctx, width, height } = canvas;
-  ctx.fillStyle = '#4f647e';
+  ctx.fillStyle = '#5a6577';
   ctx.font = '14px Segoe UI';
   ctx.textAlign = 'center';
   ctx.fillText(message, width / 2, height / 2);
@@ -142,7 +142,7 @@ function drawDonutSeries(id, series, emptyMessage) {
   ctx.arc(centerX, centerY, innerRadius, 0, Math.PI * 2);
   ctx.fill();
   ctx.globalCompositeOperation = 'source-over';
-  ctx.fillStyle = '#10243f';
+  ctx.fillStyle = '#1a2a4a';
   ctx.font = 'bold 17px Segoe UI';
   ctx.textAlign = 'center';
   ctx.fillText(String(total), centerX, centerY + 4);
@@ -153,7 +153,7 @@ function drawDonutSeries(id, series, emptyMessage) {
     const y = 28 + index * 24;
     ctx.fillStyle = item.color;
     ctx.fillRect(width * 0.58, y, 11, 11);
-    ctx.fillStyle = '#10243f';
+    ctx.fillStyle = '#1a2a4a';
     ctx.textAlign = 'left';
     ctx.font = '12px Segoe UI';
     ctx.fillText(`${item.label}: ${item.value}`, width * 0.58 + 17, y + 10);
@@ -178,16 +178,16 @@ function drawBarSeries(id, series, emptyMessage) {
   rows.forEach((item, index) => {
     const y = 18 + index * rowHeight;
     const barWidth = Math.max(3, (chartRight - chartLeft) * item.value / maxValue);
-    ctx.fillStyle = '#4f647e';
+    ctx.fillStyle = '#5a6577';
     ctx.font = '12px Segoe UI';
     ctx.textAlign = 'right';
     const label = String(item.label || item.key || '-');
     ctx.fillText(label.length > 8 ? `${label.slice(0, 8)}...` : label, chartLeft - 10, y + 13);
-    ctx.fillStyle = '#eef3f8';
+    ctx.fillStyle = '#e6e9ef';
     ctx.fillRect(chartLeft, y, chartRight - chartLeft, 14);
     ctx.fillStyle = item.color || PALETTE[index % PALETTE.length];
     ctx.fillRect(chartLeft, y, barWidth, 14);
-    ctx.fillStyle = '#10243f';
+    ctx.fillStyle = '#1a2a4a';
     ctx.textAlign = 'left';
     ctx.fillText(String(item.value), chartLeft + barWidth + 6, y + 13);
   });
@@ -222,10 +222,10 @@ export function drawRiskChart(counts) {
   const radius = Math.min(width, height) * 0.26;
   const innerRadius = radius * 0.58;
   const segments = [
-    { label: '极高', value: counts.Critical, color: '#bf4a3e' },
-    { label: '高', value: counts.High, color: '#d46a1f' },
-    { label: '中', value: counts.Medium, color: '#c6973f' },
-    { label: '低', value: counts.Low, color: '#2f7d5b' },
+    { label: '极高', value: counts.Critical, color: '#c0392b' },
+    { label: '高', value: counts.High, color: '#e67e22' },
+    { label: '中', value: counts.Medium, color: '#c49a3c' },
+    { label: '低', value: counts.Low, color: '#27724b' },
   ];
 
   let startAngle = -Math.PI / 2;
@@ -246,7 +246,7 @@ export function drawRiskChart(counts) {
   ctx.arc(centerX, centerY, innerRadius, 0, Math.PI * 2);
   ctx.fill();
   ctx.globalCompositeOperation = 'source-over';
-  ctx.fillStyle = '#10243f';
+  ctx.fillStyle = '#1a2a4a';
   ctx.font = 'bold 18px Segoe UI';
   ctx.textAlign = 'center';
   ctx.fillText(String(total), centerX, centerY + 4);
@@ -257,7 +257,7 @@ export function drawRiskChart(counts) {
     const y = 34 + index * 28;
     ctx.fillStyle = segment.color;
     ctx.fillRect(width * 0.60, y, 12, 12);
-    ctx.fillStyle = '#10243f';
+    ctx.fillStyle = '#1a2a4a';
     ctx.textAlign = 'left';
     ctx.fillText(`${segment.label}: ${segment.value}`, width * 0.60 + 18, y + 11);
   });
@@ -265,10 +265,10 @@ export function drawRiskChart(counts) {
 
 export function drawWorkflowChart(counts) {
   const values = [
-    { label: 'Open', value: counts.Open, color: '#bf4a3e' },
-    { label: 'InReview', value: counts.InReview, color: '#c6973f' },
-    { label: 'Resolved', value: counts.Resolved, color: '#2a6db2' },
-    { label: 'Closed', value: counts.Closed, color: '#2f7d5b' },
+    { label: 'Open', value: counts.Open, color: '#c0392b' },
+    { label: 'InReview', value: counts.InReview, color: '#c49a3c' },
+    { label: 'Resolved', value: counts.Resolved, color: '#2d4a7a' },
+    { label: 'Closed', value: counts.Closed, color: '#27724b' },
   ];
   const maxValue = Math.max(...values.map((item) => item.value));
   if (!maxValue) {
@@ -284,7 +284,7 @@ export function drawWorkflowChart(counts) {
   const barWidth = 42;
   const gap = 28;
 
-  ctx.strokeStyle = '#d8e0ea';
+  ctx.strokeStyle = '#d0d4dc';
   ctx.lineWidth = 1;
   ctx.beginPath();
   ctx.moveTo(chartLeft, 16);
@@ -298,10 +298,11 @@ export function drawWorkflowChart(counts) {
     const y = chartBottom - barHeight;
     ctx.fillStyle = item.color;
     ctx.fillRect(x, y, barWidth, barHeight);
-    ctx.fillStyle = '#10243f';
+    ctx.fillStyle = '#1a2a4a';
     ctx.font = '12px Segoe UI';
     ctx.textAlign = 'center';
     ctx.fillText(String(item.value), x + barWidth / 2, y - 8);
+    ctx.fillStyle = '#5a6577';
     ctx.fillText(item.label, x + barWidth / 2, chartBottom + 18);
   });
 }

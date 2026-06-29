@@ -3736,6 +3736,8 @@ async fn analyze_task_with_ai(
         return HttpResponse::BadRequest().json(error_json("secret_not_configured"));
     }
     let config = AiConfig {
+        provider: profile.provider.clone(),
+        adapter_kind: profile.adapter_kind.clone(),
         api_url: profile.api_url.clone(),
         api_key: if profile.enabled {
             context.runtime.ai_api_key().unwrap_or_default()
